@@ -1,0 +1,34 @@
+Home
+About
+Service
+    Tensile
+    Poly
+    Shingle
+    RetrableRoof
+    GalssRoof
+    Puf
+    Mangalore Tail
+    Multistory Shed
+    Facade
+Project
+Blog
+Contact
+
+
+Common Structure
+----------------
+Navbar
+Footer
+
+
+Home Sections
+-------------
+1. Banner
+2. Our Feature
+3. About
+4. Services
+5. FAQ
+6. CTA 
+7. Project Gallery
+8. why choose us
+9. Form
