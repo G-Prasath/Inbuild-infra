@@ -20,3 +20,10 @@ ul {
 .bg-clr{
     background-color: #2d3139;
 }
+
+@layer utilities {
+    .sec-padding {
+      @apply py-[5%] px-[5%] max-lg:p-5 ;
+    }
+  }
+  

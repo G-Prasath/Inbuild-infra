@@ -16,11 +16,12 @@ const Home = () => {
     <div className="bg-clr">
       <Banner />
        <About />
-      <Features/>
-      {/* <Services/>
+        <Whychoose/>
+
+      {/* <Features/>
+      <Services/>
       <Gallery/>
       <Faq/>
-      <Whychoose/>
       <Cta/>
       <Form/>    */}
     </div>
