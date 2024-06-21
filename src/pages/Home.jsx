@@ -13,16 +13,16 @@ import Form from "../components/Home/Form"
 
 const Home = () => {
   return (
-    <div>
+    <div className="bg-clr">
       <Banner />
-      <About />
+       <About />
       <Features/>
-      <Services/>
+      {/* <Services/>
       <Gallery/>
       <Faq/>
       <Whychoose/>
       <Cta/>
-      <Form/>   
+      <Form/>    */}
     </div>
   );
 };
