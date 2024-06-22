@@ -23,12 +23,12 @@ Footer
 
 Home Sections
 -------------
-1. Banner
-2. Our Feature
-3. About
-4. Services
+1. Banner           --> Done
+2. Our Feature      --> Done
+3. About            --> Done
+4. Services         --> pending
 5. FAQ
 6. CTA 
 7. Project Gallery
-8. why choose us
+8. why choose us    --> Processign
 9. Form

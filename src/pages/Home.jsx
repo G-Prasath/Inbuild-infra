@@ -36,7 +36,6 @@ const Home = () => {
       <Layout_8/>
       <Layout_9/>
       <Layout_10/>
-
     </div>
   );
 };
