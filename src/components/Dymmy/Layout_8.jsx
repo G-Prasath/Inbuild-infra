@@ -20,25 +20,32 @@ const Layout8 = () => {
           ></iframe>
           <div className="bg-white relative flex flex-wrap py-6 rounded shadow-md">
             <div className="lg:w-1/2 px-6">
-              <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs">
-                ADDRESS
-              </h2>
-              <p className="mt-1">
-                Photo booth tattooed prism, portland taiyaki hoodie neutra
-                typewriter
-              </p>
+              <Reveal>
+                <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs">
+                  ADDRESS
+                </h2>
+                <p className="mt-1">
+                  Photo booth tattooed prism, portland taiyaki hoodie neutra
+                  typewriter
+                </p>
+              </Reveal>
             </div>
             <div className="lg:w-1/2 px-6 mt-4 lg:mt-0">
-              <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs">
-                EMAIL
-              </h2>
-              <a className="text-indigo-500 leading-relaxed">
-                example@email.com
-              </a>
-              <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs mt-4">
-                PHONE
-              </h2>
-              <p className="leading-relaxed">123-456-7890</p>
+              <Reveal>
+                <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs">
+                  EMAIL
+                </h2>
+                <a className="text-indigo-500 leading-relaxed">
+                  example@email.com
+                </a>
+              </Reveal>
+              <Reveal>
+                <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs mt-4">
+                  PHONE
+                </h2>
+                <p className="leading-relaxed">123-456-7890</p>
+              </Reveal>
+
             </div>
           </div>
         </div>
@@ -62,7 +69,7 @@ const Layout8 = () => {
                 Name
               </label>
             </Reveal>
-            
+
             <input
               type="text"
               id="name"
@@ -71,10 +78,10 @@ const Layout8 = () => {
             />
           </div>
           <div className="relative mb-4">
-          <Reveal>
-            <label htmlFor="email" className="leading-7 text-sm text-gray-600">
-              Email
-            </label>
+            <Reveal>
+              <label htmlFor="email" className="leading-7 text-sm text-gray-600">
+                Email
+              </label>
             </Reveal>
             <input
               type="email"
@@ -84,13 +91,26 @@ const Layout8 = () => {
             />
           </div>
           <div className="relative mb-4">
-          <Reveal>
-            <label
-              htmlFor="message"
-              className="leading-7 text-sm text-gray-600"
-            >
-              Message
-            </label>
+            <Reveal>
+              <label htmlFor="email" className="leading-7 text-sm text-gray-600">
+                Phone
+              </label>
+            </Reveal>
+            <input
+              type="text"
+              id="email"
+              name="email"
+              className="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+            />
+          </div>
+          <div className="relative mb-4">
+            <Reveal>
+              <label
+                htmlFor="message"
+                className="leading-7 text-sm text-gray-600"
+              >
+                Message
+              </label>
             </Reveal>
             <textarea
               id="message"
