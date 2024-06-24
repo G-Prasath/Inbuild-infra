@@ -2,22 +2,25 @@ import React from "react";
 import { motion } from "framer-motion";
 import Buttons from "../../components/common/Buttons";
 import { Link } from "react-router-dom";
+import { Reveal } from "../../hooks/Reveal";
 
 
 const Layout_2 = () => {
   return (
     <div className="bg-zinc-100">
       <div className="flex flex-col lg:flex-row min-h-screen py-[5%]">
-        <motion.div
+        <div
           className="lg:w-1/2 lg:p-12 p-5 bg-white"
-          initial={{ opacity: 0, x: -50 }}
-          animate={{ opacity: 1, x: 0 }}
-          transition={{ duration: 0.8 }}
+          
         >
-          <div className="mb-8">
+          <Reveal>
+          <div className="mb-8 z-1">
             <h1 className="text-4xl font-bold">BePro.</h1>
             <p className="text-zinc-500">Business Special Template</p>
           </div>
+          </Reveal>
+
+          <Reveal>
           <div className="mb-8">
             <p className="text-2xl font-[400] text-zinc-500 lg:w-[500px] leading-[40px]">
               We Are Creative & Special Team competencies before{" "}
@@ -39,6 +42,9 @@ const Layout_2 = () => {
               reprehenderit asperiores incidunt natus nostrum iure ex.
             </p>
           </div>
+          </Reveal>
+
+          <Reveal>
           <div>
             <h3 className="text-3xl font-bold text-zinc-600">about us.</h3>
             <p className="text-zinc-600 my-2">
@@ -50,12 +56,16 @@ const Layout_2 = () => {
               dolores.
             </p>
           </div>
+          </Reveal>
+
+          <Reveal>
           <div className="my-10">
             <Link to="/about">
               <Buttons text="Read More" />
             </Link>
           </div>
-        </motion.div>
+          </Reveal>
+        </div>
 
         <motion.div
           className="lg:w-1/2"

@@ -1,97 +1,106 @@
 import React from "react";
+import { Reveal } from "../../hooks/Reveal";
 
 const Layout_4 = () => {
   return (
-    <div className="w-full max-h-max flex max-md:flex-col bg-zinc-100 py-[5%]">
-      <div className="lg:w-1/2 p-12 sec-padding bg-white flex flex-col justify-center">
-        <div className="mb-8">
-          <p className="text-2xl font-[100] text-zinc-500 lg:w-[500px] leading-[40px]">
-            We Are Creative & Special Team competencies before{" "}
-            <span className="font-bold">integrated platforms.</span>
-          </p>
-          <hr className="my-4 border-zinc-600 w-20" />
-        </div>
+    <div className="w-full max-h-max lg:flex bg-zinc-100 py-[5%]">
+      <div className="lg:w-1/2 w-full p-12 sec-padding bg-white flex flex-col justify-center">
+        <Reveal>
+          <div className="mb-8">
+            <p className="text-2xl font-[100] text-zinc-500 lg:w-[500px] leading-[40px]">
+              We Are Creative & Special Team competencies before{" "}
+              <span className="font-bold">integrated platforms.</span>
+            </p>
+            <hr className="my-4 border-zinc-600 w-20" />
+          </div>
+        </Reveal>
 
         <div className="grid grid-cols-2 gap-10 ">
-          <div className="w-full">
-            <div className="text-center">
-              <div className="flex justify-center mb-4">
-                <img
-                  src="/L_4/camera.png"
-                  alt="Business Research"
-                  className="rounded-full bg-gray-900 dark:bg-zinc-800 p-4 w-[60px]"
-                />
+          <Reveal>
+            <div className="w-full">
+              <div className="text-center">
+                <div className="flex justify-center mb-4">
+                  <img
+                    src="/L_4/camera.png"
+                    alt="Business Research"
+                    className="rounded-full bg-gray-900 dark:bg-zinc-800 p-4 w-[60px]"
+                  />
+                </div>
+                <h3 className="text-[16px] font-semibold text-zinc-500">
+                  Business Research
+                </h3>
+                <p className="text-zinc-500 text-[16px]">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Similique, reiciendis.
+                </p>
               </div>
-              <h3 className="text-[16px] font-semibold text-zinc-500">
-                Business Research
-              </h3>
-              <p className="text-zinc-500 text-[16px]">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Similique, reiciendis.
-              </p>
             </div>
-          </div>
+          </Reveal>
 
-          <div className="w-full">
-            <div className="text-center">
-              <div className="flex justify-center mb-4">
-                <img
-                  src="/L_4/Vector.png"
-                  alt="Business Research"
-                  className="rounded-full bg-gray-900 dark:bg-zinc-800 p-4 w-[60px]"
-                />
+          <Reveal>
+            <div className="w-full">
+              <div className="text-center">
+                <div className="flex justify-center mb-4">
+                  <img
+                    src="/L_4/Vector.png"
+                    alt="Business Research"
+                    className="rounded-full bg-gray-900 dark:bg-zinc-800 p-4 w-[60px]"
+                  />
+                </div>
+                <h3 className="text-[16px] font-semibold text-zinc-500">
+                  Business Research
+                </h3>
+                <p className="text-zinc-500 text-[16px]">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Similique, reiciendis.
+                </p>
               </div>
-              <h3 className="text-[16px] font-semibold text-zinc-500">
-                Business Research
-              </h3>
-              <p className="text-zinc-500 text-[16px]">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Similique, reiciendis.
-              </p>
             </div>
-          </div>
-
-          <div className="w-full">
-            <div className="text-center">
-              <div className="flex justify-center mb-4">
-                <img
-                  src="/L_4/camera.png"
-                  alt="Business Research"
-                  className="rounded-full bg-gray-900 dark:bg-zinc-800 p-4 w-[60px]"
-                />
+          </Reveal>
+          <Reveal>
+            <div className="w-full">
+              <div className="text-center">
+                <div className="flex justify-center mb-4">
+                  <img
+                    src="/L_4/camera.png"
+                    alt="Business Research"
+                    className="rounded-full bg-gray-900 dark:bg-zinc-800 p-4 w-[60px]"
+                  />
+                </div>
+                <h3 className="text-[16px] font-semibold text-zinc-500">
+                  Business Research
+                </h3>
+                <p className="text-zinc-500 text-[16px]">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Similique, reiciendis.
+                </p>
               </div>
-              <h3 className="text-[16px] font-semibold text-zinc-500">
-                Business Research
-              </h3>
-              <p className="text-zinc-500 text-[16px]">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Similique, reiciendis.
-              </p>
             </div>
-          </div>
-
-          <div className="w-full">
-            <div className="text-center">
-              <div className="flex justify-center mb-4">
-                <img
-                  src="/L_4/Vector.png"
-                  alt="Business Research"
-                  className="rounded-full bg-gray-900 dark:bg-zinc-800 p-4 w-[60px]"
-                />
+          </Reveal>
+          <Reveal>
+            <div className="w-full">
+              <div className="text-center">
+                <div className="flex justify-center mb-4">
+                  <img
+                    src="/L_4/Vector.png"
+                    alt="Business Research"
+                    className="rounded-full bg-gray-900 dark:bg-zinc-800 p-4 w-[60px]"
+                  />
+                </div>
+                <h3 className="text-[16px] font-semibold text-zinc-500">
+                  Business Research
+                </h3>
+                <p className="text-zinc-500 text-[16px]">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Similique, reiciendis.
+                </p>
               </div>
-              <h3 className="text-[16px] font-semibold text-zinc-500">
-                Business Research
-              </h3>
-              <p className="text-zinc-500 text-[16px]">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Similique, reiciendis.
-              </p>
             </div>
-          </div>
+          </Reveal>
         </div>
       </div>
 
-      <div className="lg:w-1/2">
+      <div className="lg:w-1/2 w-full">
         <div className="grid grid-cols-3 max-sm:grid-cols-2 max-sm:gap-3 max-sm:px-5">
           <div className="w-full overflow-hidden">
             <img

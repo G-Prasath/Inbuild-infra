@@ -23,6 +23,11 @@ ul {
 .bg-clr{
     background-color: #2d3139;
 }
+.whychoose_shadow{
+box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+
 
 @layer utilities {
     .sec-padding {
