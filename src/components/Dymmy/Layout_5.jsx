@@ -1,12 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
-import Buttons from "../../components/common/Buttons";
-import { Link } from "react-router-dom";
-import { IoCameraOutline } from "react-icons/io5";
-import { HiOutlineSpeakerphone } from "react-icons/hi";
-import { FiVideo } from "react-icons/fi";
-import { GiPodiumWinner } from "react-icons/gi";
 import { Reveal } from "../../hooks/Reveal";
+import { whyCard } from "../../data/Home";
 
 const Layout_5 = () => {
   return (
@@ -106,55 +101,24 @@ const Layout_5 = () => {
           </div>
 
           <div className="grid grid-cols-2 gap-10">
-            <Reveal>
-              <div className="whychoose_shadow p-5">
-                <IoCameraOutline fontSize={30} className="mb-3" />
-                <p className="font-[600] text-zinc-500 text-[16px] ">
-                  Bussiness Essential
-                </p>
-                <p className="text-[14px] text-zinc-500">
-                  Quickly leverage other&apos;s distributed internalor “organic”
-                  sources.
-                </p>
+            {whyCard.map((item, index) => {
+             
+            return(
+              <div
+                key={index}
+                className="whychoose_shadow p-[2px] overflow-hidden relative mx-auto max-w-md rounded-lg bg-gradient-to-tr from-pink-300 to-blue-300 shadow-lg"
+              >
+                <div className="bg-white p-5 rounded-md">
+                  <Reveal>
+                    <item.img fontSize={30} className="mb-3" />
+                    <p className="font-[600] text-zinc-500 text-[16px]">
+                      {item.title}
+                    </p>
+                    <p className="text-[14px] text-zinc-500">{item.disc}</p>
+                  </Reveal>
+                </div>
               </div>
-            </Reveal>
-            <Reveal>
-              <div className="whychoose_shadow p-5">
-                <HiOutlineSpeakerphone fontSize={30} className="mb-3" />
-                <p className="font-[600] text-zinc-500 text-[16px] ">
-                  Bussiness Essential
-                </p>
-                <p className="text-[14px] text-zinc-500">
-                  Quickly leverage other&apos;s distributed internalor “organic”
-                  sources.
-                </p>
-              </div>
-            </Reveal>
-            <Reveal>
-              <div className="whychoose_shadow p-5">
-                <FiVideo fontSize={30} className="mb-3" />
-                <p className="font-[600] text-zinc-500 text-[16px] ">
-                  Bussiness Essential
-                </p>
-                <p className="text-[14px] text-zinc-500">
-                  Quickly leverage other&apos;s distributed internalor “organic”
-                  sources.
-                </p>
-              </div>
-            </Reveal>
-
-            <Reveal>
-              <div className="whychoose_shadow p-5 overflow-hidden">
-                <GiPodiumWinner fontSize={30} className="mb-3" />
-                <p className="font-[600] text-zinc-500 text-[16px] ">
-                  Bussiness Essential
-                </p>
-                <p className="text-[14px] text-zinc-500">
-                  Quickly leverage other&apos;s distributed internalor “organic”
-                  sources.
-                </p>
-              </div>
-            </Reveal>
+            )})}
           </div>
         </div>
       </div>
