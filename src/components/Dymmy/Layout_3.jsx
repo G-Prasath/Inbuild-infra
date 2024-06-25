@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { motion } from "framer-motion";
-import Buttons from "../../components/common/Buttons";
+import ButtonTwo from "../common/ButtonTwo"
 import { Link } from "react-router-dom";
 import { Reveal } from "../../hooks/Reveal";
 
@@ -95,9 +95,9 @@ const Layout_3 = () => {
 
           <Reveal>
             <div className="my-10 w-full mt-10">
-              <Link to="/about">
-                <Buttons text="Read More" />
-              </Link>
+            <Link to="/about">
+              <ButtonTwo text="Read More" />
+            </Link>
             </div>
           </Reveal>
         </div>
