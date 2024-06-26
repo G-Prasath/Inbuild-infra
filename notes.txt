@@ -23,12 +23,19 @@ Footer
 
 Home Sections
 -------------
-1. Banner           --> Done
-2. Our Feature      --> Done
-3. About            --> Done
-4. Services         --> pending
-5. FAQ
-6. CTA 
+Order
+-----
+Navbar
+
+1. Banner
+2. Abobut
+3. Brands  --> Pending
+4. Service
+5. Feature
+6. why choose
 7. Project Gallery
-8. why choose us    --> Processign
+8. FAQ
 9. Form
+10. CTA
+
+Footer

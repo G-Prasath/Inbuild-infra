@@ -83,9 +83,8 @@ const Layout_5 = () => {
         <div className="lg:w-4/6 lg:p-12 p-[5%] bg-white">
           <div className="mb-8">
             <Reveal>
-              <p className="text-2xl font-[400] text-zinc-500 lg:w-[500px] leading-[40px]">
-                We Are Creative & Special Team competencies before{" "}
-                <span className="font-bold">integrated platforms.</span>
+              <p className="text-4xl font-bold text-zinc-900 lg:w-[500px] leading-[40px]">
+                Our Features
               </p>
             </Reveal>
 
@@ -94,8 +93,7 @@ const Layout_5 = () => {
             <Reveal>
               <p className="text-zinc-600">
                 Quickly leverage other's distributed internal or "organic"
-                sources rather than empowered materials. Conveniently leverage
-                existing client-centric solutions with transparent ROI.
+                sources rather than empowered materials.
               </p>
             </Reveal>
           </div>

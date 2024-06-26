@@ -21,6 +21,10 @@ import Layout_9 from "../components/Dymmy/Layout_9"
 import Layout_10 from "../components/Dymmy/Layout_10"
 import Layout_11 from "../components/Dymmy/Layout_11"
 import Layout_12 from "../components/Dymmy/Layout_12"
+import Layout_13 from "../components/Dymmy/Layout_13"
+import Layout_14 from "../components/Dymmy/Layout_14"
+
+
 
 
 
@@ -30,18 +34,24 @@ import Layout_12 from "../components/Dymmy/Layout_12"
 const Home = () => {
   return (
     <div>
-      <Layout_1/>
-      {/* <Layout_2/> */}
-      <Layout_3/>
-      <Layout_4/>
-      <Layout_5/>
-      <Layout_6/>
-      <Layout_7/>
-      <Layout_8/>
-      <Layout_9/>
-      <Layout_10/>
-      <Layout_11/>
-      <Layout_12/>
+      <Layout_1/>  {/*   Banner   */}
+      <Layout_2/>  {/*   About   */}
+      <Layout_14/>  {/* Brands  */}
+      <Layout_9/>   {/* Services */}
+      <Layout_5/>   {/* Features */}
+      <Layout_13/>  {/* why choose */}
+      <Layout_7/>   {/* Gallery */}
+      <Layout_11/>  {/* FAQ */}
+      <Layout_8/>  {/* Form */}
+      <Layout_12/>  {/* CTA */}
+      {/* <Layout_10/>   Footer */}
+
+
+
+
+
+      {/* <Layout_4/> */}
+      {/* <Layout_6/> */}
     </div>
   );
 };

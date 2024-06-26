@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 import ButtonTwo from "../common/ButtonTwo"
 import { Reveal } from "../../hooks/Reveal";
+import FunFact from "../common/FunFact";
 
 
 const Layout_2 = () => {
@@ -29,18 +30,6 @@ const Layout_2 = () => {
 
             <hr className="my-4 border-zinc-600 w-20" />
 
-            <p className="text-zinc-600">
-              Quickly leverage other's distributed internal or "organic" sources
-              rather than empowered materials. Conveniently leverage existing
-              client-centric solutions with transparent ROI.
-            </p>
-            <p className="text-zinc-600">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam
-              numquam quas praesentium a? Labore eum soluta accusamus
-              consequatur ipsam corrupti, quisquam earum pariatur tempore esse
-              quod possimus maiores recusandae commodi cum magni qui
-              reprehenderit asperiores incidunt natus nostrum iure ex.
-            </p>
           </div>
           </Reveal>
 
@@ -55,8 +44,13 @@ const Layout_2 = () => {
               blanditiis nostrum numquam consectetur magni qui omnis ipsa
               dolores.
             </p>
+            
+            <FunFact/>
+
           </div>
+
           </Reveal>
+
 
           <Reveal>
           <div className="my-10">
