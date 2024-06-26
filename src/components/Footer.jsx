@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <footer class="bg-[#1A1D2B]">
       <div class="container mx-auto p-0 md:p-8 xl:px-0">
-        <div class="mx-auto max-w-7xl px-6 pt-16">
+        <div class="mx-auto max-w-7xl px-6 pt-8">
           <div class="xl:grid xl:grid-cols-3 xl:gap-8">
             <div class="space-y-4">
               <div>
@@ -64,6 +64,7 @@ const Footer = () => {
                 </a>
               </div>
             </div>
+
             <div class="mt-16 grid grid-cols-2 gap-8 xl:col-span-2 xl:mt-0">
               <div class="md:grid md:grid-cols-2 md:gap-8">
                 <div>
@@ -210,13 +211,14 @@ const Footer = () => {
                 </div>
               </div>
             </div>
+
           </div>
           <div class="mt-5 border-t border-gray-400/30 pt-8 sm:mt-20 lg:mt-24">
             <div class="text-md text-center text-white">
               Copyright © 2024 . Crafted with
-              <span class="text-gray-50">♥</span> by AI enthusiasts at
+              by&nbsp;
               <a rel="noopener" href="/">
-                AIOps.
+                IB.
               </a>
             </div>
           </div>

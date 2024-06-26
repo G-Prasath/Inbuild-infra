@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { motion } from "framer-motion";
-import ButtonTwo from "../common/ButtonTwo"
+import PrimaryBtn from "../common/PrimaryBtn"
 import { Link } from "react-router-dom";
 import { Reveal } from "../../hooks/Reveal";
 
@@ -96,7 +96,7 @@ const Layout_3 = () => {
           <Reveal>
             <div className="my-10 w-full mt-10">
             <Link to="/about">
-              <ButtonTwo text="Read More" />
+              <PrimaryBtn text="Read More" />
             </Link>
             </div>
           </Reveal>

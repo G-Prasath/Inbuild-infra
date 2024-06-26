@@ -1,6 +1,6 @@
 import React from 'react'
 
-const ButtonTwo = () => {
+const PrimaryBtn = () => {
     return (
         <button className="
         group
@@ -46,4 +46,4 @@ const ButtonTwo = () => {
     )
 }
 
-export default ButtonTwo
+export default PrimaryBtn

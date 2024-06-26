@@ -4,7 +4,16 @@ import { Reveal } from "../../hooks/Reveal";
 const Layout8 = () => {
   return (
     <section className="text-gray-600 body-font relative">
-      <div className="container px-5 py-24 mx-auto flex sm:flex-nowrap flex-wrap">
+      <div className="text-center">
+        <p className="mt-4 text-sm leading-7 text-gray-500 font-regular">
+        Get in Touch
+        </p>
+        <p className="text-2xl sm:text-4xl leading-normal font-[600] tracking-tight text-gray-900">
+          Contact Us
+        </p>
+      </div>
+
+      <div className="container px-5 py-20 mx-auto flex sm:flex-nowrap flex-wrap icon">
         <div className="lg:w-2/3 md:w-1/2 bg-gray-300 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
           <iframe
             width="100%"
@@ -45,7 +54,6 @@ const Layout8 = () => {
                 </h2>
                 <p className="leading-relaxed">123-456-7890</p>
               </Reveal>
-
             </div>
           </div>
         </div>
@@ -79,7 +87,10 @@ const Layout8 = () => {
           </div>
           <div className="relative mb-4">
             <Reveal>
-              <label htmlFor="email" className="leading-7 text-sm text-gray-600">
+              <label
+                htmlFor="email"
+                className="leading-7 text-sm text-gray-600"
+              >
                 Email
               </label>
             </Reveal>
@@ -92,7 +103,10 @@ const Layout8 = () => {
           </div>
           <div className="relative mb-4">
             <Reveal>
-              <label htmlFor="email" className="leading-7 text-sm text-gray-600">
+              <label
+                htmlFor="email"
+                className="leading-7 text-sm text-gray-600"
+              >
                 Phone
               </label>
             </Reveal>

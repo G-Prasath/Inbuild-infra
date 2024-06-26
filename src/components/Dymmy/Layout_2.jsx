@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
-import ButtonTwo from "../common/ButtonTwo"
+import PrimaryBtn from "../common/PrimaryBtn"
 import { Reveal } from "../../hooks/Reveal";
 import FunFact from "../common/FunFact";
 
@@ -51,11 +51,10 @@ const Layout_2 = () => {
 
           </Reveal>
 
-
           <Reveal>
           <div className="my-10">
             <Link to="/about">
-              <ButtonTwo text="Read More" />
+              <PrimaryBtn text="Read More" />
             </Link>
           </div>
           </Reveal>

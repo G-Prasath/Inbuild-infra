@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import ButtonTwo from "./common/ButtonTwo";
+import PrimaryBtn from "./common/PrimaryBtn";
 import { Reveal } from "../hooks/Reveal";
 
 const ServiceCard = ({ img, title, disc, count }) => {
@@ -34,7 +34,7 @@ const ServiceCard = ({ img, title, disc, count }) => {
               {disc}
             </p>
             <Link to="/">
-              <ButtonTwo />
+              <PrimaryBtn />
             </Link>
           </Reveal>
         </div>
