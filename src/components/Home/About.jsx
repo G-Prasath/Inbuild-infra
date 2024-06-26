@@ -3,35 +3,35 @@ import React from "react";
 const About = () => {
   return (
     <div>
-      <div class="flex flex-col lg:flex-row min-h-screen">
-        <div class="lg:w-1/2 p-8 bg-white">
-          <div class="mb-8">
-            <h1 class="text-4xl font-bold">BePro.</h1>
-            <p class="text-zinc-500">Business Special Template</p>
+      <div className="flex flex-col lg:flex-row min-h-screen">
+        <div className="lg:w-1/2 p-8 bg-white">
+          <div className="mb-8">
+            <h1 className="text-4xl font-bold">BePro.</h1>
+            <p className="text-zinc-500">Business Special Template</p>
           </div>
-          <div class="mb-8">
-            <h2 class="text-2xl font-semibold">
+          <div className="mb-8">
+            <h2 className="text-2xl font-semibold">
               We Are Creative & Special Team
             </h2>
-            <p class="text-zinc-700">
+            <p className="text-zinc-700">
               competencies before integrated platforms.
             </p>
-            <hr class="my-4 border-zinc-300" />
-            <p class="text-zinc-600">
+            <hr className="my-4 border-zinc-300" />
+            <p className="text-zinc-600">
               Quickly leverage other's distributed internal or "organic" sources
               rather than empowered materials. Conveniently leverage existing
               client-centric solutions with transparent ROI.
             </p>
           </div>
           <div>
-            <h3 class="text-3xl font-bold text-zinc-800">about us.</h3>
+            <h3 className="text-3xl font-bold text-zinc-800">about us.</h3>
           </div>
         </div>
-        <div class="lg:w-1/2">
+        <div className="lg:w-1/2">
           <img
             src="/about.png"
             alt="Building"
-            class="w-full h-full object-cover"
+            className="w-full h-full object-cover"
           />
         </div>
       </div>

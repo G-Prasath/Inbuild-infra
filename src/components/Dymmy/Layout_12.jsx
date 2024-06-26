@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { Reveal } from "../../hooks/Reveal";
 
 
 const Layout_12 = () => {

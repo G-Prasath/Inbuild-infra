@@ -68,10 +68,10 @@ const Layout_10 = () => {
               className="flex items-center max-[470px]:justify-center gap-2 py-3 pr-5 pl-7 rounded-full text-base font-semibold text-white bg-yellow-800 shadow-transparent shadow-sm transition-all duration-500 hover:shadow-yellow-300 hover:bg-yellow-900">Start
               Project
               <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                <path fill-rule="evenodd" clip-rule="evenodd"
+                <path fillRule="evenodd" clipRule="evenodd"
                   d="M4.1103 15.4744C3.84995 15.2141 3.84995 14.792 4.1103 14.5316L8.64205 9.99988L4.11325 5.47108C3.8529 5.21073 3.8529 4.78862 4.11325 4.52827C4.3736 4.26792 4.79571 4.26792 5.05606 4.52827L10.0563 9.52848C10.1813 9.6535 10.2515 9.82307 10.2515 9.99988C10.2515 10.1767 10.1813 10.3463 10.0563 10.4713L5.05311 15.4744C4.79276 15.7348 4.37065 15.7348 4.1103 15.4744Z"
                   fill="currentColor" />
-                <path fill-rule="evenodd" clip-rule="evenodd"
+                <path fillRule="evenodd" clipRule="evenodd"
                   d="M9.9438 15.4744C9.68345 15.2141 9.68345 14.792 9.9438 14.5316L14.4755 9.99988L9.94675 5.47108C9.6864 5.21073 9.6864 4.78862 9.94675 4.52827C10.2071 4.26792 10.6292 4.26792 10.8896 4.52827L15.8898 9.52848C16.0148 9.6535 16.085 9.82307 16.085 9.99988C16.085 10.1767 16.0148 10.3463 15.8898 10.4713L10.8866 15.4744C10.6263 15.7348 10.2041 15.7348 9.9438 15.4744Z"
                   fill="currentColor" />
               </svg>
