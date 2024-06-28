@@ -52,7 +52,7 @@ const About = () => {
           transition={{ duration: 0.8 }}
         >
           <img
-            src="/about.png"
+            src="/About/HomeAbout.jpg"
             alt="Building"
             className="w-full aspect-square"
           />
