@@ -10,7 +10,7 @@ const Whychoose = () => {
             Why Choose Us
           </p>
           <p className="mx-auto mt-4 max-w-2xl text-md font-normal text-gray-700 lg:text-md lg:leading-8">
-            Create your own blog with us and launch it with just 4 easy steps
+          Inbuilt Infra <span>&#8208;</span> No.1 Roofing contractors in Chennai
           </p>
         </div>
         <ul className="mx-auto mt-12 grid max-w-md grid-cols-1 gap-10 sm:mt-16 lg:mt-20 lg:max-w-5xl lg:grid-cols-4">

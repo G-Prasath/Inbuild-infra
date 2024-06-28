@@ -15,35 +15,20 @@ const About = () => {
           
         >
           <Reveal>
-          <div className="mb-8 z-1">
-            <h1 className="text-4xl font-bold">BePro.</h1>
-            <p className="text-zinc-500">Business Special Template</p>
+          <div className="mb-4 z-1">
+            <h1 className="text-4xl font-bold">Roofing Contractors in Chennai</h1>
+            <p className="text-zinc-500">Smart Business</p>
           </div>
           </Reveal>
 
-          <Reveal>
-          <div className="mb-8">
-            <p className="text-2xl font-[400] text-zinc-500 lg:w-[500px] leading-[40px]">
-              We Are Creative & Special Team competencies before{" "}
-              <span className="font-bold">integrated platforms.</span>
-            </p>
-
-            <hr className="my-4 border-zinc-600 w-20" />
-
-          </div>
-          </Reveal>
+          
 
           <Reveal>
           <div>
-            <h3 className="text-3xl font-bold text-zinc-600">about us.</h3>
-            <p className="text-zinc-600 my-2">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-              Repellendus sapiente quos perferendis error adipisci deleniti
-              accusantium similique quaerat! Sunt a voluptate rerum placeat.
-              Provident perferendis a quidem distinctio molestias rerum! Quis
-              blanditiis nostrum numquam consectetur magni qui omnis ipsa
-              dolores.
+            <p className="text-zinc-600 my-2 text-justify leading-[25px]">
+            Inbuilt Infra is the leading roofing contractor in Chennai, offering a wide range of roofing services to meet all your needs. We specialize in both residential roofing and commercial roofing, ensuring that your home or business is protected with the highest quality materials and workmanship. At Inbuilt Infra, we also provide specialized roofing solutions including tensile roofing, polycarbonate roofing, PUF panel roofing, terrace roofing and retractable roofing. And WPC pergola, Facade, Mangalore tile roofing, UPVC roofing ensure we cater to all your unique roofing requirements. As one of the leading roofing contractors and roofing companies in Chennai, we pride ourselves on delivering exceptional service.
             </p>
+            <p className="text-zinc-600 my-2 text-justify leading-[25px]">As local roofers with excellent roofing reviews, we are committed to providing top-notch service. Our team consists of licensed roofing contractors and insured roofing contractors who offer free roof inspections and accurate roofing estimates. Our expertise includes various roofing types such as shingle roofs, metal roofs, tile roofs and flat roofs. We also offer comprehensive roof inspections and roof maintenance to keep your roof in top condition.</p>
             
             <FunFact/>
 
@@ -52,7 +37,7 @@ const About = () => {
           </Reveal>
 
           <Reveal>
-          <div className="my-10">
+          <div className="my-5">
             <Link to="/about">
               <PrimaryBtn text="Read More" />
             </Link>
