@@ -1,6 +1,6 @@
 import React from "react";
 
-const Layout_14 = () => {
+const Brands = () => {
   return (
     <section className="bg-zinc-100 w-full flex justify-center items-center dark:bg-gray-900 p-8">
       <div className="max-w-screen-xl px-4 pb-8 mx-auto ">
@@ -217,4 +217,4 @@ const Layout_14 = () => {
   );
 };
 
-export default Layout_14;
+export default Brands;

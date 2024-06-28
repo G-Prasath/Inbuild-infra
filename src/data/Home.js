@@ -76,7 +76,7 @@ export const serviceCard = [
 
 ]
 
-export const Faq = [
+export const faqData = [
     {
        question : "What could possibly be your first question?" ,
        answer : "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione. Lorem ipsum, dolor sit amet consectetur adipisicing elit."
