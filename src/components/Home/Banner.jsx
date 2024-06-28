@@ -27,7 +27,7 @@ const Banner = () => {
       </div>
 
       <div className="relative z-10 flex flex-col justify-center items-center h-full text-center">
-        <h1 className="text-5xl font-bold leading-tight mb-4">Welcome to Inbuild Infra</h1>
+        <h1 className="text-5xl font-bold leading-tight mb-4 max-sm:text-2xl">Welcome to Inbuild Infra</h1>
         <p className="text-lg text-gray-300 mb-8">Discover amazing features and services that await you.</p>
         <a
           href="/"

@@ -9,14 +9,14 @@ import FunFact from "../common/FunFact";
 const About = () => {
   return (
     <div className="bg-zinc-100">
-      <div className="flex flex-col lg:flex-row min-h-screen py-[5%]">
+      <div className="flex flex-col lg:flex-row max-h-max py-[5%]">
         <div
           className="lg:w-1/2 lg:p-12 p-5 bg-white"
           
         >
           <Reveal>
           <div className="mb-4 z-1">
-            <h1 className="text-4xl font-bold">Roofing Contractors in Chennai</h1>
+            <h1 className="text-4xl font-bold max-sm:text-2xl">Roofing Contractors in Chennai</h1>
             <p className="text-zinc-500">Smart Business</p>
           </div>
           </Reveal>
@@ -54,7 +54,7 @@ const About = () => {
           <img
             src="/About/HomeAbout.jpg"
             alt="Building"
-            className="w-full aspect-square"
+            className="w-full h-full"
           />
         </motion.div>
       </div>

@@ -2,10 +2,10 @@ import React from 'react'
 
 const FunFact = () => {
   return (
-    <div className="my-10 flex flex-wrap justify-start items-center gap-4">
+    <div className="my-10 flex flex-wrap justify-start max-sm:justify-center items-center gap-4">
         
-    <a href="#"
-        className="flex h-20 w-40 flex-col items-center justify-center rounded-md border border-dashed border-gray-900 transition-colors duration-100 ease-in-out hover:border-gray-400/80">
+    <div
+        className="flex h-20 sm:w-40 w-full flex-col items-center justify-center rounded-md border border-dashed border-gray-900 transition-colors duration-100 ease-in-out hover:border-gray-400/80">
         <div className="flex flex-row items-center justify-center">
             <svg className="mr-3 fill-gray-500/95" xmlns="http://www.w3.org/2000/svg"
                 xmlnsXlink="http://www.w3.org/1999/xlink" version="1.1" width="24" height="24" viewBox="0 0 24 24">
@@ -17,10 +17,10 @@ const FunFact = () => {
         </div>
 
         <div className="mt-2 text-sm text-gray-500">Comments</div>
-    </a>
+    </div>
 
-    <a href="#"
-        className="flex h-20 w-40 flex-col items-center justify-center rounded-md border border-dashed border-gray-900 transition-colors duration-100 ease-in-out hover:border-gray-400/80">
+    <div
+        className="flex h-20 sm:w-40 w-full flex-col items-center justify-center rounded-md border border-dashed border-gray-900 transition-colors duration-100 ease-in-out hover:border-gray-400/80">
         <div className="flex flex-row items-center justify-center">
             <svg className="mr-3 fill-gray-500/95" xmlns="http://www.w3.org/2000/svg"
                 xmlnsXlink="http://www.w3.org/1999/xlink" version="1.1" width="24" height="24" viewBox="0 0 24 24">
@@ -32,10 +32,10 @@ const FunFact = () => {
         </div>
 
         <div className="mt-2 text-sm text-gray-500">Projects</div>
-    </a>
+    </div>
 
-    <a href="#"
-        className="flex h-20 w-40 flex-col items-center justify-center rounded-md border border-dashed border-gray-900 transition-colors duration-100 ease-in-out hover:border-gray-400/80">
+    <div
+        className="flex h-20 sm:w-40 w-full flex-col items-center justify-center rounded-md border border-dashed border-gray-900 transition-colors duration-100 ease-in-out hover:border-gray-400/80">
         <div className="flex flex-row items-center justify-center">
             <svg className="mr-3 fill-gray-500/95" xmlns="http://www.w3.org/2000/svg"
                 xmlnsXlink="http://www.w3.org/1999/xlink" version="1.1" width="24" height="24" viewBox="0 0 24 24">
@@ -47,7 +47,7 @@ const FunFact = () => {
         </div>
 
         <div className="mt-2 text-sm text-gray-500">Downloads</div>
-    </a>
+    </div>
 </div>
   )
 }
