@@ -10,7 +10,7 @@ const Cta = () => {
             Call to Action
           </h2>
           <p className="my-3 text-xl text-gray-500 dark:text-gray-400 sm:mt-4">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+          Explore our services. Contact us today to learn more!
           </p>
           <div className="flex gap-5 justify-center">
             <Link to="/" className="px-8 font-bold py-2 text-white bg-[#25d366] hover:bg-white border hover:border-black hover:text-black transition-all duration-[.5]">WhatsApp</Link>

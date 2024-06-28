@@ -40,7 +40,7 @@ export const serviceCard = [
     },
     {
         img: "/Service/peb.jpg",
-        title: "PEB",
+        title: "Pre Engineered Buildings",
         disc: "Pre-engineered buildings are steel construction systems that are designed and produced in a factory prior to being transported to the assembly site. For institutional, commercial, and industrial purposes, PEB buildings are widely used."
     },
     {

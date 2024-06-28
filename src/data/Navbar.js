@@ -10,7 +10,7 @@ export const NAV_LINKS = [
         { label: 'GalssRoof', href: '/' },
         { label: 'Puf', href: '/' },
         { label: 'Mangalore Tail', href: '/' },
-        { label: 'Multistory Shed', href: '/' },
+        { label: 'Pre Engineered Buildings', href: '/' },
         { label: 'Facade', href: '/' }
       ]
     },

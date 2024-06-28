@@ -4,7 +4,7 @@ import { Reveal } from "../../hooks/Reveal";
 const Gallery = () => {
   return (
     <section className="text-gray-600 body-font bg-zinc-100">
-      <div className="container px-5 py-24 mx-auto ">
+      <div className="container px-5 py-24 mx-auto max-sm:py-5 ">
         <div className="bg-white dark:bg-gray-800 h-full py-6 sm:py-8 lg:py-12">
           <div className="w-full px-4 md:px-8">
             <div className="mb-4 flex items-center justify-between gap-8 sm:mb-8 md:mb-12">

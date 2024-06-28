@@ -11,7 +11,7 @@ const About = () => {
     <div className="bg-zinc-100">
       <div className="flex flex-col lg:flex-row min-h-screen py-[5%]">
         <div
-          className="lg:w-1/2 aspect-square lg:p-12 p-5 bg-white"
+          className="lg:w-1/2 lg:p-12 p-5 bg-white"
           
         >
           <Reveal>

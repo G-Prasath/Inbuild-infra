@@ -27,9 +27,9 @@ const Features = () => {
               </div>
               <div>
                 <p className="font-[400] text-zinc-400 text-[16px]">
-                  Section Analysis
+                  Immediate Source
                 </p>
-                <p className="text-[14px] text-zinc-200 font-bold">$17860.00</p>
+                <p className="text-[14px] text-zinc-200 font-bold">1000 +</p>
               </div>
             </div>
             {/* Sec - 2 */}
@@ -42,9 +42,9 @@ const Features = () => {
               </div>
               <div>
                 <p className="font-[400] text-zinc-400 text-[16px]">
-                  Section Analysis
+                  Immediate Support
                 </p>
-                <p className="text-[14px] text-zinc-200 font-bold">$17860.00</p>
+                <p className="text-[14px] text-zinc-200 font-bold">500 +</p>
               </div>
             </div>
             {/* Sec - 3 */}
@@ -57,9 +57,9 @@ const Features = () => {
               </div>
               <div>
                 <p className="font-[400] text-zinc-400 text-[16px]">
-                  Section Analysis
+                  Providing sources
                 </p>
-                <p className="text-[14px] text-zinc-200 font-bold">$17860.00</p>
+                <p className="text-[14px] text-zinc-200 font-bold">1500 +</p>
               </div>
             </div>
             {/* Sec - 5 */}
@@ -72,9 +72,9 @@ const Features = () => {
               </div>
               <div>
                 <p className="font-[400] text-zinc-400 text-[16px]">
-                  Section Analysis
+                  Quick Complition
                 </p>
-                <p className="text-[14px] text-zinc-200 font-bold">$17860.00</p>
+                <p className="text-[14px] text-zinc-200 font-bold">1450 +</p>
               </div>
             </div>
           </div>
@@ -98,7 +98,7 @@ const Features = () => {
             </Reveal>
           </div>
 
-          <div className="grid grid-cols-2 gap-10">
+          <div className="grid grid-cols-2 gap-10 max-sm:grid-cols-1 max-sm:gap-5">
             {whyCard.map((item, index) => {
              
             return(
