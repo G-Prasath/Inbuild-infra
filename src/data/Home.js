@@ -39,9 +39,9 @@ export const serviceCard = [
         disc: "Polycarbonate roofing provide a durable and impact resistant roofing solution. Its Installation method is fast and clear cut to offer Durable and Perpetual protection. Polycarbonate roofing assures Enduring coverage for various Climatic conditions."
     },
     {
-        img: "/Service/Shingles.jpg",
-        title: "Shingle",
-        disc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique, aliquid ipsa! Et, corporis iure veniam, omnis tempore alias quae eos nobis dolor saepe quisquam consequatur voluptatem beatae suscipit quis repellat!"
+        img: "/Service/peb.jpg",
+        title: "PEB",
+        disc: "Pre-engineered buildings are steel construction systems that are designed and produced in a factory prior to being transported to the assembly site. For institutional, commercial, and industrial purposes, PEB buildings are widely used."
     },
     {
         img: "/Service/Mangalore_tile.jpg",

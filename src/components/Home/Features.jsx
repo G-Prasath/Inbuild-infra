@@ -15,7 +15,7 @@ const Features = () => {
         >
           <div
             className="w-full h-full bg-cover bg-center flex flex-col justify-evenly items-center max-md:h-[80vh] max-md:mb-10"
-            style={{ backgroundImage: "url(/L_5/bg.png)" }}
+            style={{ backgroundImage: "linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/L_5/our_feature.jpg)" }}
           >
             {/* Sec - 1 */}
             <div className="flex items-center gap-x-5">
