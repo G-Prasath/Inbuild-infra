@@ -26,7 +26,7 @@ const Banner = () => {
         <div className="absolute inset-0 bg-black opacity-40"></div>
       </div>
 
-      <div className="relative z-10 flex flex-col justify-center items-center h-full text-center max-sm:hidden">
+      <div className="relative z-10 flex flex-col justify-center items-center h-full text-center">
         <h1 className="text-5xl font-bold leading-tight mb-4 max-sm:text-2xl max-sm:mb-1">Welcome to Inbuild Infra</h1>
         <p className="text-lg max-sm:text-sm text-gray-200 mb-8 max-sm:mb-4">Discover amazing features and services that await you.</p>
         <a
