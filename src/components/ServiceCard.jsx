@@ -12,7 +12,7 @@ const ServiceCard = ({ img, title, disc, count }) => {
         <div
           className={`${isEven ? "w-full flex items-center justify-end" : ""}`}
         >
-          <img className="xl:max-w-3xl" src={img} alt="Service Image" />
+          <img className="xl:max-w-3xl" src={img} alt="Service Image" loading="lazy" />
         </div>
 
         <div
