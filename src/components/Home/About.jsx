@@ -24,8 +24,8 @@ const About = () => {
           <Reveal>
           <div>
             <p className="text-zinc-600 my-2 text-justify sm:leading-[25px]">
-            Inbuilt Infra is the leading roofing contractor in Chennai, offering a wide range of roofing services to meet all your needs. We specialize in both residential roofing and commercial roofing, ensuring that your home or business is protected with the highest quality materials and workmanship. At Inbuilt Infra, we also provide specialized roofing solutions including tensile roofing, polycarbonate roofing, PUF panel roofing, terrace roofing and retractable roofing. And WPC pergola, Facade, Mangalore tile roofing, UPVC roofing ensure we cater to all your unique roofing requirements. As one of the leading roofing contractors and roofing companies in Chennai, we pride ourselves on delivering exceptional service.
-            </p>
+            Inbuilt Infra is the leading roofing contractor in Chennai, offering a wide range of roofing services to meet all your needs. We specialize in both residential roofing and commercial roofing, ensuring that your home or business is protected with the highest quality materials and workmanship.</p>
+            <p className="text-zinc-600 my-2 text-justify sm:leading-[25px]">At Inbuilt Infra, we also provide specialized roofing solutions including tensile roofing, polycarbonate roofing, PUF panel roofing, terrace roofing and retractable roofing. And WPC pergola, Facade, Mangalore tile roofing, UPVC roofing ensure we cater to all your unique roofing requirements. As one of the leading roofing contractors and roofing companies in Chennai, we pride ourselves on delivering exceptional service.</p>
             <p className="text-zinc-600 my-2 text-justify sm:leading-[25px]">As local roofers with excellent roofing reviews, we are committed to providing top-notch service. Our team consists of licensed roofing contractors and insured roofing contractors who offer free roof inspections and accurate roofing estimates.</p>
             
             <FunFact/>
