@@ -6,6 +6,7 @@ import { HelmetProvider } from "react-helmet-async";
 
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
+import Loading from './components/common/Loading';
 
 import Home from './pages/Home';
 import About from './pages/About';
@@ -21,7 +22,7 @@ const App = () => {
       <Router basename="/">
         {/* <ScrollToTop /> */}
         <Navbar />
-        <React.Suspense fallback={<div />}>
+        <React.Suspense fallback={<div>Loading ...</div>}>
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />

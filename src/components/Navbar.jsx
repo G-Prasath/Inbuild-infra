@@ -3,6 +3,7 @@ import { NAV_LINKS } from '../data/Navbar';
 import { motion, AnimatePresence } from 'framer-motion';
 import { RiMenu3Fill } from "react-icons/ri";
 import { IoClose } from "react-icons/io5";
+import { Link } from 'react-router-dom';
 
 const NAV_LINK_CLASSES = "text-zinc-500 dark:text-zinc-300 hover:border-zinc-300 inline-flex items-center px-1 pt-1 border-b-2 border-transparent text-md font-medium";
 const DROPDOWN_ITEM_CLASSES = "block px-4 py-3 text-sm text-zinc-700 dark:text-zinc-300 hover:bg-zinc-800 hover:text-white dark:hover:bg-zinc-800 hover:border-zinc-300";
@@ -89,7 +90,7 @@ const NavItem = ({ link, isMenuOpen, setHoveredMenu, clearHoveredMenu }) => {
               className="absolute z-10 mt-0 min-w-48 bg-white dark:bg-zinc-700 rounded-md py-1"
             >
               {link.subMenu.map((subLink, index) => (
-                <a key={index} href={subLink.href} className={DROPDOWN_ITEM_CLASSES}>{subLink.label}</a>
+                <Link key={index} to={subLink.href} className={DROPDOWN_ITEM_CLASSES}>{subLink.label}</Link>
               ))}
             </motion.div>
           )}
@@ -98,7 +99,7 @@ const NavItem = ({ link, isMenuOpen, setHoveredMenu, clearHoveredMenu }) => {
     );
   }
 
-  return <a href={link.href} className={NAV_LINK_CLASSES}>{link.label}</a>;
+  return <Link to={link.href} className={NAV_LINK_CLASSES}>{link.label}</Link>;
 };
 
 const MobileNavItem = ({ link }) => {
@@ -122,7 +123,7 @@ const MobileNavItem = ({ link }) => {
               className="mt-2 space-y-1"
             >
               {link.subMenu.map((subLink, index) => (
-                <a key={index} href={subLink.href} className="block pl-3 pr-4 py-2 border-l-4 border-transparent text-base font-medium text-zinc-600 dark:text-zinc-300 hover:bg-zinc-800 hover:text-white dark:hover:bg-zinc-800 hover:border-zinc-300">{subLink.label}</a>
+                <Link key={index} to={subLink.href} className="block pl-3 pr-4 py-2 border-l-4 border-transparent text-base font-medium text-zinc-600 dark:text-zinc-300 hover:bg-zinc-800 hover:text-white dark:hover:bg-zinc-800 hover:border-zinc-300">{subLink.label}</Link>
               ))}
             </motion.div>
           )}
@@ -131,7 +132,7 @@ const MobileNavItem = ({ link }) => {
     );
   }
 
-  return <a href={link.href} className="block pl-3 pr-4 py-2 border-l-4 border-transparent text-base font-medium text-zinc-600 dark:text-zinc-300 hover:bg-zinc-50 dark:hover:bg-zinc-800 hover:border-zinc-300">{link.label}</a>;
+  return <Link to={link.href} className="block pl-3 pr-4 py-2 border-l-4 border-transparent text-base font-medium text-zinc-600 dark:text-zinc-300 hover:bg-zinc-50 dark:hover:bg-zinc-800 hover:border-zinc-300">{link.label}</Link>;
 };
 
 export default Navbar;

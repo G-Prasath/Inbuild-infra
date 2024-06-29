@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
 
 const Banner = () => {
   const imgList = ["/Banners/homeBanner_1.avif", "/Banners/homeBanner_2.avif", "/Banners/homeBanner_3.avif", "/Banners/homeBanner_4.avif"  ];
@@ -29,12 +30,12 @@ const Banner = () => {
       <div className="relative z-10 flex flex-col justify-center items-center h-full text-center">
         <h1 className="text-5xl font-bold leading-tight mb-4 max-sm:text-2xl max-sm:mb-1">Welcome to Inbuild Infra</h1>
         <p className="text-lg max-sm:text-sm text-gray-200 mb-8 max-sm:mb-4">Discover amazing features and services that await you.</p>
-        <a
+        <Link
           href="/"
           className="bg-white text-gray-900 hover:bg-yellow-300 py-2 px-6 max-sm:px-3 rounded-full text-lg max-sm:text-sm font-semibold transition duration-300 ease-in-out transform hover:scale-105 hover:shadow-lg"
         >
           Get Started
-        </a>
+        </Link>
       </div>
     </div>
   );

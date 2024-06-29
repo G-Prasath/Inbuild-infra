@@ -1,5 +1,6 @@
 import React from "react";
 import { Reveal } from "../../hooks/Reveal";
+import { Link } from "react-router-dom";
 
 const Form = () => {
   return (
@@ -44,9 +45,9 @@ const Form = () => {
                 <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs">
                   EMAIL
                 </h2>
-                <a className="text-indigo-500 leading-relaxed">
+                <Link to="/" className="text-indigo-500 leading-relaxed">
                   example@email.com
-                </a>
+                </Link>
               </Reveal>
               <Reveal>
                 <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs mt-4">

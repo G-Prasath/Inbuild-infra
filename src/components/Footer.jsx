@@ -4,6 +4,7 @@ import { FaSquareFacebook } from "react-icons/fa6";
 import { FaSquareXTwitter } from "react-icons/fa6";
 import { FaSquarePinterest } from "react-icons/fa6";
 import { Reveal } from "../hooks/Reveal";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -13,7 +14,7 @@ const Footer = () => {
           <div className="xl:grid xl:grid-cols-3 xl:gap-8">
             <div className="space-y-4">
               <div>
-                <a href="/">
+                <Link to="/">
                   <div className="flex items-center space-x-2 text-2xl font-medium">
                     <span>
                       <img
@@ -25,41 +26,41 @@ const Footer = () => {
                     </span>
                     <span className="text-white">Inbuild Infra</span>
                   </div>
-                </a>
+                </Link>
               </div>
               <div className="max-w-md pr-16 text-md text-gray-200">
                 Enhance productivity and efficiency with cutting-edge artificial
                 intelligence solutions for your business operations.
               </div>
               <div className="flex space-x-2">
-                <a
-                  href=""
+                <Link
+                  to="/"
                   target="_blank"
                   className="text-gray-200 hover:text-gray-200"
                 >
                   <FaSquareFacebook className="text-[25px]"/>
-                </a>
-                <a
-                  href=""
+                </Link>
+                <Link
+                  to="/"
                   target="_blank"
                   className="text-gray-200 hover:text-gray-200"
                 >
                   <FaSquareXTwitter className="text-[25px]"/>
-                </a>
-                <a
-                  href=""
+                </Link>
+                <Link
+                  to="/"
                   target="_blank"
                   className="text-gray-200 hover:text-gray-200"
                 >
                   <IoLogoLinkedin className="text-[25px]"/>
-                </a>
-                <a
-                  href=""
+                </Link>
+                <Link
+                  to="/"
                   target="_blank"
                   className="text-gray-200 hover:text-gray-200"
                 >
                   <FaSquarePinterest className="text-[25px]"/>
-                </a>
+                </Link>
               </div>
             </div>
 
@@ -71,28 +72,28 @@ const Footer = () => {
                   </h3>
                   <ul role="list" className="mt-6 space-y-4">
                     <li>
-                      <a
-                        href="/aiplatform"
+                      <Link
+                        to="/"
                         className="text-md leading-6 text-gray-300 hover:text-gray-50"
                       >
                         AI Platform
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a
-                        href="/aialgorithms"
+                      <Link
+                        to="/"
                         className="text-md leading-6 text-gray-300 hover:text-gray-50"
                       >
                         AI Algorithms
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a
-                        href="/industryapplications"
+                      <Link
+                        to="/"
                         className="text-md leading-6 text-gray-300 hover:text-gray-50"
                       >
                         Industry Applications
-                      </a>
+                      </Link>
                     </li>
                   </ul>
                 </div>
@@ -102,28 +103,28 @@ const Footer = () => {
                   </h3>
                   <ul role="list" className="mt-6 space-y-4">
                     <li>
-                      <a
-                        href="/predictiveanalysis"
+                      <Link
+                        to="/"
                         className="text-md leading-6 text-gray-300 hover:text-gray-50"
                       >
                         Predictive Analysis
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a
-                        href="/customerexperience"
+                      <Link
+                        to="/"
                         className="text-md leading-6 text-gray-300 hover:text-gray-50"
                       >
                         Customer Experience
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a
-                        href="/automation"
+                      <Link
+                        to="/"
                         className="text-md leading-6 text-gray-300 hover:text-gray-50"
                       >
                         Automation
-                      </a>
+                      </Link>
                     </li>
                   </ul>
                 </div>
@@ -135,44 +136,44 @@ const Footer = () => {
                   </h3>
                   <ul role="list" className="mt-6 space-y-4">
                     <li>
-                      <a
-                        href="/pricing"
+                      <Link
+                        to="/"
                         className="text-md leading-6 text-gray-300 hover:text-gray-50"
                       >
                         Pricing
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a
-                        href="/blog"
+                      <Link
+                        to="/"
                         className="text-md leading-6 text-gray-300 hover:text-gray-50"
                       >
                         Blog
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a
-                        href="/casestudies"
+                      <Link
+                        to="/"
                         className="text-md leading-6 text-gray-300 hover:text-gray-50"
                       >
                         Case Studies
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a
-                        href="/terms"
+                      <Link
+                        to="/"
                         className="text-md leading-6 text-gray-300 hover:text-gray-50"
                       >
                         Terms of Service
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a
-                        href="/privacy"
+                      <Link
+                        to="/"
                         className="text-md leading-6 text-gray-300 hover:text-gray-50"
                       >
                         Privacy Policy
-                      </a>
+                      </Link>
                     </li>
                   </ul>
                 </div>
@@ -182,28 +183,28 @@ const Footer = () => {
                   </h3>
                   <ul role="list" className="mt-6 space-y-4">
                     <li>
-                      <a
-                        href="/aboutus"
+                      <Link
+                        to="/"
                         className="text-md leading-6 text-gray-300 hover:text-gray-50"
                       >
                         About Us
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a
-                        href="/careers"
+                      <Link
+                        to="/"
                         className="text-md leading-6 text-gray-300 hover:text-gray-50"
                       >
                         Careers
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a
-                        href="/contactus"
+                      <Link
+                        to="/"
                         className="text-md leading-6 text-gray-300 hover:text-gray-50"
                       >
                         Contact Us
-                      </a>
+                      </Link>
                     </li>
                   </ul>
                 </div>
@@ -215,9 +216,9 @@ const Footer = () => {
             <div className="text-md text-center text-white">
               Copyright © 2024 . Crafted with
               by&nbsp;
-              <a rel="noopener" href="/">
+              <Link rel="noopener" to="/">
                 IB.
-              </a>
+              </Link>
             </div>
           </div>
         </div>
