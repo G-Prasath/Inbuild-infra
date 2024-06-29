@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 
 const Banner = () => {
-  const imgList = ["/Banners/homeBanner_1.jpg", "/Banners/homeBanner_2.jpg", "/Banners/homeBanner_3.jpg", "/Banners/homeBanner_4.jpg"  ];
+  const imgList = ["/Banners/homeBanner_1.avif", "/Banners/homeBanner_2.avif", "/Banners/homeBanner_3.avif", "/Banners/homeBanner_4.avif"  ];
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
   useEffect(() => {

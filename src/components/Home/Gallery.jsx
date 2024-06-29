@@ -28,7 +28,7 @@ const Gallery = () => {
                 className="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-80"
               >
                 <img
-                  src="/Gallery/Reactable_roofings.jpg"
+                  src="/Gallery/Reactable_roofings.avif"
                   loading="lazy"
                   alt="Photo by Minh Pham"
                   className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"
@@ -47,7 +47,7 @@ const Gallery = () => {
                 className="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:col-span-2 md:h-80"
               >
                 <img
-                  src="/Gallery/swming_pool.jpg"
+                  src="/Gallery/swming_pool.avif"
                   loading="lazy"
                   alt="Photo by Magicle"
                   className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"
@@ -66,7 +66,7 @@ const Gallery = () => {
                 className="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:col-span-2 md:h-80"
               >
                 <img
-                  src="/Gallery/gym.jpg"
+                  src="/Gallery/gym.avif"
                   loading="lazy"
                   alt="Photo by Martin Sanchez"
                   className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"
@@ -85,7 +85,7 @@ const Gallery = () => {
                 className="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-80"
               >
                 <img
-                  src="/Gallery/Sit_out.jpg"
+                  src="/Gallery/Sit_out.avif"
                   loading="lazy"
                   alt="Photo by Lorenzo Herrera"
                   className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"
@@ -104,7 +104,7 @@ const Gallery = () => {
                 className="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-80"
               >
                 <img
-                  src="/Gallery/Tensile_walkway.jpg"
+                  src="/Gallery/Tensile_walkway.avif"
                   loading="lazy"
                   alt="Photo by Minh Pham"
                   className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"
@@ -123,7 +123,7 @@ const Gallery = () => {
                 className="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:col-span-2 md:h-80"
               >
                 <img
-                  src="/Gallery/puff.jpg"
+                  src="/Gallery/puff.avif"
                   loading="lazy"
                   alt="Photo by Magicle"
                   className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"
