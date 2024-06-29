@@ -1,9 +1,11 @@
 import React from "react";
+import Banner from "../components/About/Banner";
 
 const About = () => {
+
   return (
    <div>
-    About
+    <Banner bannerImg="/Banners/homeBanner_3.avif" bannerCnt="About Us" />
    </div>
   );
 };

@@ -17,12 +17,13 @@ import NotFound from './pages/NotFound';
 
 
 const App = () => {
+
   return (
     <HelmetProvider>
       <Router basename="/">
         {/* <ScrollToTop /> */}
         <Navbar />
-        <React.Suspense fallback={<div>Loading ...</div>}>
+        <React.Suspense fallback={<div/>}>
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />

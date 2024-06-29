@@ -24,6 +24,9 @@ ul {
 .whychoose_shadow{
 box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
+.banner-clip{
+    clip-path: polygon(0 0, 100% 0, 79% 100%, 0% 100%);
+}
 
 
 
