@@ -34,7 +34,7 @@ const ServiceCard = ({ img, title, disc, count }) => {
               {disc}
             </p>
             <Link to="/">
-              <PrimaryBtn />
+              <PrimaryBtn fText="Read More" sText="Click Here" />
             </Link>
           </Reveal>
         </div>

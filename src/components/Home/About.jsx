@@ -37,7 +37,7 @@ const About = () => {
           <Reveal>
           <div className="my-5">
             <Link to="/about">
-              <PrimaryBtn text="Read More" />
+              <PrimaryBtn fText="Read More" sText="Click Here" />
             </Link>
           </div>
           </Reveal>

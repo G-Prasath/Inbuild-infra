@@ -1,6 +1,6 @@
 import React from 'react'
 
-const PrimaryBtn = () => {
+const PrimaryBtn = ({fText, sText}) => {
     return (
         <button className="
         group
@@ -34,9 +34,9 @@ const PrimaryBtn = () => {
             </span>
 
             <p className="text-[16px] group-hover:opacity-0 group-hover:translate-x-[-100%] absolute translate-x-0 transition-all
-         duration-200">Read More</p>
+         duration-200">{fText}</p>
 
-            <span className="group-hover:translate-x-0 text-[16px] group-hover:opacity-100 absolute  translate-x-full opacity-0  transition-all duration-200 text-white bg-[#2d3139] w-full h-full flex items-center justify-center"> Click Here
+            <span className="group-hover:translate-x-0 text-[16px] group-hover:opacity-100 absolute  translate-x-full opacity-0  transition-all duration-200 text-white bg-[#2d3139] w-full h-full flex items-center justify-center"> {sText}
             </span>
 
             <span

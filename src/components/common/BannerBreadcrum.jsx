@@ -2,7 +2,7 @@ import React from "react";
 import Breadcrum from "../common/Breadcrum";
 import { useLocation } from "react-router-dom";
 
-const Banner = ({ bannerImg, bannerCnt }) => {
+const BannerBreadcrum = ({ bannerImg, bannerCnt }) => {
   const location = useLocation();
 
   // Remove leading slash from pathname
@@ -36,4 +36,4 @@ const Banner = ({ bannerImg, bannerCnt }) => {
   );
 };
 
-export default Banner;
+export default BannerBreadcrum;

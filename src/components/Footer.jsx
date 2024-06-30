@@ -5,6 +5,8 @@ import { FaSquareXTwitter } from "react-icons/fa6";
 import { FaSquarePinterest } from "react-icons/fa6";
 import { Reveal } from "../hooks/Reveal";
 import { Link } from "react-router-dom";
+import BackToTopButton from "./common/BackToTop";
+import FloatingButtons from "./common/FloatingButtons";
 
 const Footer = () => {
   return (
@@ -223,6 +225,8 @@ const Footer = () => {
           </div>
         </div>
       </div>
+      <FloatingButtons/>
+      <BackToTopButton/>
     </footer>
   );
 };
