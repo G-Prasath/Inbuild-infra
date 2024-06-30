@@ -24,7 +24,7 @@ const Profile = () => {
                         </Reveal>
                         <div className="mt-8">
                             <Link to="/">
-                                <PrimaryBtn fText="Viste to" sText="Our Projects" />
+                                <PrimaryBtn fText="Viste" sText="Our Projects" />
                             </Link>
                         </div>
                     </div>

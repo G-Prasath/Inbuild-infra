@@ -1,6 +1,6 @@
 export const NAV_LINKS = [
     { label: 'Home', href: '/', subMenu: [] },
-    { label: 'About', href: '/', subMenu: [] },
+    { label: 'About Us', href: '/about-us', subMenu: [] },
     { 
       label: 'Service', href: '/', subMenu: [
         { label: 'Tensile', href: '/' },

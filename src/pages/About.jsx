@@ -5,6 +5,7 @@ import Productivity from "../components/About/Productivity";
 import Steps from "../components/About/Steps";
 import FunFact from "../components/About/FunFact";
 import Gallery from "../components/About/Gallery";
+import HappyCustomer from "../components/About/HappyCustomer";
 
 const About = () => {
 
@@ -16,6 +17,7 @@ const About = () => {
     <Steps/>
     <FunFact/>
     <Gallery/>
+    <HappyCustomer/>
    </div>
   );
 };
