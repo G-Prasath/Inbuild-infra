@@ -1,4 +1,5 @@
 import React from "react";
+import { Reveal } from "../../hooks/Reveal";
 
 const OurFeatureGoal = () => {
   return (
@@ -8,25 +9,10 @@ const OurFeatureGoal = () => {
           <p className="mt-2 text-3xl font-bold tracking-tight text-white sm:text-4xl">
             Our Feature Goals
           </p>
-          <p className="mt-2 text-lg sm:text-center leading-8 text-gray-300">
+
+          <p className="mt-2 text-lg leading-8 text-gray-300">
             Experience seamless integration with our platform. If you encounter
-            any issues with the integration process,
-            <a
-              className="text-custom-primary font-medium"
-              target="_blank"
-              rel="noopener noreferrer"
-              href="https://app.example-service.io/demo"
-            >
-              watch a demonstration here
-            </a>
-            or contact our
-            <a
-              className="text-custom-primary font-medium"
-              href="mailto:support@example-service.io"
-            >
-              support team
-            </a>
-            .
+            any issues with the integration process Our Team.
           </p>
         </div>
         <div className="mx-auto grid max-w-2xl grid-cols-1 gap-8 overflow-hidden lg:mx-0 lg:max-w-none lg:grid-cols-4">
@@ -45,13 +31,15 @@ const OurFeatureGoal = () => {
                 aria-hidden="true"
               ></div>
             </div>
-            <p className="mt-6 text-lg font-semibold leading-8 tracking-wide text-white">
-              Create an Account:
-            </p>
-            <p className="mt-1 text-base leading-7 text-gray-300 dark:text-gray-400">
-              Get started by registering for an account. No complex onboarding
-              processes.
-            </p>
+            <Reveal>
+              <p className="mt-6 text-lg font-semibold leading-8 tracking-wide text-white">
+                Create an Account:
+              </p>
+              <p className="mt-1 text-base leading-7 text-gray-300 dark:text-gray-400">
+                Get started by registering for an account. No complex onboarding
+                processes.
+              </p>
+            </Reveal>
           </div>
           <div>
             <div className="flex items-center text-sm font-semibold leading-6 text-blue-400">
@@ -68,13 +56,15 @@ const OurFeatureGoal = () => {
                 aria-hidden="true"
               ></div>
             </div>
-            <p className="mt-6 text-lg font-semibold leading-8 tracking-wide text-white">
-              Choose Features:
-            </p>
-            <p className="mt-1 text-base leading-7 text-gray-300 dark:text-gray-400">
-              Select from a variety of features and functionalities tailored to
-              your needs.
-            </p>
+            <Reveal>
+              <p className="mt-6 text-lg font-semibold leading-8 tracking-wide text-white">
+                Choose Features:
+              </p>
+              <p className="mt-1 text-base leading-7 text-gray-300 dark:text-gray-400">
+                Select from a variety of features and functionalities tailored
+                to your needs.
+              </p>
+            </Reveal>
           </div>
           <div>
             <div className="flex items-center text-sm font-semibold leading-6 text-blue-400">
@@ -91,13 +81,15 @@ const OurFeatureGoal = () => {
                 aria-hidden="true"
               ></div>
             </div>
-            <p className="mt-6 text-lg font-semibold leading-8 tracking-wide text-white">
-              Customize Settings:
-            </p>
-            <p className="mt-1 text-base leading-7 text-gray-300 dark:text-gray-400">
-              Tailor the platform to your preferences. Define settings, alerts,
-              and integrations.
-            </p>
+            <Reveal>
+              <p className="mt-6 text-lg font-semibold leading-8 tracking-wide text-white">
+                Customize Settings:
+              </p>
+              <p className="mt-1 text-base leading-7 text-gray-300 dark:text-gray-400">
+                Tailor the platform to your preferences. Define settings,
+                alerts, and integrations.
+              </p>
+            </Reveal>
           </div>
           <div>
             <div className="flex items-center text-sm font-semibold leading-6 text-blue-400">
@@ -114,13 +106,15 @@ const OurFeatureGoal = () => {
                 aria-hidden="true"
               ></div>
             </div>
-            <p className="mt-6 text-lg font-semibold leading-8 tracking-wide text-white">
-              Activate and Explore:
-            </p>
-            <p className="mt-1 text-base leading-7 text-gray-300 dark:text-gray-400">
-              Activate your account and start exploring the possibilities of our
-              platform.
-            </p>
+            <Reveal>
+              <p className="mt-6 text-lg font-semibold leading-8 tracking-wide text-white">
+                Activate and Explore:
+              </p>
+              <p className="mt-1 text-base leading-7 text-gray-300 dark:text-gray-400">
+                Activate your account and start exploring the possibilities of
+                our platform.
+              </p>
+            </Reveal>
           </div>
         </div>
       </div>

@@ -22,11 +22,14 @@ const About = () => {
       <Productivity />
       <Steps />
       <WhyChoose />
+
       <Manufacturing />
-      <FunFact />
-      <Gallery />
-      <OurBranches />
       <OurFeatureGoal/>
+
+      <FunFact />
+      <OurBranches />
+      <Gallery />
+
       <HappyCustomer />
     </div>
   );
