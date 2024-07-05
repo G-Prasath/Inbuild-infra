@@ -7,6 +7,7 @@ import DesignProcess from '../components/Services/DesignProcess'
 import Testimonials from '../components/Services/Testimonials'
 import Faq from '../components/Services/Faq'
 import Form from '../components/Services/Form'
+import Gallery from '../components/Services/Gallery';
 
 
 const Tensile = () => {
@@ -17,10 +18,11 @@ const Tensile = () => {
         bannerCnt="Tensile" />
       <Profile />
       <Applications />
-      <Benifites />
       <DesignProcess />
-      <Testimonials />
+      <Benifites />
       <Faq />
+      <Gallery/>
+      <Testimonials />
       <Form />
     </div>
   )

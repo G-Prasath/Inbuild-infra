@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import PrimaryBtn from "../common/PrimaryBtn";
+import { Reveal } from "../../hooks/Reveal";
 
 const Profile = () => {
   return (
@@ -10,20 +11,25 @@ const Profile = () => {
 
           <header className="px-4 lg:flex mt-10 items-center h-auto lg:mt-0">
             <div className="w-full">
-              <h1 className="text-4xl lg:text-5xl font-bold">
-                Find your <span className="text-green-700">greeny</span> stuff
-                for your room
+              <Reveal>
+              <h1 className="text-4xl lg:text-5xl font-bold text-zinc-800">
+               Tensile Roofing Structures
               </h1>
-              <div className="w-20 h-2 bg-green-700 my-4"></div>
+              </Reveal>
+              <Reveal>
+              <div className="w-20 h-1 bg-zinc-800 my-4"></div>
               <p className="text-zinc-600 my-2 text-justify sm:leading-[25px]">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Recusandae maiores neque eaque ea odit placeat, tenetur illum
                 distinctio nulla voluptatum a corrupti beatae tempora aperiam
                 quia id aliquam possimus aut.
               </p>
+              </Reveal>
+              <Reveal>
               <p className="text-zinc-600 my-2 text-justify sm:leading-[25px] mb-10">
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut laudantium qui quisquam odit quidem minus, consequatur, pariatur eum eos asperiores veniam beatae corrupti, cupiditate expedita aliquid? Magni, eos accusamus nemo voluptates qui ratione ducimus dolorum perferendis est molestiae eveniet consequatur eius dolores obcaecati nobis impedit consectetur dolor delectus deserunt aliquid quod sint atque, quisquam earum. Dolorem, reiciendis, ducimus ullam animi perferendis veritatis consectetur doloremque ab necessitatibus error consequatur! Quo dolores, reiciendis vero iste explicabo eius repellat officia sapiente voluptatum ut praesentium modi obcaecati nemo tenetur ab rem possimus facilis quasi, veritatis dolor ullam assumenda incidunt nobis! Dolorum aut fugiat nobis.
               </p>
+              </Reveal>
               
               <Link to="/">
                 <PrimaryBtn fText="Visit" sText="Our Project"/>

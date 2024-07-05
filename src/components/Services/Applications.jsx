@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import PrimaryBtn from "../common/PrimaryBtn";
+import { Reveal } from "../../hooks/Reveal";
 
 const Applications = () => {
   return (
@@ -9,7 +10,7 @@ const Applications = () => {
       <div className="relative">
         <div className="lg:mx-auto lg:grid lg:max-w-full lg:grid-flow-col-dense lg:grid-cols-2 lg:gap-10 lg:px-20">
 
-           <div className="mt-12 sm:mt-16 lg:mt-0 ">
+          <div className="mt-12 sm:mt-16 lg:mt-0 ">
             <div className="-ml-48 pr-6 md:-ml-16 lg:relative lg:m-50 lg:h-full lg:px-0">
               <img
                 alt="Inbox user interface"
@@ -26,52 +27,60 @@ const Applications = () => {
           <div className="mx-auto max-w-xl px-6 lg:mx-0 lg:max-w-none lg:py-16 lg:px-0 lg:col-start-2">
             <div>
               <div className="mt-6">
-                <h2 className="text-3xl font-bold tracking-tight text-zinc-600">
-                  Sentiment Analysis:
-                </h2>
-                <p className="mt-4 text-lg text-zinc-600 text-justify">
-                  The product has built-in sentiment analysis capabilities,
-                  allowing it to determine the sentiment (positive, negative, or
-                  neutral) expressed in text or customer feedback.
-                   The product has built-in sentiment analysis capabilities,
-                  allowing it to determine the sentiment (positive, negative, or
-                  neutral) expressed in text or customer feedback.
-                     The product has built-in sentiment analysis capabilities,
-                  allowing it to determine the sentiment (positive, negative, or
-                  neutral) expressed in text or customer feedback.
-                  The product has built-in sentiment analysis capabilities,
-                  allowing it to determine the sentiment (positive, negative, or
-                  neutral) expressed in text or customer feedback.
-                   
-                </p>
+                <Reveal>
+                  <h2 className="text-3xl font-bold tracking-tight text-zinc-600">
+                    Sentiment Analysis:
+                  </h2>
+                </Reveal>
+
+                <Reveal>
+                  <p className="mt-4 text-lg text-zinc-600 text-justify">
+                    The product has built-in sentiment analysis capabilities,
+                    allowing it to determine the sentiment (positive, negative, or
+                    neutral) expressed in text or customer feedback.
+                    The product has built-in sentiment analysis capabilities,
+                    allowing it to determine the sentiment (positive, negative, or
+                    neutral) expressed in text or customer feedback.
+                    The product has built-in sentiment analysis capabilities,
+                    allowing it to determine the sentiment (positive, negative, or
+                    neutral) expressed in text or customer feedback.
+                    The product has built-in sentiment analysis capabilities,
+                    allowing it to determine the sentiment (positive, negative, or
+                    neutral) expressed in text or customer feedback.
+                  </p>
+                </Reveal>
                 <div className="mt-6">
-                 <Link to="/">
+                  <Link to="/">
                     <PrimaryBtn fText="Get it" sText="Via Quote" />
-                 </Link>
+                  </Link>
                 </div>
               </div>
             </div>
           </div>
-         
+
         </div>
       </div>
 
 
 
-       <div className="relative">
+      <div className="relative">
         <div className="lg:mx-auto lg:grid lg:max-w-full lg:grid-flow-col-dense lg:grid-cols-2 lg:gap-10 lg:pl-8 max-md:flex max-md:flex-col-reverse max-sm:flex max-sm:flex-col-reverse">
 
           <div className="mx-auto max-w-xl px-6 lg:mx-0 lg:max-w-none lg:py-16 lg:px-0">
             <div>
               <div className="mt-6">
-                <h2 className="text-3xl font-bold tracking-tight text-zinc-600">Natural Language Generation (NLG):</h2>
-                <p className="mt-4 text-lg text-zinc-600 text-justify">
-                 The product has built-in sentiment analysis capabilities, allowing it to determine the sentiment (positive, negative, or neutral) expressed in text or customer feedback. The product has built-in sentiment analysis capabilities, allowing it to determine the sentiment (positive, negative, or nefutral) expressed in text or customer feedback. The product has built-in sentiment analysis capabilities, allowing it to determine the sentiment (positive, negative, or neutral) expressed in text or customer feedback. The product has built-in sentiment analysis capabilities, allowing it to determine the sentiment (positive, negative, or neutral) expressed in text or customer feedback.
-                </p>
+                <Reveal>
+                  <h2 className="text-3xl font-bold tracking-tight text-zinc-600">Natural Language Generation (NLG):</h2>
+                </Reveal>
+                <Reveal>
+                  <p className="mt-4 text-lg text-zinc-600 text-justify">
+                    The product has built-in sentiment analysis capabilities, allowing it to determine the sentiment (positive, negative, or neutral) expressed in text or customer feedback. The product has built-in sentiment analysis capabilities, allowing it to determine the sentiment (positive, negative, or nefutral) expressed in text or customer feedback. The product has built-in sentiment analysis capabilities, allowing it to determine the sentiment (positive, negative, or neutral) expressed in text or customer feedback. The product has built-in sentiment analysis capabilities, allowing it to determine the sentiment (positive, negative, or neutral) expressed in text or customer feedback.
+                  </p>
+                </Reveal>
                 <div className="mt-6">
                   <Link to="/">
                     <PrimaryBtn fText="Get it" sText="Via Quote" />
-                 </Link>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -93,7 +102,7 @@ const Applications = () => {
         </div>
       </div>
 
-     
+
 
     </div>
   );
