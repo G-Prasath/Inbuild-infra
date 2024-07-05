@@ -10,6 +10,7 @@ import WhyChoose from "../components/About/WhyChoose";
 import Manufacturing from "../components/About/Manufacturing";
 import OurBranches from "../components/About/OurBranches";
 import OurFeatureGoal from "../components/About/OurFeatureGoal";
+import TimeLine from "../components/About/TimeLine";
 
 const About = () => {
   return (
@@ -28,6 +29,9 @@ const About = () => {
 
       <FunFact />
       <OurBranches />
+      
+      <TimeLine/>
+
       <Gallery />
 
       <HappyCustomer />

@@ -3,7 +3,7 @@ export const NAV_LINKS = [
     { label: 'About Us', href: '/about-us', subMenu: [] },
     { 
       label: 'Service', href: '/', subMenu: [
-        { label: 'Tensile', href: '/' },
+        { label: 'Tensile', href: '/tensile' },
         { label: 'Poly', href: '/' },
         { label: 'Shingle', href: '/' },
         { label: 'RetrableRoof', href: '/' },
