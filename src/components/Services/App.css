@@ -1,0 +1,83 @@
+/* Add the following CSS to a file named App.css */
+.outer {
+    @apply w-[300px] h-[250px] rounded-[10px] p-[1px] relative;
+    background: radial-gradient(circle 230px at 0% 0%, #ffffff, #0c0d0d);
+  }
+  
+  .dot {
+    @apply w-[5px] absolute bg-white rounded-full z-[2];
+    aspect-ratio: 1;
+    right: 10%;
+    top: 10%;
+    animation: moveDot 6s linear infinite;
+    box-shadow: 0 0 10px #ffffff;
+  }
+  
+  @keyframes moveDot {
+    0%,
+    100% {
+      top: 10%;
+      right: 10%;
+    }
+    25% {
+      top: 10%;
+      right: calc(100% - 35px);
+    }
+    50% {
+      top: calc(100% - 30px);
+      right: calc(100% - 35px);
+    }
+    75% {
+      top: calc(100% - 30px);
+      right: 10%;
+    }
+  }
+  
+  .card {
+    @apply w-full h-full rounded-[9px] flex items-center justify-center relative flex-col text-white;
+    z-index: 1;
+    border: solid 1px #202222;
+    background: radial-gradient(circle 280px at 0% 0%, #444444, #0c0d0d);
+    background-size: 20px 20px;
+  }
+  
+  .ray {
+    @apply w-[220px] h-[45px] rounded-full absolute opacity-40;
+    background-color: #c7c7c7;
+    box-shadow: 0 0 50px #fff;
+    filter: blur(10px);
+    transform-origin: 10%;
+    top: 0;
+    left: 0;
+    transform: rotate(40deg);
+  }
+  
+  .text {
+    @apply font-bold text-[4rem];
+    background: linear-gradient(45deg, #000000 4%, #fff, #000);
+    -webkit-background-clip: text;
+    color: transparent;
+  }
+  
+  .line {
+    @apply w-full h-[1px] absolute bg-[#2c2c2c];
+  }
+  
+  .topl {
+    @apply top-[10%];
+    background: linear-gradient(90deg, #888888 30%, #1d1f1f 70%);
+  }
+  
+  .bottoml {
+    @apply bottom-[10%];
+  }
+  
+  .leftl {
+    @apply left-[10%] h-full w-[1px];
+    background: linear-gradient(180deg, #747474 30%, #222424 70%);
+  }
+  
+  .rightl {
+    @apply right-[10%] h-full w-[1px];
+  }
+  

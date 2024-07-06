@@ -1,109 +1,135 @@
 import React from "react";
+import "./App.css";
 import { Link } from "react-router-dom";
 import PrimaryBtn from "../common/PrimaryBtn";
 import { Reveal } from "../../hooks/Reveal";
 
 const Applications = () => {
   return (
-    <div className="relative overflow-hidden bg-gray-10 pt-5 pb-32 space-y-24">
-
-      <div className="relative">
-        <div className="lg:mx-auto lg:grid lg:max-w-full lg:grid-flow-col-dense lg:grid-cols-2 lg:gap-10 lg:px-20">
-
-          <div className="mt-12 sm:mt-16 lg:mt-0 ">
-            <div className="-ml-48 pr-6 md:-ml-16 lg:relative lg:m-50 lg:h-full lg:px-0">
-              <img
-                alt="Inbox user interface"
-                loading="lazy"
-                width="647"
-                height="486"
-                className="w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:right-0 lg:h-full lg:w-auto lg:max-w-none"
-                style={{ color: "transparent" }}
-                src="https://images.unsplash.com/photo-1599134842279-fe807d23316e"
-              />
-            </div>
+    <div className="w-full py-[5%] px-[5%]">
+      <p className="w-full text-center text-4xl text-zinc-800 font-bold my-10">
+        Applications
+      </p>
+      <div className="container w-full grid grid-cols-3 gap-5 max-md:grid-cols-2 max-sm:grid-cols-1">
+        <div className="w-full rounded-md border bg-white dark:bg-gray-800 shadow-lg transition-colors duration-500">
+          <div className="overflow-hidden">
+          <img
+            src="https://images.unsplash.com/photo-1522199755839-a2bacb67c546?ixlib=rb-4.0.3&amp;ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGJsb2d8ZW58MHx8MHx8&amp;auto=format&amp;fit=crop&amp;w=800&amp;q=60"
+            alt="Laptop"
+            className="h-[300px] w-full rounded-t-md object-cover hover:scale-[1.1] hover:duration-[.5s] transition-all"
+          />
           </div>
+          <div className="p-4">
+            <h1 className="inline-flex items-center text-lg font-semibold text-gray-900 dark:text-gray-100">
+              About Macbook &nbsp;
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                className="h-4 w-4"
+              >
+                <line x1="7" y1="17" x2="17" y2="7"></line>
+                <polyline points="7 7 17 7 17 17"></polyline>
+              </svg>
+            </h1>
+            <p className="mb-5 mt-3 text-sm text-gray-500 dark:text-gray-400 text-justify leading-6">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Excepturi, debitis? Lorem ipsum, dolor sit amet consectetur
+              adipisicing elit. Nisi enim blanditiis voluptatem id, numquam
+              itaque ea illum tenetur. Recusandae, sapiente. Lorem ipsum dolor
+              sit, amet consectetur adipisicing elit. Ea, sint.
+            </p>
 
-          <div className="mx-auto max-w-xl px-6 lg:mx-0 lg:max-w-none lg:py-16 lg:px-0 lg:col-start-2">
-            <div>
-              <div className="mt-6">
-                <Reveal>
-                  <h2 className="text-3xl font-bold tracking-tight text-zinc-600">
-                    Sentiment Analysis:
-                  </h2>
-                </Reveal>
-
-                <Reveal>
-                  <p className="mt-4 text-lg text-zinc-600 text-justify">
-                    The product has built-in sentiment analysis capabilities,
-                    allowing it to determine the sentiment (positive, negative, or
-                    neutral) expressed in text or customer feedback.
-                    The product has built-in sentiment analysis capabilities,
-                    allowing it to determine the sentiment (positive, negative, or
-                    neutral) expressed in text or customer feedback.
-                    The product has built-in sentiment analysis capabilities,
-                    allowing it to determine the sentiment (positive, negative, or
-                    neutral) expressed in text or customer feedback.
-                    The product has built-in sentiment analysis capabilities,
-                    allowing it to determine the sentiment (positive, negative, or
-                    neutral) expressed in text or customer feedback.
-                  </p>
-                </Reveal>
-                <div className="mt-6">
-                  <Link to="/">
-                    <PrimaryBtn fText="Get it" sText="Via Quote" />
-                  </Link>
-                </div>
-              </div>
-            </div>
-          </div>
-
-        </div>
-      </div>
-
-
-
-      <div className="relative">
-        <div className="lg:mx-auto lg:grid lg:max-w-full lg:grid-flow-col-dense lg:grid-cols-2 lg:gap-10 lg:pl-8 max-md:flex max-md:flex-col-reverse max-sm:flex max-sm:flex-col-reverse">
-
-          <div className="mx-auto max-w-xl px-6 lg:mx-0 lg:max-w-none lg:py-16 lg:px-0">
-            <div>
-              <div className="mt-6">
-                <Reveal>
-                  <h2 className="text-3xl font-bold tracking-tight text-zinc-600">Natural Language Generation (NLG):</h2>
-                </Reveal>
-                <Reveal>
-                  <p className="mt-4 text-lg text-zinc-600 text-justify">
-                    The product has built-in sentiment analysis capabilities, allowing it to determine the sentiment (positive, negative, or neutral) expressed in text or customer feedback. The product has built-in sentiment analysis capabilities, allowing it to determine the sentiment (positive, negative, or nefutral) expressed in text or customer feedback. The product has built-in sentiment analysis capabilities, allowing it to determine the sentiment (positive, negative, or neutral) expressed in text or customer feedback. The product has built-in sentiment analysis capabilities, allowing it to determine the sentiment (positive, negative, or neutral) expressed in text or customer feedback.
-                  </p>
-                </Reveal>
-                <div className="mt-6">
-                  <Link to="/">
-                    <PrimaryBtn fText="Get it" sText="Via Quote" />
-                  </Link>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div className="mt-12 sm:mt-16 lg:mt-0">
-            <div className="-mr-48 pl-6 md:-mr-16 lg:relative lg:m-0 lg:h-full lg:px-0">
-              <img
-                loading="lazy"
-                width="646"
-                height="485"
-                className="w-full rounded-xl shadow-2xl ring-1 ring-black ring-opacity-5 lg:absolute lg:left-0 lg:h-full lg:w-auto lg:max-w-none"
-                style={{ color: 'transparent' }}
-                src="https://images.unsplash.com/photo-1483478550801-ceba5fe50e8e"
-                alt="Natural Language Generation"
-              />
-            </div>
+            <Link to="/">
+              <PrimaryBtn fText="Get In" sText="Quote" />
+            </Link>
           </div>
         </div>
+
+        <div className="w-full rounded-md border bg-white dark:bg-gray-800 shadow-lg transition-colors duration-500">
+          <img
+            src="https://images.unsplash.com/photo-1522199755839-a2bacb67c546?ixlib=rb-4.0.3&amp;ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGJsb2d8ZW58MHx8MHx8&amp;auto=format&amp;fit=crop&amp;w=800&amp;q=60"
+            alt="Laptop"
+            className="h-[300px] w-full rounded-t-md object-cover"
+          />
+          <div className="p-4">
+            <h1 className="inline-flex items-center text-lg font-semibold text-gray-900 dark:text-gray-100">
+              About Macbook &nbsp;
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                className="h-4 w-4"
+              >
+                <line x1="7" y1="17" x2="17" y2="7"></line>
+                <polyline points="7 7 17 7 17 17"></polyline>
+              </svg>
+            </h1>
+            <p className="mb-5 mt-3 text-sm text-gray-500 dark:text-gray-400 text-justify leading-6">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Excepturi, debitis? Lorem ipsum, dolor sit amet consectetur
+              adipisicing elit. Nisi enim blanditiis voluptatem id, numquam
+              itaque ea illum tenetur. Recusandae, sapiente. Lorem ipsum dolor
+              sit, amet consectetur adipisicing elit. Ea, sint.
+            </p>
+
+            <Link to="/">
+              <PrimaryBtn fText="Get In" sText="Quote" />
+            </Link>
+          </div>
+        </div>
+
+        <div className="w-full rounded-md border bg-white dark:bg-gray-800 shadow-lg transition-colors duration-500">
+          <img
+            src="https://images.unsplash.com/photo-1522199755839-a2bacb67c546?ixlib=rb-4.0.3&amp;ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGJsb2d8ZW58MHx8MHx8&amp;auto=format&amp;fit=crop&amp;w=800&amp;q=60"
+            alt="Laptop"
+            className="h-[300px] w-full rounded-t-md object-cover"
+          />
+          <div className="p-4">
+            <h1 className="inline-flex items-center text-lg font-semibold text-gray-900 dark:text-gray-100">
+              About Macbook &nbsp;
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                className="h-4 w-4"
+              >
+                <line x1="7" y1="17" x2="17" y2="7"></line>
+                <polyline points="7 7 17 7 17 17"></polyline>
+              </svg>
+            </h1>
+            <p className="mb-5 mt-3 text-sm text-gray-500 dark:text-gray-400 text-justify leading-6">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Excepturi, debitis? Lorem ipsum, dolor sit amet consectetur
+              adipisicing elit. Nisi enim blanditiis voluptatem id, numquam
+              itaque ea illum tenetur. Recusandae, sapiente. Lorem ipsum dolor
+              sit, amet consectetur adipisicing elit. Ea, sint.
+            </p>
+
+            <Link to="/">
+              <PrimaryBtn fText="Get In" sText="Quote" />
+            </Link>
+          </div>
+        </div>
       </div>
-
-
-
     </div>
   );
 };
