@@ -11,7 +11,7 @@ const Form = () => {
               <div className="group w-full h-full">
                 <div className="relative h-full">
                   <img
-                    src="https://pagedone.io/asset/uploads/1696488602.png"
+                    src="/Service/App/tensile/form_img.jpg"
                     alt="ContactUs tailwind section"
                     className="w-full h-full lg:rounded-l-sm rounded-2xl bg-blend-multiply bg-indigo-700"
                   />

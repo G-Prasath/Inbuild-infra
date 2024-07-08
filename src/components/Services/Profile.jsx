@@ -37,7 +37,7 @@ const Profile = () => {
         </div>
       </div>
       <img
-        src="https://images.unsplash.com/photo-1536147116438-62679a5e01f2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80"
+        src="/Service/App/tensile/profile.jpg"
         alt="Leafs"
         className="w-full h-48 object-cover sm:h-screen sm:w-6/12"
       />

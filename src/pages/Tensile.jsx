@@ -14,7 +14,7 @@ const Tensile = () => {
 
   return (
     <div>
-      <BannerBreadcrum bannerImg="/Banners/homeBanner_3.avif"
+      <BannerBreadcrum bannerImg="/Service/App/tensile/tensileBanner.jpg"
         bannerCnt="Tensile" />
       <Profile />
       <Applications />

@@ -45,26 +45,26 @@ export const tensileAppData = [
         appPara: "Tensile roofing makes the auditorium more aesthetic and elegant to the audience. Tensile provides larger open spaces without obstructive columns, natural lighting and energy efficiency.",
         appImg: "/Service/App/tensile/Autitorium.jpg"
     },
-    // {
-    //     appTitle: "Gazebo",
-    //     appPara: "A gazebo with tensile structures is a modern take on the classic outdoor structure. This structure combines the familiar design of a gazebo with a roof made of tensile fabric stretched over a frame.",
-    //     appImg: "/Service/App/tensile/Carparking.jpg"
-    // },
+    {
+        appTitle: "Gazebo",
+        appPara: "A gazebo with tensile structures is a modern take on the classic outdoor structure. This structure combines the familiar design of a gazebo with a roof made of tensile fabric stretched over a frame.",
+        appImg: "/Service/App/tensile/Entrance_Canopy.jpg"
+    },
     {
         appTitle: "Swimming Pool",
         appPara: "Tensile structure is a stunning and functional way to elevate your swimming pool. These structural designs allow sunlight into the swimming pool. Tensile fabrics are typically made from PVC or PTFE.",
         appImg: "/Service/App/tensile/swimming_pool.jpg"
     },
-    // {
-    //     appTitle: "Stadiums",
-    //     appPara: "Tensile structures are becoming increasingly popular for stadium roofs due to several advantages. This roof system uses a strong, flexible fabric stretched over a lightweight framework of cables.",
-    //     appImg: "/Service/App/tensile/Carparking.jpg"
-    // },
-    // {
-    //     appTitle: "Shopping Malls",
-    //     appPara: "Tensile structures are a popular design choice for shopping malls. Malls can use tensile structures to create temporary venues for events like concerts and markets attracting more visitors.",
-    //     appImg: "/Service/App/tensile/Carparking.jpg"
-    // },
+    {
+        appTitle: "Stadiums",
+        appPara: "Tensile structures are becoming increasingly popular for stadium roofs due to several advantages. This roof system uses a strong, flexible fabric stretched over a lightweight framework of cables.",
+        appImg: "/Service/App/tensile/Food_Courd.jpg"
+    },
+    {
+        appTitle: "Shopping Malls",
+        appPara: "Tensile structures are a popular design choice for shopping malls. Malls can use tensile structures to create temporary venues for events like concerts and markets attracting more visitors.",
+        appImg: "/Service/App/tensile/Kidsplay_area.jpg"
+    },
     {
         appTitle: "Restaurants",
         appPara: "Tensile structures are a trendy and functional design element for restaurants. These structures add a contemporary and stylish touch to a restaurant's exterior, making it attractive to customers.",

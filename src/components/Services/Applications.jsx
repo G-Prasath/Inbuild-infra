@@ -24,6 +24,7 @@ const Applications = () => {
             </div>
             <div className="p-4">
               <h1 className="inline-flex items-center text-lg font-semibold text-gray-900 dark:text-gray-100">
+                <Reveal>
                 {item.appTitle} &nbsp;
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -40,10 +41,13 @@ const Applications = () => {
                   <line x1="7" y1="17" x2="17" y2="7"></line>
                   <polyline points="7 7 17 7 17 17"></polyline>
                 </svg>
+                </Reveal>
               </h1>
+              <Reveal>
               <p className="mb-5 mt-3 text-sm text-gray-500 dark:text-gray-400 text-justify leading-6">
                 {item.appPara}
               </p>
+              </Reveal>
 
               <Link to="/">
                 <PrimaryBtn fText="Get In" sText="Quote" />
