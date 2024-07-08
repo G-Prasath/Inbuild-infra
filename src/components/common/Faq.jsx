@@ -1,10 +1,9 @@
 import React from "react";
 import { FaChessKing } from "react-icons/fa";
 import { Reveal } from "../../hooks/Reveal";
-import { faqData } from "../../data/Home";
 import { BsFillQuestionCircleFill } from "react-icons/bs";
 
-const Faq = () => {
+const Faq = ({faqData}) => {
   return (
     <div className="py-4 bg-white">
       <div className="max-w-screen-md mx-auto px-4 sm:px-6 lg:px-8 flex flex-col justify-between">

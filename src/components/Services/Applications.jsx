@@ -3,21 +3,20 @@ import "./App.css";
 import { Link } from "react-router-dom";
 import PrimaryBtn from "../common/PrimaryBtn";
 import { Reveal } from "../../hooks/Reveal";
-import { tensileAppData } from "../../data/Service";
 
-const Applications = () => {
+const Applications = ({appData}) => {
   return (
     <div className="w-full py-[5%] px-[5%]">
       <p className="w-full text-center text-4xl text-zinc-800 font-bold my-10">
         Applications
       </p>
       <div className="container w-full grid grid-cols-3 gap-5 max-md:grid-cols-2 max-sm:grid-cols-1">
-        {tensileAppData.map((item, index) => (
+        {appData.map((item, index) => (
 
-          <div className="w-full rounded-md border bg-white dark:bg-gray-800 shadow-lg transition-colors duration-500">
+          <div className="w-full rounded-md border bg-white dark:bg-gray-800 shadow-lg transition-colors duration-500" key={index}>
             <div className="overflow-hidden">
               <img
-                src={item.appImg}
+                src={item.img}
                 alt="Laptop"
                 className="h-[300px] w-full rounded-t-md object-cover hover:scale-[1.1] hover:duration-[.5s] transition-all"
               />
@@ -25,7 +24,7 @@ const Applications = () => {
             <div className="p-4">
               <h1 className="inline-flex items-center text-lg font-semibold text-gray-900 dark:text-gray-100">
                 <Reveal>
-                {item.appTitle} &nbsp;
+                {item.title} &nbsp;
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -45,7 +44,7 @@ const Applications = () => {
               </h1>
               <Reveal>
               <p className="mb-5 mt-3 text-sm text-gray-500 dark:text-gray-400 text-justify leading-6">
-                {item.appPara}
+                {item.para}
               </p>
               </Reveal>
 

@@ -28,9 +28,9 @@ const Gallery = () => {
                 className="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-80"
               >
                 <img
-                  src="/Gallery/Reactable_roofings.avif"
+                  src="/Home/Gallery/Reactable_roofings.avif"
                   loading="lazy"
-                  alt="Photo by Minh Pham"
+                  alt="Reactable Roofings"
                   className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"
                 />
 
@@ -47,9 +47,9 @@ const Gallery = () => {
                 className="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:col-span-2 md:h-80"
               >
                 <img
-                  src="/Gallery/swming_pool.avif"
+                  src="/Home/Gallery/swming_pool.avif"
                   loading="lazy"
-                  alt="Photo by Magicle"
+                  alt="Swimming Pool"
                   className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"
                 />
 
@@ -66,9 +66,9 @@ const Gallery = () => {
                 className="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:col-span-2 md:h-80"
               >
                 <img
-                  src="/Gallery/gym.avif"
+                  src="/Home/Gallery/gym.avif"
                   loading="lazy"
-                  alt="Photo by Martin Sanchez"
+                  alt="Gym"
                   className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"
                 />
 
@@ -85,9 +85,9 @@ const Gallery = () => {
                 className="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-80"
               >
                 <img
-                  src="/Gallery/Sit_out.avif"
+                  src="/Home/Gallery/Sit_out.avif"
                   loading="lazy"
-                  alt="Photo by Lorenzo Herrera"
+                  alt="Sit Out"
                   className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"
                 />
 
@@ -104,9 +104,9 @@ const Gallery = () => {
                 className="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-80"
               >
                 <img
-                  src="/Gallery/Tensile_walkway.avif"
+                  src="/Home/Gallery/Tensile_walkway.avif"
                   loading="lazy"
-                  alt="Photo by Minh Pham"
+                  alt="Tensile Walkway"
                   className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"
                 />
 
@@ -123,7 +123,7 @@ const Gallery = () => {
                 className="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:col-span-2 md:h-80"
               >
                 <img
-                  src="/Gallery/puff.avif"
+                  src="/Home/Gallery/puff.avif"
                   loading="lazy"
                   alt="Photo by Magicle"
                   className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"

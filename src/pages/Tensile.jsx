@@ -5,24 +5,26 @@ import Applications from '../components/Services/Applications'
 import Benifites from '../components/Services/Benifites'
 import DesignProcess from '../components/Services/DesignProcess'
 import Testimonials from '../components/Services/Testimonials'
-import Faq from '../components/Services/Faq'
+import Faq from '../components/common/Faq'
 import Form from '../components/Services/Form'
 import Gallery from '../components/Services/Gallery';
+
+import { tensileData as allDatas} from '../data/Service';
 
 
 const Tensile = () => {
 
   return (
     <div>
-      <BannerBreadcrum bannerImg="/Service/App/tensile/tensileBanner.jpg"
-        bannerCnt="Tensile" />
-      <Profile />
-      <Applications />
+
+      <BannerBreadcrum bannerCnt={allDatas.banner.text} bannerImg={allDatas.banner.img} />
+      <Profile profileImg={allDatas.profile.img} profileHeading={allDatas.profile.heading} profileText={allDatas.profile.paragraphs} />
+      <Applications appData={allDatas.apps} />
       <DesignProcess />
-      <Benifites />
-      <Faq />
-      <Gallery/>
-      <Testimonials />
+      <Benifites benifitesData={allDatas.benefits} />
+      <Faq faqData={allDatas.faq}/>
+      <Gallery galleryImg={allDatas.gallery}/>
+      <Testimonials testiData={allDatas.testimonials} />
       <Form />
     </div>
   )
