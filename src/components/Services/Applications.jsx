@@ -12,7 +12,6 @@ const Applications = ({appData}) => {
       </p>
       <div className="container w-full grid grid-cols-3 gap-5 max-md:grid-cols-2 max-sm:grid-cols-1">
         {appData.map((item, index) => (
-
           <div className="w-full rounded-md border bg-white dark:bg-gray-800 shadow-lg transition-colors duration-500" key={index}>
             <div className="overflow-hidden">
               <img

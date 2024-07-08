@@ -13,7 +13,7 @@ const Form = () => {
                   <img
                     src="/contact_form.jpg"
                     alt="ContactUs tailwind section"
-                    className="w-full h-auto lg:rounded-l-sm rounded-2xl bg-blend-multiply bg-indigo-700"
+                    className="w-full h-screen lg:rounded-l-sm rounded-2xl bg-blend-multiply bg-indigo-700"
                   />
                   <div className="absolute bottom-0 w-full lg:p-11 p-5">
                     <div className="bg-white rounded-lg p-6 block">

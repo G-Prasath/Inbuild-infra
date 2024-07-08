@@ -12,7 +12,7 @@ const Profile = ({profileImg, profileText, profileHeading}) => {
           <header className="px-4 lg:flex mt-10 items-center h-auto lg:mt-0">
             <div className="w-full">
               <Reveal>
-              <h1 className="text-4xl lg:text-5xl font-bold text-zinc-800">
+              <h1 className="text-4xl lg:text-4xl font-bold text-zinc-800">
                {profileHeading}
               </h1>
               </Reveal>
