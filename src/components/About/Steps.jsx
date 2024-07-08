@@ -14,7 +14,7 @@ const Steps = () => {
               How does it work?
             </h2>
             <p className="max-w-2xl mx-auto mt-4 text-base text-gray-400 leading-relaxed md:text-2xl">
-              Our Team solution will help you from start to finish
+            Our team is here to support you every step of the way
             </p>
           </Reveal>
         </div>
@@ -38,10 +38,10 @@ const Steps = () => {
               </div>
               <Reveal>
                 <h3 className="mt-6 text-xl text-white font-semibold leading-tight md:mt-10">
-                  Select Projects
+                Contact us
                 </h3>
                 <p className="mt-4 text-base text-gray-400 md:text-lg">
-                  Providing Quality Output according to your requirement
+                  Contact us and get estimated quotation for free.
                 </p>
               </Reveal>
             </div>
@@ -51,10 +51,10 @@ const Steps = () => {
               </div>
               <Reveal>
                 <h3 className="mt-6 text-xl text-white font-semibold leading-tight md:mt-10">
-                  Enter Your Details
+                Start the project
                 </h3>
                 <p className="mt-4 text-base text-gray-400 md:text-lg">
-                  Put in your personalized details and let the Team do the rest.
+                  After approval of the design, we start to construct.
                 </p>
               </Reveal>
             </div>
@@ -64,10 +64,10 @@ const Steps = () => {
               </div>
               <Reveal>
                 <h3 className="mt-6 text-xl text-white font-semibold leading-tight md:mt-10">
-                  FInishing
+                Completion
                 </h3>
                 <p className="mt-4 text-base text-gray-400 md:text-lg">
-                  Use output as you like
+                We complete the project on time.
                 </p>
               </Reveal>
             </div>

@@ -13,7 +13,7 @@ const Form = () => {
                   <img
                     src="https://pagedone.io/asset/uploads/1696488602.png"
                     alt="ContactUs tailwind section"
-                    className="w-full h-full lg:rounded-l-2xl rounded-2xl bg-blend-multiply bg-indigo-700"
+                    className="w-full h-full lg:rounded-l-sm rounded-2xl bg-blend-multiply bg-indigo-700"
                   />
                   <div className="absolute bottom-0 w-full lg:p-11 p-5">
                     <div className="bg-white rounded-lg p-6 block">
@@ -87,7 +87,7 @@ const Form = () => {
               </div>
             </div>
 
-            <div className="bg-gray-50 p-5 lg:p-11 lg:rounded-r-2xl rounded-2xl">
+            <div className="bg-gray-50 p-5 lg:p-11 lg:rounded-r-sm rounded-2xl">
               <h2 className="text-indigo-600 font-manrope max-sm:text-3xl text-4xl font-semibold leading-10 mb-11">Send Us A Message</h2>
               <input
                 type="text"

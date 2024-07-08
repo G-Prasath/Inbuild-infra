@@ -11,8 +11,7 @@ const OurFeatureGoal = () => {
           </p>
 
           <p className="mt-2 text-lg leading-8 text-gray-300">
-            Experience seamless integration with our platform. If you encounter
-            any issues with the integration process Our Team.
+          Our focus is to lead the roofing industry with forward-thinking approaches that innovate and inspire.
           </p>
         </div>
         <div className="mx-auto grid max-w-2xl grid-cols-1 gap-8 overflow-hidden lg:mx-0 lg:max-w-none lg:grid-cols-4">
@@ -33,11 +32,10 @@ const OurFeatureGoal = () => {
             </div>
             <Reveal>
               <p className="mt-6 text-lg font-semibold leading-8 tracking-wide text-white">
-                Create an Account:
+              Unique Roofing Styles:
               </p>
               <p className="mt-1 text-base leading-7 text-gray-300 dark:text-gray-400">
-                Get started by registering for an account. No complex onboarding
-                processes.
+                The Rise of Unique Roofing Styles with innovative roofing solutions.
               </p>
             </Reveal>
           </div>
@@ -58,11 +56,10 @@ const OurFeatureGoal = () => {
             </div>
             <Reveal>
               <p className="mt-6 text-lg font-semibold leading-8 tracking-wide text-white">
-                Choose Features:
+              Advanced Roof Coatings:
               </p>
               <p className="mt-1 text-base leading-7 text-gray-300 dark:text-gray-400">
-                Select from a variety of features and functionalities tailored
-                to your needs.
+              Advanced roofing coatings will improve durability of the roofing sheets.
               </p>
             </Reveal>
           </div>
@@ -83,11 +80,10 @@ const OurFeatureGoal = () => {
             </div>
             <Reveal>
               <p className="mt-6 text-lg font-semibold leading-8 tracking-wide text-white">
-                Customize Settings:
+              3D Printing:
               </p>
               <p className="mt-1 text-base leading-7 text-gray-300 dark:text-gray-400">
-                Tailor the platform to your preferences. Define settings,
-                alerts, and integrations.
+              3D Printing for Custom Roofing Solutions for accuracy of the project.
               </p>
             </Reveal>
           </div>
@@ -108,11 +104,10 @@ const OurFeatureGoal = () => {
             </div>
             <Reveal>
               <p className="mt-6 text-lg font-semibold leading-8 tracking-wide text-white">
-                Activate and Explore:
+              Digital Design Tools:
               </p>
               <p className="mt-1 text-base leading-7 text-gray-300 dark:text-gray-400">
-                Activate your account and start exploring the possibilities of
-                our platform.
+                We use advanced digital designing tools to improve the roofing plans.
               </p>
             </Reveal>
           </div>

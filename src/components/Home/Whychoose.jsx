@@ -10,7 +10,8 @@ const Whychoose = () => {
             Why Choose Us
           </p>
           <p className="mx-auto mt-4 max-w-2xl text-md font-normal text-gray-700 lg:text-md lg:leading-8">
-          Inbuilt Infra <span>&#8208;</span> No.1 Roofing contractors in Chennai
+            Inbuilt Infra <span>&#8208;</span> No.1 Roofing contractors in
+            Chennai
           </p>
         </div>
         <ul className="mx-auto mt-12 grid max-w-md grid-cols-1 gap-10 sm:mt-16 lg:mt-20 lg:max-w-5xl lg:grid-cols-4">
@@ -38,10 +39,11 @@ const Whychoose = () => {
             <div className="ml-6 lg:ml-0 lg:mt-10">
               <Reveal>
                 <h3 className="text-xl font-bold text-gray-900 before:mb-2 before:block before:font-mono before:text-sm before:text-gray-500">
-                  Add your databases
+                  Experienced Team4
                 </h3>
                 <h4 className="mt-2 text-base text-gray-700">
-                  Use your own Notion databases or duplicate ours.
+                  Skilled professionals delivering exceptional roofing
+                  solutions.
                 </h4>
               </Reveal>
             </div>
@@ -70,10 +72,10 @@ const Whychoose = () => {
             <div className="ml-6 lg:ml-0 lg:mt-10">
               <Reveal>
                 <h3 className="text-xl font-bold text-gray-900 before:mb-2 before:block before:font-mono before:text-sm before:text-gray-500">
-                  Map your fields
+                  Quality
                 </h3>
                 <h4 className="mt-2 text-base text-gray-700">
-                  Map your Notion fields with Feather fields.
+                  Our quality ensures strong and perfect roofing for you.
                 </h4>
               </Reveal>
             </div>
@@ -101,12 +103,11 @@ const Whychoose = () => {
             </div>
             <div className="ml-6 lg:ml-0 lg:mt-10">
               <Reveal>
-
                 <h3 className="text-xl font-bold text-gray-900 before:mb-2 before:block before:font-mono before:text-sm before:text-gray-500">
-                  Choose your domain
+                  Best customer service
                 </h3>
                 <h4 className="mt-2 text-base text-gray-700">
-                  Choose a domain or a subdomain for your blog.
+                  We provide the best customer service with responsive support.
                 </h4>
               </Reveal>
             </div>
@@ -131,10 +132,10 @@ const Whychoose = () => {
             <div className="ml-6 lg:ml-0 lg:mt-10">
               <Reveal>
                 <h3 className="text-xl font-bold text-gray-900 before:mb-2 before:block before:font-mono before:text-sm before:text-gray-500">
-                  Get your blog
+                  Cost-effective
                 </h3>
                 <h4 className="mt-2 text-base text-gray-700">
-                  That's it. You will get back a professional blog.
+                  We provide affordable solutions while maintaining quality.
                 </h4>
               </Reveal>
             </div>

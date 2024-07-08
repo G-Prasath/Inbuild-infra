@@ -10,8 +10,7 @@ const Manufacturing = () => {
             Manufacturing Facilities
           </h2>
           <p className="max-w-3xl mx-auto mt-4 text-xl text-center">
-            Explore the latest features that enhance your learning experience
-            and make it even more exciting.
+          Inbuilt Infra has its own manufacturing facilities for framing work for the roofing and material storages.
           </p>
         </div>
         <div className="grid lg:gap-8 lg:grid-cols-2 lg:items-center">
@@ -42,12 +41,10 @@ const Manufacturing = () => {
                   </div>
                   <div className="ml-4">
                     <h4 className="text-lg font-medium leading">
-                      Advanced Learning Algorithms
+                    3 lakh sq.ft Capacity
                     </h4>
                     <p className="mt-2">
-                      Discover our improved learning algorithms that adapt to
-                      your preferences and provide even more personalized
-                      learning suggestions.
+                      In our manufacturing plant, we have the capacity to install approximately 3 lakh square feet of roofing per month.
                     </p>
                   </div>
                 </div>
@@ -77,11 +74,10 @@ const Manufacturing = () => {
                 </div>
                 <div className="ml-4">
                   <h4 className="text-lg font-medium leading">
-                    Interactive Learning Resources
+                  1 lakh sq.ft Tensile
                   </h4>
                   <p className="mt-2">
-                    Access an extensive library of interactive resources that
-                    make your learning journey engaging and interactive.
+                    We also have 1 lakh sq.ft capacity per month for tensile structure which is enough for a large scale structure.
                   </p>
                 </div>
               </div>
@@ -117,12 +113,10 @@ const Manufacturing = () => {
                 </div>
                 <div className="ml-4">
                   <h4 className="text-lg font-medium leading">
-                    Enhanced Video Streaming
+                  High-tech equipments
                   </h4>
                   <p className="mt-2">
-                    Experience seamless video integration with enhanced
-                    streaming capabilities, providing a better and more
-                    uninterrupted learning experience.
+                    Our strong infrastructure facility with highly robotic equipment enables us to achieve high-quality roofing for our customers.
                   </p>
                 </div>
               </div>
@@ -152,12 +146,10 @@ const Manufacturing = () => {
                 </div>
                 <div className="ml-4">
                   <h4 className="text-lg font-medium leading">
-                    Advanced Quiz Generation
+                  Well trained technicians
                   </h4>
                   <p className="mt-2">
-                    Take your knowledge testing to the next level with advanced
-                    quiz generation, providing more customization options for
-                    your quizzes.
+                    We have a team of well-trained and highly experienced technicians who specialize in constructing roofing structures with proficiency.
                   </p>
                 </div>
               </div>

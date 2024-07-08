@@ -15,9 +15,7 @@ const Productivity = () => {
                     </div>
                     <Reveal>
                         <p className="text-darken mb-3 text-xl font-medium lg:px-14 uppercase">Vision</p>
-                        <p className="px-4 text-gray-500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo iure inventore amet
-                            modi
-                            accusantium vero perspiciatis, incidunt dicta sed aspernatur!</p>
+                        <p className="px-4 text-gray-500">Our vision is to offer exceptional roofing services that prioritize safety, durability and customer satisfaction. We achieve this through innovation and sustainable roofing solutions.</p>
                     </Reveal>
                 </div>
                 <div className="rounded-xl bg-white p-6 text-center whychoose_shadow">
@@ -27,9 +25,7 @@ const Productivity = () => {
                     </div>
                     <Reveal>
                     <p className="text-darken mb-3 text-xl font-medium lg:px-14 uppercase">Mission</p>
-                    <p className="px-4 text-gray-500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo iure inventore amet
-                        modi
-                        accusantium vero perspiciatis, incidunt dicta sed aspernatur!</p>
+                    <p className="px-4 text-gray-500">Our Mission is to develop the roofing industry by introducing innovative approaches with new standards which exceed excellence and ensure client's trust.</p>
                         </Reveal>
                 </div>
                 <div className="rounded-xl bg-white p-6 text-center whychoose_shadow">
@@ -39,7 +35,7 @@ const Productivity = () => {
                     </div>
                     <Reveal>
                     <p className="text-darken mb-3 text-xl font-medium lg:px-14 uppercase">Quality</p>
-                    <p className="px-4 text-gray-500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo iure inventore amet modi accusantium vero perspiciatis, incidunt dicta sed aspernatur!</p>
+                    <p className="px-4 text-gray-500">Our company aim is to deliver superior quality through modern technique and a Consistency experts to fulfilling customer requirements in every roofing project. </p>
                     </Reveal>
                 </div>
             </div>
