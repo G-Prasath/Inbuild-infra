@@ -13,7 +13,7 @@ const WhyChoose = () => {
               <div className="flex justify-center">
                 <img src="https://image3.jdomni.in/banner/13062021/58/97/7C/E53960D1295621EFCB5B13F335_1623567851299.png?output-format=webp" className="w-28 mb-3" />
               </div>
-              <h2 className="title-font font-regular text-xl text-gray-900">2500+ Successful Projects</h2>
+              <h2 className="title-font font-regular text-xl text-gray-900">Successful Projects</h2>
             </div>
           </div>
 
@@ -22,7 +22,7 @@ const WhyChoose = () => {
               <div className="flex justify-center">
                 <img src="https://image2.jdomni.in/banner/13062021/3E/57/E8/1D6E23DD7E12571705CAC761E7_1623567977295.png?output-format=webp" className="w-28 mb-3" />
               </div>
-              <h2 className="title-font font-regular text-xl text-gray-900">100+ Team Members</h2>
+              <h2 className="title-font font-regular text-xl text-gray-900">Team Members</h2>
             </div>
           </div>
 
@@ -31,7 +31,7 @@ const WhyChoose = () => {
               <div className="flex justify-center">
                 <img src="https://image3.jdomni.in/banner/13062021/16/7E/7E/5A9920439E52EF309F27B43EEB_1623568010437.png?output-format=webp" className="w-28 mb-3" />
               </div>
-              <h2 className="title-font font-regular text-xl text-gray-900">15+ Years Experience</h2>
+              <h2 className="title-font font-regular text-xl text-gray-900">Years Experience</h2>
             </div>
           </div>
 

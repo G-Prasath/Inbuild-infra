@@ -19,15 +19,12 @@ const Profile = () => {
               <Reveal>
               <div className="w-20 h-1 bg-zinc-800 my-4"></div>
               <p className="text-zinc-600 my-2 text-justify sm:leading-[25px]">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Recusandae maiores neque eaque ea odit placeat, tenetur illum
-                distinctio nulla voluptatum a corrupti beatae tempora aperiam
-                quia id aliquam possimus aut.
+                Inbuilt Infra is the leading provider of tensile roofing in Chennai. We expertise in tensile structures and fabric roofs. We create stunning tensile membrane structures using high quality architectural fabric.
               </p>
               </Reveal>
               <Reveal>
               <p className="text-zinc-600 my-2 text-justify sm:leading-[25px] mb-10">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut laudantium qui quisquam odit quidem minus, consequatur, pariatur eum eos asperiores veniam beatae corrupti, cupiditate expedita aliquid? Magni, eos accusamus nemo voluptates qui ratione ducimus dolorum perferendis est molestiae eveniet consequatur eius dolores obcaecati nobis impedit consectetur dolor delectus deserunt aliquid quod sint atque, quisquam earum. Dolorem, reiciendis, ducimus ullam animi perferendis veritatis consectetur doloremque ab necessitatibus error consequatur! Quo dolores, reiciendis vero iste explicabo eius repellat officia sapiente voluptatum ut praesentium modi obcaecati nemo tenetur ab rem possimus facilis quasi, veritatis dolor ullam assumenda incidunt nobis! Dolorum aut fugiat nobis.
+                Our structural roofing services include designing and installing the tensile canopies, shade structures and lightweight structures that integrate seamlessly into modern architecture. Our form-found structures are crafted using high-tensile strength fabrics and fire-retardant fabrics that ensure safety and durability. We work with high-quality materials like ETFE and PTFE. Our structure design was inspired by Frei Otto, who is known as the father of tensile structure. Inbuilt Infra’s tensile roofing service includes car parking shed, stadium roofs, event venues, airports, sport complexes, public spaces, shopping centers, temporary structures, pool enclosures and front of commercial buildings. Tensile roof is a cable-supported roof delivering a unique aesthetic look for outdoors. Our quick installation processes are complemented by detailed tensile stress analysis and advanced form finding techniques. We have a management team with expertise in supervision and guidance, which encourages a culture of team building.
               </p>
               </Reveal>
               

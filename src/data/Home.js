@@ -78,16 +78,16 @@ export const serviceCard = [
 
 export const faqData = [
     {
-       question : "What could possibly be your first question?" ,
-       answer : "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione. Lorem ipsum, dolor sit amet consectetur adipisicing elit."
+       question : "What is tensile fabric?" ,
+       answer : "Tensile fabric is a type of material used in architecture and construction for creating lightweight and durable structures. The tensile structure gives a beautiful appearance for the outdoors."
     },
     {
-        question : "What could possibly be your first question?" ,
-        answer : "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione. Lorem ipsum, dolor sit amet consectetur adipisicing elit."
+        question : "Lifespan of tensile fabric?" ,
+        answer : "Tensile fabric has a lifespan ranging from a minimum of 10 years to a maximum of 40 years, it totally depends on the cost and quality of the fabric you choose."
      },
      {
-        question : "What could possibly be your first question?" ,
-        answer : "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione. Lorem ipsum, dolor sit amet consectetur adipisicing elit."
+        question : "How many years warranty does Inbuilt Infra give?" ,
+        answer : "Inbuilt Infra offers up to a 15-year warranty on our tensile structures and tensile roofing. You can trust in the reliability and performance of our products for many years to come."
      },
 
 ]
