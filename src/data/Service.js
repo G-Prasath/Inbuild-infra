@@ -1,7 +1,7 @@
 export const tensileData = {
     // Banner
     banner: {
-        img: "/Banners/homeBanner_3.avif",
+        img: "/Services/tensile/tensileBanner.jpg",
         text: "Tensile"
     },
 
@@ -124,6 +124,175 @@ export const tensileData = {
         {
             question: "How many years warranty does Inbuilt Infra give?",
             answer: "Inbuilt Infra offers up to a 15-year warranty on our tensile structures and tensile roofing. You can trust in the reliability and performance of our products for many years to come."
+        },
+        
+    ],
+
+    // Gallery
+    gallery: [
+        "Services/tensile/tensile_gallery_01.jpg",
+        "Services/tensile/tensile_gallery_02.jpg",
+        "Services/tensile/tensile_gallery_03.jpg",
+        "Services/tensile/tensile_gallery_04.jpg",
+        "Services/tensile/tensile_gallery_05.jpg",
+        "Services/tensile/tensile_gallery_06.jpg"
+    ],
+
+    //testimonials
+    testimonials: [
+        {
+            img:'https://dummyimage.com/106x106',
+            para: "Synth chartreuse iPhone lomo cray raw denim brunch everyday carry neutra before they sold out fixie 90's microdosing. Tacos pinterest fanny pack venmo, post-ironic heirloom try-hard pabst authentic iceland.",
+            title: "Holden Caulfield",
+            role:"UI DEVELOPER"
+        },
+        {
+            img:'https://dummyimage.com/106x106',
+            para: "Synth chartreuse iPhone lomo cray raw denim brunch everyday carry neutra before they sold out fixie 90's microdosing. Tacos pinterest fanny pack venmo, post-ironic heirloom try-hard pabst authentic iceland.",
+            title: "Holden Caulfield",
+            role:"UI DEVELOPER"
+        },
+        {
+            img:'https://dummyimage.com/106x106',
+            para: "Synth chartreuse iPhone lomo cray raw denim brunch everyday carry neutra before they sold out fixie 90's microdosing. Tacos pinterest fanny pack venmo, post-ironic heirloom try-hard pabst authentic iceland.",
+            title: "Holden Caulfield",
+            role:"UI DEVELOPER"
+        }
+    ],
+
+};
+
+
+export const polyData = {
+    // Banner
+    banner: {
+        img: "/Banners/homeBanner_3.avif",
+        text: "Tensile"
+    },
+
+    //Profile
+    profile: {
+        heading: "Polycarbonate",
+        img: "/Services/tensile/tensile_profile.jpg",
+        paragraphs: [
+            "Inbuilt Infra is the leading provider of Polycarbonate roofing in Chennai. Our Polycarbonate roofing service is perfect for a variety of residential and commercial applications which provides aesthetic appeal.",
+            "The main advantage of polycarbonate roofing is its transparent nature, which allows natural light to pass through. These polycarbonate roof lifespan lasts for 10-20 years, it might be even longer with the proper maintenance. Polycarbonate roofing sheets are typically made of plastic or synthetic materials that creates an appealing look for the roof space. Inbuilt Infra only uses high-quality polycarbonate roofs to ensure superior durability and excellent performance in all weather conditions. Our polycarbonate roofing services focus on car parking roofs, gazebos, walkways, balconies, terraces, cafes, restaurants, facades, porches, patios, etc. It will represent a cost-effective roofing solution that delivers exceptional value for your money. With its long lifespan and low maintenance, polycarbonate roofing is an investment that pays off for years to come. Inbuilt Infra is the ideal choice for those seeking high-quality polycarbonate roofing solutions with reasonable cost. Contact us for your roofing project and let our expert team provide you with the best polycarbonate roofing solutions based on your specific needs and preferences."
+        ]
+    },
+
+    //App
+    apps: [
+        {
+            title: "Car Parking",
+            img: "/Services/tensile/Carparking.jpg",
+            para: "Polycarbonate is a very strong and impact-resistant material. These polycarbonate roofing will protect vehicles from extreme weather and sun damage to your car's paint."
+        },
+        {
+            title: " Gazebos",
+            img: "/Services/tensile/Autitorium.jpg",
+            para: "Gazebos with polycarbonate roofs offer excellent weather resistance and sun protection. These polycarbonate roofs will transform your gazebo into a stylish structure."
+        },
+        {
+            title: "Walkways",
+            img: "/Services/tensile/swimming_pool.jpg",
+            para: "Walkways are enhanced by polycarbonate as a roofing material. The UV protection keeps the elements away while ensuring your walkway stays looking good for years to come."
+        },
+        {
+            title: "Balconies",
+            para: "A balcony with a polycarbonate roof is a great way to expand your usable outdoor space. This means you can enjoy your balcony year-round regardless of the weather peacefully.",
+            img: "/Services/tensile/restaurants.jpg"
+        },
+        {
+            title: "OTS Covering",
+            para: "Polycarbonate roofing sheets allow natural light to pass through the OTS of a building, lighting up the area below the open structure and reducing the need for artificial lighting.",
+            img: "/Services/tensile/Sitout.jpg"
+        },
+
+        {
+            title: "Terraces",
+            para: "Polycarbonate roofs have insulation properties that help to regulate temperature. This can keep you more comfortable and contributes to a more enjoyable outdoor experience.",
+            img: "/Services/tensile/Food_Courd.jpg"
+        },
+        {
+            title: "Cafes",
+            para: "Imagine a cafe with a transparent roof. Polycarbonate roofing can be a great choice for that transparency. This can make the space feel more inviting and improve customer experience.",
+            img: "/Services/tensile/Kidsplay_area.jpg"
+        },
+        {
+            title: "Restaurants",
+            para: "In Restaurant, Polycarbonate roofings allow natural sunlight to filter in which creates a bright atmosphere in your outdoor dining area. This can make the space feel more inviting for customers.",
+            img: "/Services/tensile/Carparking.jpg"
+        },
+        {
+            title: "Facade",
+            para: "The facade is the face of the building structure that creates a good appearance. Polycarbonate offers a compelling combination of benefits to make it a versatile facade.",
+            img: "/Services/tensile/Carparking.jpg"
+        },
+        {
+            title: "Porch",
+            para: "A practical and versatile solution for your porch can be found in polycarbonate roofing. Consider your specific needs to determine if it's the right choice for your project",
+            img: "/Services/tensile/Carparking.jpg"
+        },
+        {
+            title: "Patio",
+            para: "Polycarbonate roofing can be a wonderful addition to your house's patio. This transparent roofing transforms it into a more enjoyable and functional space for your family.",
+            img: "/Services/tensile/Carparking.jpg"
+        },
+        {
+            title: "Swimming Pools",
+            para: "Polycarbonate sheets allow sunlight to pass through, keeping the pool enclosure bright and airy. You can enjoy the warmth of the sun while being protected from harmful UV rays.",
+            img: "/Services/tensile/Carparking.jpg"
+        },
+
+    ],
+
+    //Benifites
+    benefits: [
+        {
+            img: "https://www.svgrepo.com/show/530438/ddos-protection.svg",
+            title: "Light transmission",
+            para: "Polycarbonate roofing is well known for its natural light transmission. It creates a pleasant ambiance and reduces artificial lighting."
+        },
+        {
+            img: "https://www.svgrepo.com/show/530442/port-detection.svg",
+            title: "UV protection",
+            para: "UV protection is one of the major aspects of polycarbonate Roofing. It minimize the indoor temperature and improve comforts"
+        },
+        {
+            img: "https://www.svgrepo.com/show/530444/availability.svg",
+            title: "Lightweight",
+            para: "The nature of polycarbonate roofing is very lightweight making it easier for customization and simple to maintain."
+        },
+        {
+            img: "https://www.svgrepo.com/show/530440/machine-vision.svg",
+            title: "Impact resistant",
+            para: "Polycarbonate roofing has high impact resistance that ensures safety and reduces risks from all weather conditions."
+        },
+        {
+            img: "https://www.svgrepo.com/show/530450/page-analysis.svg",
+            title: "Heat insulation",
+            para: "Polycarbonate roofing offers effective heat insulation which reduces interior temperatures and lowers energy usage."
+        },
+        {
+            img: "https://www.svgrepo.com/show/530453/mail-reception.svg",
+            title: "Durability",
+            para: "The durability of the polycarbonate roofing ensures its sturdy, enduring and suitable for all environmental conditions."
+        },
+    ],
+
+    // FAQ
+    faq: [
+        {
+            question: "Which company provides polycarbonate roofing in Chennai?",
+            answer: "There are many roofing companies, but compared to others Inbuilt infra is the leading and best polycarbonate roofing provider in Chennai."
+        },
+        {
+            question: "Cost of Polycarbonate sheet?",
+            answer: "The price of polycarbonate sheets varies by the thickness and material. Approximately 35 INR and above, it is fully based on the dealer and quality."
+        },
+        {
+            question: "Lifespan of Polycarbonate sheet?",
+            answer: "The average lifespan of Polycarbonate sheet is minimum 10 years and maximum 20 years. It might increase if it is well maintained."
         },
         
     ],
