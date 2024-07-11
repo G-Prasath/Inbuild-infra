@@ -4,7 +4,7 @@ export const NAV_LINKS = [
     { 
       label: 'Service', href: '/', subMenu: [
         { label: 'Tensile', href: '/tensile' },
-        { label: 'Poly', href: '/' },
+        { label: 'Poly', href: '/poly' },
         { label: 'Shingle', href: '/' },
         { label: 'RetrableRoof', href: '/' },
         { label: 'GalssRoof', href: '/' },

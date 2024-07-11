@@ -24,7 +24,7 @@ export const tensileData = {
         },
         {
             title: "Auditorium",
-            img: "/Services/tensile/Autitorium.jpg",
+            img: "/Services/tensile/auditorium.jpg",
             para: "Tensile roofing makes the auditorium more aesthetic and elegant to the audience. Tensile provides larger open spaces without obstructive columns, natural lighting and energy efficiency."
         },
         {
@@ -52,27 +52,27 @@ export const tensileData = {
         {
             title: "Stadiums",
             para: "Tensile structures are becoming increasingly popular for stadium roofs due to several advantages. This roof system uses a strong, flexible fabric stretched over a lightweight framework of cables.",
-            img: "/Services/tensile/Food_Courd.jpg"
+            img: "/Services/tensile/stadium.jpg"
         },
         {
             title: "Shopping Malls",
             para: "Tensile structures are a popular design choice for shopping malls. Malls can use tensile structures to create temporary venues for events like concerts and markets attracting more visitors.",
-            img: "/Services/tensile/Kidsplay_area.jpg"
+            // img: "/Services/tensile/Kidsplay_area.jpg"
         },
         {
             title: "Walkways",
             para: "Tensile walkways are a fantastic way to add both form and function to walkways. It comes in a variety of shapes, sizes and colours which allows for creative and visually striking designs",
-            img: "/Services/tensile/Carparking.jpg"
+            img: "/Services/tensile/walkway.jpg"
         },
         {
             title: "Cafes",
             para: "Tensile structures can be a perfect way to elevate the look and feel of your cafe. Expand your seating area by creating comfortable and inviting outdoor dining spaces  to serve more customers.",
-            img: "/Services/tensile/Carparking.jpg"
+            img: "/Services/tensile/Cafes.jpg"
         },
         {
             title: "Gardens",
             para: "Tensile structures can provide much-needed shade in sunny areas of your garden. It allows you to create comfortable seating areas, play areas for children and for relaxation.",
-            img: "/Services/tensile/Carparking.jpg"
+            img: "/Services/tensile/Gardens.jpg"
         }
 
     ],
@@ -166,14 +166,14 @@ export const tensileData = {
 export const polyData = {
     // Banner
     banner: {
-        img: "/Banners/homeBanner_3.avif",
-        text: "Tensile"
+        img: "/Services/poly/polyBanner.jpg",
+        text: "Polycarbonate"
     },
 
     //Profile
     profile: {
         heading: "Polycarbonate",
-        img: "/Services/tensile/tensile_profile.jpg",
+        img: "/Services/poly/poly_profile.jpg",
         paragraphs: [
             "Inbuilt Infra is the leading provider of Polycarbonate roofing in Chennai. Our Polycarbonate roofing service is perfect for a variety of residential and commercial applications which provides aesthetic appeal.",
             "The main advantage of polycarbonate roofing is its transparent nature, which allows natural light to pass through. These polycarbonate roof lifespan lasts for 10-20 years, it might be even longer with the proper maintenance. Polycarbonate roofing sheets are typically made of plastic or synthetic materials that creates an appealing look for the roof space. Inbuilt Infra only uses high-quality polycarbonate roofs to ensure superior durability and excellent performance in all weather conditions. Our polycarbonate roofing services focus on car parking roofs, gazebos, walkways, balconies, terraces, cafes, restaurants, facades, porches, patios, etc. It will represent a cost-effective roofing solution that delivers exceptional value for your money. With its long lifespan and low maintenance, polycarbonate roofing is an investment that pays off for years to come. Inbuilt Infra is the ideal choice for those seeking high-quality polycarbonate roofing solutions with reasonable cost. Contact us for your roofing project and let our expert team provide you with the best polycarbonate roofing solutions based on your specific needs and preferences."
@@ -184,64 +184,64 @@ export const polyData = {
     apps: [
         {
             title: "Car Parking",
-            img: "/Services/tensile/Carparking.jpg",
+            img: "/Services/poly/Parking.jpg",
             para: "Polycarbonate is a very strong and impact-resistant material. These polycarbonate roofing will protect vehicles from extreme weather and sun damage to your car's paint."
         },
         {
             title: " Gazebos",
-            img: "/Services/tensile/Autitorium.jpg",
+            img: "/Services/poly/Gazebos.jpg",
             para: "Gazebos with polycarbonate roofs offer excellent weather resistance and sun protection. These polycarbonate roofs will transform your gazebo into a stylish structure."
         },
         {
             title: "Walkways",
-            img: "/Services/tensile/swimming_pool.jpg",
+            img: "/Services/poly/Walkway.jpg",
             para: "Walkways are enhanced by polycarbonate as a roofing material. The UV protection keeps the elements away while ensuring your walkway stays looking good for years to come."
         },
         {
             title: "Balconies",
             para: "A balcony with a polycarbonate roof is a great way to expand your usable outdoor space. This means you can enjoy your balcony year-round regardless of the weather peacefully.",
-            img: "/Services/tensile/restaurants.jpg"
+            img: "/Services/poly/balconies.jpg"
         },
         {
             title: "OTS Covering",
             para: "Polycarbonate roofing sheets allow natural light to pass through the OTS of a building, lighting up the area below the open structure and reducing the need for artificial lighting.",
-            img: "/Services/tensile/Sitout.jpg"
+            img: "/Services/poly/OTS_Covering.jpg"
         },
 
         {
             title: "Terraces",
             para: "Polycarbonate roofs have insulation properties that help to regulate temperature. This can keep you more comfortable and contributes to a more enjoyable outdoor experience.",
-            img: "/Services/tensile/Food_Courd.jpg"
+            img: "/Services/poly/Terrace.jpg"
         },
         {
             title: "Cafes",
             para: "Imagine a cafe with a transparent roof. Polycarbonate roofing can be a great choice for that transparency. This can make the space feel more inviting and improve customer experience.",
-            img: "/Services/tensile/Kidsplay_area.jpg"
+            img: "/Services/poly/cafe.jpg"
         },
         {
             title: "Restaurants",
             para: "In Restaurant, Polycarbonate roofings allow natural sunlight to filter in which creates a bright atmosphere in your outdoor dining area. This can make the space feel more inviting for customers.",
-            img: "/Services/tensile/Carparking.jpg"
+            img: "/Services/poly/Restaurents.jpg"
         },
         {
             title: "Facade",
             para: "The facade is the face of the building structure that creates a good appearance. Polycarbonate offers a compelling combination of benefits to make it a versatile facade.",
-            img: "/Services/tensile/Carparking.jpg"
+            img: "/Services/poly/Facade.jpg"
         },
         {
             title: "Porch",
             para: "A practical and versatile solution for your porch can be found in polycarbonate roofing. Consider your specific needs to determine if it's the right choice for your project",
-            img: "/Services/tensile/Carparking.jpg"
+            img: "/Services/poly/Porch.jpg"
         },
         {
             title: "Patio",
             para: "Polycarbonate roofing can be a wonderful addition to your house's patio. This transparent roofing transforms it into a more enjoyable and functional space for your family.",
-            img: "/Services/tensile/Carparking.jpg"
+            img: "/Services/poly/Patio.jpg"
         },
         {
             title: "Swimming Pools",
             para: "Polycarbonate sheets allow sunlight to pass through, keeping the pool enclosure bright and airy. You can enjoy the warmth of the sun while being protected from harmful UV rays.",
-            img: "/Services/tensile/Carparking.jpg"
+            img: "/Services/poly/swimming_pool.jpg"
         },
 
     ],
@@ -299,12 +299,12 @@ export const polyData = {
 
     // Gallery
     gallery: [
-        "Services/tensile/tensile_gallery_01.jpg",
-        "Services/tensile/tensile_gallery_02.jpg",
-        "Services/tensile/tensile_gallery_03.jpg",
-        "Services/tensile/tensile_gallery_04.jpg",
-        "Services/tensile/tensile_gallery_05.jpg",
-        "Services/tensile/tensile_gallery_06.jpg"
+        "Services/poly/poly_gallery_01.jpg",
+        "Services/poly/poly_gallery_02.jpg",
+        "Services/poly/poly_gallery_03.jpg",
+        "Services/poly/poly_gallery_04.jpg",
+        "Services/poly/poly_gallery_05.jpg",
+        "Services/poly/poly_gallery_06.jpg"
     ],
 
     //testimonials
