@@ -4,7 +4,7 @@ import './App.css';
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import { HelmetProvider } from "react-helmet-async";
 
-// import Navbar from "./components/Navbar";
+import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import ScrolltoTop from './components/common/ScrolltoTop';
 
@@ -34,7 +34,7 @@ const App = () => {
     <HelmetProvider>
       <Router basename="/">
         <ScrolltoTop />
-        {/* <Navbar /> */}
+        <Navbar />
         <React.Suspense fallback={<div />}>
           <Routes>
             <Route path="/" element={<Home />} />
