@@ -48,8 +48,8 @@ const App = () => {
             <Route path='/Puf' element={<Puf />} />
             <Route path='/Peb' element={<Peb />} />
             <Route path='/Facade' element={<Facade />} />
-
-
+            <Route path='/Reactrable' element={<Reactrable />} />
+            <Route path='/Manglore' element={<Manglore />} />
 
             <Route path="/blog" element={<Blog />} />
             <Route path="/contact" element={<Contact />} />

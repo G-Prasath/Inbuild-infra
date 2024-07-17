@@ -1,3 +1,4 @@
+// Tensile Data
 export const tensileData = {
     // Banner
     banner: {
@@ -111,6 +112,23 @@ export const tensileData = {
         },
     ],
 
+    //WhyChoose
+    whychoose: [
+        {
+            title: "Durability",
+            text: "The major advantage of our tensile structure is safety, ensuring a strong and secure installation."
+        },
+        {
+            title: "Lightweight",
+            text: "We offer lightweight tensile structures that provide easy installation and cost-effectiveness."
+        },
+        {
+            title: "Custom Design",
+            text: "Our custom tensile structures are uniquely designed to meet your aesthetic roofing requirements."
+        },
+
+    ],
+
     // FAQ
     faq: [
         {
@@ -125,7 +143,7 @@ export const tensileData = {
             question: "How many years warranty does Inbuilt Infra give?",
             answer: "Inbuilt Infra offers up to a 15-year warranty on our tensile structures and tensile roofing. You can trust in the reliability and performance of our products for many years to come."
         },
-        
+
     ],
 
     // Gallery
@@ -141,28 +159,28 @@ export const tensileData = {
     //testimonials
     testimonials: [
         {
-            img:'https://dummyimage.com/106x106',
+            img: 'https://dummyimage.com/106x106',
             para: "Synth chartreuse iPhone lomo cray raw denim brunch everyday carry neutra before they sold out fixie 90's microdosing. Tacos pinterest fanny pack venmo, post-ironic heirloom try-hard pabst authentic iceland.",
             title: "Holden Caulfield",
-            role:"UI DEVELOPER"
+            role: "UI DEVELOPER"
         },
         {
-            img:'https://dummyimage.com/106x106',
+            img: 'https://dummyimage.com/106x106',
             para: "Synth chartreuse iPhone lomo cray raw denim brunch everyday carry neutra before they sold out fixie 90's microdosing. Tacos pinterest fanny pack venmo, post-ironic heirloom try-hard pabst authentic iceland.",
             title: "Holden Caulfield",
-            role:"UI DEVELOPER"
+            role: "UI DEVELOPER"
         },
         {
-            img:'https://dummyimage.com/106x106',
+            img: 'https://dummyimage.com/106x106',
             para: "Synth chartreuse iPhone lomo cray raw denim brunch everyday carry neutra before they sold out fixie 90's microdosing. Tacos pinterest fanny pack venmo, post-ironic heirloom try-hard pabst authentic iceland.",
             title: "Holden Caulfield",
-            role:"UI DEVELOPER"
+            role: "UI DEVELOPER"
         }
     ],
 
 };
 
-
+// Poly Data
 export const polyData = {
     // Banner
     banner: {
@@ -280,6 +298,23 @@ export const polyData = {
         },
     ],
 
+    //WhyChoose
+    whychoose: [
+        {
+            title: "Quality",
+            text: "Inbuilt Infra uses best and high quality and durable polycarbonate sheet material for the roofing."
+        },
+        {
+            title: "On-time",
+            text: "We ensure that every project is completed on time and meet our client’s deadlines without compromise."
+        },
+        {
+            title: "Cost-effective",
+            text: "We provide cost-effective polycarbonate roofing, ensuring value while staying within your budget."
+        },
+
+    ],
+
     // FAQ
     faq: [
         {
@@ -294,7 +329,7 @@ export const polyData = {
             question: "Lifespan of Polycarbonate sheet?",
             answer: "The average lifespan of Polycarbonate sheet is minimum 10 years and maximum 20 years. It might increase if it is well maintained."
         },
-        
+
     ],
 
     // Gallery
@@ -310,24 +345,358 @@ export const polyData = {
     //testimonials
     testimonials: [
         {
-            img:'https://dummyimage.com/106x106',
+            img: 'https://dummyimage.com/106x106',
             para: "Synth chartreuse iPhone lomo cray raw denim brunch everyday carry neutra before they sold out fixie 90's microdosing. Tacos pinterest fanny pack venmo, post-ironic heirloom try-hard pabst authentic iceland.",
             title: "Holden Caulfield",
-            role:"UI DEVELOPER"
+            role: "UI DEVELOPER"
         },
         {
-            img:'https://dummyimage.com/106x106',
+            img: 'https://dummyimage.com/106x106',
             para: "Synth chartreuse iPhone lomo cray raw denim brunch everyday carry neutra before they sold out fixie 90's microdosing. Tacos pinterest fanny pack venmo, post-ironic heirloom try-hard pabst authentic iceland.",
             title: "Holden Caulfield",
-            role:"UI DEVELOPER"
+            role: "UI DEVELOPER"
         },
         {
-            img:'https://dummyimage.com/106x106',
+            img: 'https://dummyimage.com/106x106',
             para: "Synth chartreuse iPhone lomo cray raw denim brunch everyday carry neutra before they sold out fixie 90's microdosing. Tacos pinterest fanny pack venmo, post-ironic heirloom try-hard pabst authentic iceland.",
             title: "Holden Caulfield",
-            role:"UI DEVELOPER"
+            role: "UI DEVELOPER"
         }
     ],
 
 };
+
+// Shingles
+export const pufpanelData = {
+    // Banner
+    banner: {
+        img: "/Services/poly/polyBanner.jpg",
+        text: "PUF Panel Roofing"
+    },
+
+    //Profile
+    profile: {
+        heading: "PUF Panel Roofing",
+        img: "/Services/poly/poly_profile.jpg",
+        paragraphs: [
+            "Inbuilt Infra is the best PUF Panel roofing contractor in Chennai. We are experts in installing the PUF panels for industrial roofing, commercial and residential roofing. This PUF panel roof is also known as Insulated roof panel or sandwich panel.",
+            "PUF panel roofs offer superior insulation compared to traditional roofing materials. This can significantly reduce your heating and cooling costs by keeping the interior temperature stable. We are dedicated to deliver high-quality prefabricated roofing systems that ensure thermal efficiency and durability. The major applications of PUF panel roofs are Terrace, Canteen, Auditorium, Lab, Cold storage, Office area, Room setup, Balconies, Restaurants and Gym. We have different thickness options for PUF panel roofs to meet various needs, ensuring they perform well and satisfy our customers. As a leading supplier of PUF panel roofs, we are dedicated to providing high-quality PUF panels that meet the highest standards. We manage every project from its initial planning stages through to execution ensuring timely and efficient completion. Trust Inbuilt Infra for all your roofing needs and experience unmatched quality and service in the industry. Contact us for your PUF panel roofing project, whether it is residential, commercial or Industrial."
+        ]
+    },
+
+    //App
+    apps: [
+        {
+            title: "Terrace",
+            img: "/Services/poly/Parking.jpg",
+            para: "The PUF panel roofing is a fantastic insulator for your terrace compared to others. This is the best option for keeping your terrace cooler in hot weather and warmer in cold weather."
+        },
+        {
+            title: "Canteen",
+            img: "/Services/poly/Gazebos.jpg",
+            para: "PUF panel roofs can achieve a canteen that's both visually appealing and practical, with the excellent insulation, cleanability and fast construction benefits that PUF panels offer."
+        },
+        {
+            title: "Auditorium",
+            img: "/Services/poly/Walkway.jpg",
+            para: "PUF panels are superior in thermal insulation which reduces indoor temperature and offers a comfortable environment. PUF panel are the best option for both indoor and outdoor."
+        },
+        {
+            title: "Lab",
+            para: "PUF panels create a smooth, easy-to-clean surface, minimizing the presence of harmful substances often found in labs. This is especially beneficial for biological or chemical research.",
+            img: "/Services/poly/balconies.jpg"
+        },
+        {
+            title: "Office area",
+            para: "A quicker construction of office areas or creating temporary workspaces. PUF panels can be easily rearranged or removed if needed, offering flexibility for future layout changes.",
+            img: "/Services/poly/OTS_Covering.jpg"
+        },
+
+        {
+            title: "Room setup",
+            para: "PUF panels are an excellent choice for balcony roofs, particularly when you are prioritizing thermal insulation, transparent and reducing overall weight.",
+            img: "/Services/poly/Terrace.jpg"
+        },
+        {
+            title: "Restaurants",
+            para: "PUF panel roofs offer some soundproofing properties, which can be helpful in busy restaurants to control noise from outside or kitchen operations.",
+            img: "/Services/poly/cafe.jpg"
+        },
+        {
+            title: "Gym",
+            para: "PUF panel roofs offer good insulation for gyms, enhance comfort for gym users and lead to significant savings on energy bills by reducing the need for excessive heating and cooling.",
+            img: "/Services/poly/Restaurents.jpg"
+        },
+    ],
+
+    //Benifites
+    benefits: [
+        {
+            img: "https://www.svgrepo.com/show/530438/ddos-protection.svg",
+            title: "Fast Installation",
+            para: "PUF panels are pre-cut and ready to assemble, allowing for on-site roof construction. This saves valuable time during construction."
+        },
+        {
+            img: "https://www.svgrepo.com/show/530442/port-detection.svg",
+            title: "Sound Control",
+            para: "PUF panels contain a closed-cell foam core. Air pockets within these cells can trap some sound waves and reduce the overall noise."
+        },
+        {
+            img: "https://www.svgrepo.com/show/530444/availability.svg",
+            title: "Heat reduction",
+            para: "PUF panels are closed-cell foam that acts as a barrier that significantly reduces heat transfer.  Imagine it like a thermal shield."
+        },
+        {
+            img: "https://www.svgrepo.com/show/530440/machine-vision.svg",
+            title: "Versatility",
+            para: "PUF panels are versatile and not limited to roofing. These panels can also be used for walls, ceilings and cold storage units."
+        },
+        {
+            img: "https://www.svgrepo.com/show/530450/page-analysis.svg",
+            title: "Cost-Effective",
+            para: "PUF panel’s durability, energy savings and low maintenance needs can translate to cost savings over the lifespan of the building."
+        },
+        {
+            img: "https://www.svgrepo.com/show/530453/mail-reception.svg",
+            title: "Longevity",
+            para: "PUF panels are low-maintenance and long-lasting. It needs only occasional inspections and cleaning to remove debris."
+        },
+    ],
+
+    //WhyChoose
+    whychoose: [
+        {
+            heading: "Why choose Inbuilt Infra for PUF Panel Roofing"
+        },
+        {
+            title: "Quality",
+            text: "Inbuilt Infra offers high quality and customized PUF panels for our customers."
+        },
+        {
+            title: "Low cost",
+            text: "We offer thick-layered PUF panels at competitive prices that ensure affordability."
+        },
+        {
+            title: "Completion",
+            text: "We are committed to delivering results on schedule without compromising on quality."
+        },
+
+    ],
+
+    // FAQ
+    faq: [
+        {
+            question: "What are PUF panels?",
+            answer: "PUF panels are also known as Polyurethane Foam panels. They are prefabricated building components, which is a sandwich-like structure between two metal sheets."
+        },
+        {
+            question: "Lifespan of PUF Panels?",
+            answer: "The average lifespan of PUF panels is between 25 to 40 years, but it can be extended based on the maintenance by building owners."
+        },
+        {
+            question: "PUF panel vs Sandwich panel?",
+            answer: "PUF panels and sandwich panels both are the same. They consist of two outer layers with an insulating core in between."
+        },
+
+    ],
+
+    // Gallery
+    gallery: [
+        "Services/poly/poly_gallery_01.jpg",
+        "Services/poly/poly_gallery_02.jpg",
+        "Services/poly/poly_gallery_03.jpg",
+        "Services/poly/poly_gallery_04.jpg",
+        "Services/poly/poly_gallery_05.jpg",
+        "Services/poly/poly_gallery_06.jpg"
+    ],
+
+    //testimonials
+    testimonials: [
+        {
+            img: 'https://dummyimage.com/106x106',
+            para: "Synth chartreuse iPhone lomo cray raw denim brunch everyday carry neutra before they sold out fixie 90's microdosing. Tacos pinterest fanny pack venmo, post-ironic heirloom try-hard pabst authentic iceland.",
+            title: "Holden Caulfield",
+            role: "UI DEVELOPER"
+        },
+        {
+            img: 'https://dummyimage.com/106x106',
+            para: "Synth chartreuse iPhone lomo cray raw denim brunch everyday carry neutra before they sold out fixie 90's microdosing. Tacos pinterest fanny pack venmo, post-ironic heirloom try-hard pabst authentic iceland.",
+            title: "Holden Caulfield",
+            role: "UI DEVELOPER"
+        },
+        {
+            img: 'https://dummyimage.com/106x106',
+            para: "Synth chartreuse iPhone lomo cray raw denim brunch everyday carry neutra before they sold out fixie 90's microdosing. Tacos pinterest fanny pack venmo, post-ironic heirloom try-hard pabst authentic iceland.",
+            title: "Holden Caulfield",
+            role: "UI DEVELOPER"
+        }
+    ],
+
+};
+
+// glassroof
+export const glassroofData = {
+    // Banner
+    banner: {
+        img: "/Services/poly/polyBanner.jpg",
+        text: "Glass Roofing"
+    },
+
+    //Profile
+    profile: {
+        heading: "Glass Roofing",
+        img: "/Services/poly/poly_profile.jpg",
+        paragraphs: [
+            "Inbuilt Infra offers the most advanced roofing, known as Glass Roofing. This Glass roof is a transparent roof which allows the rooflight or skylight into the space. This Glass roof creates a bright and inviting atmosphere.",
+            "Glass roof extensions can add a final touch to an existing structure, while a glass roof patio or terrace creates a luxurious outdoor living area. The average lifespan of this glass roof is 10 to 15 years, but it may extend with proper maintenance. Glass panels for roofs can be constructed from laminated glass or tempered glass, this  offers superior strength and safety. The application of the glass panel roof are Hotels, Resorts, Atriums, Skylights, Restaurants, Cafes, Aquariums, Balcony and Gardens. Insulated glass roofs provide excellent thermal performance, this can keep your space cool in the summer and warm in the winter. The main advantage of a glass roof is its energy-efficient and sustainable design, which makes the roof a modern roofing. Glass roofs are highly versatile and integrate with a wide range of architectural styles, enhancing the aesthetic appeal and functionality of any building. Whether you're considering a glass roof installation for a new build or a glass roof replacement project, contact Inbuilt Infra. We can guide you through the selection process that ensures you to choose the right type of Glass roof installation for your specific needs."
+        ]
+    },
+
+    //App
+    apps: [
+        {
+            title: "Hotels",
+            img: "/Services/poly/Parking.jpg",
+            para: "Glass roofs allow natural light into the hotel, which can create a more spacious and inviting atmosphere for visitors. This can be beneficial in areas with limited natural light, such as lobbies or atriums."
+        },
+        {
+            title: "Resorts",
+            img: "/Services/poly/Gazebos.jpg",
+            para: "Glass roofs allow guests to enjoy panoramic views of the surrounding landscape. whether it's a majestic mountain range, sparkling oceanfront or lush tropical greenery."
+        },
+        {
+            title: "Atriums",
+            img: "/Services/poly/Walkway.jpg",
+            para: "Glass roofs are commonly used in atriums, particularly those that include landscaping or open spaces. It enhances the connection between indoor spaces and nature."
+        },
+        {
+            title: "Restaurants",
+            para: "Glass roofs have become increasingly popular in restaurants, offering a unique dining experience with several advantages but also requiring some practical considerations.",
+            img: "/Services/poly/balconies.jpg"
+        },
+        {
+            title: "Cafes",
+            para: "Glass roofs are a trendy design element for cafes. These glass roofs offer a charming and inviting atmosphere for the customers and visitors of your cafe.",
+            img: "/Services/poly/OTS_Covering.jpg"
+        },
+
+        {
+            title: "Aquariums",
+            para: "Glass roofing offers several advantages for aquariums, enhancing the viewing experience for visitors and providing a healthier habitat for aquatic life.",
+            img: "/Services/poly/Terrace.jpg"
+        },
+        {
+            title: "Balcony",
+            para: "The glass roof allows natural light to flood your balcony and potentially even adjacent rooms. This can be especially beneficial in areas with limited natural light.",
+            img: "/Services/poly/cafe.jpg"
+        },
+        {
+            title: "Gardens",
+            para: "Glass roof can create a bright and airy atmosphere in your garden. It can introduce a touch of elegance, beauty, sophistication, and a seamless connection to the outdoors.",
+            img: "/Services/poly/Restaurents.jpg"
+        },
+    ],
+
+    //Benifites
+    benefits: [
+        {
+            img: "https://www.svgrepo.com/show/530438/ddos-protection.svg",
+            title: "Transparent",
+            para: "The transparency of glass roofing is a key advantage that can transform a space with natural light and a connection to outdoors."
+        },
+        {
+            img: "https://www.svgrepo.com/show/530442/port-detection.svg",
+            title: "Modern Architecture",
+            para: "The transparency and design with advancements in technology, glass roofs have become a defining feature of modern architecture."
+        },
+        {
+            img: "https://www.svgrepo.com/show/530444/availability.svg",
+            title: "Low Maintenance",
+            para: "Glass roofs are undoubtedly low-maintenance compared to many other roofing options. They require less frequent cleaning."
+        },
+        {
+            img: "https://www.svgrepo.com/show/530440/machine-vision.svg",
+            title: "Design",
+            para: "Glass roofs are a powerful design tool that can elevate the aesthetics and functionality of a building. It makes a visually stunning environment."
+        },
+        {
+            img: "https://www.svgrepo.com/show/530450/page-analysis.svg",
+            title: "UV protection",
+            para: "UV protection is one of the major aspects of glass roofing. It minimizes indoor temperatures even with the transparency of the building."
+        },
+        {
+            img: "https://www.svgrepo.com/show/530453/mail-reception.svg",
+            title: "Durability",
+            para: "By choosing high-quality materials and following proper maintenance practices, you can increase the durability of your glass roof."
+        },
+    ],
+
+    //WhyChoose
+    whychoose: [
+        {
+            title: "Quality",
+            text: "Inbuilt Infra offers high quality and customized PUF panels for our customers."
+        },
+        {
+            title: "Low cost",
+            text: "We offer thick-layered PUF panels at competitive prices that ensure affordability."
+        },
+        {
+            title: "Completion",
+            text: "We are committed to delivering results on schedule without compromising on quality."
+        },
+
+    ],
+
+    // FAQ
+    faq: [
+        {
+            question: "Can we walk on a glass roof?",
+            answer: "Yes, you can safely walk on a glass roof and also on a glass ceiling."
+        },
+        {
+            question: "What is a Glass roof?",
+            answer: "A glass roof is a roofing system constructed primarily from glass panels. It allows natural light to filter through, creating bright and airy spaces below."
+        },
+        {
+            question: "Cost of Glass roof?",
+            answer: "The cost of glass roof panels can vary depending on several factors, it includes Glass Type, Thickness, Size and Quantity. The cost of a glass roof starts from rupees 400."
+        },
+
+    ],
+
+    // Gallery
+    gallery: [
+        "Services/poly/poly_gallery_01.jpg",
+        "Services/poly/poly_gallery_02.jpg",
+        "Services/poly/poly_gallery_03.jpg",
+        "Services/poly/poly_gallery_04.jpg",
+        "Services/poly/poly_gallery_05.jpg",
+        "Services/poly/poly_gallery_06.jpg"
+    ],
+
+    //testimonials
+    testimonials: [
+        {
+            img: 'https://dummyimage.com/106x106',
+            para: "Synth chartreuse iPhone lomo cray raw denim brunch everyday carry neutra before they sold out fixie 90's microdosing. Tacos pinterest fanny pack venmo, post-ironic heirloom try-hard pabst authentic iceland.",
+            title: "Holden Caulfield",
+            role: "UI DEVELOPER"
+        },
+        {
+            img: 'https://dummyimage.com/106x106',
+            para: "Synth chartreuse iPhone lomo cray raw denim brunch everyday carry neutra before they sold out fixie 90's microdosing. Tacos pinterest fanny pack venmo, post-ironic heirloom try-hard pabst authentic iceland.",
+            title: "Holden Caulfield",
+            role: "UI DEVELOPER"
+        },
+        {
+            img: 'https://dummyimage.com/106x106',
+            para: "Synth chartreuse iPhone lomo cray raw denim brunch everyday carry neutra before they sold out fixie 90's microdosing. Tacos pinterest fanny pack venmo, post-ironic heirloom try-hard pabst authentic iceland.",
+            title: "Holden Caulfield",
+            role: "UI DEVELOPER"
+        }
+    ],
+
+};
+
 

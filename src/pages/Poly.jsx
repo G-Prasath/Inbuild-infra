@@ -8,6 +8,7 @@ import Gallery from '../components/Services/Gallery';
 import BannerBreadcrum from '../components/common/BannerBreadcrum'
 import Profile from '../components/Services/Profile'
 import Applications from '../components/Services/Applications'
+import WhyChoose from '../components/Services/WhyChoose'
 
 import { polyData as allDatas } from '../data/Service';
 
@@ -19,6 +20,7 @@ const Poly = () => {
       <Applications appData={allDatas.apps} />
       <DesignProcess />
       <Benifites benifitesData={allDatas.benefits} />
+      <WhyChoose datas={allDatas.whychoose} title="Polycarbonate roofing"/>
       <Faq faqData={allDatas.faq} />
       <Gallery galleryImg={allDatas.gallery} />
       <Testimonials testiData={allDatas.testimonials} />

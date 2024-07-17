@@ -12,6 +12,7 @@ import Gallery from '../components/Services/Gallery';
 import { tensileData as allDatas } from '../data/Service';
 import { Helmet } from 'react-helmet-async';
 import { TensilePageData as metaTags } from '../data/Metatag';
+import WhyChoose from '../components/Services/WhyChoose';
 
 
 const Tensile = () => {
@@ -30,6 +31,7 @@ const Tensile = () => {
       <Applications appData={allDatas.apps} />
       <DesignProcess />
       <Benifites benifitesData={allDatas.benefits} />
+      <WhyChoose datas={allDatas.whychoose} title="Tensile Structure"/>
       <Faq faqData={allDatas.faq} />
       <Gallery galleryImg={allDatas.gallery} />
       <Testimonials testiData={allDatas.testimonials} />
