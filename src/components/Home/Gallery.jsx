@@ -1,4 +1,5 @@
 import React from "react";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 import { Link } from "react-router-dom";
 
 const Gallery = () => {
@@ -27,7 +28,7 @@ const Gallery = () => {
               <div
                 className="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-80"
               >
-                <img
+                <LazyLoadImage
                   src="/Home/Gallery/Reactable_roofings.avif"
                   loading="lazy"
                   alt="Reactable Roofings"
@@ -46,7 +47,7 @@ const Gallery = () => {
               <div
                 className="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:col-span-2 md:h-80"
               >
-                <img
+                <LazyLoadImage
                   src="/Home/Gallery/swming_pool.avif"
                   loading="lazy"
                   alt="Swimming Pool"
@@ -65,7 +66,7 @@ const Gallery = () => {
               <div
                 className="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:col-span-2 md:h-80"
               >
-                <img
+                <LazyLoadImage
                   src="/Home/Gallery/gym.avif"
                   loading="lazy"
                   alt="Gym"
@@ -84,7 +85,7 @@ const Gallery = () => {
               <div
                 className="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-80"
               >
-                <img
+                <LazyLoadImage
                   src="/Home/Gallery/Sit_out.avif"
                   loading="lazy"
                   alt="Sit Out"
@@ -103,7 +104,7 @@ const Gallery = () => {
               <div
                 className="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-80"
               >
-                <img
+                <LazyLoadImage
                   src="/Home/Gallery/Tensile_walkway.avif"
                   loading="lazy"
                   alt="Tensile Walkway"
@@ -122,7 +123,7 @@ const Gallery = () => {
               <div
                 className="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:col-span-2 md:h-80"
               >
-                <img
+                <LazyLoadImage
                   src="/Home/Gallery/puff.avif"
                   loading="lazy"
                   alt="Photo by Magicle"

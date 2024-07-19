@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import PrimaryBtn from "../common/PrimaryBtn"
 import { Reveal } from "../../hooks/Reveal";
 import FunFact from "../common/FunFact";
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 
 const About = () => {
@@ -49,7 +50,7 @@ const About = () => {
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.8 }}
         >
-          <img
+          <LazyLoadImage
             src="/About/HomeAbout.avif"
             alt="Building"
             className="w-full h-full"

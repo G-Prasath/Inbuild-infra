@@ -11,8 +11,8 @@ import ScrolltoTop from './components/common/ScrolltoTop';
 import Home from './pages/Home';
 import About from './pages/About';
 import Contact from './pages/Contact';
-import Blog from './pages/Blog';
 import Projects from './pages/Projects';
+import Careers from './pages/Careers';
 import NotFound from './pages/NotFound';
 
 import Tensile from './pages/Tensile';
@@ -51,7 +51,7 @@ const App = () => {
             <Route path='/Reactrable' element={<Reactrable />} />
             <Route path='/Manglore' element={<Manglore />} />
 
-            <Route path="/blog" element={<Blog />} />
+            <Route path="/careers" element={<Careers/>} />
             <Route path="/contact" element={<Contact />} />
             <Route path="*" element={<NotFound />} />
           </Routes>

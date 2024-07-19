@@ -21,7 +21,7 @@ const Banner = () => {
             key={index}
             src={image}
             alt={`Background ${index}`}
-            className={`absolute inset-0 object-cover object-center w-full h-full transition-opacity duration-1000 ease-in-out ${index === currentImageIndex ? 'opacity-100' : 'opacity-0'} loading="lazy"`}
+            className={`absolute inset-0 object-cover object-center w-full h-full transition-opacity duration-1000 ease-in-out ${index === currentImageIndex ? 'opacity-100' : 'opacity-0'}`}
           />
         ))}
         <div className="absolute inset-0 bg-black opacity-40"></div>

@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import PrimaryBtn from "./common/PrimaryBtn";
 import { Reveal } from "../hooks/Reveal";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 
 const ServiceCard = ({ img, title, disc, count }) => {
   const isEven = count % 2 === 0;
@@ -12,7 +13,7 @@ const ServiceCard = ({ img, title, disc, count }) => {
         <div
           className={`${isEven ? "w-full flex items-center justify-end" : ""}`}
         >
-          <img className="xl:max-w-3xl" src={img} alt="Service Image" loading="lazy" />
+          <LazyLoadImage className="xl:max-w-3xl" src={img} alt="Service Image" loading="lazy" />
         </div>
 
         <div
