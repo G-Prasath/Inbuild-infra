@@ -366,18 +366,18 @@ export const polyData = {
 
 };
 
-// Shingles
+// Puf
 export const pufpanelData = {
     // Banner
     banner: {
-        img: "/Services/poly/polyBanner.jpg",
+        img: "/Services/puff/puffBanner.avif",
         text: "PUF Panel Roofing"
     },
 
     //Profile
     profile: {
         heading: "PUF Panel Roofing",
-        img: "/Services/poly/poly_profile.jpg",
+        img: "/Services/puff/puff_profile.avif",
         paragraphs: [
             "Inbuilt Infra is the best PUF Panel roofing contractor in Chennai. We are experts in installing the PUF panels for industrial roofing, commercial and residential roofing. This PUF panel roof is also known as Insulated roof panel or sandwich panel.",
             "PUF panel roofs offer superior insulation compared to traditional roofing materials. This can significantly reduce your heating and cooling costs by keeping the interior temperature stable. We are dedicated to deliver high-quality prefabricated roofing systems that ensure thermal efficiency and durability. The major applications of PUF panel roofs are Terrace, Canteen, Auditorium, Lab, Cold storage, Office area, Room setup, Balconies, Restaurants and Gym. We have different thickness options for PUF panel roofs to meet various needs, ensuring they perform well and satisfy our customers. As a leading supplier of PUF panel roofs, we are dedicated to providing high-quality PUF panels that meet the highest standards. We manage every project from its initial planning stages through to execution ensuring timely and efficient completion. Trust Inbuilt Infra for all your roofing needs and experience unmatched quality and service in the industry. Contact us for your PUF panel roofing project, whether it is residential, commercial or Industrial."
@@ -388,44 +388,44 @@ export const pufpanelData = {
     apps: [
         {
             title: "Terrace",
-            img: "/Services/poly/Parking.jpg",
+            img: "/Services/puff/Terrace_roofings.jpg",
             para: "The PUF panel roofing is a fantastic insulator for your terrace compared to others. This is the best option for keeping your terrace cooler in hot weather and warmer in cold weather."
         },
         {
             title: "Canteen",
-            img: "/Services/poly/Gazebos.jpg",
+            img: "/Services/puff/Canteen.jpg",
             para: "PUF panel roofs can achieve a canteen that's both visually appealing and practical, with the excellent insulation, cleanability and fast construction benefits that PUF panels offer."
         },
         {
             title: "Auditorium",
-            img: "/Services/poly/Walkway.jpg",
+            img: "/Services/puff/Auditorium.jpg",
             para: "PUF panels are superior in thermal insulation which reduces indoor temperature and offers a comfortable environment. PUF panel are the best option for both indoor and outdoor."
         },
         {
             title: "Lab",
             para: "PUF panels create a smooth, easy-to-clean surface, minimizing the presence of harmful substances often found in labs. This is especially beneficial for biological or chemical research.",
-            img: "/Services/poly/balconies.jpg"
+            img: "/Services/puff/Lab.jpg"
         },
         {
             title: "Office area",
             para: "A quicker construction of office areas or creating temporary workspaces. PUF panels can be easily rearranged or removed if needed, offering flexibility for future layout changes.",
-            img: "/Services/poly/OTS_Covering.jpg"
+            img: "/Services/puff/Office_area.jpg"
         },
 
         {
             title: "Room setup",
             para: "PUF panels are an excellent choice for balcony roofs, particularly when you are prioritizing thermal insulation, transparent and reducing overall weight.",
-            img: "/Services/poly/Terrace.jpg"
+            img: "/Services/puff/Room_set_up.jpg"
         },
         {
             title: "Restaurants",
             para: "PUF panel roofs offer some soundproofing properties, which can be helpful in busy restaurants to control noise from outside or kitchen operations.",
-            img: "/Services/poly/cafe.jpg"
+            img: "/Services/puff/resturent.jpg"
         },
         {
             title: "Gym",
             para: "PUF panel roofs offer good insulation for gyms, enhance comfort for gym users and lead to significant savings on energy bills by reducing the need for excessive heating and cooling.",
-            img: "/Services/poly/Restaurents.jpg"
+            img: "/Services/puff/Gym.jpg"
         },
     ],
 
@@ -466,9 +466,6 @@ export const pufpanelData = {
     //WhyChoose
     whychoose: [
         {
-            heading: "Why choose Inbuilt Infra for PUF Panel Roofing"
-        },
-        {
             title: "Quality",
             text: "Inbuilt Infra offers high quality and customized PUF panels for our customers."
         },
@@ -502,12 +499,12 @@ export const pufpanelData = {
 
     // Gallery
     gallery: [
-        "Services/poly/poly_gallery_01.jpg",
-        "Services/poly/poly_gallery_02.jpg",
-        "Services/poly/poly_gallery_03.jpg",
-        "Services/poly/poly_gallery_04.jpg",
-        "Services/poly/poly_gallery_05.jpg",
-        "Services/poly/poly_gallery_06.jpg"
+        "Services/puff/puff_gallery_01.jpg",
+        "Services/puff/puff_gallery_02.jpg",
+        "Services/puff/puff_gallery_03.jpg",
+        "Services/puff/puff_gallery_04.jpg",
+        "Services/puff/puff_gallery_05.jpg",
+        "Services/puff/puff_gallery_06.jpg"
     ],
 
     //testimonials
