@@ -29,7 +29,7 @@ const BannerBreadcrum = ({ bannerImg, bannerCnt }) => {
       />
       <div className="absolute inset-0 bg-black bg-opacity-40"></div>
       <div className="absolute inset-0 flex flex-col items-center justify-center gap-y-5 max-sm:gap-y-3">
-        <p className="text-5xl text-white font-bold">{bannerCnt}</p>
+        <p className="sm:text-3xl text-xl md:text-5xl text-white font-bold">{bannerCnt}</p>
         <Breadcrum location={toTitleCase(cleanPathname)} />
       </div>
     </div>

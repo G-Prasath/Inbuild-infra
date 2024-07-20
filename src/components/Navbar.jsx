@@ -1,12 +1,15 @@
-import React, { useState } from 'react';
-import { NAV_LINKS } from '../data/Navbar';
-import { motion, AnimatePresence } from 'framer-motion';
+import React, { useState } from "react";
+import { NAV_LINKS } from "../data/Navbar";
+import { motion, AnimatePresence } from "framer-motion";
 import { RiMenu3Fill } from "react-icons/ri";
 import { IoClose } from "react-icons/io5";
-import { Link } from 'react-router-dom';
+import { Link } from "react-router-dom";
+import { IoMdArrowDropdown } from "react-icons/io";
 
-const NAV_LINK_CLASSES = "text-zinc-500 dark:text-zinc-300 hover:border-zinc-300 inline-flex items-center px-1 pt-1 border-b-2 border-transparent text-md font-medium";
-const DROPDOWN_ITEM_CLASSES = "block px-4 py-3 text-sm text-zinc-700 dark:text-zinc-300 hover:bg-zinc-800 hover:text-white dark:hover:bg-zinc-800 hover:border-zinc-300";
+const NAV_LINK_CLASSES =
+  "text-zinc-500 dark:text-zinc-300 hover:border-zinc-300 inline-flex items-center px-1 pt-1 border-b-2 border-transparent text-md font-medium";
+const DROPDOWN_ITEM_CLASSES =
+  "block px-4 py-3 text-sm text-zinc-700 dark:text-zinc-300 hover:bg-zinc-800 hover:text-white dark:hover:bg-zinc-800 hover:border-zinc-300";
 
 const Navbar = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -16,7 +19,6 @@ const Navbar = () => {
 
   return (
     <nav className="bg-white dark:bg-zinc-1000 shadow-lg sticky top-0 z-[999999]">
-
       {/* Desktop Navbar */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-auto">
@@ -37,9 +39,20 @@ const Navbar = () => {
             </div>
           </div>
           <div className="-mr-2 flex items-center sm:hidden">
-            <button onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)} className="bg-zinc-50 dark:bg-zinc-900 inline-flex items-center justify-center p-2 rounded-md text-zinc-400 dark:text-zinc-300 hover:text-zinc-500 dark:hover:text-white hover:bg-zinc-100 ">
-              <RiMenu3Fill className={`text-[30px] text-zinc-800 ${isMobileMenuOpen ? "hidden" : ""}`} />
-              <IoClose className={`text-[30px] text-zinc-800 ${isMobileMenuOpen ? "" : "hidden"}`} />
+            <button
+              onClick={toggleMobileMenu}
+              className="bg-zinc-50 dark:bg-zinc-900 inline-flex items-center justify-center p-2 rounded-md text-zinc-400 dark:text-zinc-300 hover:text-zinc-500 dark:hover:text-white hover:bg-zinc-100 "
+            >
+              <RiMenu3Fill
+                className={`text-[30px] text-zinc-800 ${
+                  isMobileMenuOpen ? "hidden" : ""
+                }`}
+              />
+              <IoClose
+                className={`text-[30px] text-zinc-800 ${
+                  isMobileMenuOpen ? "" : "hidden"
+                }`}
+              />
             </button>
           </div>
         </div>
@@ -50,19 +63,22 @@ const Navbar = () => {
         {isMobileMenuOpen && (
           <motion.div
             initial={{ height: 0, opacity: 0 }}
-            animate={{ height: 'auto', opacity: 1 }}
+            animate={{ height: "auto", opacity: 1 }}
             exit={{ height: 0, opacity: 0 }}
-            className="sm:hidden"
+            className="sm:hidden absolute z-[999999] bg-zinc-50 w-full border-b-4 border-zinc-800"
           >
             <div className="pt-2 pb-3 space-y-1">
               {NAV_LINKS.map((link, index) => (
-                <MobileNavItem key={index} link={link} />
+                <MobileNavItem
+                  key={index}
+                  link={link}
+                  toggleMobileMenu={toggleMobileMenu}
+                />
               ))}
             </div>
           </motion.div>
         )}
       </AnimatePresence>
-
     </nav>
   );
 };
@@ -75,22 +91,26 @@ const NavItem = ({ link, isMenuOpen, setHoveredMenu, clearHoveredMenu }) => {
         onMouseEnter={setHoveredMenu}
         onMouseLeave={clearHoveredMenu}
       >
-        <button className={NAV_LINK_CLASSES + " flex items-center"}>
+        <button className={NAV_LINK_CLASSES + " flex items-center justify-between"}>
           {link.label}
-          <svg className="ml-2 h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
-            <path fillRule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 111.414 1.414l-4 4a1 1 01-1.414 0l-4-4a1 1 010-1.414z" clipRule="evenodd" />
-          </svg>
+          <IoMdArrowDropdown />
         </button>
         <AnimatePresence>
           {isMenuOpen && (
             <motion.div
               initial={{ height: 0, opacity: 0 }}
-              animate={{ height: 'auto', opacity: 1 }}
+              animate={{ height: "auto", opacity: 1 }}
               exit={{ height: 0, opacity: 0 }}
               className="absolute z-10 mt-0 min-w-48 bg-white dark:bg-zinc-700 rounded-md py-1"
             >
               {link.subMenu.map((subLink, index) => (
-                <Link key={index} to={subLink.href} className={DROPDOWN_ITEM_CLASSES}>{subLink.label}</Link>
+                <Link
+                  key={index}
+                  to={subLink.href}
+                  className={DROPDOWN_ITEM_CLASSES}
+                >
+                  {subLink.label}
+                </Link>
               ))}
             </motion.div>
           )}
@@ -99,31 +119,49 @@ const NavItem = ({ link, isMenuOpen, setHoveredMenu, clearHoveredMenu }) => {
     );
   }
 
-  return <Link to={link.href} className={NAV_LINK_CLASSES}>{link.label}</Link>;
+  return (
+    <Link to={link.href} className={NAV_LINK_CLASSES}>
+      {link.label}
+    </Link>
+  );
 };
 
-const MobileNavItem = ({ link }) => {
-  const [isMobileProductsMenuOpen, setIsMobileProductsMenuOpen] = useState(false);
+const MobileNavItem = ({ link, toggleMobileMenu }) => {
+  const [isMobileProductsMenuOpen, setIsMobileProductsMenuOpen] =
+    useState(false);
+
+  const handleItemClick = () => {
+    setIsMobileProductsMenuOpen(false);
+    toggleMobileMenu();
+  };
 
   if (link.subMenu.length > 0) {
     return (
       <div className="sticky bg-transparent top-0 left-0">
-        <button onClick={() => setIsMobileProductsMenuOpen(!isMobileProductsMenuOpen)} className="w-full text-left block pl-3 pr-4 py-2 border-l-4 border-transparent text-base font-medium text-zinc-600 dark:text-zinc-300 hover:bg-zinc-50 dark:hover:bg-zinc-800 hover:border-zinc-300">
+        <button
+          onClick={() => setIsMobileProductsMenuOpen(!isMobileProductsMenuOpen)}
+          className="w-full text-left pl-3 pr-4 py-2 border-l-4 border-transparent text-base font-medium text-zinc-600 dark:text-zinc-300 hover:bg-zinc-50 dark:hover:bg-zinc-800 hover:border-zinc-300 flex justify-between items-center"
+        >
           {link.label}
-          <svg className="ml-2 h-5 w-5 inline" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
-            <path fillRule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 111.414 1.414l-4 4a1 1 01-1.414 0l-4-4a1 1 010-1.414z" clipRule="evenodd" />
-          </svg>
+          <IoMdArrowDropdown />
         </button>
         <AnimatePresence>
           {isMobileProductsMenuOpen && (
             <motion.div
               initial={{ height: 0, opacity: 0 }}
-              animate={{ height: 'auto', opacity: 1 }}
+              animate={{ height: "auto", opacity: 1 }}
               exit={{ height: 0, opacity: 0 }}
               className="mt-2 space-y-1"
             >
               {link.subMenu.map((subLink, index) => (
-                <Link key={index} to={subLink.href} className="block pl-3 pr-4 py-2 border-l-4 border-transparent text-base font-medium text-zinc-600 dark:text-zinc-300 hover:bg-zinc-800 hover:text-white dark:hover:bg-zinc-800 hover:border-zinc-300">{subLink.label}</Link>
+                <Link
+                  key={index}
+                  to={subLink.href}
+                  className="block pl-3 pr-4 py-2 border-l-4 border-transparent text-base font-medium text-zinc-600 dark:text-zinc-300 hover:bg-zinc-800 hover:text-white dark:hover:bg-zinc-800 hover:border-zinc-300"
+                  onClick={handleItemClick}
+                >
+                  {subLink.label}
+                </Link>
               ))}
             </motion.div>
           )}
@@ -132,7 +170,14 @@ const MobileNavItem = ({ link }) => {
     );
   }
 
-  return <Link to={link.href} className="block pl-3 pr-4 py-2 border-l-4 border-transparent text-base font-medium text-zinc-600 dark:text-zinc-300 hover:bg-zinc-50 dark:hover:bg-zinc-800 hover:border-zinc-300">{link.label}</Link>;
+  return (
+    <Link
+      to={link.href}
+      className="block pl-3 pr-4 py-2 border-l-4 border-transparent text-base font-medium text-zinc-600 dark:text-zinc-300 hover:bg-zinc-50 dark:hover:bg-zinc-800 hover:border-zinc-300"
+      onClick={toggleMobileMenu}
+    >
+      {link.label}
+    </Link>
+  );
 };
-
 export default Navbar;
