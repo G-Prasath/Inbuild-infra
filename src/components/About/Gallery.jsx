@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import ImgLightBox from '../common/ImgLightBox'
+import ImgLightBox from './ImgLightBox';
 
 
 const Gallery = () => {

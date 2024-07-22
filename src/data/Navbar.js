@@ -14,7 +14,7 @@ export const NAV_LINKS = [
         { label: 'Facade', href: '/Facade' }
       ]
     },
-    { label: 'Projects', href: '/project', subMenu: [] },
+    { label: 'Projects', href: '/projects', subMenu: [] },
     { label: 'Careers', href: '/careers', subMenu: [] },
     { label: 'Contact Us', href: '/contact', subMenu: [] }
   ];

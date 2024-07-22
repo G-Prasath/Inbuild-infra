@@ -22,6 +22,9 @@ const Gallery = ({ galleryImg }) => {
         }
       </div>
 
+
+      
+
     </>
   );
 };

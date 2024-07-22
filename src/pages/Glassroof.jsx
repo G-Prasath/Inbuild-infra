@@ -20,7 +20,7 @@ const Glassroof = () => {
       <Applications appData={allDatas.apps} />
       <DesignProcess />
       <Benifites benifitesData={allDatas.benefits} />
-      <WhyChoose datas={allDatas.whychoose} title="Polycarbonate roofing" />
+      <WhyChoose datas={allDatas.whychoose} title="Glass Roofing" />
       <Faq faqData={allDatas.faq} />
       <Gallery galleryImg={allDatas.gallery} />
       <Testimonials testiData={allDatas.testimonials} />

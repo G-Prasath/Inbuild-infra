@@ -696,4 +696,334 @@ export const glassroofData = {
 
 };
 
+// singles
+export const shinglesData = {
+    // Banner
+    banner: {
+        img: "/Services/shingle/polyBanner.jpg",
+        text: "Shingles Roofing"
+    },
+
+    //Profile
+    profile: {
+        heading: "Shingles Roofing",
+        img: "/Services/shingle/poly_profile.jpg",
+        paragraphs: [
+            "Inbuilt Infra is the best choice for Shingle Roofing in Chennai. We are specialised in providing durable and cost effective shingle roofing solutions.",
+            "Shingle Roofing is the excellent option for both Residential and Commercial roofing due to it creates aesthetic appeal and Endurance. Shingles come in a variety of colour, design and styles which improves the house's architectural design. Our first priority is customer satisfaction and our team of experts follows the safety measures to protect your property. We are using quality materials like asphalt, wood, slate and metal, which extend the lifespan of the shingle roof.  While compared to other roofing materials, shingles roofing is more affordable and high in quality. It can survive in harsh climatic conditions including heavy rain, wind and cyclones. Regular checking can help to identify the damaged Shingles that are cracked and curled. It is very easy to remove the damaged shingle and replace with a new one and it requires less time to install. We are offering quality shingle roofing solutions at an affordable price and it varies from roofing materials and sizes. Choose Inbuilt Infra for your shingle roofing service, we offer long-lasting protection for every project."
+        ]
+    },
+
+    //App
+    apps: [
+        {
+            title: "Residential Homes",
+            img: "/Services/shingle/Parking.jpg",
+            para: "Shingles offering Superior weather resistance protecting homes from harsh conditions. It is lightweight and simple to maintain it can be easily repaired or replaced if damaged."
+        },
+        {
+            title: "Gardens",
+            img: "/Services/shingle/Gazebos.jpg",
+            para: "Shingles roofing are best choice for garden sheds ensuring protection and classic appearance. Its variety of colours and textures enhance various garden designs."
+        },
+        {
+            title: "Restaurants",
+            img: "/Services/shingle/Walkway.jpg",
+            para: "Many restaurants can use shingles for roofs which is durable and stylish choice for covering dining areas. It offers insulation that helps to regulate temperatures."
+        },
+        {
+            title: "Resorts",
+            para: "Shingle roofing offers an elegant design that enhances the entire ambiance of resorts. Shingles are durable and low-maintenance  which requires minimal time to maintain the resort.",
+            img: "/Services/shingle/balconies.jpg"
+        },
+        {
+            title: "Porch",
+            para: "Shingle roofing improves porch elegance and creates a classic outdoor space. shingle offers weather protection which ensures the porch area remains dry and comfortable.",
+            img: "/Services/shingle/OTS_Covering.jpg"
+        },
+
+        {
+            title: "Sitout Area",
+            para: "Sitout area looks elegant and enduring with Shingles roofing. It provides a practical and stylish roofing solution for comfortable outdoor sitout areas.",
+            img: "/Services/shingle/Terrace.jpg"
+        },
+        {
+            title: "Patio",
+            para: "Patios customized with various shingles colours and textures. Shingles offer durable and weather resistant, it adds a classic and elegant look to the patio.",
+            img: "/Services/shingle/cafe.jpg"
+        },
+        {
+            title: "Schools",
+            para: "Shingles roofing helps to maintain a comfortable atmosphere in schools. It adds visual attractiveness to school structures and offers strong protection.",
+            img: "/Services/shingle/Restaurents.jpg"
+        },
+        {
+            title: "Hotel",
+            para: "Shingle roofing improves the hotel exteriors with a classic look through its varied design and colours. It is cost-effective and durable solution for their roofing needs.",
+            img: "/Services/shingle/Restaurents.jpg"
+        }
+    ],
+
+    //Benifites
+    benefits: [
+        {
+            img: "https://www.svgrepo.com/show/530438/ddos-protection.svg",
+            title: "Fire Resistance",
+            para: "Shingle roofing offers superior fire resistance which reducing the risk of fire damage and creating safer environment."
+        },
+        {
+            img: "https://www.svgrepo.com/show/530442/port-detection.svg",
+            title: "Versatility",
+            para: "Shingle roofings are highly versatile which allows for creative and customized roofing designs and styles."
+        },
+        {
+            img: "https://www.svgrepo.com/show/530444/availability.svg",
+            title: "Durability",
+            para: "Durability is one of the most important benefits of shingle, providing long lasting protection against weather conditions."
+        },
+        {
+            img: "https://www.svgrepo.com/show/530440/machine-vision.svg",
+            title: "Cost-Effectiveness",
+            para: "Shingles offer a cost effective roofing solution which provides excellent protection and reducing overall expenses."
+        },
+        {
+            img: "https://www.svgrepo.com/show/530450/page-analysis.svg",
+            title: "Quick Installation",
+            para: "The installation process of shingles is simple and  fast. Its allowing for efficient and timely project completion."
+        },
+        {
+            img: "https://www.svgrepo.com/show/530453/mail-reception.svg",
+            title: "Noise Reduction",
+            para: "Shingles are designed to offers excellent noise reduction which contribute to a more peaceful living space."
+        },
+    ],
+
+    //WhyChoose
+    whychoose: [
+        {
+            title: "Customization",
+            text: "Inbuilt Infra customizes shingles to reflect your personal style and choices."
+        },
+        {
+            title: "Advanced Techniques",
+            text: "We use advanced techniques that improves quality and lifespan in shingle."
+        },
+        {
+            title: "Expertise",
+            text: "Our skilled team will offer strong and durable shingles for your roofs."
+        },
+
+    ],
+
+    // FAQ
+    faq: [
+        {
+            question: "What are shingles made of?",
+            answer: "Shingles are made of asphalt, fiberglass and mineral granules."
+        },
+        {
+            question: "Are shingles resistant to wind and hail?",
+            answer: "Yes, Shingles are resistant to wind and hail."
+        },
+        {
+            question: "How much does shingle roofing installation cost?",
+            answer: "Installation costs for shingle roofing vary based on the type of shingles."
+        },
+        {
+            question: "Can I change the colour of my shingles?",
+            answer: "Yes, you can replace the existing shingles with new ones in different colours."
+        }
+
+    ],
+
+    // Gallery
+    gallery: [
+        "Services/shingle/shingle_gallery_01.jpg",
+        "Services/shingle/shingle_gallery_02.jpg",
+        "Services/shingle/shingle_gallery_03.jpg",
+        "Services/shingle/shingle_gallery_04.jpg",
+        "Services/shingle/shingle_gallery_05.jpg",
+        "Services/shingle/shingle_gallery_06.jpg"
+    ],
+
+    //testimonials
+    testimonials: [
+        {
+            img: 'https://dummyimage.com/106x106',
+            para: "Synth chartreuse iPhone lomo cray raw denim brunch everyday carry neutra before they sold out fixie 90's microdosing. Tacos pinterest fanny pack venmo, post-ironic heirloom try-hard pabst authentic iceland.",
+            title: "Holden Caulfield",
+            role: "UI DEVELOPER"
+        },
+        {
+            img: 'https://dummyimage.com/106x106',
+            para: "Synth chartreuse iPhone lomo cray raw denim brunch everyday carry neutra before they sold out fixie 90's microdosing. Tacos pinterest fanny pack venmo, post-ironic heirloom try-hard pabst authentic iceland.",
+            title: "Holden Caulfield",
+            role: "UI DEVELOPER"
+        },
+        {
+            img: 'https://dummyimage.com/106x106',
+            para: "Synth chartreuse iPhone lomo cray raw denim brunch everyday carry neutra before they sold out fixie 90's microdosing. Tacos pinterest fanny pack venmo, post-ironic heirloom try-hard pabst authentic iceland.",
+            title: "Holden Caulfield",
+            role: "UI DEVELOPER"
+        }
+    ],
+
+};
+
+// Mangalore
+export const mangloreData = {
+    // Banner
+    banner: {
+        img: "/Services/manglore/polyBanner.jpg",
+        text: "Mangalore Tile Roofing"
+    },
+
+    //Profile
+    profile: {
+        heading: "Mangalore Tile Roofing",
+        img: "/Services/manglore/poly_profile.jpg",
+        paragraphs: [
+            "Inbuilt Infra is the leading Mangalore tile roofing contractor in Chennai. These mangalore tiles are the traditional roofing option with the benefit of eco-friendly and low maintenance compared to other roofs.",
+            "These mangalore tiles are also known as clay roof tiles and Kerala style roofs. Inbuilt Infra’s mangalore tile roofing solutions are configured to meet the specific needs of each project, whether it's a residential or commercial roofing. When it comes to Mangalore tile roofing colour options, we offer a diverse palette to match any architectural style. Whether you prefer the traditional red or more modern hues. The Mangalore tile roofing patterns also add a unique touch to your roof design that makes your home stand out. The major applications for mangalore tile roofing are Residential Homes, Gardens, Restaurants, Resorts, Car parking and Farm houses. The Mangalore tile roofing benefits are incredibly numerous and diverse. It provides excellent insulation which helps to maintain the comfortable room temperature and it is highly resistant to harsh weather conditions.  One of the key advantages of Mangalore tile roof is its lifespan. Contact Inbuilt Infra for your Mangalore tile roofing."
+        ]
+    },
+
+    //App
+    apps: [
+        {
+            title: "Residential Homes",
+            img: "/Services/manglore/Parking.jpg",
+            para: "Mangalore tiles have been a popular choice for roofing Indian homes for centuries. These Mangalore tile roofs can significantly enhance the visual appeal of your home."
+        },
+        {
+            title: "Gardens",
+            img: "/Services/manglore/Gazebos.jpg",
+            para: "Mangalore tiles offer a timeless and earthy aesthetic that evokes a sense of tradition and connection to nature. This perfectly complements the relaxed and natural vibe."
+        },
+        {
+            title: "Restaurants",
+            img: "/Services/manglore/Walkway.jpg",
+            para: "Mangalore tiles can be a great choice for restaurants that want to create a unique and inviting atmosphere. It can also be used to create a more open and airy feel in the restaurant."
+        },
+        {
+            title: "Resorts",
+            para: "The clay material in the Mangalore tile roof provides natural thermal insulation, which can help regulate indoor temperatures in the resort buildings. This can lead to reduced energy consumption.",
+            img: "/Services/manglore/balconies.jpg"
+        },
+        {
+            title: "Car parking",
+            para: "GMangalore tiles offer numerous benefits along with their weight, potential for damage, and maintenance challenges that make them a less suitable choice for car park roofing.",
+            img: "/Services/manglore/OTS_Covering.jpg"
+        },
+
+        {
+            title: "Farm house",
+            para: "Mangalore tile with the natural clay material harmonizes beautifully with the surrounding landscape creating a cohesive and aesthetically pleasing look for your farmhouse.",
+            img: "/Services/manglore/Terrace.jpg"
+        }
+    ],
+
+    //Benifites
+    benefits: [
+        {
+            img: "https://www.svgrepo.com/show/530438/ddos-protection.svg",
+            title: "Eco-Friendly",
+            para: "Mangalore tile is fully made from natural clay, a sustainable and abundant resource. They make for a greener building approach."
+        },
+        {
+            img: "https://www.svgrepo.com/show/530442/port-detection.svg",
+            title: "Sound Insulation",
+            para: "Mangalore tile roofing requires minimal maintenance and repair compared to other roofing materials in the roofing industry. "
+        },
+        {
+            img: "https://www.svgrepo.com/show/530444/availability.svg",
+            title: "Low Maintenance",
+            para: "Mangalore tile roofing requires minimal maintenance and repair compared to other roofing materials in the roofing industry."
+        },
+        {
+            img: "https://www.svgrepo.com/show/530440/machine-vision.svg",
+            title: "Natural Insulation",
+            para: "Mangalore tiles provide natural thermal insulation, helps to regulate indoor temperatures. This can reduce energy consumption."
+        },
+        {
+            img: "https://www.svgrepo.com/show/530450/page-analysis.svg",
+            title: "Long Lifespan",
+            para: "With proper installation and maintenance these mangalore tile roofs can last for several decades, compared to other roofings."
+        },
+        {
+            img: "https://www.svgrepo.com/show/530453/mail-reception.svg",
+            title: "Weather Resistance",
+            para: "Exceptionally resistant to harsh weather conditions including heavy rainfall, strong winds and extreme temperatures."
+        },
+    ],
+
+    //WhyChoose
+    whychoose: [
+        {
+            title: "Quality",
+            text: "Inbuilt Infra offers best and high quality mangalore tile roofings."
+        },
+        {
+            title: "Free Estimation",
+            text: "Inbuilt Infra provides free estimation cost for our customers while contacting."
+        },
+        {
+            title: "Low cost",
+            text: "We provide the best Mangalore tile roofing for a competitive price."
+        },
+
+    ],
+
+    // FAQ
+    faq: [
+        {
+            question: "What is Mangalore tile roofing?",
+            answer: "Mangalore tile roofing is a traditional roofing system that utilizes terracotta tiles made from baked clay.  It is the popular roofing choice for centuries throughout South Asia."
+        },
+        {
+            question: "Does Inbuilt Infra offer Mangalore tile roofing?",
+            answer: "Yes, Inbuilt Infra offers Mangalore tile roofing service in Chennai."
+        },
+        {
+            question: "Lifespan of Mangalore tile roof?",
+            answer: "Mangalore tiles have a long lifespan of up to 50 years. It is the best option for roofing."
+        },
+
+    ],
+
+    // Gallery
+    gallery: [
+        "Services/manglore/manglore_gallery_01.jpg",
+        "Services/manglore/manglore_gallery_02.jpg",
+        "Services/manglore/manglore_gallery_03.jpg",
+        "Services/manglore/manglore_gallery_04.jpg",
+        "Services/manglore/manglore_gallery_05.jpg",
+        "Services/manglore/manglore_gallery_06.jpg"
+    ],
+
+    //testimonials
+    testimonials: [
+        {
+            img: 'https://dummyimage.com/106x106',
+            para: "Synth chartreuse iPhone lomo cray raw denim brunch everyday carry neutra before they sold out fixie 90's microdosing. Tacos pinterest fanny pack venmo, post-ironic heirloom try-hard pabst authentic iceland.",
+            title: "Holden Caulfield",
+            role: "UI DEVELOPER"
+        },
+        {
+            img: 'https://dummyimage.com/106x106',
+            para: "Synth chartreuse iPhone lomo cray raw denim brunch everyday carry neutra before they sold out fixie 90's microdosing. Tacos pinterest fanny pack venmo, post-ironic heirloom try-hard pabst authentic iceland.",
+            title: "Holden Caulfield",
+            role: "UI DEVELOPER"
+        },
+        {
+            img: 'https://dummyimage.com/106x106',
+            para: "Synth chartreuse iPhone lomo cray raw denim brunch everyday carry neutra before they sold out fixie 90's microdosing. Tacos pinterest fanny pack venmo, post-ironic heirloom try-hard pabst authentic iceland.",
+            title: "Holden Caulfield",
+            role: "UI DEVELOPER"
+        }
+    ],
+
+};
+
+
 
