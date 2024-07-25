@@ -16,12 +16,11 @@ const OurBranches = () => {
             </div>
             <div className="space-y-4">
               <Reveal>
-                <h3 className="text-2xl font-semibold text-gray-800 transition">
-                  Data Collection
-                </h3>
+                <p className="text-xl font-semibold text-gray-800 transition mb-3">
+                Inbuilt Infra - Ashok Nagar
+                </p>
                 <p className="text-gray-600">
-                  Upload diverse datasets containing various types of
-                  information for analysis.
+                First Floor, ZUBII Manor bearion O No.27E/N 57E at 7th Avenue, Ashok Nagar, Chennai-600083.
                 </p>
               </Reveal>
             </div>
@@ -36,12 +35,11 @@ const OurBranches = () => {
             </div>
             <div className="space-y-4">
               <Reveal>
-                <h3 className="text-2xl font-semibold text-gray-800 transition">
-                  Model Training
-                </h3>
+                <p className="text-xl font-semibold text-gray-800 transition mb-3">
+                Inbuilt Infra - Little Mount
+                </p>
                 <p className="text-gray-600">
-                  Allow the AI model to learn patterns and insights from the
-                  provided data. This may take some time.
+                No.19/35, V191, First Floor, Mount Road, Little Mount, Chennai-600015.
                 </p>
               </Reveal>
             </div>
@@ -56,12 +54,11 @@ const OurBranches = () => {
             </div>
             <div className="space-y-4">
               <Reveal>
-                <h3 className="text-2xl font-semibold text-gray-800 transition">
-                  Insights Delivery
-                </h3>
+                <p className="text-xl font-semibold text-gray-800 transition mb-3">
+                Inbuilt Infra - Bangalore
+                </p>
                 <p className="text-gray-600">
-                  Receive comprehensive insights and analysis results based on
-                  the trained AI model.
+                No.154/20, situated on the third floor of the building Name Royal Space, 5th Main, HSR Layout 7th Sector Madina Nagar, Bommanahalli, Bangalore-Karnataka-560102.
                 </p>
               </Reveal>
             </div>

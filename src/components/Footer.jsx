@@ -7,6 +7,7 @@ import { Reveal } from "../hooks/Reveal";
 import { Link } from "react-router-dom";
 import BackToTopButton from "./common/BackToTop";
 import FloatingButtons from "./common/FloatingButtons";
+import { footerDatas } from "../data/Footer";
 
 const Footer = () => {
   return (
@@ -31,8 +32,7 @@ const Footer = () => {
                 </Link>
               </div>
               <div className="max-w-md pr-16 text-md text-gray-200">
-                Enhance productivity and efficiency with cutting-edge artificial
-                intelligence solutions for your business operations.
+                Inbuilt Infra provides all types of roofing service for Residential and Commercial industries. We are the leader in the roofing industry with 15+ years of experience.
               </div>
               <div className="flex space-x-2">
                 <Link
@@ -40,177 +40,61 @@ const Footer = () => {
                   target="_blank"
                   className="text-gray-200 hover:text-gray-200"
                 >
-                  <FaSquareFacebook className="text-[25px]"/>
+                  <FaSquareFacebook className="text-[25px]" />
                 </Link>
                 <Link
                   to="/"
                   target="_blank"
                   className="text-gray-200 hover:text-gray-200"
                 >
-                  <FaSquareXTwitter className="text-[25px]"/>
+                  <FaSquareXTwitter className="text-[25px]" />
                 </Link>
                 <Link
                   to="/"
                   target="_blank"
                   className="text-gray-200 hover:text-gray-200"
                 >
-                  <IoLogoLinkedin className="text-[25px]"/>
+                  <IoLogoLinkedin className="text-[25px]" />
                 </Link>
                 <Link
                   to="/"
                   target="_blank"
                   className="text-gray-200 hover:text-gray-200"
                 >
-                  <FaSquarePinterest className="text-[25px]"/>
+                  <FaSquarePinterest className="text-[25px]" />
                 </Link>
               </div>
             </div>
 
-            <div className="mt-16 grid grid-cols-2 gap-8 xl:col-span-2 xl:mt-0">
-              <div className="md:grid md:grid-cols-2 md:gap-8">
-                <div>
-                  <h3 className="text-md font-semibold leading-6 text-white">
-                    Our Solutions
-                  </h3>
-                  <ul role="list" className="mt-6 space-y-4">
-                    <li>
-                      <Link
-                        to="/"
-                        className="text-md leading-6 text-gray-300 hover:text-gray-50"
-                      >
-                        AI Platform
-                      </Link>
-                    </li>
-                    <li>
-                      <Link
-                        to="/"
-                        className="text-md leading-6 text-gray-300 hover:text-gray-50"
-                      >
-                        AI Algorithms
-                      </Link>
-                    </li>
-                    <li>
-                      <Link
-                        to="/"
-                        className="text-md leading-6 text-gray-300 hover:text-gray-50"
-                      >
-                        Industry Applications
-                      </Link>
-                    </li>
-                  </ul>
-                </div>
-                <div className="mt-10 md:mt-0">
-                  <h3 className="text-md font-semibold leading-6 text-white">
-                    Use Cases
-                  </h3>
-                  <ul role="list" className="mt-6 space-y-4">
-                    <li>
-                      <Link
-                        to="/"
-                        className="text-md leading-6 text-gray-300 hover:text-gray-50"
-                      >
-                        Predictive Analysis
-                      </Link>
-                    </li>
-                    <li>
-                      <Link
-                        to="/"
-                        className="text-md leading-6 text-gray-300 hover:text-gray-50"
-                      >
-                        Customer Experience
-                      </Link>
-                    </li>
-                    <li>
-                      <Link
-                        to="/"
-                        className="text-md leading-6 text-gray-300 hover:text-gray-50"
-                      >
-                        Automation
-                      </Link>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-              <div className="md:grid md:grid-cols-2 md:gap-8">
-                <div>
-                  <h3 className="text-md font-semibold leading-6 text-white">
-                    Resources
-                  </h3>
-                  <ul role="list" className="mt-6 space-y-4">
-                    <li>
-                      <Link
-                        to="/"
-                        className="text-md leading-6 text-gray-300 hover:text-gray-50"
-                      >
-                        Pricing
-                      </Link>
-                    </li>
-                    <li>
-                      <Link
-                        to="/"
-                        className="text-md leading-6 text-gray-300 hover:text-gray-50"
-                      >
-                        Blog
-                      </Link>
-                    </li>
-                    <li>
-                      <Link
-                        to="/"
-                        className="text-md leading-6 text-gray-300 hover:text-gray-50"
-                      >
-                        Case Studies
-                      </Link>
-                    </li>
-                    <li>
-                      <Link
-                        to="/"
-                        className="text-md leading-6 text-gray-300 hover:text-gray-50"
-                      >
-                        Terms of Service
-                      </Link>
-                    </li>
-                    <li>
-                      <Link
-                        to="/"
-                        className="text-md leading-6 text-gray-300 hover:text-gray-50"
-                      >
-                        Privacy Policy
-                      </Link>
-                    </li>
-                  </ul>
-                </div>
-                <div className="mt-10 md:mt-0">
-                  <h3 className="text-md font-semibold leading-6 text-white">
-                    Company
-                  </h3>
-                  <ul role="list" className="mt-6 space-y-4">
-                    <li>
-                      <Link
-                        to="/"
-                        className="text-md leading-6 text-gray-300 hover:text-gray-50"
-                      >
-                        About Us
-                      </Link>
-                    </li>
-                    <li>
-                      <Link
-                        to="/"
-                        className="text-md leading-6 text-gray-300 hover:text-gray-50"
-                      >
-                        Careers
-                      </Link>
-                    </li>
-                    <li>
-                      <Link
-                        to="/"
-                        className="text-md leading-6 text-gray-300 hover:text-gray-50"
-                      >
-                        Contact Us
-                      </Link>
-                    </li>
-                  </ul>
-                </div>
-              </div>
+            <div className="mt-16 grid grid-cols-3 xl:col-span-2 gap-8 max-sm:gap-0 max-md:grid-cols-2 max-sm:grid-cols-1 xl:mt-0">
+
+              {
+                footerDatas.map((item, index) => (
+                  <div className="mt-10 md:mt-0" key={index}>
+                    <h3 className="text-md font-semibold leading-6 text-white">
+                      {item.title}
+                    </h3>
+                    <ul role="list" className="mt-6 space-y-4">
+                      {
+                        item.links.map((links, index) => (
+                          <li key={index}>
+                            <Link
+                              to={links.link}
+                              className="text-md leading-6 text-gray-300 hover:text-gray-50"
+                            >
+                              {links.label}
+                            </Link>
+                          </li>
+                        ))
+                      }
+
+                    </ul>
+                  </div>
+                ))
+              }
+
+
+
             </div>
 
           </div>
@@ -225,8 +109,8 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <FloatingButtons/>
-      <BackToTopButton/>
+      <FloatingButtons />
+      <BackToTopButton />
     </footer>
   );
 };

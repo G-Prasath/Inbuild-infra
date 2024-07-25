@@ -13,7 +13,7 @@ const FunFact = () => {
             <div className="container px-5 sm:py-24 py-8 mx-auto">
                 <div className="flex flex-col text-center w-full mb-20">
                     <Reveal>
-                    <h1 className="sm:text-3xl text-2xl font-bold title-font mb-4 text-gray-900">Leading the Roofing Industry</h1>
+                    <h2 className="sm:text-3xl text-2xl font-bold title-font mb-4 text-gray-900">Leading the Roofing Industry</h2>
                     <p className="lg:w-2/3 mx-auto leading-relaxed text-base">Inbuilt Infra is the NO.1 roofing contractor in TamilNadu. We offer expert advice on roof maintenance and provide estimated quotations during site visits. Contact us and start your roofing project with us.</p>
                     </Reveal>
                 </div>

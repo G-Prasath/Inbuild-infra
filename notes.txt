@@ -54,6 +54,23 @@ Shopping Malls --> Card Images
 
 Poly Done
 
+/*****************
+25 / 07 / 2024  (New Layouts)
+******************/
+Add for Recent Blog ==> Pending for Home Page
+
+Home
+-----
+blog para content
+our features
+
+Abobut
+------
+Time design set or not
+
+Service Tensile
+---------------
+Why Choose Inbuilt Infra for  ${title} (doubt)
 
 
 

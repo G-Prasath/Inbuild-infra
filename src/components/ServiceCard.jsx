@@ -28,7 +28,7 @@ const ServiceCard = ({ img, title, disc, count }) => {
             </Reveal>
           </div>
           <Reveal>
-            <h2 className="text-3xl font-semibold mt-4 md:mt-10 max-sm:text-2xl">{title}</h2>
+            <h3 className="text-3xl font-semibold mt-4 md:mt-10 max-sm:text-2xl">{title}</h3>
           </Reveal>
           <Reveal>
             <p className="my-3 text-justify font-medium text-gray-700 leading-relaxed">

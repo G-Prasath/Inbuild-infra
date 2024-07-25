@@ -11,9 +11,9 @@ const Faq = ({faqData}) => {
           <p className="mt-4 text-sm leading-7 text-gray-500 font-regular">
             F.A.Q
           </p>
-          <p className="text-2xl sm:text-4xl leading-normal font-[600] tracking-tight text-gray-900">
+          <h2 className="text-2xl sm:text-4xl leading-normal font-[600] tracking-tight text-gray-900">
             Frequently Asked Questions
-          </p>
+          </h2>
         </div>
 
         <div className="mt-20">
@@ -27,9 +27,9 @@ const Faq = ({faqData}) => {
 
                   <div className="bg-gray-100 p-5 px-10 w-full flex items-center">
                     <Reveal>
-                      <h4 className="text-md leading-6 font-medium text-gray-900">
+                      <h3 className="text-md leading-6 font-medium text-gray-900">
                         {item.question}
-                      </h4>
+                      </h3>
                     </Reveal>
                   </div>
                 </div>

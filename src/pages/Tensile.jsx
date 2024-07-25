@@ -28,9 +28,9 @@ const Tensile = () => {
 
       <BannerBreadcrum bannerCnt={allDatas.banner.text} bannerImg={allDatas.banner.img} />
       <Profile profileImg={allDatas.profile.img} profileHeading={allDatas.profile.heading} profileText={allDatas.profile.paragraphs} />
-      <Applications appData={allDatas.apps} />
+      <Applications appData={allDatas.apps} title="Tensile Roofing" />
       <DesignProcess />
-      <Benifites benifitesData={allDatas.benefits} />
+      <Benifites benifitesData={allDatas.benefits} title="Tensile Fabric Roofing" />
       <WhyChoose datas={allDatas.whychoose} title="Tensile Structure"/>
       <Faq faqData={allDatas.faq} />
       <Gallery galleryImg={allDatas.gallery} />

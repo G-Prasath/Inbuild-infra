@@ -10,6 +10,7 @@ import Gallery from "../components/Home/Gallery";
 import Whychoose from "../components/Home/Whychoose";
 import Form from "../components/Home/Form"
 import Brands from "../components/Home/Brands"
+import Blog from "../components/Home/Blog";
 
 
 
@@ -23,6 +24,7 @@ const Home = () => {
       <Services/>
       <Features/>
       <Gallery/>
+      <Blog/>
       <Faq/>
       <Form/>
       <Cta/>

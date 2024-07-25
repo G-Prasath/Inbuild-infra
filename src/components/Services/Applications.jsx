@@ -4,12 +4,12 @@ import { Link } from "react-router-dom";
 import PrimaryBtn from "../common/PrimaryBtn";
 import { Reveal } from "../../hooks/Reveal";
 
-const Applications = ({appData}) => {
+const Applications = ({appData, title}) => {
   return (
     <div className="w-full py-[5%] px-[5%]">
-      <p className="w-full text-center text-4xl text-zinc-800 font-bold my-10">
-        Applications
-      </p>
+      <h2 className="w-full text-center text-4xl text-zinc-800 font-bold my-10">
+        {title} Applications
+      </h2>
       <div className="container w-full grid grid-cols-3 gap-5 max-md:grid-cols-2 max-sm:grid-cols-1">
         {appData.map((item, index) => (
           <div className="w-full rounded-md border bg-white dark:bg-gray-800 shadow-lg transition-colors duration-500" key={index}>
@@ -21,7 +21,7 @@ const Applications = ({appData}) => {
               />
             </div>
             <div className="p-4">
-              <h1 className="inline-flex items-center text-lg font-semibold text-gray-900 dark:text-gray-100">
+              <h3 className="inline-flex items-center text-lg font-semibold text-gray-900 dark:text-gray-100">
                 <Reveal>
                 {item.title} &nbsp;
                 <svg
@@ -40,7 +40,7 @@ const Applications = ({appData}) => {
                   <polyline points="7 7 17 7 17 17"></polyline>
                 </svg>
                 </Reveal>
-              </h1>
+              </h3>
               <Reveal>
               <p className="mb-5 mt-3 text-sm text-gray-500 dark:text-gray-400 text-justify leading-6">
                 {item.para}

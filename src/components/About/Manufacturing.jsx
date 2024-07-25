@@ -40,9 +40,9 @@ const Manufacturing = () => {
                     </div>
                   </div>
                   <div className="ml-4">
-                    <h4 className="text-lg font-medium leading">
+                    <h3 className="text-lg font-medium leading">
                     3 lakh sq.ft Capacity
-                    </h4>
+                    </h3>
                     <p className="mt-2">
                       In our manufacturing plant, we have the capacity to install approximately 3 lakh square feet of roofing per month.
                     </p>
@@ -73,9 +73,9 @@ const Manufacturing = () => {
                   </div>
                 </div>
                 <div className="ml-4">
-                  <h4 className="text-lg font-medium leading">
+                  <h3 className="text-lg font-medium leading">
                   1 lakh sq.ft Tensile
-                  </h4>
+                  </h3>
                   <p className="mt-2">
                     We also have 1 lakh sq.ft capacity per month for tensile structure which is enough for a large scale structure.
                   </p>
@@ -112,9 +112,9 @@ const Manufacturing = () => {
                   </div>
                 </div>
                 <div className="ml-4">
-                  <h4 className="text-lg font-medium leading">
+                  <h3 className="text-lg font-medium leading">
                   High-tech equipments
-                  </h4>
+                  </h3>
                   <p className="mt-2">
                     Our strong infrastructure facility with highly robotic equipment enables us to achieve high-quality roofing for our customers.
                   </p>
@@ -145,9 +145,9 @@ const Manufacturing = () => {
                   </div>
                 </div>
                 <div className="ml-4">
-                  <h4 className="text-lg font-medium leading">
+                  <h3 className="text-lg font-medium leading">
                   Well trained technicians
-                  </h4>
+                  </h3>
                   <p className="mt-2">
                     We have a team of well-trained and highly experienced technicians who specialize in constructing roofing structures with proficiency.
                   </p>

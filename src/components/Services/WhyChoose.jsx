@@ -6,9 +6,9 @@ const WhyChoose = ({ datas, title }) => {
         <div className="w-full mx-auto px-4 py-12 sm:px-6 lg:px-8 flex flex-col justify-between">
             <div>
                 <div className="text-center">
-                    <p className="text-3xl sm:text-[30px] leading-normal font-extrabold tracking-tight text-zinc-800">
+                    <h2 className="text-3xl sm:text-[30px] leading-normal font-extrabold tracking-tight text-zinc-800">
                         {`Why Choose Inbuilt Infra for  ${title}`}
-                    </p>
+                    </h2>
                 </div>
 
                 <div className="mt-20">
@@ -24,7 +24,7 @@ const WhyChoose = ({ datas, title }) => {
                                         </div>
                                         <div className="mt-4 p-8">
                                             <Reveal>
-                                                <h4 className="text-lg leading-6 font-semibold text-gray-900">{item.title}</h4>
+                                                <h3 className="text-lg leading-6 font-semibold text-gray-900">{item.title}</h3>
                                                 <p className="mt-2 text-base leading-6 text-gray-500">
                                                     {item.text}
                                                 </p>

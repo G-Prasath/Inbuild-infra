@@ -78,16 +78,35 @@ export const serviceCard = [
 
 export const faqData = [
     {
-       question : "What is tensile fabric?" ,
-       answer : "Tensile fabric is a type of material used in architecture and construction for creating lightweight and durable structures. The tensile structure gives a beautiful appearance for the outdoors."
+       question : "Who is the best roofing contractor in Chennai?" ,
+       answer : "Inbuilt Infra is the leading roofing contractor in Chennai, with 15+ years of experience."
     },
     {
-        question : "Lifespan of tensile fabric?" ,
-        answer : "Tensile fabric has a lifespan ranging from a minimum of 10 years to a maximum of 40 years, it totally depends on the cost and quality of the fabric you choose."
+        question : "What is Roof?" ,
+        answer : `A roof is a structure that covers the top of the building which can be constructed by various roofing materials.`
      },
      {
-        question : "How many years warranty does Inbuilt Infra give?" ,
-        answer : "Inbuilt Infra offers up to a 15-year warranty on our tensile structures and tensile roofing. You can trust in the reliability and performance of our products for many years to come."
+        question : "How many types of roofing are there?" ,
+        answer : "There are 7 major types of roofs. They are Gable roof, Hip roof, Flat roof, Shed roof, Mansard roof, Gambrel roof, Butterfly roof and Saltbox roof."
      },
 
+]
+
+
+export const homeBlog = [
+    {
+        image: "https://placehold.co/600x400",
+        title: "What is called roofing",
+        para: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, quos soluta fugiat animi voluptatibus atque dolor maxime ipsam fugit laboriosam."
+    },
+    {
+        image: "https://placehold.co/600x400",
+        title: "Which is best for roofing",
+        para: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, quos soluta fugiat animi voluptatibus atque dolor maxime ipsam fugit laboriosam."
+    },
+    {
+        image: "https://placehold.co/600x400",
+        title: "How many types of roofing",
+        para: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, quos soluta fugiat animi voluptatibus atque dolor maxime ipsam fugit laboriosam."
+    }
 ]

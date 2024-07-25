@@ -8,7 +8,7 @@ const Services = () => {
     <div className='sec-padding'>
       <Reveal>
         <div className="mb-8 z-1">
-          <h1 className="text-4xl font-bold max-sm:text-2xl">Services</h1>
+          <h2 className="text-4xl font-bold max-sm:text-2xl">Our Roofing services</h2>
           <p className="text-zinc-500">Grow your Place</p>
         </div>
       </Reveal>

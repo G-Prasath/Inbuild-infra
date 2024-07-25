@@ -6,9 +6,9 @@ const Whychoose = () => {
     <section className="bg-gray-50 py-12 sm:py-16 lg:py-20 xl:py-24">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="text-center">
-          <p className="mt-6 text-2xl font-bold text-gray-900 sm:text-4xl lg:text-4xl">
-            Why Choose Us
-          </p>
+          <h3 className="mt-6 text-2xl font-bold text-gray-900 sm:text-4xl lg:text-4xl">
+            Why Choose Us Inbuilt Infra
+          </h3>
           <p className="mx-auto mt-4 max-w-2xl text-md font-normal text-gray-700 lg:text-md lg:leading-8">
             Inbuilt Infra <span>&#8208;</span> No.1 Roofing contractors in
             Chennai
@@ -38,13 +38,13 @@ const Whychoose = () => {
             </div>
             <div className="ml-6 lg:ml-0 lg:mt-10">
               <Reveal>
-                <h3 className="text-xl font-bold text-gray-900 before:mb-2 before:block before:font-mono before:text-sm before:text-gray-500">
-                  Experienced Team4
-                </h3>
-                <h4 className="mt-2 text-base text-gray-700">
+                <h4 className="text-xl font-bold text-gray-900 before:mb-2 before:block before:font-mono before:text-sm before:text-gray-500">
+                  Experienced Team
+                </h4>
+                <p className="mt-2 text-base text-gray-700">
                   Skilled professionals delivering exceptional roofing
                   solutions.
-                </h4>
+                </p>
               </Reveal>
             </div>
           </li>
@@ -71,12 +71,12 @@ const Whychoose = () => {
             </div>
             <div className="ml-6 lg:ml-0 lg:mt-10">
               <Reveal>
-                <h3 className="text-xl font-bold text-gray-900 before:mb-2 before:block before:font-mono before:text-sm before:text-gray-500">
+                <h4 className="text-xl font-bold text-gray-900 before:mb-2 before:block before:font-mono before:text-sm before:text-gray-500">
                   Quality
-                </h3>
-                <h4 className="mt-2 text-base text-gray-700">
-                  Our quality ensures strong and perfect roofing for you.
                 </h4>
+                <p className="mt-2 text-base text-gray-700">
+                  Our quality ensures strong and perfect roofing for you.
+                </p>
               </Reveal>
             </div>
           </li>
@@ -103,12 +103,12 @@ const Whychoose = () => {
             </div>
             <div className="ml-6 lg:ml-0 lg:mt-10">
               <Reveal>
-                <h3 className="text-xl font-bold text-gray-900 before:mb-2 before:block before:font-mono before:text-sm before:text-gray-500">
+                <h4 className="text-xl font-bold text-gray-900 before:mb-2 before:block before:font-mono before:text-sm before:text-gray-500">
                   Best customer service
-                </h3>
-                <h4 className="mt-2 text-base text-gray-700">
-                  We provide the best customer service with responsive support.
                 </h4>
+                <p className="mt-2 text-base text-gray-700">
+                  We provide the best customer service with responsive support.
+                </p>
               </Reveal>
             </div>
           </li>
@@ -131,12 +131,12 @@ const Whychoose = () => {
             </div>
             <div className="ml-6 lg:ml-0 lg:mt-10">
               <Reveal>
-                <h3 className="text-xl font-bold text-gray-900 before:mb-2 before:block before:font-mono before:text-sm before:text-gray-500">
+                <h4 className="text-xl font-bold text-gray-900 before:mb-2 before:block before:font-mono before:text-sm before:text-gray-500">
                   Cost-effective
-                </h3>
-                <h4 className="mt-2 text-base text-gray-700">
-                  We provide affordable solutions while maintaining quality.
                 </h4>
+                <p className="mt-2 text-base text-gray-700">
+                  We provide affordable solutions while maintaining quality.
+                </p>
               </Reveal>
             </div>
           </li>

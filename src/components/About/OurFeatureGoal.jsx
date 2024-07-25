@@ -6,9 +6,9 @@ const OurFeatureGoal = () => {
     <div className="bg-indigo-800 dark:bg-gray-800 py-16 mt-16">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-7xl sm:text-center mb-14">
-          <p className="mt-2 text-3xl font-bold tracking-tight text-white sm:text-4xl">
+          <h2 className="mt-2 text-3xl font-bold tracking-tight text-white sm:text-4xl">
             Our Feature Goals
-          </p>
+          </h2>
 
           <p className="mt-2 text-lg leading-8 text-gray-300">
           Our focus is to lead the roofing industry with forward-thinking approaches that innovate and inspire.
@@ -31,9 +31,9 @@ const OurFeatureGoal = () => {
               ></div>
             </div>
             <Reveal>
-              <p className="mt-6 text-lg font-semibold leading-8 tracking-wide text-white">
+              <h3 className="mt-6 text-lg font-semibold leading-8 tracking-wide text-white">
               Unique Roofing Styles:
-              </p>
+              </h3>
               <p className="mt-1 text-base leading-7 text-gray-300 dark:text-gray-400">
                 The Rise of Unique Roofing Styles with innovative roofing solutions.
               </p>
@@ -55,9 +55,9 @@ const OurFeatureGoal = () => {
               ></div>
             </div>
             <Reveal>
-              <p className="mt-6 text-lg font-semibold leading-8 tracking-wide text-white">
+              <h3 className="mt-6 text-lg font-semibold leading-8 tracking-wide text-white">
               Advanced Roof Coatings:
-              </p>
+              </h3>
               <p className="mt-1 text-base leading-7 text-gray-300 dark:text-gray-400">
               Advanced roofing coatings will improve durability of the roofing sheets.
               </p>
@@ -79,9 +79,9 @@ const OurFeatureGoal = () => {
               ></div>
             </div>
             <Reveal>
-              <p className="mt-6 text-lg font-semibold leading-8 tracking-wide text-white">
+              <h3 className="mt-6 text-lg font-semibold leading-8 tracking-wide text-white">
               3D Printing:
-              </p>
+              </h3>
               <p className="mt-1 text-base leading-7 text-gray-300 dark:text-gray-400">
               3D Printing for Custom Roofing Solutions for accuracy of the project.
               </p>
@@ -103,9 +103,9 @@ const OurFeatureGoal = () => {
               ></div>
             </div>
             <Reveal>
-              <p className="mt-6 text-lg font-semibold leading-8 tracking-wide text-white">
+              <h3 className="mt-6 text-lg font-semibold leading-8 tracking-wide text-white">
               Digital Design Tools:
-              </p>
+              </h3>
               <p className="mt-1 text-base leading-7 text-gray-300 dark:text-gray-400">
                 We use advanced digital designing tools to improve the roofing plans.
               </p>

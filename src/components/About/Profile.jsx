@@ -10,9 +10,9 @@ const Profile = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 items-center gap-x-12">
           <div className="max-w-full">
             <Reveal>
-              <h2 className="text-3xl font-extrabold text-gray-900 sm:text-4xl">
+              <h1 className="text-3xl font-extrabold text-gray-900 sm:text-4xl">
                 About Inbuilt Infra
-              </h2>
+              </h1>
             </Reveal>
             <Reveal>
               <p className="mt-4 text-zinc-600 text-md text-justify">

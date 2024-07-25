@@ -5,12 +5,11 @@ const HappyCustomer = () => {
     return (
         <div className="bg-white w-full px-4 pt-16 pb-16" id="faq">
                 <h2 className="text-4xl font-bold text-center">
-                    Happy Customers
+                Our Valuable Clients
                 </h2>
                     
                 <p className="pt-6 pb-8 text-base max-w-2xl text-center m-auto">
-                    Lorem ipsum dolor sit amet
-                    consectetur adipisicing elit nam maxime quas fugiat tempore blanditiis, eveniet quia accusantium.
+                Join the growing list of satisfied clients who have chosen Inbuilt Infra for their roofing needs. Contact us today to discover how we can serve you!
                 </p>
             <div
                 className="mx-auto w-full max-w-4xl bg-white justify-center items-center grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6 gap-4">
