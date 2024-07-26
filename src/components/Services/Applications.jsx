@@ -7,7 +7,7 @@ import { Reveal } from "../../hooks/Reveal";
 const Applications = ({appData, title}) => {
   return (
     <div className="w-full py-[5%] px-[5%]">
-      <h2 className="w-full text-center text-4xl text-zinc-800 font-bold my-10">
+      <h2 className="w-full text-center md:text-4xl text-2xl text-zinc-800 font-bold my-10">
         {title} Applications
       </h2>
       <div className="container w-full grid grid-cols-3 gap-5 max-md:grid-cols-2 max-sm:grid-cols-1">

@@ -11,15 +11,24 @@ import Applications from '../components/Services/Applications'
 import WhyChoose from '../components/Services/WhyChoose'
 
 import { shinglesData as allDatas } from '../data/Service';
+import { Helmet } from 'react-helmet-async'
+import { ShinglesroofPageData as metaTags } from '../data/Metatag';
+
 
 const Shingle = () => {
   return (
     <div>
+      <Helmet>
+        <title>{metaTags.title}</title>
+        <meta name="description" content={metaTags.description} />
+        <meta name="keywords" content={metaTags.keywords} />
+        <link rel="canonical" href={metaTags.canonical} />
+      </Helmet>
       <BannerBreadcrum bannerCnt={allDatas.banner.text} bannerImg={allDatas.banner.img} />
       <Profile profileImg={allDatas.profile.img} profileHeading={allDatas.profile.heading} profileText={allDatas.profile.paragraphs} />
-      <Applications appData={allDatas.apps} />
+      <Applications appData={allDatas.apps} title="Shingles Roofing" />
       <DesignProcess />
-      <Benifites benifitesData={allDatas.benefits} />
+      <Benifites benifitesData={allDatas.benefits} title="Shingles Roofing" />
       <WhyChoose datas={allDatas.whychoose} title="Shingles Roofing" />
       <Faq faqData={allDatas.faq} />
       <Gallery galleryImg={allDatas.gallery} />

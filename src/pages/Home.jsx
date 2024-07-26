@@ -11,23 +11,32 @@ import Whychoose from "../components/Home/Whychoose";
 import Form from "../components/Home/Form"
 import Brands from "../components/Home/Brands"
 import Blog from "../components/Home/Blog";
+import { Helmet } from "react-helmet-async";
+import { HomePageData as metaTags } from '../data/Metatag';
+
 
 
 
 const Home = () => {
   return (
     <div>
-      <Banner/>
-      <About/>
-      <Brands/>
-      <Whychoose/>
-      <Services/>
-      <Features/>
-      <Gallery/>
-      <Blog/>
-      <Faq/>
-      <Form/>
-      <Cta/>
+      <Helmet>
+        <title>{metaTags.title}</title>
+        <meta name="description" content={metaTags.description} />
+        <meta name="keywords" content={metaTags.keywords} />
+        <link rel="canonical" href={metaTags.canonical} />
+      </Helmet>
+      <Banner />
+      <About />
+      <Brands />
+      <Whychoose />
+      <Services />
+      <Features />
+      <Gallery />
+      <Blog />
+      <Faq />
+      <Form />
+      <Cta />
     </div>
   );
 };

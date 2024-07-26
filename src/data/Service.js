@@ -535,14 +535,14 @@ export const pufpanelData = {
 export const glassroofData = {
     // Banner
     banner: {
-        img: "/Services/poly/polyBanner.jpg",
+        img: "/Services/glassroof/glassroofBanner.avif",
         text: "Glass Roofing"
     },
 
     //Profile
     profile: {
         heading: "Glass Roofing",
-        img: "/Services/poly/poly_profile.jpg",
+        img: "/Services/glassroof/glassroof_profile.avif",
         paragraphs: [
             "Inbuilt Infra offers the most advanced roofing, known as Glass Roofing. This Glass roof is a transparent roof which allows the rooflight or skylight into the space. This Glass roof creates a bright and inviting atmosphere.",
             "Glass roof extensions can add a final touch to an existing structure, while a glass roof patio or terrace creates a luxurious outdoor living area. The average lifespan of this glass roof is 10 to 15 years, but it may extend with proper maintenance. Glass panels for roofs can be constructed from laminated glass or tempered glass, this  offers superior strength and safety. The application of the glass panel roof are Hotels, Resorts, Atriums, Skylights, Restaurants, Cafes, Aquariums, Balcony and Gardens. Insulated glass roofs provide excellent thermal performance, this can keep your space cool in the summer and warm in the winter. The main advantage of a glass roof is its energy-efficient and sustainable design, which makes the roof a modern roofing. Glass roofs are highly versatile and integrate with a wide range of architectural styles, enhancing the aesthetic appeal and functionality of any building. Whether you're considering a glass roof installation for a new build or a glass roof replacement project, contact Inbuilt Infra. We can guide you through the selection process that ensures you to choose the right type of Glass roof installation for your specific needs."
@@ -553,44 +553,44 @@ export const glassroofData = {
     apps: [
         {
             title: "Hotels",
-            img: "/Services/poly/Parking.jpg",
+            img: "/Services/glassroof/hotel.avif",
             para: "Glass roofs allow natural light into the hotel, which can create a more spacious and inviting atmosphere for visitors. This can be beneficial in areas with limited natural light, such as lobbies or atriums."
         },
         {
             title: "Resorts",
-            img: "/Services/poly/Gazebos.jpg",
+            img: "/Services/glassroof/Resorts.avif",
             para: "Glass roofs allow guests to enjoy panoramic views of the surrounding landscape. whether it's a majestic mountain range, sparkling oceanfront or lush tropical greenery."
         },
         {
             title: "Atriums",
-            img: "/Services/poly/Walkway.jpg",
+            img: "/Services/glassroof/Atriums.avif",
             para: "Glass roofs are commonly used in atriums, particularly those that include landscaping or open spaces. It enhances the connection between indoor spaces and nature."
         },
         {
             title: "Restaurants",
             para: "Glass roofs have become increasingly popular in restaurants, offering a unique dining experience with several advantages but also requiring some practical considerations.",
-            img: "/Services/poly/balconies.jpg"
+            img: "/Services/glassroof/restaurant.avif"
         },
-        {
-            title: "Cafes",
-            para: "Glass roofs are a trendy design element for cafes. These glass roofs offer a charming and inviting atmosphere for the customers and visitors of your cafe.",
-            img: "/Services/poly/OTS_Covering.jpg"
-        },
+        // {
+        //     title: "Cafes",
+        //     para: "Glass roofs are a trendy design element for cafes. These glass roofs offer a charming and inviting atmosphere for the customers and visitors of your cafe.",
+        //     img: "/Services/glassroof/OTS_Covering.avif"
+        // },
 
         {
             title: "Aquariums",
             para: "Glass roofing offers several advantages for aquariums, enhancing the viewing experience for visitors and providing a healthier habitat for aquatic life.",
-            img: "/Services/poly/Terrace.jpg"
+            img: "/Services/glassroof/Aquariums.avif"
         },
         {
             title: "Balcony",
             para: "The glass roof allows natural light to flood your balcony and potentially even adjacent rooms. This can be especially beneficial in areas with limited natural light.",
-            img: "/Services/poly/cafe.jpg"
+            img: "/Services/glassroof/Balcony.avif"
         },
         {
             title: "Gardens",
             para: "Glass roof can create a bright and airy atmosphere in your garden. It can introduce a touch of elegance, beauty, sophistication, and a seamless connection to the outdoors.",
-            img: "/Services/poly/Restaurents.jpg"
+            img: "/Services/glassroof/Garden.avif"
         },
     ],
 
@@ -664,12 +664,12 @@ export const glassroofData = {
 
     // Gallery
     gallery: [
-        "Services/poly/poly_gallery_01.jpg",
-        "Services/poly/poly_gallery_02.jpg",
-        "Services/poly/poly_gallery_03.jpg",
-        "Services/poly/poly_gallery_04.jpg",
-        "Services/poly/poly_gallery_05.jpg",
-        "Services/poly/poly_gallery_06.jpg"
+        "Services/glassroof/glassroof_gallery_01.avif",
+        "Services/glassroof/glassroof_gallery_02.avif",
+        "Services/glassroof/glassroof_gallery_03.avif",
+        "Services/glassroof/glassroof_gallery_04.avif",
+        "Services/glassroof/glassroof_gallery_05.avif",
+        "Services/glassroof/glassroof_gallery_06.avif"
     ],
 
     //testimonials
@@ -700,14 +700,14 @@ export const glassroofData = {
 export const shinglesData = {
     // Banner
     banner: {
-        img: "/Services/shingle/polyBanner.jpg",
+        img: "/Services/shingle/shingleBanner.avif",
         text: "Shingles Roofing"
     },
 
     //Profile
     profile: {
         heading: "Shingles Roofing",
-        img: "/Services/shingle/poly_profile.jpg",
+        img: "/Services/shingle/shingle_profile.avif",
         paragraphs: [
             "Inbuilt Infra is the best choice for Shingle Roofing in Chennai. We are specialised in providing durable and cost effective shingle roofing solutions.",
             "Shingle Roofing is the excellent option for both Residential and Commercial roofing due to it creates aesthetic appeal and Endurance. Shingles come in a variety of colour, design and styles which improves the house's architectural design. Our first priority is customer satisfaction and our team of experts follows the safety measures to protect your property. We are using quality materials like asphalt, wood, slate and metal, which extend the lifespan of the shingle roof.  While compared to other roofing materials, shingles roofing is more affordable and high in quality. It can survive in harsh climatic conditions including heavy rain, wind and cyclones. Regular checking can help to identify the damaged Shingles that are cracked and curled. It is very easy to remove the damaged shingle and replace with a new one and it requires less time to install. We are offering quality shingle roofing solutions at an affordable price and it varies from roofing materials and sizes. Choose Inbuilt Infra for your shingle roofing service, we offer long-lasting protection for every project."
@@ -718,49 +718,49 @@ export const shinglesData = {
     apps: [
         {
             title: "Residential Homes",
-            img: "/Services/shingle/Parking.jpg",
+            img: "/Services/shingle/residential-homes.avif",
             para: "Shingles offering Superior weather resistance protecting homes from harsh conditions. It is lightweight and simple to maintain it can be easily repaired or replaced if damaged."
         },
         {
             title: "Gardens",
-            img: "/Services/shingle/Gazebos.jpg",
+            img: "/Services/shingle/garden.avif",
             para: "Shingles roofing are best choice for garden sheds ensuring protection and classic appearance. Its variety of colours and textures enhance various garden designs."
         },
         {
             title: "Restaurants",
-            img: "/Services/shingle/Walkway.jpg",
+            img: "/Services/shingle/restaraunt.avif",
             para: "Many restaurants can use shingles for roofs which is durable and stylish choice for covering dining areas. It offers insulation that helps to regulate temperatures."
         },
         {
             title: "Resorts",
             para: "Shingle roofing offers an elegant design that enhances the entire ambiance of resorts. Shingles are durable and low-maintenance  which requires minimal time to maintain the resort.",
-            img: "/Services/shingle/balconies.jpg"
+            img: "/Services/shingle/resorts.avif"
         },
         {
             title: "Porch",
             para: "Shingle roofing improves porch elegance and creates a classic outdoor space. shingle offers weather protection which ensures the porch area remains dry and comfortable.",
-            img: "/Services/shingle/OTS_Covering.jpg"
+            img: "/Services/shingle/porch.avif"
         },
 
         {
             title: "Sitout Area",
             para: "Sitout area looks elegant and enduring with Shingles roofing. It provides a practical and stylish roofing solution for comfortable outdoor sitout areas.",
-            img: "/Services/shingle/Terrace.jpg"
+            img: "/Services/shingle/sitout.avif"
         },
         {
             title: "Patio",
             para: "Patios customized with various shingles colours and textures. Shingles offer durable and weather resistant, it adds a classic and elegant look to the patio.",
-            img: "/Services/shingle/cafe.jpg"
+            img: "/Services/shingle/patio.avif"
         },
         {
             title: "Schools",
             para: "Shingles roofing helps to maintain a comfortable atmosphere in schools. It adds visual attractiveness to school structures and offers strong protection.",
-            img: "/Services/shingle/Restaurents.jpg"
+            img: "/Services/shingle/schools.avif"
         },
         {
             title: "Hotel",
             para: "Shingle roofing improves the hotel exteriors with a classic look through its varied design and colours. It is cost-effective and durable solution for their roofing needs.",
-            img: "/Services/shingle/Restaurents.jpg"
+            img: "/Services/shingle/hotel.avif"
         }
     ],
 
@@ -838,12 +838,12 @@ export const shinglesData = {
 
     // Gallery
     gallery: [
-        "Services/shingle/shingle_gallery_01.jpg",
-        "Services/shingle/shingle_gallery_02.jpg",
-        "Services/shingle/shingle_gallery_03.jpg",
-        "Services/shingle/shingle_gallery_04.jpg",
-        "Services/shingle/shingle_gallery_05.jpg",
-        "Services/shingle/shingle_gallery_06.jpg"
+        "Services/shingle/shingle_gallery_01.avif",
+        "Services/shingle/shingle_gallery_02.avif",
+        "Services/shingle/shingle_gallery_03.avif",
+        "Services/shingle/shingle_gallery_04.avif",
+        "Services/shingle/shingle_gallery_05.avif",
+        "Services/shingle/shingle_gallery_06.avif"
     ],
 
     //testimonials

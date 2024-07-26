@@ -4,7 +4,7 @@ export const footerDatas = [
       links: [
         {
           label: "Tensile Roofing",
-          link: "/"
+          link: "/tensile"
         },
         {
           label: "Retractable Roofing",
@@ -12,7 +12,7 @@ export const footerDatas = [
         },
         {
           label: "Polycarbonate Roofing",
-          link: "/"
+          link: "/poly"
         },
         {
           label: "Mangalore Tile Roofing",
