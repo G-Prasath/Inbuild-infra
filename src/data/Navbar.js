@@ -6,16 +6,16 @@ export const NAV_LINKS = [
         { label: 'Tensile', href: '/tensile' },
         { label: 'Poly', href: '/poly' },
         { label: 'Shingle', href: '/Shingle' },
-        { label: 'RetrableRoof', href: '/Reactrable' },
+        { label: 'RetrableRoof', href: '/' },
         { label: 'GalssRoof', href: '/Glassroof' },
-        { label: 'Puf', href: '/Puf' },
-        { label: 'Mangalore Tail', href: '/Manglore' },
-        { label: 'Pre Engineered Buildings', href: '/Peb' },
-        { label: 'Facade', href: '/Facade' }
+        { label: 'Puff', href: '/Puf' },
+        { label: 'Mangalore Tail', href: '/' },
+        { label: 'Pre Engineered Buildings', href: '/' },
+        { label: 'Facade', href: '/' }
       ]
     },
-    { label: 'Projects', href: '/projects', subMenu: [] },
-    { label: 'Careers', href: '/careers', subMenu: [] },
-    { label: 'Contact Us', href: '/contact', subMenu: [] }
+    { label: 'Projects', href: '/', subMenu: [] },
+    { label: 'Careers', href: '/', subMenu: [] },
+    { label: 'Contact Us', href: '/', subMenu: [] }
   ];
   

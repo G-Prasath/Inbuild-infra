@@ -1,15 +1,57 @@
 import React from "react";
-import { IoLogoLinkedin } from "react-icons/io5";
-import { FaSquareFacebook } from "react-icons/fa6";
-import { FaSquareXTwitter } from "react-icons/fa6";
-import { FaSquarePinterest } from "react-icons/fa6";
-import { Reveal } from "../hooks/Reveal";
+// import { Reveal } from "../hooks/Reveal";
 import { Link } from "react-router-dom";
 import BackToTopButton from "./common/BackToTop";
 import FloatingButtons from "./common/FloatingButtons";
 import { footerDatas } from "../data/Footer";
 
+
+import { IoLogoLinkedin } from "react-icons/io5";
+import { FaSquareFacebook } from "react-icons/fa6";
+import { FaSquareXTwitter } from "react-icons/fa6";
+import { IoLogoYoutube } from "react-icons/io5";
+import { FaInstagramSquare } from "react-icons/fa";
+
+
+
+// Map string labels to actual icon components
+const iconMapping = {
+  FaSquareFacebook: FaSquareFacebook,
+  FaInstagramSquare: FaInstagramSquare,
+  FaSquareXTwitter: FaSquareXTwitter,
+  IoLogoLinkedin: IoLogoLinkedin,
+  IoLogoYoutube: IoLogoYoutube,
+};
+
+
+const footerSocialLinks = [
+  {
+    label: "FaSquareFacebook",
+    link: "https://www.facebook.com/profile.php?id=61563459030303"
+  },
+  {
+    label: "FaInstagramSquare",
+    link: "https://www.instagram.com/inbuiltinfra"
+  },
+  {
+    label: "FaSquareXTwitter",
+    link: "https://x.com/InbuiltInfra"
+  },
+  {
+    label: "IoLogoLinkedin",
+    link: "https://www.linkedin.com/company/104104327"
+  },
+  {
+    label: "IoLogoYoutube",
+    link: "https://www.youtube.com/@InbuiltInfra"
+  }
+]
+
+
+
 const Footer = () => {
+
+
   return (
     <footer className="bg-[#1A1D2B]">
       <div className="container mx-auto p-0 md:p-8 xl:px-0">
@@ -35,34 +77,20 @@ const Footer = () => {
                 Inbuilt Infra provides all types of roofing service for Residential and Commercial industries. We are the leader in the roofing industry with 15+ years of experience.
               </div>
               <div className="flex space-x-2">
-                <Link
-                  to="/"
-                  target="_blank"
-                  className="text-gray-200 hover:text-gray-200"
-                >
-                  <FaSquareFacebook className="text-[25px]" />
-                </Link>
-                <Link
-                  to="/"
-                  target="_blank"
-                  className="text-gray-200 hover:text-gray-200"
-                >
-                  <FaSquareXTwitter className="text-[25px]" />
-                </Link>
-                <Link
-                  to="/"
-                  target="_blank"
-                  className="text-gray-200 hover:text-gray-200"
-                >
-                  <IoLogoLinkedin className="text-[25px]" />
-                </Link>
-                <Link
-                  to="/"
-                  target="_blank"
-                  className="text-gray-200 hover:text-gray-200"
-                >
-                  <FaSquarePinterest className="text-[25px]" />
-                </Link>
+              {footerSocialLinks.map((item, index) => {
+                  const IconComponent = iconMapping[item.label];
+                  return (
+                    <Link
+                      key={index}
+                      to={item.link}
+                      target="_blank"
+                      className="text-gray-200 hover:text-gray-200"
+                    >
+                      <IconComponent className="text-[25px]" />
+                    </Link>
+                  );
+                })}
+
               </div>
             </div>
 
