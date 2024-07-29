@@ -8,7 +8,7 @@ import Features from "../components/Home/Features";
 import Services from "../components/Home/Services";
 import Gallery from "../components/Home/Gallery";
 import Whychoose from "../components/Home/Whychoose";
-import Form from "../components/Home/Form"
+import HomeForm from "../components/Home/HomeForm"
 import Brands from "../components/Home/Brands"
 import Blog from "../components/Home/Blog";
 import { Helmet } from "react-helmet-async";
@@ -35,7 +35,7 @@ const Home = () => {
       <Gallery />
       <Blog />
       <Faq />
-      <Form />
+      <HomeForm />
       <Cta />
     </div>
   );

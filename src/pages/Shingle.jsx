@@ -3,7 +3,7 @@ import Benifites from '../components/Services/Benifites'
 import DesignProcess from '../components/Services/DesignProcess'
 import Testimonials from '../components/Services/Testimonials'
 import Faq from '../components/common/Faq'
-import Form from '../components/Services/Form'
+import ServiceForm from '../components/Services/ServiceForm'
 import Gallery from '../components/Services/Gallery';
 import BannerBreadcrum from '../components/common/BannerBreadcrum'
 import Profile from '../components/Services/Profile'
@@ -33,7 +33,7 @@ const Shingle = () => {
       <Faq faqData={allDatas.faq} />
       <Gallery galleryImg={allDatas.gallery} />
       <Testimonials testiData={allDatas.testimonials} />
-      <Form />
+      <ServiceForm/>
     </div>
   )
 }

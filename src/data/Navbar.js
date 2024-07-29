@@ -18,4 +18,6 @@ export const NAV_LINKS = [
     { label: 'Careers', href: '/', subMenu: [] },
     { label: 'Contact Us', href: '/', subMenu: [] }
   ];
+
+  export const selectBtnDatas = ["Tensile", "Polycarbonate Roofings", "Shingles Roofings", "RetrableRoof", "Glass Roofings", "Puff Panel", "Mangalore Tail", "Pre Engineered Buildings", "Facade"];
   

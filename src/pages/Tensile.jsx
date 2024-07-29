@@ -6,7 +6,7 @@ import Benifites from '../components/Services/Benifites'
 import DesignProcess from '../components/Services/DesignProcess'
 import Testimonials from '../components/Services/Testimonials'
 import Faq from '../components/common/Faq'
-import Form from '../components/Services/Form'
+import ServiceForm from '../components/Services/ServiceForm'
 import Gallery from '../components/Services/Gallery';
 
 import { tensileData as allDatas } from '../data/Service';
@@ -35,7 +35,7 @@ const Tensile = () => {
       <Faq faqData={allDatas.faq} />
       <Gallery galleryImg={allDatas.gallery} />
       <Testimonials testiData={allDatas.testimonials} />
-      <Form />
+      <ServiceForm/>
     </div>
   )
 }
