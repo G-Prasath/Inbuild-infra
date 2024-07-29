@@ -4,7 +4,7 @@ import Banner from "../components/Home/Banner";
 import About from "../components/Home/About";
 import Cta from "../components/Home/Cta";
 import Faq from "../components/Home/Faq";
-import Features from "../components/Home/Features";
+// import Features from "../components/Home/Features";
 import Services from "../components/Home/Services";
 import Gallery from "../components/Home/Gallery";
 import Whychoose from "../components/Home/Whychoose";
@@ -31,7 +31,7 @@ const Home = () => {
       <Brands />
       <Whychoose />
       <Services />
-      <Features />
+      {/* <Features /> */}
       <Gallery />
       <Blog />
       <Faq />

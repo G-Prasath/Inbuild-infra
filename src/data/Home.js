@@ -41,7 +41,7 @@ export const serviceCard = [
     {
         img: "/Home/peb.avif",
         title: "Pre Engineered Buildings",
-        disc: "Pre-engineered buildings are steel construction systems that are designed and produced in a factory prior to being transported to the assembly site. For institutional, commercial, and industrial purposes, PEB buildings are widely used."
+        disc: "Pre-engineered buildings are steel construction systems that are designed and produced in a factory prior to being transported to the assembly site. For Institutional, Commercial and Industrial Starting letter capital in Pre Engineered Buildings."
     },
     {
         img: "/Home/Mangalore_tile.avif",
@@ -51,7 +51,7 @@ export const serviceCard = [
     {
         img: "/Home/Facade.avif",
         title: "Facades",
-        disc: "Facades are important for a building's appealing and functional value. It enhances an eye-catching appearance and offers thermal insulation. Our designed facades assure structure and energy efficiency, elevating both Elegant and Effectiveness in the structure"
+        disc: "Facades are important for a building's appealing and functional value. It enhances an eye-catching appearance and offers thermal insulation. Our designed facades assure structure and energy efficiency, elevating both elegant and effectiveness in the structure"
     },
     {
         img: "/Home/Reactable_roofing.avif",
@@ -95,18 +95,18 @@ export const faqData = [
 
 export const homeBlog = [
     {
-        image: "https://placehold.co/600x400",
+        image: "/Home/blog-img-1.avif",
         title: "What is called roofing",
-        para: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, quos soluta fugiat animi voluptatibus atque dolor maxime ipsam fugit laboriosam."
+        para: "Roofing is the protective covering on top of a building that shields it from rain, snow, sunlight, wind and extreme temperatures."
     },
     {
-        image: "https://placehold.co/600x400",
+        image: "/Home/blog-img-2.avif",
         title: "Which is best for roofing",
-        para: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, quos soluta fugiat animi voluptatibus atque dolor maxime ipsam fugit laboriosam."
+        para: "Factors like climate, budget, aesthetics, durability and maintenance play a crucial role in determining the ideal choice."
     },
     {
-        image: "https://placehold.co/600x400",
+        image: "/Home/blog-img-3.avif",
         title: "How many types of roofing",
-        para: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, quos soluta fugiat animi voluptatibus atque dolor maxime ipsam fugit laboriosam."
+        para: "There are various types of roofing available in the market, each designed to meet specific needs and preferences. "
     }
 ]

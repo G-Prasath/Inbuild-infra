@@ -24,6 +24,7 @@ import Puf from './pages/Puf';
 import Manglore from './pages/Manglore';
 import Peb from './pages/Peb';
 import Facade from './pages/Facade';
+// import { ScrollProvider } from './hooks/ScrollContext';
 
 
 
@@ -31,34 +32,34 @@ import Facade from './pages/Facade';
 const App = () => {
 
   return (
-    <HelmetProvider>
-      <Router basename="/">
-        <ScrolltoTop />
-        <Navbar />
-        <React.Suspense fallback={<div />}>
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/about-us" element={<About />} />
-            <Route path="/projects" element={<Projects />} />
+      <HelmetProvider>
+        <Router basename="/">
+          <ScrolltoTop />
+          <Navbar />
+          <React.Suspense fallback={<div />}>
+            <Routes>
+              <Route path="/" element={<Home />} />
+              <Route path="/about-us" element={<About />} />
+              <Route path="/projects" element={<Projects />} />
 
-            <Route path='/tensile' element={<Tensile />} />
-            <Route path='/Poly' element={<Poly />} />
-            <Route path='/Shingle' element={<Shingle />} />
-            <Route path='/Glassroof' element={<Glassroof />} />
-            <Route path='/Puf' element={<Puf />} />
-            <Route path='/Peb' element={<Peb />} />
-            <Route path='/Facade' element={<Facade />} />
-            <Route path='/Reactrable' element={<Reactrable />} />
-            <Route path='/Manglore' element={<Manglore />} />
+              <Route path='/tensile' element={<Tensile />} />
+              <Route path='/polycarbonate' element={<Poly />} />
+              <Route path='/shingles' element={<Shingle />} />
+              <Route path='/glass-roof' element={<Glassroof />} />
+              <Route path='/puff-sheet' element={<Puf />} />
+              <Route path='/pre-engineered-building' element={<Peb />} />
+              <Route path='/facade' element={<Facade />} />
+              <Route path='/retractable' element={<Reactrable />} />
+              <Route path='/mangalore-tile' element={<Manglore />} />
 
-            <Route path="/careers" element={<Careers/>} />
-            <Route path="/contact" element={<Contact />} />
-            <Route path="*" element={<NotFound />} />
-          </Routes>
-        </React.Suspense>
-        <Footer />
-      </Router>
-    </HelmetProvider>
+              <Route path="/careers" element={<Careers />} />
+              <Route path="/contact" element={<Contact />} />
+              <Route path="*" element={<NotFound />} />
+            </Routes>
+          </React.Suspense>
+          <Footer />
+        </Router>
+      </HelmetProvider>
   )
 }
 

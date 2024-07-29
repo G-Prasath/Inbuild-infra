@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 
 import { Formik, Form, Field, ErrorMessage } from "formik";
 import { validationSchema } from "../Schema";
+import { selectBtnDatas } from "../../data/Navbar";
 
 
 const HomeForm = () => {
@@ -40,8 +41,7 @@ const HomeForm = () => {
                   ADDRESS
                 </p>
                 <p className="mt-1">
-                  First Floor, ZUBII Manor bearion O No.27E/N 57E at 7th Avenue,
-                  Ashok Nagar, Chennai-600083.
+                  ZUBII Manor bearion O No.27E/N 57E at 7th Avenue, First Floor, Ashok Nagar, Chennai-600083.
                 </p>
               </Reveal>
             </div>
@@ -85,7 +85,7 @@ const HomeForm = () => {
           }}
         >
           {({ touched, errors }) => (
-            <Form className="lg:w-1/3 md:w-1/2 bg-white flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0">
+            <Form className="lg:w-1/3 md:w-1/2 bg-white flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0" id="homeForm">
 
               {/* Username */}
               <div className="relative mb-4">
@@ -146,7 +146,7 @@ const HomeForm = () => {
                   autoComplete="off"
                   className={`w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out ${touched.phone && errors.phone ? 'form-input-error' : ''}`}
                 />
-                 <ErrorMessage name="phone" component="div" className="form-error" />
+                <ErrorMessage name="phone" component="div" className="form-error" />
               </div>
 
               {/* Select */}
@@ -159,9 +159,11 @@ const HomeForm = () => {
                   className={`w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-3 px-3 leading-8 transition-colors duration-200 ease-in-out ${touched.select && errors.select ? 'form-input-error' : ''}`}
                 >
                   <option value="">Please select an Service</option>
-                  <option value="option1">Option 1</option>
-                  <option value="option2">Option 2</option>
-                  <option value="option3">Option 3</option>
+                  {selectBtnDatas.map((item, index) => (
+                    <option value={item} key={index}>
+                      {item}
+                    </option>
+                  ))}
                 </Field>
                 <ErrorMessage name="select" component="div" className="form-error" />
               </div>

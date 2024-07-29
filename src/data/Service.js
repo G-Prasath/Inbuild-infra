@@ -44,12 +44,6 @@ export const tensileData = {
             img: "/Services/tensile/Sitout.jpg"
         },
 
-
-
-
-
-        //Image Changing Sections
-
         {
             title: "Stadiums",
             para: "Tensile structures are becoming increasingly popular for stadium roofs due to several advantages. This roof system uses a strong, flexible fabric stretched over a lightweight framework of cables.",
@@ -58,7 +52,7 @@ export const tensileData = {
         {
             title: "Shopping Malls",
             para: "Tensile structures are a popular design choice for shopping malls. Malls can use tensile structures to create temporary venues for events like concerts and markets attracting more visitors.",
-            // img: "/Services/tensile/Kidsplay_area.jpg"
+            img: "/Services/tensile/shopping_mall.jpg"
         },
         {
             title: "Walkways",
@@ -206,7 +200,7 @@ export const polyData = {
             para: "Polycarbonate is a very strong and impact-resistant material. These polycarbonate roofing will protect vehicles from extreme weather and sun damage to your car's paint."
         },
         {
-            title: " Gazebos",
+            title: "Gazebos",
             img: "/Services/poly/Gazebos.jpg",
             para: "Gazebos with polycarbonate roofs offer excellent weather resistance and sun protection. These polycarbonate roofs will transform your gazebo into a stylish structure."
         },
@@ -334,7 +328,7 @@ export const polyData = {
 
     // Gallery
     gallery: [
-        "Services/poly/poly_gallery_01.jpg",
+        "Services/poly/poly_gallery_01.avif",
         "Services/poly/poly_gallery_02.jpg",
         "Services/poly/poly_gallery_03.jpg",
         "Services/poly/poly_gallery_04.jpg",

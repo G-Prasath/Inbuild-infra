@@ -20,7 +20,7 @@ const OurBranches = () => {
                 Inbuilt Infra - Ashok Nagar
                 </p>
                 <p className="text-gray-600">
-                First Floor, ZUBII Manor bearion O No.27E/N 57E at 7th Avenue, Ashok Nagar, Chennai-600083.
+                ZUBII Manor bearion O No.27E/N 57E at 7th Avenue, First Floor, Ashok Nagar, Chennai-600083.
                 </p>
               </Reveal>
             </div>

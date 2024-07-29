@@ -18,7 +18,6 @@ const About = () => {
           <Reveal>
           <div className="mb-4 z-1">
             <h1 className="text-4xl max-sm:text-2xl font-bold">Roofing Contractors in Chennai</h1>
-            <p className="text-zinc-500">Smart Business</p>
           </div>
           </Reveal>
 

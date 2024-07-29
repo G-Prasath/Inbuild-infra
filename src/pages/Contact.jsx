@@ -4,7 +4,7 @@ import About from '../components/Contact/About';
 import Features from '../components/Contact/Features';
 import Cta from '../components/Contact/Cta';
 import Map from '../components/Contact/Map';
-import Form from '../components/Contact/Form';
+import ContactForm from '../components/Contact/ContactForm';
 import AddressCard from '../components/Contact/AddressCard';
 
 
@@ -17,7 +17,7 @@ const Contact = () => {
       />
       <About/>
       <Features/>
-      <Form/>
+      <ContactForm/>
       <AddressCard/>
       <Map/>
       <Cta/>

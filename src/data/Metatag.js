@@ -11,7 +11,7 @@ export const AboutPageData = {
   title: "About - Inbuilt Infra",
   description: "Discover how Inbuilt Infra's innovative solutions and commitment to quality.",
   keywords: "",
-  canonical: hostname+"/about"
+  canonical: hostname+"/about-us"
 }
 
 export const TensilePageData = {
@@ -25,33 +25,56 @@ export const TensilePageData = {
     title: "Polycarbonate roofing - Inbuilt Infra",
     description: "Are you looking for polycarbonate roofing in Chennai? Choose inbuilt infra for your polycarbonate roofing. Contact us now!",
     keywords: "",
-    canonical: hostname+"/poly"
+    canonical: hostname+"/polycarbonate"
   };
 
   export const PuffPageData = {
     title: "PUFF Sheet Roofing - Inbuilt Infraa",
     description: "Inbuilt infra specializes in PUFF sheet roofing. We provide best and high quality PUFF sheet roofing. Contact us today and start your project.",
     keywords: "",
-    canonical: hostname+"/puff"
+    canonical: hostname+"/puff-sheet"
   };
 
   export const GalssroofPageData = {
     title: "Glass roofing - Inbuilt Infra",
     description: "Transform your space with Inbuilt Infra. Chennai's leading glass roofing solution provider, which is perfect for both residential and commercial.",
     keywords: "",
-    canonical: hostname+"/Glassroof"
+    canonical: hostname+"/glass-roof"
   };
 
   export const ShinglesroofPageData = {
     title: "Shingles roofing in Chennai - Inbuilt Infra",
     description: "Inbuilt Infra leading provider of shingles roofing service in chennai. We are expert shingles roofing installation with high quality roofing materials.",
     keywords: "",
-    canonical: hostname+"/Shingle"
+    canonical: hostname+"/shingles"
   };
 
   export const MangalorePageData = {
     title: "Mangalore Tile Roofing - Inbuilt Infra",
     description: "Trying to find the best mangalore tile roofing contractors in Chennai? Inbuilt Infra is the leading mangalore tile roofing provider for your roofing needs.",
     keywords: "",
-    canonical: hostname+"/Manglore"
+    canonical: hostname+"/mangalore-tile"
+  };
+
+
+
+  export const RetractablePageData = {
+    title: "",
+    description: "",
+    keywords: "",
+    canonical: hostname+"/retractable"
+  };
+
+  export const FacadePageData = {
+    title: "",
+    description: "",
+    keywords: "",
+    canonical: hostname+"/facade"
+  };
+
+  export const PebPageData = {
+    title: "",
+    description: "",
+    keywords: "",
+    canonical: hostname+"/pre-engineered-building"
   };

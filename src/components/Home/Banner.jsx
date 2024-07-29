@@ -13,6 +13,8 @@ const Banner = () => {
     return () => clearInterval(interval);
   }, [imgList.length]);
 
+
+
   return (
     <div className="relative text-white overflow-hidden w-full aspect-video">
       <div className="absolute inset-0">
@@ -30,12 +32,11 @@ const Banner = () => {
       <div className="relative z-10 flex flex-col justify-center items-center h-full text-center">
         <h2 className="text-5xl font-bold leading-tight mb-4 max-sm:text-2xl max-sm:mb-1">Welcome to Inbuild Infra</h2>
         <h3 className="text-lg max-sm:text-sm text-gray-200 mb-8 max-sm:mb-4">Roofing Contractor for Residentials & Commercials</h3>
-        <Link
-          href="/"
+        <div
           className="bg-white text-gray-900 hover:bg-yellow-300 py-2 px-6 max-sm:px-3 rounded-full text-lg max-sm:text-sm font-semibold transition duration-300 ease-in-out transform hover:scale-105 hover:shadow-lg"
         >
-          Get Started
-        </Link>
+          Get Quote
+        </div>
       </div>
     </div>
   );
