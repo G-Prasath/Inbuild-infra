@@ -365,7 +365,7 @@ export const pufpanelData = {
     // Banner
     banner: {
         img: "/Services/puff/puffBanner.avif",
-        text: "PUF Panel Roofing"
+        text: "PUFF Panel Roofing"
     },
 
     //Profile
@@ -373,8 +373,8 @@ export const pufpanelData = {
         heading: "PUF Panel Roofing",
         img: "/Services/puff/puff_profile.avif",
         paragraphs: [
-            "Inbuilt Infra is the best PUF Panel roofing contractor in Chennai. We are experts in installing the PUF panels for industrial roofing, commercial and residential roofing. This PUF panel roof is also known as Insulated roof panel or sandwich panel.",
-            "PUF panel roofs offer superior insulation compared to traditional roofing materials. This can significantly reduce your heating and cooling costs by keeping the interior temperature stable. We are dedicated to deliver high-quality prefabricated roofing systems that ensure thermal efficiency and durability. The major applications of PUF panel roofs are Terrace, Canteen, Auditorium, Lab, Cold storage, Office area, Room setup, Balconies, Restaurants and Gym. We have different thickness options for PUF panel roofs to meet various needs, ensuring they perform well and satisfy our customers. As a leading supplier of PUF panel roofs, we are dedicated to providing high-quality PUF panels that meet the highest standards. We manage every project from its initial planning stages through to execution ensuring timely and efficient completion. Trust Inbuilt Infra for all your roofing needs and experience unmatched quality and service in the industry. Contact us for your PUF panel roofing project, whether it is residential, commercial or Industrial."
+            "Inbuilt Infra is the best PUFF Sheet roofing contractor in Chennai. We are experts in installing the PUFF Sheets for industrial roofing, commercial and residential roofing. This PUFF Sheet roof is also known as Insulated roof panel or sandwich panel.",
+            "PUFF Sheet roofs offer superior insulation compared to traditional roofing materials. This can significantly reduce your heating and cooling costs by keeping the interior temperature stable. We are dedicated to deliver high-quality prefabricated roofing systems that ensure thermal efficiency and durability. The major applications of PUFF Sheet roofs are Terrace, Canteen, Auditorium, Lab, Cold storage, Office area, Room setup, Balconies, Restaurants and Gym. We have different thickness options for PUFF Sheet roofs to meet various needs, ensuring they perform well and satisfy our customers. As a leading supplier of PUFF Sheet roofs, we are dedicated to providing high-quality PUFF Sheets that meet the highest standards. We manage every project from its initial planning stages through to execution ensuring timely and efficient completion. Trust Inbuilt Infra for all your roofing needs and experience unmatched quality and service in the industry. Contact us for your PUFF Sheet roofing project, whether it is residential, commercial or Industrial."
         ]
     },
 
@@ -383,42 +383,42 @@ export const pufpanelData = {
         {
             title: "Terrace",
             img: "/Services/puff/Terrace_roofings.jpg",
-            para: "The PUF panel roofing is a fantastic insulator for your terrace compared to others. This is the best option for keeping your terrace cooler in hot weather and warmer in cold weather."
+            para: "The PUFF Sheet roofing is a fantastic insulator for your terrace compared to others. This is the best option for keeping your terrace cooler in hot weather and warmer in cold weather."
         },
         {
             title: "Canteen",
             img: "/Services/puff/Canteen.jpg",
-            para: "PUF panel roofs can achieve a canteen that's both visually appealing and practical, with the excellent insulation, cleanability and fast construction benefits that PUF panels offer."
+            para: "PUFF Sheet roofs can achieve a canteen that's both visually appealing and practical, with the excellent insulation, cleanability and fast construction benefits that PUFF Sheets offer."
         },
         {
             title: "Auditorium",
             img: "/Services/puff/Auditorium.jpg",
-            para: "PUF panels are superior in thermal insulation which reduces indoor temperature and offers a comfortable environment. PUF panel are the best option for both indoor and outdoor."
+            para: "PUFF Sheets are superior in thermal insulation which reduces indoor temperature and offers a comfortable environment. PUFF Sheet are the best option for both indoor and outdoor."
         },
         {
             title: "Lab",
-            para: "PUF panels create a smooth, easy-to-clean surface, minimizing the presence of harmful substances often found in labs. This is especially beneficial for biological or chemical research.",
+            para: "PUFF Sheets create a smooth, easy-to-clean surface, minimizing the presence of harmful substances often found in labs. This is especially beneficial for biological or chemical research.",
             img: "/Services/puff/Lab.jpg"
         },
         {
             title: "Office area",
-            para: "A quicker construction of office areas or creating temporary workspaces. PUF panels can be easily rearranged or removed if needed, offering flexibility for future layout changes.",
+            para: "A quicker construction of office areas or creating temporary workspaces. PUFF Sheets can be easily rearranged or removed if needed, offering flexibility for future layout changes.",
             img: "/Services/puff/Office_area.jpg"
         },
 
         {
             title: "Room setup",
-            para: "PUF panels are an excellent choice for balcony roofs, particularly when you are prioritizing thermal insulation, transparent and reducing overall weight.",
+            para: "PUFF Sheets are an excellent choice for balcony roofs, particularly when you are prioritizing thermal insulation, transparent and reducing overall weight.",
             img: "/Services/puff/Room_set_up.jpg"
         },
         {
             title: "Restaurants",
-            para: "PUF panel roofs offer some soundproofing properties, which can be helpful in busy restaurants to control noise from outside or kitchen operations.",
+            para: "PUFF Sheet roofs offer some soundproofing properties, which can be helpful in busy restaurants to control noise from outside or kitchen operations.",
             img: "/Services/puff/resturent.jpg"
         },
         {
             title: "Gym",
-            para: "PUF panel roofs offer good insulation for gyms, enhance comfort for gym users and lead to significant savings on energy bills by reducing the need for excessive heating and cooling.",
+            para: "PUFF Sheet roofs offer good insulation for gyms, enhance comfort for gym users and lead to significant savings on energy bills by reducing the need for excessive heating and cooling.",
             img: "/Services/puff/Gym.jpg"
         },
     ],
@@ -428,32 +428,32 @@ export const pufpanelData = {
         {
             img: "https://www.svgrepo.com/show/530438/ddos-protection.svg",
             title: "Fast Installation",
-            para: "PUF panels are pre-cut and ready to assemble, allowing for on-site roof construction. This saves valuable time during construction."
+            para: "PUFF Sheets are pre-cut and ready to assemble, allowing for on-site roof construction. This saves valuable time during construction."
         },
         {
             img: "https://www.svgrepo.com/show/530442/port-detection.svg",
             title: "Sound Control",
-            para: "PUF panels contain a closed-cell foam core. Air pockets within these cells can trap some sound waves and reduce the overall noise."
+            para: "PUFF Sheets contain a closed-cell foam core. Air pockets within these cells can trap some sound waves and reduce the overall noise."
         },
         {
             img: "https://www.svgrepo.com/show/530444/availability.svg",
             title: "Heat reduction",
-            para: "PUF panels are closed-cell foam that acts as a barrier that significantly reduces heat transfer.  Imagine it like a thermal shield."
+            para: "PUFF Sheets are closed-cell foam that acts as a barrier that significantly reduces heat transfer.  Imagine it like a thermal shield."
         },
         {
             img: "https://www.svgrepo.com/show/530440/machine-vision.svg",
             title: "Versatility",
-            para: "PUF panels are versatile and not limited to roofing. These panels can also be used for walls, ceilings and cold storage units."
+            para: "PUFF Sheets are versatile and not limited to roofing. These panels can also be used for walls, ceilings and cold storage units."
         },
         {
             img: "https://www.svgrepo.com/show/530450/page-analysis.svg",
             title: "Cost-Effective",
-            para: "PUF panel’s durability, energy savings and low maintenance needs can translate to cost savings over the lifespan of the building."
+            para: "PUFF Sheet’s durability, energy savings and low maintenance needs can translate to cost savings over the lifespan of the building."
         },
         {
             img: "https://www.svgrepo.com/show/530453/mail-reception.svg",
             title: "Longevity",
-            para: "PUF panels are low-maintenance and long-lasting. It needs only occasional inspections and cleaning to remove debris."
+            para: "PUFF Sheets are low-maintenance and long-lasting. It needs only occasional inspections and cleaning to remove debris."
         },
     ],
 
@@ -461,11 +461,11 @@ export const pufpanelData = {
     whychoose: [
         {
             title: "Quality",
-            text: "Inbuilt Infra offers high quality and customized PUF panels for our customers."
+            text: "Inbuilt Infra offers high quality and customized PUFF Sheets for our customers."
         },
         {
             title: "Low cost",
-            text: "We offer thick-layered PUF panels at competitive prices that ensure affordability."
+            text: "We offer thick-layered PUFF Sheets at competitive prices that ensure affordability."
         },
         {
             title: "Completion",
@@ -477,16 +477,16 @@ export const pufpanelData = {
     // FAQ
     faq: [
         {
-            question: "What are PUF panels?",
-            answer: "PUF panels are also known as Polyurethane Foam panels. They are prefabricated building components, which is a sandwich-like structure between two metal sheets."
+            question: "What are PUFF Sheets?",
+            answer: "PUFF Sheets are also known as Polyurethane Foam panels. They are prefabricated building components, which is a sandwich-like structure between two metal sheets."
         },
         {
-            question: "Lifespan of PUF Panels?",
-            answer: "The average lifespan of PUF panels is between 25 to 40 years, but it can be extended based on the maintenance by building owners."
+            question: "Lifespan of PUFF Sheets?",
+            answer: "The average lifespan of PUFF Sheets is between 25 to 40 years, but it can be extended based on the maintenance by building owners."
         },
         {
-            question: "PUF panel vs Sandwich panel?",
-            answer: "PUF panels and sandwich panels both are the same. They consist of two outer layers with an insulating core in between."
+            question: "PUFF Sheet vs Sandwich panel?",
+            answer: "PUFF Sheets and sandwich panels both are the same. They consist of two outer layers with an insulating core in between."
         },
 
     ],
@@ -867,15 +867,16 @@ export const shinglesData = {
 // Mangalore
 export const mangloreData = {
     // Banner
+
     banner: {
-        img: "/Services/manglore/polyBanner.jpg",
+        img: "/Services/manglore/mangloreBanner.avif",
         text: "Mangalore Tile Roofing"
     },
 
     //Profile
     profile: {
         heading: "Mangalore Tile Roofing",
-        img: "/Services/manglore/poly_profile.jpg",
+        img: "/Services/manglore/manglore_profile.avif",
         paragraphs: [
             "Inbuilt Infra is the leading Mangalore tile roofing contractor in Chennai. These mangalore tiles are the traditional roofing option with the benefit of eco-friendly and low maintenance compared to other roofs.",
             "These mangalore tiles are also known as clay roof tiles and Kerala style roofs. Inbuilt Infra’s mangalore tile roofing solutions are configured to meet the specific needs of each project, whether it's a residential or commercial roofing. When it comes to Mangalore tile roofing colour options, we offer a diverse palette to match any architectural style. Whether you prefer the traditional red or more modern hues. The Mangalore tile roofing patterns also add a unique touch to your roof design that makes your home stand out. The major applications for mangalore tile roofing are Residential Homes, Gardens, Restaurants, Resorts, Car parking and Farm houses. The Mangalore tile roofing benefits are incredibly numerous and diverse. It provides excellent insulation which helps to maintain the comfortable room temperature and it is highly resistant to harsh weather conditions.  One of the key advantages of Mangalore tile roof is its lifespan. Contact Inbuilt Infra for your Mangalore tile roofing."
@@ -886,34 +887,34 @@ export const mangloreData = {
     apps: [
         {
             title: "Residential Homes",
-            img: "/Services/manglore/Parking.jpg",
+            img: "/Services/manglore/Residential-Homes.avif",
             para: "Mangalore tiles have been a popular choice for roofing Indian homes for centuries. These Mangalore tile roofs can significantly enhance the visual appeal of your home."
         },
         {
             title: "Gardens",
-            img: "/Services/manglore/Gazebos.jpg",
+            img: "/Services/manglore/Garden.avif",
             para: "Mangalore tiles offer a timeless and earthy aesthetic that evokes a sense of tradition and connection to nature. This perfectly complements the relaxed and natural vibe."
         },
         {
             title: "Restaurants",
-            img: "/Services/manglore/Walkway.jpg",
+            img: "/Services/manglore/Restroant.avif",
             para: "Mangalore tiles can be a great choice for restaurants that want to create a unique and inviting atmosphere. It can also be used to create a more open and airy feel in the restaurant."
         },
         {
             title: "Resorts",
             para: "The clay material in the Mangalore tile roof provides natural thermal insulation, which can help regulate indoor temperatures in the resort buildings. This can lead to reduced energy consumption.",
-            img: "/Services/manglore/balconies.jpg"
+            img: "/Services/manglore/Resort.avif"
         },
         {
             title: "Car parking",
-            para: "GMangalore tiles offer numerous benefits along with their weight, potential for damage, and maintenance challenges that make them a less suitable choice for car park roofing.",
-            img: "/Services/manglore/OTS_Covering.jpg"
+            para: "Mangalore tiles offer numerous benefits along with their weight, potential for damage, and maintenance challenges that make them a less suitable choice for car park roofing.",
+            img: "/Services/manglore/car_parking.avif"
         },
 
         {
             title: "Farm house",
             para: "Mangalore tile with the natural clay material harmonizes beautifully with the surrounding landscape creating a cohesive and aesthetically pleasing look for your farmhouse.",
-            img: "/Services/manglore/Terrace.jpg"
+            img: "/Services/manglore/Farm-house.avif"
         }
     ],
 
@@ -987,12 +988,12 @@ export const mangloreData = {
 
     // Gallery
     gallery: [
-        "Services/manglore/manglore_gallery_01.jpg",
-        "Services/manglore/manglore_gallery_02.jpg",
-        "Services/manglore/manglore_gallery_03.jpg",
-        "Services/manglore/manglore_gallery_04.jpg",
-        "Services/manglore/manglore_gallery_05.jpg",
-        "Services/manglore/manglore_gallery_06.jpg"
+        "Services/manglore/manglore_gallery_01.avif",
+        "Services/manglore/manglore_gallery_02.avif",
+        "Services/manglore/manglore_gallery_03.avif",
+        "Services/manglore/manglore_gallery_04.avif",
+        "Services/manglore/manglore_gallery_05.avif",
+        "Services/manglore/manglore_gallery_06.avif"
     ],
 
     //testimonials
@@ -1019,5 +1020,175 @@ export const mangloreData = {
 
 };
 
+
+// PEB
+export const pebData = {
+    // Banner
+
+    banner: {
+        img: "/Services/peb/pebBanner.avif",
+        text: "Pre Engineered Building"
+    },
+
+    //Profile
+    profile: {
+        heading: "PEB contractors in Chennai",
+        img: "/Services/peb/peb_profile.avif",
+        paragraphs: [
+            "At Inbuilt Infra, we pride ourselves on being the leading pre-engineered building(PEB) contractors in Chennai. We have a reputation for reliable steel structure contractors who deliver projects on time and within budget.",
+            "Our team specializes in PEB construction, providing top-quality solutions for a variety of needs. Inbuilt Infra’s service includes industrial shed construction, warehouse construction, factory building and commercial building construction. We offer a complete range of PEB erection services. Our skilled workers are trained to handle all aspects of the construction process, from assembling the steel components to installing the roofing and cladding systems. We use advanced techniques and equipment to create durable and efficient PEB structures that meet the highest standards. The Pre-engineered buildings(PEBs) are majorly used in the construction of industrial and commercial sectors. The design phase is crucial in any construction project and we excel in this area with the help of advanced PEB design software. Our commitment to quality and customer satisfaction has made us the preferred choice for PEB construction in Chennai. Inbuilt Infra’s PEB turnkey solutions deliver a high-quality and ready-to-use structure that meets your specifications and budget."
+        ]
+    },
+
+    //App
+    apps: [
+        {
+            title: "Warehouses",
+            img: "/Services/peb/Warehouse.avif",
+            para: "PEBs allow for rapid assembly, reducing construction time and disruptions to warehouse operations. This process helps meet deadlines and lowers overall project costs."
+        },
+        {
+            title: "Factories",
+            img: "/Services/peb/Factory.avif",
+            para: "PEB (Pre-Engineered Buildings) are a popular choice for factories which offer large, column-free spaces ideal for manufacturing processes, heavy machinery and material handling."
+        },
+        {
+            title: "Multi-storey steel Building",
+            img: "/Services/peb/Multi-Storey-Steel-Building.avif",
+            para: "Pre-Engineered Building multi-story steel structures gives a modern and efficient solution for constructing buildings with multiple floors which encourage fast construction."
+        },
+        {
+            title: "Marriage Hall",
+            para: "Pre-engineered buildings are highly adaptable for marriage halls. PEBs are perfect for accommodating large gatherings and various seating arrangements for marriage halls.",
+            img: "/Services/peb/marriage-hall.avif"
+        },
+        {
+            title: "Educational Institutions",
+            para: "Pre-Engineered Buildings (PEBs) are increasingly being adopted in the education building sector due to their numerous advantages for the classrooms, laboratories etc..,",
+            img: "/Services/peb/Educational-Institutions.avif"
+        },
+        {
+            title: "Hospitals",
+            para: "PEBs can be customized to meet the specific requirements of different hospital departments. It can be expanded or modified as the hospital's needs to evolve.",
+            img: "/Services/peb/Hospitals.avif"
+        },
+        {
+            title: "Industrial Sheds",
+            para: "PEBs can be customized to meet the specific requirements of different hospital departments. It can be expanded or modified as the hospital's needs to evolve.",
+            img: "/Services/peb/Industrial-shed.avif"
+        },
+        {
+            title: "Auditorium",
+            para: "PEBs can be customized to meet the specific requirements of different hospital departments. It can be expanded or modified as the hospital's needs to evolve.",
+            img: "/Services/peb/Auditorium.avif"
+        },
+        {
+            title: "Commercial Spaces",
+            para: "Pre-engineered Buildings are versatile structures ideal for commercial spaces, offering rapid construction and cost-effectiveness for retail outlets, showrooms, offices etc..,",
+            img: "/Services/peb/Commercial-Spaces.avif"
+        }
+    ],
+
+    //Benifites
+    benefits: [
+        {
+            img: "https://www.svgrepo.com/show/530438/ddos-protection.svg",
+            title: "Faster Construction ",
+            para: "PEB reduces construction duration through quick on-site assembly of the components and speeding up the completion process."
+        },
+        {
+            img: "https://www.svgrepo.com/show/530442/port-detection.svg",
+            title: "Durability",
+            para: "PEBs provide lasting durability with their reinforced steel structures which ensure the building remains stable and secure."
+        },
+        {
+            img: "https://www.svgrepo.com/show/530444/availability.svg",
+            title: "Low Maintenance",
+            para: "PEB require low maintenance due to their robust materials and construction which reduces the need for frequent repairs."
+        },
+        {
+            img: "https://www.svgrepo.com/show/530440/machine-vision.svg",
+            title: "Cost-Effective",
+            para: "PEB are cost-effective due to reduced construction time, lower labour costs and significant savings compared to traditional methods."
+        },
+        {
+            img: "https://www.svgrepo.com/show/530450/page-analysis.svg",
+            title: "Sustainability",
+            para: "PEB enhances sustainability with their durable materials and efficient design, reducing the need for frequent replacements and repairs."
+        },
+        {
+            img: "https://www.svgrepo.com/show/530453/mail-reception.svg",
+            title: "Improved Safety",
+            para: "Enhanced safety in PEBs is achieved through their consistent quality and construction methods, reducing risks during construction."
+        },
+    ],
+
+    //WhyChoose
+    whychoose: [
+        {
+            title: "Expertise",
+            text: "We expertise in ensuring high-quality PEB construction with precision and reliability."
+        },
+        {
+            title: "Innovation",
+            text: "Our innovative solutions set new industry standards for efficiency, quality and performance."
+        },
+        {
+            title: "Safety",
+            text: "Our commitment to safety minimizes risks and enhances construction site security for workers."
+        },
+
+    ],
+
+    // FAQ
+    faq: [
+        {
+            question: " What is a Pre-Engineered Building ?",
+            answer: "A Pre-Engineered Building (PEB) is a steel structure built from prefabricated components with steels."
+        },
+        {
+            question: "How long does it take to complete a PEB project?",
+            answer: "A PEB project can be completed in a few weeks to a few months, depending on size and complexity."
+        },
+        {
+            question: " What materials are commonly used in PEB construction?",
+            answer: "Common materials include steel frames, metal panels and insulation materials."
+        },
+
+    ],
+
+    // Gallery
+    gallery: [
+        "Services/peb/peb_gallery_01.avif",
+        "Services/peb/peb_gallery_02.avif",
+        "Services/peb/peb_gallery_03.avif",
+        "Services/peb/peb_gallery_04.avif",
+        "Services/peb/peb_gallery_05.avif",
+        "Services/peb/peb_gallery_06.avif"
+    ],
+
+    //testimonials
+    testimonials: [
+        {
+            img: 'https://dummyimage.com/106x106',
+            para: "Synth chartreuse iPhone lomo cray raw denim brunch everyday carry neutra before they sold out fixie 90's microdosing. Tacos pinterest fanny pack venmo, post-ironic heirloom try-hard pabst authentic iceland.",
+            title: "Holden Caulfield",
+            role: "UI DEVELOPER"
+        },
+        {
+            img: 'https://dummyimage.com/106x106',
+            para: "Synth chartreuse iPhone lomo cray raw denim brunch everyday carry neutra before they sold out fixie 90's microdosing. Tacos pinterest fanny pack venmo, post-ironic heirloom try-hard pabst authentic iceland.",
+            title: "Holden Caulfield",
+            role: "UI DEVELOPER"
+        },
+        {
+            img: 'https://dummyimage.com/106x106',
+            para: "Synth chartreuse iPhone lomo cray raw denim brunch everyday carry neutra before they sold out fixie 90's microdosing. Tacos pinterest fanny pack venmo, post-ironic heirloom try-hard pabst authentic iceland.",
+            title: "Holden Caulfield",
+            role: "UI DEVELOPER"
+        }
+    ],
+
+};
 
 

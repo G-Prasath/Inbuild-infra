@@ -107,8 +107,8 @@ const ServiceForm = () => {
                             </svg>
                             <Reveal>
                               <h5 className="text-black text-base font-normal leading-6 ml-5">
-                                ZUBII Manor bearion O No.27E/N 57E at 7th
-                                Avenue, First Floor, Ashok Nagar,
+                              First Floor, ZUBII Manor bearion O No.27E/N 57E at 7th
+                                Avenue, Ashok Nagar,
                                 Chennai-600083.
                               </h5>
                             </Reveal>

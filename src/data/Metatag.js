@@ -56,8 +56,6 @@ export const TensilePageData = {
     canonical: hostname+"/mangalore-tile"
   };
 
-
-
   export const RetractablePageData = {
     title: "",
     description: "",
@@ -73,8 +71,8 @@ export const TensilePageData = {
   };
 
   export const PebPageData = {
-    title: "",
-    description: "",
+    title: "PEB contractors in Chennai - Inbuilt Infra",
+    description: "Inbuilt Infra also provides PEB construction in Chennai with superior quality. Contact Inbuilt Infra for your pre-engineered building(PEB) construction.",
     keywords: "",
     canonical: hostname+"/pre-engineered-building"
   };

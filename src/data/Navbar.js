@@ -5,11 +5,11 @@ export const NAV_LINKS = [
       label: 'Service', href: '/', subMenu: [
         { label: 'Tensile', href: '/tensile' },
         { label: 'Polycarbonate', href: '/polycarbonate' },
-        { label: 'Shingle', href: '/shingles' },
-        { label: 'RetrableRoof', href: '/retractable' },
-        { label: 'GalssRoof', href: '/glass-roof' },
-        { label: 'Puff Panel', href: '/puff-sheet' },
-        { label: 'Mangalore Tail', href: '/mangalore-tile' },
+        { label: 'Shingles', href: '/shingles' },
+        { label: 'Retractable', href: '/retractable' },
+        { label: 'Glass Roof', href: '/glass-roof' },
+        { label: 'PUFF sheet', href: '/puff-sheet' },
+        { label: 'Mangalore Tile', href: '/mangalore-tile' },
         { label: 'Pre Engineered Buildings', href: '/pre-engineered-building' },
         { label: 'Facade', href: '/facade' }
       ]

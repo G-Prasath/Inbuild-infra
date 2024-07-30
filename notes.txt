@@ -74,6 +74,12 @@ Why Choose Inbuilt Infra for  ${title} (doubt)
 
 
 
+Pending Works (30 / 07 / 2024)
+-------------------------------
+1) FAQ Hyper Link Added
+2) Get Quote Button click to move Form
+
+
 
 
 

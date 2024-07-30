@@ -41,7 +41,7 @@ const HomeForm = () => {
                   ADDRESS
                 </p>
                 <p className="mt-1">
-                  ZUBII Manor bearion O No.27E/N 57E at 7th Avenue, First Floor, Ashok Nagar, Chennai-600083.
+                First Floor, ZUBII Manor bearion O No.27E/N 57E at 7th Avenue, Ashok Nagar, Chennai-600083.
                 </p>
               </Reveal>
             </div>

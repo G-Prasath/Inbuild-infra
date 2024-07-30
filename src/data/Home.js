@@ -65,7 +65,7 @@ export const serviceCard = [
     },
     {
         img: "/Home/Puff_panel.avif",
-        title: "PUF Panel",
+        title: "PUFF Panel",
         disc: "PUF panel roofs are often used in industrial and commercial buildings, such as factories, warehouses, cold stores, and other similar structures. It is suitable for new construction and renovation of existing buildings."
     },
     {
@@ -96,17 +96,17 @@ export const faqData = [
 export const homeBlog = [
     {
         image: "/Home/blog-img-1.avif",
-        title: "What is called roofing",
+        title: "What is called roofing ?",
         para: "Roofing is the protective covering on top of a building that shields it from rain, snow, sunlight, wind and extreme temperatures."
     },
     {
         image: "/Home/blog-img-2.avif",
-        title: "Which is best for roofing",
+        title: "Which is best for roofing ?",
         para: "Factors like climate, budget, aesthetics, durability and maintenance play a crucial role in determining the ideal choice."
     },
     {
         image: "/Home/blog-img-3.avif",
-        title: "How many types of roofing",
+        title: "How many types of roofing ?",
         para: "There are various types of roofing available in the market, each designed to meet specific needs and preferences. "
     }
 ]

@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 
 const Blog = () => {
     return (
-        <div className="h-screen bg-gray-100 dark:bg-gray-900 text-gray-800 dark:text-white">
+        <div className="md:h-auto bg-gray-100 dark:bg-gray-900 text-gray-800 dark:text-white">
             <div className="container mx-auto px-4 py-8">
                 <h3 className="text-4xl font-semibold text-center text-gray-800 dark:text-gray-200 mb-8">
                     Recent Blog
