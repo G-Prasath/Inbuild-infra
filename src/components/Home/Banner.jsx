@@ -1,8 +1,14 @@
-import React, { useEffect, useState } from 'react';
-import { Link } from 'react-router-dom';
+import React, { useContext, useEffect, useState } from "react";
+import { Link } from "react-router-dom";
+import { ScrollContext } from "../../hooks/ScrollContext";
 
 const Banner = () => {
-  const imgList = ["/Banners/homeBanner_1.avif", "/Banners/homeBanner_2.avif", "/Banners/homeBanner_3.avif", "/Banners/homeBanner_4.avif"  ];
+  const imgList = [
+    "/Banners/homeBanner_1.avif",
+    "/Banners/homeBanner_2.avif",
+    "/Banners/homeBanner_3.avif",
+    "/Banners/homeBanner_4.avif",
+  ];
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
   useEffect(() => {
@@ -13,7 +19,13 @@ const Banner = () => {
     return () => clearInterval(interval);
   }, [imgList.length]);
 
+  const { formElement } = useContext(ScrollContext);
 
+  const handleScrollToFooter = () => {
+    if (formElement.current) {
+      formElement.current.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
 
   return (
     <div className="relative text-white overflow-hidden w-full aspect-video">
@@ -23,18 +35,22 @@ const Banner = () => {
             key={index}
             src={image}
             alt={`Background ${index}`}
-            className={`absolute inset-0 object-cover object-center w-full h-full transition-opacity duration-1000 ease-in-out ${index === currentImageIndex ? 'opacity-100' : 'opacity-0'}`}
+            className={`absolute inset-0 object-cover object-center w-full h-full transition-opacity duration-1000 ease-in-out ${
+              index === currentImageIndex ? "opacity-100" : "opacity-0"
+            }`}
           />
         ))}
         <div className="absolute inset-0 bg-black opacity-40"></div>
       </div>
 
       <div className="relative z-10 flex flex-col justify-center items-center h-full text-center">
-        <h2 className="text-5xl font-bold leading-tight mb-4 max-sm:text-2xl max-sm:mb-1">Welcome to Inbuild Infra</h2>
-        <h3 className="text-lg max-sm:text-sm text-gray-200 mb-8 max-sm:mb-4">Roofing Contractor for Residentials & Commercials</h3>
-        <div
-          className="bg-white text-gray-900 hover:bg-yellow-300 py-2 px-6 max-sm:px-3 rounded-full text-lg max-sm:text-sm font-semibold transition duration-300 ease-in-out transform hover:scale-105 hover:shadow-lg"
-        >
+        <h2 className="text-5xl font-bold leading-tight mb-4 max-sm:text-2xl max-sm:mb-1">
+          Welcome to Inbuild Infra
+        </h2>
+        <h3 className="text-lg max-sm:text-sm text-gray-200 mb-8 max-sm:mb-4">
+          Roofing Contractor for Residentials & Commercials
+        </h3>
+        <div className="bg-white text-gray-900 hover:bg-yellow-300 py-2 px-6 max-sm:px-3 rounded-full text-lg max-sm:text-sm font-semibold transition duration-300 ease-in-out transform hover:scale-105 hover:shadow-lg cursor-default" onClick={handleScrollToFooter}>
           Get Quote
         </div>
       </div>

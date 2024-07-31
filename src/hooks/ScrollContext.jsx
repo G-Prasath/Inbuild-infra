@@ -1,13 +1,12 @@
-// src/ScrollContext.js
 import React, { createContext, useRef } from 'react';
 
 const ScrollContext = createContext();
 
 const ScrollProvider = ({ children }) => {
-  const footerRef = useRef(null);
+  const formElement = useRef(null);
 
   return (
-    <ScrollContext.Provider value={{ footerRef }}>
+    <ScrollContext.Provider value={{ formElement }}>
       {children}
     </ScrollContext.Provider>
   );

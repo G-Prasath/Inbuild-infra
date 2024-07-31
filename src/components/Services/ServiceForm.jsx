@@ -1,11 +1,13 @@
-import React from "react";
+import React, { useContext } from "react";
 import { Reveal } from "../../hooks/Reveal";
 import { Formik, Form, Field, ErrorMessage } from "formik";
 import { validationSchema } from "../Schema";
 import { Link } from "react-router-dom";
 import { selectBtnDatas } from "../../data/Navbar";
+import { ScrollContext } from "../../hooks/ScrollContext";
 
 const ServiceForm = () => {
+  const {formElement} = useContext(ScrollContext);
   return (
     <Formik
       initialValues={{
@@ -23,7 +25,7 @@ const ServiceForm = () => {
     >
       {({ touched, errors }) => (
         <Form>
-          <section className="py-24">
+          <section className="py-24" ref={formElement}>
             <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
               <div className="grid lg:grid-cols-2 grid-cols-1">
                 <div className="lg:mb-0 mb-10">

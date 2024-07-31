@@ -1,6 +1,7 @@
-import React from "react";
+import React, { useContext } from "react";
 import { Reveal } from "../../hooks/Reveal";
 import { Link } from "react-router-dom";
+import { ScrollContext } from "../../hooks/ScrollContext";
 
 import { Formik, Form, Field, ErrorMessage } from "formik";
 import { validationSchema } from "../Schema";
@@ -8,8 +9,9 @@ import { selectBtnDatas } from "../../data/Navbar";
 
 
 const HomeForm = () => {
+const {formElement} = useContext(ScrollContext);
   return (
-    <section className="text-gray-600 body-font relative">
+    <section className="text-gray-600 body-font relative" ref={formElement}>
       <div className="text-center">
         <p className="mt-4 text-sm leading-7 text-gray-500 font-regular">
           Get in Touch
