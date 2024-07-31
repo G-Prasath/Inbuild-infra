@@ -3,7 +3,10 @@ import { FaChessKing } from "react-icons/fa";
 import { Reveal } from "../../hooks/Reveal";
 import { BsFillQuestionCircleFill } from "react-icons/bs";
 
-const Faq = ({faqData}) => {
+const Faq = ({ faqData }) => {
+  const createMarkup = (html) => {
+    return { __html: html };
+  };
   return (
     <div className="py-4 bg-white">
       <div className="max-w-screen-md mx-auto px-4 sm:px-6 lg:px-8 flex flex-col justify-between">
@@ -22,7 +25,7 @@ const Faq = ({faqData}) => {
               <li className="text-left mb-10" key={index}>
                 <div className="flex flex-row items-start mb-5">
                   <div className="hidden sm:flex items-center justify-center p-3 mr-3 rounded-full bg-indigo-500 text-white border-4 border-white text-xl font-semibold">
-                   <BsFillQuestionCircleFill className="text-[25px]"/>
+                    <BsFillQuestionCircleFill className="text-[25px]" />
                   </div>
 
                   <div className="bg-gray-100 p-5 px-10 w-full flex items-center">
@@ -37,9 +40,7 @@ const Faq = ({faqData}) => {
                 <div className="flex flex-row items-start">
                   <div className="bg-indigo-100 p-5 px-10 w-full flex items-center">
                     <Reveal>
-                      <p className="text-gray-700 text-sm">
-                        {item.answer}
-                      </p>
+                      <p className="text-gray-700 text-sm" dangerouslySetInnerHTML={createMarkup(item.answer)} />
                     </Reveal>
                   </div>
                   <div className="hidden sm:flex items-center justify-center p-3 ml-3 rounded-full bg-indigo-500 text-white border-4 border-white text-xl font-semibold">

@@ -78,17 +78,17 @@ export const serviceCard = [
 
 export const faqData = [
     {
-       question : "Who is the best roofing contractor in Chennai?" ,
-       answer : "Inbuilt Infra is the leading roofing contractor in Chennai, with 15+ years of experience."
+        question: "Who is the best roofing contractor in Chennai?",
+        answer: "Inbuilt Infra is the leading roofing contractor in Chennai, with 15+ years of experience."
     },
     {
-        question : "What is Roof?" ,
-        answer : `A roof is a structure that covers the top of the building which can be constructed by various roofing materials.`
-     },
-     {
-        question : "How many types of roofing are there?" ,
-        answer : "There are 7 major types of roofs. They are Gable roof, Hip roof, Flat roof, Shed roof, Mansard roof, Gambrel roof, Butterfly roof and Saltbox roof."
-     },
+        question: "What is Roof?",
+        answer: "A roof <a href='https://en.wikipedia.org/wiki/Roof' target='_blank' style='color: blue'}>(https://en.wikipedia.org/wiki/Roof)</a> is a structure that covers the top of the building which can be constructed by various roofing materials."
+    },
+    {
+        question: "How many types of roofing are there?",
+        answer: "There are 7 major types of roofs. They are Gable roof, Hip roof, Flat roof, Shed roof, Mansard roof, Gambrel roof, Butterfly roof and Saltbox roof."
+    },
 
 ]
 

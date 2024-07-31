@@ -127,11 +127,11 @@ export const tensileData = {
     faq: [
         {
             question: "What is tensile fabric?",
-            answer: "Tensile fabric is a type of material used in architecture and construction for creating lightweight and durable structures. The tensile structure gives a beautiful appearance for the outdoors."
+            answer: "Tensile fabric <a href='https://en.wikipedia.org/wiki/Tensile_structure' target='_blank' style='color: blue'}>(https://en.wikipedia.org/wiki/Tensile_structure)</a> is a type of material used in architecture and construction for creating lightweight and durable structures. The tensile structure gives a beautiful appearance for the outdoors."
         },
         {
             question: "Lifespan of tensile fabric?",
-            answer: "Tensile fabric has a lifespan ranging from a minimum of 10 years to a maximum of 40 years, it totally depends on the cost and quality of the fabric you choose."
+            answer: "Tensile fabric <a href='https://en.wikipedia.org/wiki/Tensile_structure' target='_blank' style='color: blue'}>(https://en.wikipedia.org/wiki/Tensile_structure)</a> has a lifespan ranging from a minimum of 10 years to a maximum of 40 years, it totally depends on the cost and quality of the fabric you choose."
         },
         {
             question: "How many years warranty does Inbuilt Infra give?",
@@ -1020,7 +1020,6 @@ export const mangloreData = {
 
 };
 
-
 // PEB
 export const pebData = {
     // Banner
@@ -1165,6 +1164,146 @@ export const pebData = {
         "Services/peb/peb_gallery_04.avif",
         "Services/peb/peb_gallery_05.avif",
         "Services/peb/peb_gallery_06.avif"
+    ],
+
+    //testimonials
+    testimonials: [
+        {
+            img: 'https://dummyimage.com/106x106',
+            para: "Synth chartreuse iPhone lomo cray raw denim brunch everyday carry neutra before they sold out fixie 90's microdosing. Tacos pinterest fanny pack venmo, post-ironic heirloom try-hard pabst authentic iceland.",
+            title: "Holden Caulfield",
+            role: "UI DEVELOPER"
+        },
+        {
+            img: 'https://dummyimage.com/106x106',
+            para: "Synth chartreuse iPhone lomo cray raw denim brunch everyday carry neutra before they sold out fixie 90's microdosing. Tacos pinterest fanny pack venmo, post-ironic heirloom try-hard pabst authentic iceland.",
+            title: "Holden Caulfield",
+            role: "UI DEVELOPER"
+        },
+        {
+            img: 'https://dummyimage.com/106x106',
+            para: "Synth chartreuse iPhone lomo cray raw denim brunch everyday carry neutra before they sold out fixie 90's microdosing. Tacos pinterest fanny pack venmo, post-ironic heirloom try-hard pabst authentic iceland.",
+            title: "Holden Caulfield",
+            role: "UI DEVELOPER"
+        }
+    ],
+
+};
+
+// Facade
+export const facadeData = {
+    // Banner
+
+    banner: {
+        img: "/Services/peb/facadeBanner.avif",
+        text: "Facade"
+    },
+
+    //Profile
+    profile: {
+        heading: "Facade Installation in Chennai",
+        img: "/Services/peb/facade_profile.avif",
+        paragraphs: [
+            "Inbuilt Infra is the best building facade contractors in Chennai.Whether it's exterior cladding or other facade applications, we are committed to delivering the highest quality and ensuring the satisfaction of our clients.",
+            "As the expert facade consultants, we provide guidance on choosing the most suitable materials and designs for each project. With years of experience and a dedicated team of professionals, we offer best solutions for all types of facade projects. During the facade installation process, we employ the latest techniques and equipment to ensure precision and quality. We ensure that all our facades meet the highest standards of facade fire rating. We stay updated with the latest facade design trends and facade construction methods to provide state-of-the-art solutions. The materials used for the facades are tensile, polycarbonate and Glass. One of our core strengths is our ability to offer a full spectrum of services, from facade design to facade maintenance. Our design team works closely with clients to develop innovative and functional designs. Our team is ready to deliver exceptional results whether it is commercial or residential. Trust Inbuilt Infra for all your facade projects and experience the best in quality and service.."
+        ]
+    },
+
+    //App
+    apps: [
+        {
+            title: "Tensile",
+            img: "/Services/facade/Warehouse.avif",
+            para: "PEBs allow for rapid assembly, reducing construction time and disruptions to warehouse operations. This process helps meet deadlines and lowers overall project costs."
+        },
+        {
+            title: "Polycarbonate",
+            img: "/Services/facade/Factory.avif",
+            para: "PEB (Pre-Engineered Buildings) are a popular choice for factories which offer large, column-free spaces ideal for manufacturing processes, heavy machinery and material handling."
+        },
+        {
+            title: "Glass",
+            img: "/Services/facade/Multi-Storey-Steel-Building.avif",
+            para: "Pre-Engineered Building multi-story steel structures gives a modern and efficient solution for constructing buildings with multiple floors which encourage fast construction."
+        }
+    ],
+
+    //Benifites
+    benefits: [
+        {
+            img: "https://www.svgrepo.com/show/530438/ddos-protection.svg",
+            title: "Modern Look",
+            para: "A modern facade provides a sleek, contemporary appearance. It makes the buildings stay relevant with current architectural trends."
+        },
+        {
+            img: "https://www.svgrepo.com/show/530442/port-detection.svg",
+            title: "Weather Resistance",
+            para: "Facades shield buildings from extreme weather conditions, such as rain, wind and heat to protect the structural integrity."
+        },
+        {
+            img: "https://www.svgrepo.com/show/530444/availability.svg",
+            title: "Low Maintenance",
+            para: "Facades with soundproofing features help minimize external noise, creating a quieter and more comfortable indoor environment."
+        },
+        {
+            img: "https://www.svgrepo.com/show/530440/machine-vision.svg",
+            title: "Cost-Effective",
+            para: "Facades with soundproofing features help minimize external noise, creating a quieter and more comfortable indoor environment."
+        },
+        {
+            img: "https://www.svgrepo.com/show/530450/page-analysis.svg",
+            title: "Sustainability",
+            para: "Eco-friendly facade systems incorporate sustainable materials and technologies, contributing to greener building practices."
+        },
+        {
+            img: "https://www.svgrepo.com/show/530453/mail-reception.svg",
+            title: "Improved Safety",
+            para: "High-quality facade materials protect buildings from harsh weather conditions, extending the structure's lifespan and reducing maintenance needs."
+        },
+    ],
+
+    //WhyChoose
+    whychoose: [
+        {
+            title: "Expertise",
+            text: "We expertise in ensuring high-quality PEB construction with precision and reliability."
+        },
+        {
+            title: "Innovation",
+            text: "Our innovative solutions set new industry standards for efficiency, quality and performance."
+        },
+        {
+            title: "Safety",
+            text: "Our commitment to safety minimizes risks and enhances construction site security for workers."
+        },
+
+    ],
+
+    // FAQ
+    faq: [
+        {
+            question: "Do Inbuilt Infra work on both residential and commercial projects?",
+            answer: "Yes, Inbuilt Infra can handle both residential and commercial facade projects."
+        },
+        {
+            question: "What is a facade in building construction?",
+            answer: "A facade is the exterior front or face of a building."
+        },
+        {
+            question: "How do I maintain my building’s facade?",
+            answer: "Regular cleaning and inspections help maintain facade integrity"
+        },
+
+    ],
+
+    // Gallery
+    gallery: [
+        "Services/facade/facade_gallery_01.avif",
+        "Services/facade/facade_gallery_02.avif",
+        "Services/facade/facade_gallery_03.avif",
+        "Services/facade/facade_gallery_04.avif",
+        "Services/facade/facade_gallery_05.avif",
+        "Services/facade/facade_gallery_06.avif"
     ],
 
     //testimonials
