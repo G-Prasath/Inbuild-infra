@@ -96,8 +96,29 @@ const ContactForm = () => {
               }}
               validationSchema={validationSchema}
               onSubmit={(values) => {
-                console.log(values);
-                alert(JSON.stringify(values, null, 2));
+                const updatedValues = Object.fromEntries(
+                  Object.entries(values).map(([key, value]) => [
+                    key,
+                    value === "" ? "N/A" : value,
+                  ])
+                );
+
+                console.log(updatedValues);
+                // Send updatedValues to the backend
+                axios
+                  .post(
+                    "https://inbuild-mail.onrender.com/api/query-form",
+                    updatedValues
+                  )
+                  .then((response) => {
+                    console.log("Data sent successfully:", response.data);
+                  })
+                  .catch((error) => {
+                    console.error(
+                      "There was an error sending the data:",
+                      error
+                    );
+                  });
               }}
             >
               {({ touched, errors }) => (
@@ -204,7 +225,6 @@ const ContactForm = () => {
                     </label>
                     <div className="mt-1">
                       <Field
-                        required
                         name="message"
                         id="message"
                         autoComplete="off"

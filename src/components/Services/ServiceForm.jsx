@@ -5,6 +5,8 @@ import { validationSchema } from "../Schema";
 import { Link } from "react-router-dom";
 import { selectBtnDatas } from "../../data/Navbar";
 import { ScrollContext } from "../../hooks/ScrollContext";
+import axios from "axios";
+
 
 const ServiceForm = () => {
   const {formElement} = useContext(ScrollContext);
@@ -19,8 +21,25 @@ const ServiceForm = () => {
       }}
       validationSchema={validationSchema}
       onSubmit={(values) => {
-        console.log(values);
-        alert(JSON.stringify(values, null, 2));
+        const updatedValues = Object.fromEntries(
+          Object.entries(values).map(([key, value]) => [
+            key,
+            value === "" ? "N/A" : value,
+          ])
+        );
+
+        // Send updatedValues to the backend
+        axios
+        .post(
+          "https://inbuild-mail.onrender.com/api/query-form",
+          updatedValues
+        )
+        .then((response) => {
+          console.log("Data sent successfully:", response.data);
+        })
+        .catch((error) => {
+          console.error("There was an error sending the data:", error);
+        });
       }}
     >
       {({ touched, errors }) => (

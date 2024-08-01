@@ -6,10 +6,10 @@ import { ScrollContext } from "../../hooks/ScrollContext";
 import { Formik, Form, Field, ErrorMessage } from "formik";
 import { validationSchema } from "../Schema";
 import { selectBtnDatas } from "../../data/Navbar";
-
+import axios from "axios";
 
 const HomeForm = () => {
-const {formElement} = useContext(ScrollContext);
+  const { formElement } = useContext(ScrollContext);
   return (
     <section className="text-gray-600 body-font relative" ref={formElement}>
       <div className="text-center">
@@ -43,7 +43,8 @@ const {formElement} = useContext(ScrollContext);
                   ADDRESS
                 </p>
                 <p className="mt-1">
-                First Floor, ZUBII Manor bearion O No.27E/N 57E at 7th Avenue, Ashok Nagar, Chennai-600083.
+                  First Floor, ZUBII Manor bearion O No.27E/N 57E at 7th Avenue,
+                  Ashok Nagar, Chennai-600083.
                 </p>
               </Reveal>
             </div>
@@ -82,13 +83,32 @@ const {formElement} = useContext(ScrollContext);
           }}
           validationSchema={validationSchema}
           onSubmit={(values) => {
-            console.log(values);
-            alert(JSON.stringify(values, null, 2));
+            const updatedValues = Object.fromEntries(
+              Object.entries(values).map(([key, value]) => [
+                key,
+                value === "" ? "N/A" : value,
+              ])
+            );
+
+            // Send updatedValues to the backend
+            axios
+              .post(
+                "https://inbuild-mail.onrender.com/api/query-form",
+                updatedValues
+              )
+              .then((response) => {
+                console.log("Data sent successfully:", response.data);
+              })
+              .catch((error) => {
+                console.error("There was an error sending the data:", error);
+              });
           }}
         >
           {({ touched, errors }) => (
-            <Form className="lg:w-1/3 md:w-1/2 bg-white flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0" id="homeForm">
-
+            <Form
+              className="lg:w-1/3 md:w-1/2 bg-white flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0"
+              id="homeForm"
+            >
               {/* Username */}
               <div className="relative mb-4">
                 <Reveal>
@@ -105,10 +125,16 @@ const {formElement} = useContext(ScrollContext);
                   id="name"
                   name="name"
                   autoComplete="off"
-                  className={`w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out ${touched.name && errors.name ? 'form-input-error' : ''} `}
+                  className={`w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out ${
+                    touched.name && errors.name ? "form-input-error" : ""
+                  } `}
                 />
 
-                <ErrorMessage name="name" component="div" className="form-error" />
+                <ErrorMessage
+                  name="name"
+                  component="div"
+                  className="form-error"
+                />
               </div>
 
               {/* Email */}
@@ -126,9 +152,13 @@ const {formElement} = useContext(ScrollContext);
                   id="email"
                   name="email"
                   autoComplete="off"
-                  className={`w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out ${touched.email && errors.email ? 'form-input-error' : ''}`}
+                  className={`w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out`}
                 />
-                <ErrorMessage name="email" component="div" className="form-error" />
+                <ErrorMessage
+                  name="email"
+                  component="div"
+                  className="form-error"
+                />
               </div>
 
               {/* Phone */}
@@ -146,19 +176,30 @@ const {formElement} = useContext(ScrollContext);
                   id="phone"
                   name="phone"
                   autoComplete="off"
-                  className={`w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out ${touched.phone && errors.phone ? 'form-input-error' : ''}`}
+                  className={`w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out ${
+                    touched.phone && errors.phone ? "form-input-error" : ""
+                  }`}
                 />
-                <ErrorMessage name="phone" component="div" className="form-error" />
+                <ErrorMessage
+                  name="phone"
+                  component="div"
+                  className="form-error"
+                />
               </div>
 
               {/* Select */}
               <div className="relative mb-4">
-                <label htmlFor="select" className="leading-7 text-sm text-gray-600">Select</label>
+                <label
+                  htmlFor="select"
+                  className="leading-7 text-sm text-gray-600"
+                >
+                  Select
+                </label>
                 <Field
                   as="select"
                   id="select"
                   name="select"
-                  className={`w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-3 px-3 leading-8 transition-colors duration-200 ease-in-out ${touched.select && errors.select ? 'form-input-error' : ''}`}
+                  className={`w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-3 px-3 leading-8 transition-colors duration-200 ease-in-out`}
                 >
                   <option value="">Please select an Service</option>
                   {selectBtnDatas.map((item, index) => (
@@ -167,7 +208,7 @@ const {formElement} = useContext(ScrollContext);
                     </option>
                   ))}
                 </Field>
-                <ErrorMessage name="select" component="div" className="form-error" />
+                {/* <ErrorMessage name="select" component="div" className="form-error" /> */}
               </div>
 
               {/* Message */}
@@ -185,12 +226,15 @@ const {formElement} = useContext(ScrollContext);
                   name="message"
                   as="textarea"
                   autoComplete="off"
-                  className={`w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 h-28 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out ${touched.message && errors.message ? 'form-input-error' : ''}`}
+                  className={`w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 h-28 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out `}
                 ></Field>
-                <ErrorMessage name="message" component="div" className="form-error" />
+                {/* <ErrorMessage name="message" component="div" className="form-error" /> */}
               </div>
 
-              <button type="submit" className="text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">
+              <button
+                type="submit"
+                className="text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg"
+              >
                 Submit
               </button>
             </Form>
