@@ -6,7 +6,7 @@ import { ScrollContext } from "../../hooks/ScrollContext";
 import { Formik, Form, Field, ErrorMessage } from "formik";
 import { validationSchema } from "../Schema";
 import { selectBtnDatas } from "../../data/Navbar";
-import axios from "axios";
+import { QueryForm } from "../../hooks/DataPass";
 
 const HomeForm = () => {
   const { formElement } = useContext(ScrollContext);
@@ -82,26 +82,9 @@ const HomeForm = () => {
             select: "",
           }}
           validationSchema={validationSchema}
-          onSubmit={(values) => {
-            const updatedValues = Object.fromEntries(
-              Object.entries(values).map(([key, value]) => [
-                key,
-                value === "" ? "N/A" : value,
-              ])
-            );
+          onSubmit={async (values) => {
+            const {data, error} = await QueryForm(values);
 
-            // Send updatedValues to the backend
-            axios
-              .post(
-                "https://inbuild-mail.onrender.com/api/query-form",
-                updatedValues
-              )
-              .then((response) => {
-                console.log("Data sent successfully:", response.data);
-              })
-              .catch((error) => {
-                console.error("There was an error sending the data:", error);
-              });
           }}
         >
           {({ touched, errors }) => (

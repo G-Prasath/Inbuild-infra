@@ -2,6 +2,7 @@ import React from "react";
 import { Formik, Form, Field, ErrorMessage } from "formik";
 import { validationSchema } from "../Schema";
 import { selectBtnDatas } from "../../data/Navbar";
+import axios from "axios";
 
 const ContactForm = () => {
   return (
@@ -244,7 +245,7 @@ const ContactForm = () => {
                       type="submit"
                       className="inline-flex items-center rounded-md px-4 py-2 font-medium focus:outline-none focus-visible:ring focus-visible:ring-sky-500 shadow-sm sm:text-sm transition-colors duration-75 text-sky-500 border border-sky-500 hover:bg-sky-50 active:bg-sky-100 disabled:bg-sky-100 dark:hover:bg-gray-900 dark:active:bg-gray-800 dark:disabled:bg-gray-800 disabled:cursor-not-allowed"
                     >
-                      <span>Send Message</span>
+                      Send Message
                     </button>
                   </div>
                 </Form>
