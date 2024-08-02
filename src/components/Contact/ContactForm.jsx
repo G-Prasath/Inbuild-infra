@@ -98,10 +98,11 @@ const ContactForm = () => {
                 select: "",
               }}
               validationSchema={validationSchema}
-              onSubmit={async (values) => {
+              onSubmit={async (values, {resetForm}) => {
                 setLoading(true);
                 try {
                   const {data, error} = await QueryForm(values);
+                  resetForm()
                 } catch (error) {
                   console.log(error);
                 }finally{

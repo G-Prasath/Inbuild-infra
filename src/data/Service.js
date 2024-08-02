@@ -1195,14 +1195,14 @@ export const facadeData = {
     // Banner
 
     banner: {
-        img: "/Services/peb/facadeBanner.avif",
+        img: "/Services/facade/facadeBanner.avif",
         text: "Facade"
     },
 
     //Profile
     profile: {
         heading: "Facade Installation in Chennai",
-        img: "/Services/peb/facade_profile.avif",
+        img: "/Services/facade/facade_profile.avif",
         paragraphs: [
             "Inbuilt Infra is the best building facade contractors in Chennai.Whether it's exterior cladding or other facade applications, we are committed to delivering the highest quality and ensuring the satisfaction of our clients.",
             "As the expert facade consultants, we provide guidance on choosing the most suitable materials and designs for each project. With years of experience and a dedicated team of professionals, we offer best solutions for all types of facade projects. During the facade installation process, we employ the latest techniques and equipment to ensure precision and quality. We ensure that all our facades meet the highest standards of facade fire rating. We stay updated with the latest facade design trends and facade construction methods to provide state-of-the-art solutions. The materials used for the facades are tensile, polycarbonate and Glass. One of our core strengths is our ability to offer a full spectrum of services, from facade design to facade maintenance. Our design team works closely with clients to develop innovative and functional designs. Our team is ready to deliver exceptional results whether it is commercial or residential. Trust Inbuilt Infra for all your facade projects and experience the best in quality and service.."
@@ -1213,17 +1213,17 @@ export const facadeData = {
     apps: [
         {
             title: "Tensile",
-            img: "/Services/facade/Warehouse.avif",
+            img: "/Services/facade/Tensile-facade.avif",
             para: "PEBs allow for rapid assembly, reducing construction time and disruptions to warehouse operations. This process helps meet deadlines and lowers overall project costs."
         },
         {
             title: "Polycarbonate",
-            img: "/Services/facade/Factory.avif",
+            img: "/Services/facade/Polycarbonte_facade.avif",
             para: "PEB (Pre-Engineered Buildings) are a popular choice for factories which offer large, column-free spaces ideal for manufacturing processes, heavy machinery and material handling."
         },
         {
             title: "Glass",
-            img: "/Services/facade/Multi-Storey-Steel-Building.avif",
+            img: "/Services/facade/Glass_facade.avif",
             para: "Pre-Engineered Building multi-story steel structures gives a modern and efficient solution for constructing buildings with multiple floors which encourage fast construction."
         }
     ],
@@ -1302,8 +1302,8 @@ export const facadeData = {
         "Services/facade/facade_gallery_02.avif",
         "Services/facade/facade_gallery_03.avif",
         "Services/facade/facade_gallery_04.avif",
-        "Services/facade/facade_gallery_05.avif",
-        "Services/facade/facade_gallery_06.avif"
+        // "Services/facade/facade_gallery_05.avif",
+        // "Services/facade/facade_gallery_06.avif"
     ],
 
     //testimonials

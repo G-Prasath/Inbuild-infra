@@ -80,6 +80,32 @@ Pending Works (30 / 07 / 2024)
 2) Get Quote Button click to move Form
 
 
+Pending assets and confirmations (02 / 08 / 2024)
+--------------------------------
+Home Page
+==========
+1) Clients List
+2) Broucher Link
+3) Usefull Links
+4) Resources
+
+About Page
+==========
+1) Factory Images
+2) Our Team Images
+3) Our Clients
+
+Service Facade
+==============
+1) Gallery 2 Image Pending
+
+Carrers
+=======
+1) Counting Numbers
+
+
+
+
 
 
 

@@ -4,20 +4,30 @@ import Freelancing from '../components/career/Freelancing'
 import JobBadges from '../components/career/JobBadges'
 import Funfact from '../components/career/Funfact'
 import BannerBreadcrum from '../components/common/BannerBreadcrum'
+import { CareerPageData as metaTags } from '../data/Metatag';
+import { Helmet } from 'react-helmet-async'
+
 
 
 
 const Careers = () => {
   return (
     <div>
-      <BannerBreadcrum 
-        bannerImg="/Banners/homeBanner_3.avif"
+      <Helmet>
+        <title>{metaTags.title}</title>
+        <meta name="description" content={metaTags.description} />
+        <meta name="keywords" content={metaTags.keywords} />
+        <link rel="canonical" href={metaTags.canonical} />
+      </Helmet>
+
+      <BannerBreadcrum
+        bannerImg="/careerBanner.avif"
         bannerCnt="Carrers"
       />
       <Freelancing />
-      <Funfact/>
+      <Funfact />
       <CareerForm />
-      <JobBadges/>
+      <JobBadges />
     </div>
   )
 }

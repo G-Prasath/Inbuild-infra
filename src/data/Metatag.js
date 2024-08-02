@@ -64,8 +64,8 @@ export const TensilePageData = {
   };
 
   export const FacadePageData = {
-    title: "",
-    description: "",
+    title: "Facade Installation in Chennai - Inbuilt Infra",
+    description: "Are you looking for the facade installer in Chennai? Contact Inbuilt Infra, we offer the best and high quality facade installation process for your roof top.",
     keywords: "",
     canonical: hostname+"/facade"
   };
@@ -75,4 +75,19 @@ export const TensilePageData = {
     description: "Inbuilt Infra also provides PEB construction in Chennai with superior quality. Contact Inbuilt Infra for your pre-engineered building(PEB) construction.",
     keywords: "",
     canonical: hostname+"/pre-engineered-building"
+  };
+
+
+  export const CareerPageData = {
+    title: "Careers - Inbuilt Infra",
+    description: "Inbuilt Infra careers page - Discover the opening positions and join with our team.",
+    keywords: "",
+    canonical: hostname+"/career"
+  };
+
+  export const ContactusPageData = {
+    title: "Contact us - Inbuilt Infra",
+    description: "Inbuilt Infra contact us page",
+    keywords: "",
+    canonical: hostname+"/contact-us"
   };

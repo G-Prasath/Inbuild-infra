@@ -6,7 +6,7 @@ export const NAV_LINKS = [
         { label: 'Tensile', href: '/tensile' },
         { label: 'Polycarbonate', href: '/polycarbonate' },
         { label: 'Shingles', href: '/shingles' },
-        { label: 'Retractable', href: '/retractable' },
+        // { label: 'Retractable', href: '/retractable' },
         { label: 'Glass Roof', href: '/glass-roof' },
         { label: 'PUFF sheet', href: '/puff-sheet' },
         { label: 'Mangalore Tile', href: '/mangalore-tile' },
@@ -14,9 +14,9 @@ export const NAV_LINKS = [
         { label: 'Facade', href: '/facade' }
       ]
     },
-    { label: 'Projects', href: '/', subMenu: [] },
-    { label: 'Careers', href: '/', subMenu: [] },
-    { label: 'Contact Us', href: '/', subMenu: [] }
+    // { label: 'Projects', href: '/projects', subMenu: [] },
+    { label: 'Careers', href: '/careers', subMenu: [] },
+    { label: 'Contact Us', href: '/contact-us', subMenu: [] }
   ];
 
   export const selectBtnDatas = ["Tensile", "Polycarbonate Roofings", "Shingles Roofings", "RetrableRoof", "Glass Roofings", "Puff Panel", "Mangalore Tail", "Pre Engineered Buildings", "Facade"];

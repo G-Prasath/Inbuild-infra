@@ -13,8 +13,9 @@ const Features = () => {
               </div>
             </div>
             <div className="mt-3 sm:mt-0 sm:ml-3 lg:mt-3 lg:ml-0">
-              <h3 className="text-sm font-medium text-gray-900">Free Shipping</h3>
-              <p className="mt-2 text-sm text-gray-500">It's not actually free we just price it into the products. Someone's paying for it, and it's not us.</p>
+              <h3 className="text-sm font-medium text-gray-900">Connect with Us
+              </h3>
+              <p className="mt-2 text-sm text-gray-500">Follow our social media for the latest updates and roofing tips.</p>
             </div>
           </div>
 
@@ -25,8 +26,8 @@ const Features = () => {
               </div>
             </div>
             <div className="mt-3 sm:mt-0 sm:ml-3 lg:mt-3 lg:ml-0">
-              <h3 className="text-sm font-medium text-gray-900">24/7 Customer Support</h3>
-              <p className="mt-2 text-sm text-gray-500">Our AI chat widget is powered by a naive series of if/else statements. Guaranteed to irritate.</p>
+              <h3 className="text-sm font-medium text-gray-900">24/7 Customer Assistance</h3>
+              <p className="mt-2 text-sm text-gray-500">Our support team is available day and night for all your roofing needs.</p>
             </div>
           </div>
 
@@ -37,8 +38,9 @@ const Features = () => {
               </div>
             </div>
             <div className="mt-3 sm:mt-0 sm:ml-3 lg:mt-3 lg:ml-0">
-              <h3 className="text-sm font-medium text-gray-900">Fast Shopping Cart</h3>
-              <p className="mt-2 text-sm text-gray-500">Look how fast that cart is going. What does this mean for the actual experience? I don't know.</p>
+              <h3 className="text-sm font-medium text-gray-900">Give Us Your Feedback
+              </h3>
+              <p className="mt-2 text-sm text-gray-500">Share your thoughts and suggestions to help us improve our services.</p>
             </div>
           </div>
         </div>

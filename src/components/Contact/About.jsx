@@ -24,14 +24,7 @@ const About = () => {
               </h2>
 
               <p>
-                Donec porttitor, enim ut dapibus lobortis, lectus sem tincidunt
-                dui, eget ornare lectus ex non libero. Nam rhoncus diam ultrices
-                porttitor laoreet. Ut mollis fermentum ex, vel viverra lorem
-                volutpat sodales. In ornare porttitor odio sit amet laoreet. Sed
-                laoreet, nulla a posuere ultrices, purus nulla tristique turpis,
-                hendrerit rutrum augue quam ut est. Fusce malesuada posuere
-                libero, vitae dapibus eros facilisis euismod. Sed sed lobortis
-                justo, ut tincidunt velit. Mauris in maximus eros.
+              Inbuilt Infra is dedicated to providing exceptional roofing services throughout Chennai.  We invite you to contact us for any inquiries about our roofing services in Chennai. Whether you need residential or commercial roofing solutions our experienced team is ready to assist. Reach out to us via phone, email or our convenient contact form. We will provide you with reliable professional roofing services. We look forward to working with you to meet all your roofing needs.
               </p>
 
               
@@ -42,7 +35,7 @@ const About = () => {
       <div className="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
         <img
           className="h-56 w-full object-cover object-top sm:h-72 md:h-96 lg:w-full lg:h-full"
-          src="https://cdn.pixabay.com/photo/2016/03/23/04/01/woman-1274056_960_720.jpg"
+          src="/contact_profile.avif"
           alt=""
         />
       </div>

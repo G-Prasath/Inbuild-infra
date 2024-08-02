@@ -40,7 +40,7 @@ export const validationSchema = Yup.object().shape({
       .max(500, "Message is too long"),
     select: Yup.string().required("Please select an option"),
     resume: Yup.mixed()
-    .required("Resume is required")
+    .required("Resume is required (PDF Format)")
     .test("fileType", "Only PDF files are allowed", (value) => {
       return value && value.type === "application/pdf";
     }),

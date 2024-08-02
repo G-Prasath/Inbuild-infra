@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Formik, Form, Field, ErrorMessage } from "formik";
 import { careerValSchema } from "../Schema";
-import { QueryForm } from "../../hooks/DataPass";
+import { CareerFormData } from "../../hooks/DataPass";
 
 const CareerForm = () => {
   const list = [
@@ -30,10 +30,11 @@ const CareerForm = () => {
               resume: "",
             }}
             validationSchema={careerValSchema}
-            onSubmit={async (values) => {
+            onSubmit={async (values, {resetForm}) => {
               setLoading(true);
               try {
-                const { data, error } = await QueryForm(values);
+                const { data, error } = await CareerFormData(values);
+                resetForm();
               } catch (error) {
                 console.log(error);
               } finally {
@@ -41,7 +42,7 @@ const CareerForm = () => {
               }
             }}
           >
-            {({ touched, errors }) => (
+            {() => (
               <Form className="flex flex-col items-center">
                 <div className=" max-sm:w-full md:w-3/4 lg:w-2/3 xl:w-1/2">
                   <div className="flex flex-col md:flex-row">
@@ -50,6 +51,7 @@ const CareerForm = () => {
                         id="name"
                         name="name"
                         type="text"
+                        autoComplete="off"
                         className="my-2 py-2 px-4 rounded-md bg-gray-900 text-gray-300 w-full md:mr-2 outline-none"
                         placeholder="Name"
                       />
@@ -65,6 +67,7 @@ const CareerForm = () => {
                         id="email"
                         name="email"
                         type="email"
+                        autoComplete="off"
                         className="my-2 py-2 px-4 rounded-md bg-gray-900 text-gray-300 w-full md:ml-2 outline-none"
                         placeholder="Email"
                       />
@@ -82,6 +85,7 @@ const CareerForm = () => {
                         id="phone"
                         name="phone"
                         type="text"
+                        autoComplete="off"
                         placeholder="Phone Number"
                         className="my-2 py-2 px-4 rounded-md bg-gray-900 text-gray-300 w-full outline-none"
                       />
@@ -93,24 +97,24 @@ const CareerForm = () => {
                     </div>
 
                     <div className="w-full md:w-1/2">
-                    <Field
-                      id="select"
-                      as="select"
-                      name="select"
-                      className="my-2 py-2 px-4 rounded-md bg-gray-900 text-gray-300 w-full outline-none"
-                    >
-                      <option value="">Select Role</option>
-                      {list.map((item, index) => (
-                        <option key={index} value={item}>
-                          {item}
-                        </option>
-                      ))}
-                    </Field>
-                    <ErrorMessage
-                      name="select"
-                      component="div"
-                      className="form-error"
-                    />
+                      <Field
+                        id="select"
+                        as="select"
+                        name="select"
+                        className="my-2 py-2 px-4 rounded-md bg-gray-900 text-gray-300 w-full outline-none"
+                      >
+                        <option value="">Select Role</option>
+                        {list.map((item, index) => (
+                          <option key={index} value={item}>
+                            {item}
+                          </option>
+                        ))}
+                      </Field>
+                      <ErrorMessage
+                        name="select"
+                        component="div"
+                        className="form-error"
+                      />
                     </div>
                   </div>
 
@@ -120,14 +124,13 @@ const CareerForm = () => {
                         <input
                           type="file"
                           id="resume"
-                          {...field}
+                          name="resume"
+                          autoComplete="off"
                           className="my-2 py-2 px-4 rounded-md bg-gray-900 text-gray-300 w-full outline-none"
                           onChange={(event) => {
-                            form.setFieldValue(
-                              "resume",
-                              event.currentTarget.files[0]
-                            );
+                            form.setFieldValue("resume", event.currentTarget.files[0]);
                           }}
+                        // Do not spread field props here, as file inputs should not be controlled via value
                         />
                       </div>
                     )}
@@ -153,6 +156,7 @@ const CareerForm = () => {
                   />
                 </div>
                 <button
+                type="submit"
                   disabled={loading}
                   className="border-2 text-md mt-5 rounded-md py-2 px-4 bg-blue-600 hover:bg-blue-700 text-gray-100 transition duration-300 ease-in-out focus:outline-none focus:ring-2 focus:ring-blue-600"
                 >

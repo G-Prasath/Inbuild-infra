@@ -7,16 +7,16 @@ export const footerDatas = [
           link: "/tensile"
         },
         {
-          label: "Retractable Roofing",
-          link: "/"
+          label: "Puff Panel Roofing",
+          link: "/puff-sheet"
         },
         {
           label: "Polycarbonate Roofing",
-          link: "/poly"
+          link: "/polycarbonate"
         },
         {
           label: "Mangalore Tile Roofing",
-          link: "/"
+          link: "/mangalore-tile"
         },
       ]
     },
