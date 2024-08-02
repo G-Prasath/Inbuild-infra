@@ -1,4 +1,4 @@
-import React, { useContext } from "react";
+import React, { useContext, useState } from "react";
 import { Reveal } from "../../hooks/Reveal";
 import { Formik, Form, Field, ErrorMessage } from "formik";
 import { validationSchema } from "../Schema";
@@ -6,10 +6,13 @@ import { Link } from "react-router-dom";
 import { selectBtnDatas } from "../../data/Navbar";
 import { ScrollContext } from "../../hooks/ScrollContext";
 import axios from "axios";
+import { QueryForm } from "../../hooks/DataPass";
 
 
 const ServiceForm = () => {
   const {formElement} = useContext(ScrollContext);
+  const [loading, setLoading] = useState(false);
+
   return (
     <Formik
       initialValues={{
@@ -20,26 +23,16 @@ const ServiceForm = () => {
         select: "",
       }}
       validationSchema={validationSchema}
-      onSubmit={(values) => {
-        const updatedValues = Object.fromEntries(
-          Object.entries(values).map(([key, value]) => [
-            key,
-            value === "" ? "N/A" : value,
-          ])
-        );
+      onSubmit={async (values) => {
+        setLoading(true);
+        try {
+          const {data, error} = await QueryForm(values);
+        } catch (error) {
+          console.log(error);
+        }finally{
+        setLoading(false)
+        }
 
-        // Send updatedValues to the backend
-        axios
-        .post(
-          "https://inbuild-mail.onrender.com/api/query-form",
-          updatedValues
-        )
-        .then((response) => {
-          console.log("Data sent successfully:", response.data);
-        })
-        .catch((error) => {
-          console.error("There was an error sending the data:", error);
-        });
       }}
     >
       {({ touched, errors }) => (
@@ -236,9 +229,10 @@ const ServiceForm = () => {
 
                   <button
                     type="submit"
+                    disabled={loading}
                     className="w-full h-12 mt-5 text-white text-base font-semibold leading-6 rounded-full transition-all duration-700 hover:bg-indigo-800 bg-indigo-600 shadow-sm"
                   >
-                    Send
+                    {loading ? "Submiting..." : "Submit"}
                   </button>
                 </div>
               </div>

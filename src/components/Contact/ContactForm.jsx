@@ -1,10 +1,12 @@
-import React from "react";
+import React, { useState } from "react";
 import { Formik, Form, Field, ErrorMessage } from "formik";
 import { validationSchema } from "../Schema";
 import { selectBtnDatas } from "../../data/Navbar";
-import axios from "axios";
+import { QueryForm } from "../../hooks/DataPass";
 
 const ContactForm = () => {
+  const [loading, setLoading] = useState(false);
+
   return (
     <div>
       <div
@@ -96,30 +98,16 @@ const ContactForm = () => {
                 select: "",
               }}
               validationSchema={validationSchema}
-              onSubmit={(values) => {
-                const updatedValues = Object.fromEntries(
-                  Object.entries(values).map(([key, value]) => [
-                    key,
-                    value === "" ? "N/A" : value,
-                  ])
-                );
-
-                console.log(updatedValues);
-                // Send updatedValues to the backend
-                axios
-                  .post(
-                    "https://inbuild-mail.onrender.com/api/query-form",
-                    updatedValues
-                  )
-                  .then((response) => {
-                    console.log("Data sent successfully:", response.data);
-                  })
-                  .catch((error) => {
-                    console.error(
-                      "There was an error sending the data:",
-                      error
-                    );
-                  });
+              onSubmit={async (values) => {
+                setLoading(true);
+                try {
+                  const {data, error} = await QueryForm(values);
+                } catch (error) {
+                  console.log(error);
+                }finally{
+                setLoading(false)
+                }
+    
               }}
             >
               {({ touched, errors }) => (
@@ -243,9 +231,10 @@ const ContactForm = () => {
                   <div className="flex justify-end sm:col-span-2">
                     <button
                       type="submit"
+                      disabled={loading}
                       className="inline-flex items-center rounded-md px-4 py-2 font-medium focus:outline-none focus-visible:ring focus-visible:ring-sky-500 shadow-sm sm:text-sm transition-colors duration-75 text-sky-500 border border-sky-500 hover:bg-sky-50 active:bg-sky-100 disabled:bg-sky-100 dark:hover:bg-gray-900 dark:active:bg-gray-800 dark:disabled:bg-gray-800 disabled:cursor-not-allowed"
                     >
-                      Send Message
+                      {loading ? "Submiting..." : "Send Message"}
                     </button>
                   </div>
                 </Form>

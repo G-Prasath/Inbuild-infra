@@ -1,4 +1,4 @@
-import React, { useContext } from "react";
+import React, { useContext, useState } from "react";
 import { Reveal } from "../../hooks/Reveal";
 import { Link } from "react-router-dom";
 import { ScrollContext } from "../../hooks/ScrollContext";
@@ -10,6 +10,8 @@ import { QueryForm } from "../../hooks/DataPass";
 
 const HomeForm = () => {
   const { formElement } = useContext(ScrollContext);
+  const [loading, setLoading] = useState(false);
+
   return (
     <section className="text-gray-600 body-font relative" ref={formElement}>
       <div className="text-center">
@@ -83,7 +85,14 @@ const HomeForm = () => {
           }}
           validationSchema={validationSchema}
           onSubmit={async (values) => {
-            const {data, error} = await QueryForm(values);
+            setLoading(true);
+            try {
+              const {data, error} = await QueryForm(values);
+            } catch (error) {
+              console.log(error);
+            }finally{
+            setLoading(false)
+            }
 
           }}
         >
@@ -216,9 +225,10 @@ const HomeForm = () => {
 
               <button
                 type="submit"
+                disabled={loading}
                 className="text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg"
               >
-                Submit
+                {loading ? "Submit..." : "Submit"}
               </button>
             </Form>
           )}
