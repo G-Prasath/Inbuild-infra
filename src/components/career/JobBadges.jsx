@@ -8,7 +8,7 @@ const JobBadges = () => {
       <div className="flex flex-wrap max-w-xl w-full p-2 gap-1 md:gap-2 justify-center items-center text-sm text-white md:text-md">
         {
           list.map((item, index) => (
-            <div key={index} class="bg-cyan-500 rounded px-2 py-2">
+            <div key={index} className="bg-cyan-500 rounded px-2 py-2">
               {item}
             </div>
           ))

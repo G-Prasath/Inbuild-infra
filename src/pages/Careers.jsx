@@ -1,5 +1,5 @@
 import React from 'react'
-import Form from '../components/career/Form'
+import CareerForm from '../components/career/CareerForm'
 import Freelancing from '../components/career/Freelancing'
 import JobBadges from '../components/career/JobBadges'
 import Funfact from '../components/career/Funfact'
@@ -16,7 +16,7 @@ const Careers = () => {
       />
       <Freelancing />
       <Funfact/>
-      <Form />
+      <CareerForm />
       <JobBadges/>
     </div>
   )
