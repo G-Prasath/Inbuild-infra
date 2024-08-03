@@ -14,7 +14,7 @@ const Services = () => {
 
       {
         serviceCard.map((item, index) => (
-          <ServiceCard key={index} img={item.img} title={item.title} disc={item.disc} count={index+1} />
+          <ServiceCard key={index} img={item.img} title={item.title} disc={item.disc} count={index+1} anchor={item.link} />
         ))
       }
     </div>

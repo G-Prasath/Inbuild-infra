@@ -4,7 +4,7 @@ import PrimaryBtn from "./common/PrimaryBtn";
 import { Reveal } from "../hooks/Reveal";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 
-const ServiceCard = ({ img, title, disc, count }) => {
+const ServiceCard = ({ img, title, disc, count, anchor }) => {
   const isEven = count % 2 === 0;
 
   return (
@@ -34,7 +34,7 @@ const ServiceCard = ({ img, title, disc, count }) => {
             <p className="my-3 text-justify font-medium text-gray-700 leading-relaxed">
               {disc}
             </p>
-            <Link to="/">
+            <Link to={anchor}>
               <PrimaryBtn fText="Read More" sText="Click Here" />
             </Link>
           </Reveal>
