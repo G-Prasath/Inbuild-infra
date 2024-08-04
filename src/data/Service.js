@@ -153,22 +153,22 @@ export const tensileData = {
     //testimonials
     testimonials: [
         {
-            img: 'https://dummyimage.com/106x106',
-            para: "Synth chartreuse iPhone lomo cray raw denim brunch everyday carry neutra before they sold out fixie 90's microdosing. Tacos pinterest fanny pack venmo, post-ironic heirloom try-hard pabst authentic iceland.",
-            title: "Holden Caulfield",
-            role: "UI DEVELOPER"
+            
+            para: "Outstanding tensile structure! It exceeded my expectations in every way. Definitely worth the investment.",
+            title: "Anand - Business Owner",
+            role: "5 star"
         },
         {
-            img: 'https://dummyimage.com/106x106',
-            para: "Synth chartreuse iPhone lomo cray raw denim brunch everyday carry neutra before they sold out fixie 90's microdosing. Tacos pinterest fanny pack venmo, post-ironic heirloom try-hard pabst authentic iceland.",
-            title: "Holden Caulfield",
-            role: "UI DEVELOPER"
+            
+            para: "Inbuilt Infra's tensile structure is a game-changer and revolutionary innovation for the building architects.",
+            title: "Ramesh - Builder",
+            role: "5 star"
         },
         {
-            img: 'https://dummyimage.com/106x106',
-            para: "Synth chartreuse iPhone lomo cray raw denim brunch everyday carry neutra before they sold out fixie 90's microdosing. Tacos pinterest fanny pack venmo, post-ironic heirloom try-hard pabst authentic iceland.",
-            title: "Holden Caulfield",
-            role: "UI DEVELOPER"
+            
+            para: "Good customer support. The tensile structure also looks good for the office building. Best tensile structurer in Chennai.",
+            title: "Vijayakumar - Business Owner",
+            role: "4.5 star"
         }
     ],
 
@@ -339,28 +339,25 @@ export const polyData = {
     //testimonials
     testimonials: [
         {
-            img: 'https://dummyimage.com/106x106',
-            para: "Synth chartreuse iPhone lomo cray raw denim brunch everyday carry neutra before they sold out fixie 90's microdosing. Tacos pinterest fanny pack venmo, post-ironic heirloom try-hard pabst authentic iceland.",
-            title: "Holden Caulfield",
-            role: "UI DEVELOPER"
+            para: "Inbuilt infra did a wonderful roof work with Polycarbonate roofing for our patio. It gives a modern look. Highly satisfied with their work.",
+            title: "Arjun - Engineer",
+            role: "4.5 star"
         },
         {
-            img: 'https://dummyimage.com/106x106',
-            para: "Synth chartreuse iPhone lomo cray raw denim brunch everyday carry neutra before they sold out fixie 90's microdosing. Tacos pinterest fanny pack venmo, post-ironic heirloom try-hard pabst authentic iceland.",
-            title: "Holden Caulfield",
-            role: "UI DEVELOPER"
+            para: "The Polycarbonate roofing on our portico done by Inbuilt Infra which blends seamlessly with our home's architectur",
+            title: "Karthik - DEVELOPER ",
+            role: "5 star"
         },
         {
-            img: 'https://dummyimage.com/106x106',
-            para: "Synth chartreuse iPhone lomo cray raw denim brunch everyday carry neutra before they sold out fixie 90's microdosing. Tacos pinterest fanny pack venmo, post-ironic heirloom try-hard pabst authentic iceland.",
-            title: "Holden Caulfield",
-            role: "UI DEVELOPER"
+            para: "Inbuilt Infra's polycarbonate roofing provided excellent coverage for our car parking. The structure enhances our office building look.",
+            title: "Prabhu - Business man",
+            role: "4.5 star"
         }
     ],
 
 };
 
-// Puf
+// Puff
 export const pufpanelData = {
     // Banner
     banner: {
@@ -504,22 +501,22 @@ export const pufpanelData = {
     //testimonials
     testimonials: [
         {
-            img: 'https://dummyimage.com/106x106',
-            para: "Synth chartreuse iPhone lomo cray raw denim brunch everyday carry neutra before they sold out fixie 90's microdosing. Tacos pinterest fanny pack venmo, post-ironic heirloom try-hard pabst authentic iceland.",
-            title: "Holden Caulfield",
-            role: "UI DEVELOPER"
+            
+            para: "Inbuilt Infra's PUFF roofing service gives a perfect thermal solution. The construction was quick and the result was excellent.",
+            title: "Suresh - Doctor",
+            role: "5 star"
         },
         {
-            img: 'https://dummyimage.com/106x106',
-            para: "Synth chartreuse iPhone lomo cray raw denim brunch everyday carry neutra before they sold out fixie 90's microdosing. Tacos pinterest fanny pack venmo, post-ironic heirloom try-hard pabst authentic iceland.",
-            title: "Holden Caulfield",
-            role: "UI DEVELOPER"
+            
+            para: "The PUFF sheets roofing from Inbuilt Infra for our garden room is exceptional. It’s well-built & extends our living space beautifully.",
+            title: "Vijay - Engineer",
+            role: "4.5 star"
         },
         {
-            img: 'https://dummyimage.com/106x106',
-            para: "Synth chartreuse iPhone lomo cray raw denim brunch everyday carry neutra before they sold out fixie 90's microdosing. Tacos pinterest fanny pack venmo, post-ironic heirloom try-hard pabst authentic iceland.",
-            title: "Holden Caulfield",
-            role: "UI DEVELOPER"
+            
+            para: "Inbuilt Infra’s PUFF roofing for our car parking is excellent. The Structure is versatile and meets all our requirements.",
+            title: "Rajesh - Cafe owner",
+            role: "5 star"
         }
     ],
 
@@ -669,22 +666,22 @@ export const glassroofData = {
     //testimonials
     testimonials: [
         {
-            img: 'https://dummyimage.com/106x106',
-            para: "Synth chartreuse iPhone lomo cray raw denim brunch everyday carry neutra before they sold out fixie 90's microdosing. Tacos pinterest fanny pack venmo, post-ironic heirloom try-hard pabst authentic iceland.",
-            title: "Holden Caulfield",
-            role: "UI DEVELOPER"
+            
+            para: "Excellent Glass roofing service for our restaurant. The team's attention to detail contributed to a beautiful finish.",
+            title: "Saravanan - Restaurant Owner",
+            role: "5 star"
         },
         {
-            img: 'https://dummyimage.com/106x106',
-            para: "Synth chartreuse iPhone lomo cray raw denim brunch everyday carry neutra before they sold out fixie 90's microdosing. Tacos pinterest fanny pack venmo, post-ironic heirloom try-hard pabst authentic iceland.",
-            title: "Holden Caulfield",
-            role: "UI DEVELOPER"
+            
+            para: "Top notch result for installation of glass roofing at our resort. The team was responsive, skilled and provided excellent results.",
+            title: "Ashok - resort Owner",
+            role: "4.5 star"
         },
         {
-            img: 'https://dummyimage.com/106x106',
-            para: "Synth chartreuse iPhone lomo cray raw denim brunch everyday carry neutra before they sold out fixie 90's microdosing. Tacos pinterest fanny pack venmo, post-ironic heirloom try-hard pabst authentic iceland.",
-            title: "Holden Caulfield",
-            role: "UI DEVELOPER"
+            
+            para: "Best roofing service for our home. We contacted the inbuilt infra for glass roofing and the team delivered the excellence.",
+            title: "Narayanan - IT manager",
+            role: "4.5 star"
         }
     ],
 
@@ -843,22 +840,22 @@ export const shinglesData = {
     //testimonials
     testimonials: [
         {
-            img: 'https://dummyimage.com/106x106',
-            para: "Synth chartreuse iPhone lomo cray raw denim brunch everyday carry neutra before they sold out fixie 90's microdosing. Tacos pinterest fanny pack venmo, post-ironic heirloom try-hard pabst authentic iceland.",
-            title: "Holden Caulfield",
-            role: "UI DEVELOPER"
+            
+            para: "The shingle roofing by Inbuilt Infra for our restaurant is impressive. The shingles match our design requirements perfectly.",
+            title: "Senthil - Restaurant Owner",
+            role: "4.5 star"
         },
         {
-            img: 'https://dummyimage.com/106x106',
-            para: "Synth chartreuse iPhone lomo cray raw denim brunch everyday carry neutra before they sold out fixie 90's microdosing. Tacos pinterest fanny pack venmo, post-ironic heirloom try-hard pabst authentic iceland.",
-            title: "Holden Caulfield",
-            role: "UI DEVELOPER"
+            
+            para: "Our new shingle roof for the porch is fantastic. Their team was professional and delivered high-quality results on time.",
+            title: "Siva - Shop Owner",
+            role: "5 star"
         },
         {
-            img: 'https://dummyimage.com/106x106',
-            para: "Synth chartreuse iPhone lomo cray raw denim brunch everyday carry neutra before they sold out fixie 90's microdosing. Tacos pinterest fanny pack venmo, post-ironic heirloom try-hard pabst authentic iceland.",
-            title: "Holden Caulfield",
-            role: "UI DEVELOPER"
+            
+            para: "This team transformed our resort and delivered outstanding roofing services. The project was completed to the highest standard.",
+            title: "Vignesh - Resort Owner",
+            role: "4.5 star"
         }
     ],
 
@@ -999,22 +996,22 @@ export const mangloreData = {
     //testimonials
     testimonials: [
         {
-            img: 'https://dummyimage.com/106x106',
-            para: "Synth chartreuse iPhone lomo cray raw denim brunch everyday carry neutra before they sold out fixie 90's microdosing. Tacos pinterest fanny pack venmo, post-ironic heirloom try-hard pabst authentic iceland.",
-            title: "Holden Caulfield",
-            role: "UI DEVELOPER"
+            
+            para: "The Mangalore tile roofing for my farm house was built by Inbuilt Infra. Best quality and it adds charm to our farm house.",
+            title: "Arun - Politician",
+            role: "4.5 star"
         },
         {
-            img: 'https://dummyimage.com/106x106',
-            para: "Synth chartreuse iPhone lomo cray raw denim brunch everyday carry neutra before they sold out fixie 90's microdosing. Tacos pinterest fanny pack venmo, post-ironic heirloom try-hard pabst authentic iceland.",
-            title: "Holden Caulfield",
-            role: "UI DEVELOPER"
+            
+            para: "We contacted Inbuilt infra for our restaurant’s roof with Mangalore tiles. The quality of the tiles and roofing is very good.",
+            title: "Balaji - Restaurant owner",
+            role: "4.5 star"
         },
         {
-            img: 'https://dummyimage.com/106x106',
-            para: "Synth chartreuse iPhone lomo cray raw denim brunch everyday carry neutra before they sold out fixie 90's microdosing. Tacos pinterest fanny pack venmo, post-ironic heirloom try-hard pabst authentic iceland.",
-            title: "Holden Caulfield",
-            role: "UI DEVELOPER"
+            
+            para: "Mangalore tile roofing done for our hotel car parking. They finish the project on-time.",
+            title: "Dinesh - Business owner",
+            role: "5 star"
         }
     ],
 
@@ -1169,22 +1166,22 @@ export const pebData = {
     //testimonials
     testimonials: [
         {
-            img: 'https://dummyimage.com/106x106',
-            para: "Synth chartreuse iPhone lomo cray raw denim brunch everyday carry neutra before they sold out fixie 90's microdosing. Tacos pinterest fanny pack venmo, post-ironic heirloom try-hard pabst authentic iceland.",
-            title: "Holden Caulfield",
-            role: "UI DEVELOPER"
+            
+            para: "Impressive work was done by Inbuilt Infra. The team handled the pre engineered building project expertly and provided the best structure.",
+            title: "Parthiban - Warehouse Owner",
+            role: "4.5 star"
         },
         {
-            img: 'https://dummyimage.com/106x106',
-            para: "Synth chartreuse iPhone lomo cray raw denim brunch everyday carry neutra before they sold out fixie 90's microdosing. Tacos pinterest fanny pack venmo, post-ironic heirloom try-hard pabst authentic iceland.",
-            title: "Holden Caulfield",
-            role: "UI DEVELOPER"
+            
+            para: "We are satisfied with the pre-engineered building. The team’s approach and skilled work resulted in a design enhancing structure.",
+            title: "Vimal - Business Owner",
+            role: "4.5 star"
         },
         {
-            img: 'https://dummyimage.com/106x106',
-            para: "Synth chartreuse iPhone lomo cray raw denim brunch everyday carry neutra before they sold out fixie 90's microdosing. Tacos pinterest fanny pack venmo, post-ironic heirloom try-hard pabst authentic iceland.",
-            title: "Holden Caulfield",
-            role: "UI DEVELOPER"
+            
+            para: "The pre-engineered building for our manufacturing facility is outstanding. The team delivered a functional space for our needs.",
+            title: "Sandeep - Manufacturer",
+            role: "5 star"
         }
     ],
 
@@ -1309,22 +1306,22 @@ export const facadeData = {
     //testimonials
     testimonials: [
         {
-            img: 'https://dummyimage.com/106x106',
-            para: "Synth chartreuse iPhone lomo cray raw denim brunch everyday carry neutra before they sold out fixie 90's microdosing. Tacos pinterest fanny pack venmo, post-ironic heirloom try-hard pabst authentic iceland.",
-            title: "Holden Caulfield",
-            role: "UI DEVELOPER"
+            
+            para: "The facade designed and installed for our building is stunning. Inbuilt Infra improves the building structure's appearance.",
+            title: "Karthikeyan - Building Owner",
+            role: "5 star"
         },
         {
-            img: 'https://dummyimage.com/106x106',
-            para: "Synth chartreuse iPhone lomo cray raw denim brunch everyday carry neutra before they sold out fixie 90's microdosing. Tacos pinterest fanny pack venmo, post-ironic heirloom try-hard pabst authentic iceland.",
-            title: "Holden Caulfield",
-            role: "UI DEVELOPER"
+            
+            para: "We appreciate the team's professionalism and skill in executing our hotel's facade structure. The end result is impressive.",
+            title: "Uday - Architect",
+            role: "4.5 star"
         },
         {
-            img: 'https://dummyimage.com/106x106',
-            para: "Synth chartreuse iPhone lomo cray raw denim brunch everyday carry neutra before they sold out fixie 90's microdosing. Tacos pinterest fanny pack venmo, post-ironic heirloom try-hard pabst authentic iceland.",
-            title: "Holden Caulfield",
-            role: "UI DEVELOPER"
+            
+            para: "Inbuilt Infra's exceptional work on our building's facade has created a distinguished exterior that enhances its presence.",
+            title: "Suresh - Builder",
+            role: "4.5 star"
         }
     ],
 

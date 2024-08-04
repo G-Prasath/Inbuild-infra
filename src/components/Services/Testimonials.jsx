@@ -5,7 +5,7 @@ const Testimonials = ({ testiData }) => {
   return (
     <section className="text-gray-600 body-font">
       <div className="container px-5 py-24 mx-auto">
-        <h1 className="text-4xl font-bold title-font text-zinc-800 mb-12 text-center">Testimonials</h1>
+        <h2 className="text-4xl font-bold title-font text-zinc-800 mb-12 text-center">Testimonials</h2>
         <div className="flex flex-wrap -m-4">
 
           {
@@ -18,15 +18,15 @@ const Testimonials = ({ testiData }) => {
                   <Reveal>
                     <p className="leading-relaxed mb-6">{item.para}</p>
                   </Reveal>
-                  <a className="inline-flex items-center">
-                    <img alt="testimonial" src={item.img} className="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center" />
+                  <div className="inline-flex items-center">
+                    <img alt="testimonial" src="/testimonial_icon.jpg" className="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center" />
                     <Reveal>
                       <span className="flex-grow flex flex-col pl-4">
                         <span className="title-font font-medium text-gray-900">{item.title}</span>
                         <span className="text-gray-500 text-sm">{item.role}</span>
                       </span>
                     </Reveal>
-                  </a>
+                  </div>
                 </div>
               </div>
 

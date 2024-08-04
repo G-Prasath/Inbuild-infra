@@ -25,7 +25,7 @@ export const footerDatas = [
         links: [
           {
             label: "Download Brochure",
-            link: "/"
+            link: "https://drive.google.com/file/d/1ybzwTzDPe-Z2CjosGf7uBwF_-Dzm49QM/view"
           },
           {
             label: "Supply Network",
@@ -46,15 +46,15 @@ export const footerDatas = [
         links: [
           {
             label: "Privacy Policy",
-            link: "/"
+            link: "https://docs.google.com/document/d/1-cpWd_swti9O-nymegOZTETI7oAXnKk3Siuq80Z99QY/edit"
           },
           {
             label: "Terms & Conditions",
-            link: "/"
+            link: "https://docs.google.com/document/d/1H01vz4HcpDuDjLeCMfkAWceIgECTi909BguIQQr2yas/edit"
           },
           {
             label: "Disclaimer",
-            link: "/"
+            link: "https://docs.google.com/document/d/1VxIuu1PDzr4vViNsLEOY4EUNbc7dWjkjfiGk5RZdd_A/edit"
           },
         ]
       },
