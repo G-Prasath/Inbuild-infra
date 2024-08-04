@@ -95,7 +95,7 @@ const Layout_3 = () => {
 
           <Reveal>
             <div className="my-10 w-full mt-10">
-            <Link to="/about">
+            <Link to="/about-us">
               <PrimaryBtn fText="Read More" sText="Click Here" />
             </Link>
             </div>
