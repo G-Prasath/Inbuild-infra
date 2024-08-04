@@ -1,21 +1,18 @@
-import React from "react";
-
-import Banner from "../components/Home/Banner";
-import About from "../components/Home/About";
-import Cta from "../components/Home/Cta";
-import Faq from "../components/Home/Faq";
-// import Features from "../components/Home/Features";
-import Services from "../components/Home/Services";
-import Gallery from "../components/Home/Gallery";
-import Whychoose from "../components/Home/Whychoose";
-import HomeForm from "../components/Home/HomeForm"
-import Brands from "../components/Home/Brands"
-import Blog from "../components/Home/Blog";
+import React, { Suspense, lazy } from "react";
 import { Helmet } from "react-helmet-async";
 import { HomePageData as metaTags } from '../data/Metatag';
 
-
-
+// Lazy load components
+const Banner = lazy(() => import("../components/Home/Banner"));
+const About = lazy(() => import("../components/Home/About"));
+const Cta = lazy(() => import("../components/Home/Cta"));
+const Faq = lazy(() => import("../components/Home/Faq"));
+const Services = lazy(() => import("../components/Home/Services"));
+const Gallery = lazy(() => import("../components/Home/Gallery"));
+const Whychoose = lazy(() => import("../components/Home/Whychoose"));
+const HomeForm = lazy(() => import("../components/Home/HomeForm"));
+const Brands = lazy(() => import("../components/Home/Brands"));
+const Blog = lazy(() => import("../components/Home/Blog"));
 
 const Home = () => {
   return (
@@ -26,17 +23,36 @@ const Home = () => {
         <meta name="keywords" content={metaTags.keywords} />
         <link rel="canonical" href={metaTags.canonical} />
       </Helmet>
-      <Banner />
-      <About />
-      <Brands />
-      <Whychoose />
-      <Services />
-      {/* <Features /> */}
-      <Gallery />
-      <Blog />
-      <Faq />
-      <HomeForm />
-      <Cta />
+      <Suspense fallback={<div/>}>
+        <Banner />
+      </Suspense>
+      <Suspense fallback={<div/>}>
+        <About />
+      </Suspense>
+      <Suspense fallback={<div/>}>
+        <Brands />
+      </Suspense>
+      <Suspense fallback={<div/>}>
+        <Whychoose />
+      </Suspense>
+      <Suspense fallback={<div/>}>
+        <Services />
+      </Suspense>
+      <Suspense fallback={<div/>}>
+        <Gallery />
+      </Suspense>
+      <Suspense fallback={<div/>}>
+        <Blog />
+      </Suspense>
+      <Suspense fallback={<div/>}>
+        <Faq />
+      </Suspense>
+      <Suspense fallback={<div/>}>
+        <HomeForm />
+      </Suspense>
+      <Suspense fallback={<div/>}>
+        <Cta />
+      </Suspense>
     </div>
   );
 };
