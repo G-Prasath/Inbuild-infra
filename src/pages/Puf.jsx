@@ -27,7 +27,7 @@ const Puf = () => {
       <Profile profileImg={allDatas.profile.img} profileHeading={allDatas.profile.heading} profileText={allDatas.profile.paragraphs} />
       <Applications appData={allDatas.apps} title="PUFF Sheet Roofing" />
       <DesignProcess />
-      <Benifites benifitesData={allDatas.benefits} title="PUFF sheets" />
+      <Benifites benifitesData={allDatas.benefits} title="PUFF sheet Roofing" />
       <WhyChoose datas={allDatas.whychoose} title="PUFF sheet Roofing"/>
       <Faq faqData={allDatas.faq} />
       <Gallery galleryImg={allDatas.gallery} />

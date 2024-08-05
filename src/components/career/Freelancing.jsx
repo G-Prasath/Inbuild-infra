@@ -10,7 +10,7 @@ const Freelancing = () => {
             Start Your Journey with Us
           </h1>
           <p className="mb-8 md:pl-0 pl-2 pr-2 leading-relaxed dark:text-gray-300">
-            Start your professional journey with us by sending your resume to inbuiltinfra@gmail.com. We look forward to reviewing your application and welcoming you to our team.
+            Start your professional journey with us by sending your resume to <Link to="mailto:inbuiltinfra@gmail.com">inbuiltinfra@gmail.com</Link>. We look forward to reviewing your application and welcoming you to our team.
           </p>
           <div className="flex justify-center">
             <Link

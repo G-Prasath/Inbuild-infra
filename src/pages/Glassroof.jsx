@@ -28,7 +28,7 @@ const Glassroof = () => {
       <Profile profileImg={allDatas.profile.img} profileHeading={allDatas.profile.heading} profileText={allDatas.profile.paragraphs} />
       <Applications appData={allDatas.apps} title="Glass Roofing" />
       <DesignProcess />
-      <Benifites benifitesData={allDatas.benefits} title="Glass roofings" />
+      <Benifites benifitesData={allDatas.benefits} title="Glass Roofing" />
       <WhyChoose datas={allDatas.whychoose} title="Glass Roofing" />
       <Faq faqData={allDatas.faq} />
       <Gallery galleryImg={allDatas.gallery} />

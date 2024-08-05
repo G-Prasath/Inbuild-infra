@@ -72,13 +72,13 @@ export const serviceCard = [
     },
     {
         img: "/Home/Puff_panel.avif",
-        title: "PUFF Panel",
-        disc: "PUF panel roofs are often used in industrial and commercial buildings, such as factories, warehouses, cold stores, and other similar structures. It is suitable for new construction and renovation of existing buildings.",
+        title: "PUFF sheet",
+        disc: "PUFF sheet roofs are often used in industrial and commercial buildings, such as factories, warehouses, cold stores, and other similar structures. It is suitable for new construction and renovation of existing buildings.",
         link: "/puff-sheet"
     },
     {
         img: "/Home/Shingles.avif",
-        title: "Shingles",
+        title: "Shingles roofing",
         disc: "Roofing shingles are thin, rectangular pieces of material that are used to cover the roof of a building. They are most commonly made from asphalt or fiberglass, and they are designed to protect your home from the elements, such as rain, sun, wind, or snow",
         link: "/shingles"
     }
@@ -92,7 +92,7 @@ export const faqData = [
     },
     {
         question: "What is Roof?",
-        answer: "A roof <a href='https://en.wikipedia.org/wiki/Roof' target='_blank' style='color: blue'}>(https://en.wikipedia.org/wiki/Roof)</a> is a structure that covers the top of the building which can be constructed by various roofing materials."
+        answer: "A <a href='https://en.wikipedia.org/wiki/Roof' target='_blank' style='color: blue'}>roof</a> is a structure that covers the top of the building which can be constructed by various roofing materials."
     },
     {
         question: "How many types of roofing are there?",

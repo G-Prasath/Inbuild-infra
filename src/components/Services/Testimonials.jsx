@@ -1,5 +1,7 @@
 import React from 'react'
 import { Reveal } from '../../hooks/Reveal'
+import Fourstart from '../common/Fourstart'
+import Fivestar from '../common/Fivestar'
 
 const Testimonials = ({ testiData }) => {
   return (
@@ -23,7 +25,9 @@ const Testimonials = ({ testiData }) => {
                     <Reveal>
                       <span className="flex-grow flex flex-col pl-4">
                         <span className="title-font font-medium text-gray-900">{item.title}</span>
-                        <span className="text-gray-500 text-sm">{item.role}</span>
+                        {
+                          item.role === "5" ? <Fivestar/> : <Fourstart/>
+                        }
                       </span>
                     </Reveal>
                   </div>

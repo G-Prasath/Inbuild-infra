@@ -8,7 +8,7 @@ export const tensileData = {
 
     //Profile
     profile: {
-        heading: "Tensile Roofing Structures",
+        heading: "Tensile Roofing in Chennai",
         img: "/Services/tensile/tensile_profile.jpg",
         paragraphs: [
             "Inbuilt Infra is the leading provider of tensile roofing in Chennai. We expertise in tensile structures and fabric roofs. We create stunning tensile membrane structures using high quality architectural fabric.",
@@ -127,11 +127,11 @@ export const tensileData = {
     faq: [
         {
             question: "What is tensile fabric?",
-            answer: "Tensile fabric <a href='https://en.wikipedia.org/wiki/Tensile_structure' target='_blank' style='color: blue'}>(https://en.wikipedia.org/wiki/Tensile_structure)</a> is a type of material used in architecture and construction for creating lightweight and durable structures. The tensile structure gives a beautiful appearance for the outdoors."
+            answer: "<a href='https://en.wikipedia.org/wiki/Tensile_structure' target='_blank' style='color: blue'}>Tensile fabric</a> is a type of material used in architecture and construction for creating lightweight and durable structures. The tensile structure gives a beautiful appearance for the outdoors."
         },
         {
             question: "Lifespan of tensile fabric?",
-            answer: "Tensile fabric <a href='https://en.wikipedia.org/wiki/Tensile_structure' target='_blank' style='color: blue'}>(https://en.wikipedia.org/wiki/Tensile_structure)</a> has a lifespan ranging from a minimum of 10 years to a maximum of 40 years, it totally depends on the cost and quality of the fabric you choose."
+            answer: "<a href='https://en.wikipedia.org/wiki/Tensile_structure' target='_blank' style='color: blue'}>Tensile fabric</a> has a lifespan ranging from a minimum of 10 years to a maximum of 40 years, it totally depends on the cost and quality of the fabric you choose."
         },
         {
             question: "How many years warranty does Inbuilt Infra give?",
@@ -156,19 +156,19 @@ export const tensileData = {
             
             para: "Outstanding tensile structure! It exceeded my expectations in every way. Definitely worth the investment.",
             title: "Anand - Business Owner",
-            role: "5 star"
+            role: "5"
         },
         {
             
             para: "Inbuilt Infra's tensile structure is a game-changer and revolutionary innovation for the building architects.",
             title: "Ramesh - Builder",
-            role: "5 star"
+            role: "5"
         },
         {
             
             para: "Good customer support. The tensile structure also looks good for the office building. Best tensile structurer in Chennai.",
             title: "Vijayakumar - Business Owner",
-            role: "4.5 star"
+            role: "4.5"
         }
     ],
 
@@ -184,7 +184,7 @@ export const polyData = {
 
     //Profile
     profile: {
-        heading: "Polycarbonate",
+        heading: "Polycarbonate Roofing in Chennai",
         img: "/Services/poly/poly_profile.jpg",
         paragraphs: [
             "Inbuilt Infra is the leading provider of Polycarbonate roofing in Chennai. Our Polycarbonate roofing service is perfect for a variety of residential and commercial applications which provides aesthetic appeal.",
@@ -341,17 +341,17 @@ export const polyData = {
         {
             para: "Inbuilt infra did a wonderful roof work with Polycarbonate roofing for our patio. It gives a modern look. Highly satisfied with their work.",
             title: "Arjun - Engineer",
-            role: "4.5 star"
+            role: "4.5"
         },
         {
             para: "The Polycarbonate roofing on our portico done by Inbuilt Infra which blends seamlessly with our home's architectur",
             title: "Karthik - DEVELOPER ",
-            role: "5 star"
+            role: "5"
         },
         {
             para: "Inbuilt Infra's polycarbonate roofing provided excellent coverage for our car parking. The structure enhances our office building look.",
             title: "Prabhu - Business man",
-            role: "4.5 star"
+            role: "4.5"
         }
     ],
 
@@ -362,12 +362,12 @@ export const pufpanelData = {
     // Banner
     banner: {
         img: "/Services/puff/puffBanner.avif",
-        text: "PUFF Panel Roofing"
+        text: "PUFF Sheet Roofing"
     },
 
     //Profile
     profile: {
-        heading: "PUF Panel Roofing",
+        heading: "PUFF Sheet Roofing in Chennai",
         img: "/Services/puff/puff_profile.avif",
         paragraphs: [
             "Inbuilt Infra is the best PUFF Sheet roofing contractor in Chennai. We are experts in installing the PUFF Sheets for industrial roofing, commercial and residential roofing. This PUFF Sheet roof is also known as Insulated roof panel or sandwich panel.",
@@ -504,19 +504,19 @@ export const pufpanelData = {
             
             para: "Inbuilt Infra's PUFF roofing service gives a perfect thermal solution. The construction was quick and the result was excellent.",
             title: "Suresh - Doctor",
-            role: "5 star"
+            role: "5"
         },
         {
             
             para: "The PUFF sheets roofing from Inbuilt Infra for our garden room is exceptional. It’s well-built & extends our living space beautifully.",
             title: "Vijay - Engineer",
-            role: "4.5 star"
+            role: "4.5"
         },
         {
             
-            para: "Inbuilt Infra’s PUFF roofing for our car parking is excellent. The Structure is versatile and meets all our requirements.",
+            para: "Inbuilt Infra's PUFF roofing for our car parking is excellent. The Structure is versatile and meets all our requirements.",
             title: "Rajesh - Cafe owner",
-            role: "5 star"
+            role: "5"
         }
     ],
 
@@ -532,7 +532,7 @@ export const glassroofData = {
 
     //Profile
     profile: {
-        heading: "Glass Roofing",
+        heading: "Glass Roofing in Chennai",
         img: "/Services/glassroof/glassroof_profile.avif",
         paragraphs: [
             "Inbuilt Infra offers the most advanced roofing, known as Glass Roofing. This Glass roof is a transparent roof which allows the rooflight or skylight into the space. This Glass roof creates a bright and inviting atmosphere.",
@@ -669,19 +669,19 @@ export const glassroofData = {
             
             para: "Excellent Glass roofing service for our restaurant. The team's attention to detail contributed to a beautiful finish.",
             title: "Saravanan - Restaurant Owner",
-            role: "5 star"
+            role: "5"
         },
         {
             
             para: "Top notch result for installation of glass roofing at our resort. The team was responsive, skilled and provided excellent results.",
             title: "Ashok - resort Owner",
-            role: "4.5 star"
+            role: "4.5"
         },
         {
             
             para: "Best roofing service for our home. We contacted the inbuilt infra for glass roofing and the team delivered the excellence.",
             title: "Narayanan - IT manager",
-            role: "4.5 star"
+            role: "4.5"
         }
     ],
 
@@ -697,7 +697,7 @@ export const shinglesData = {
 
     //Profile
     profile: {
-        heading: "Shingles Roofing",
+        heading: "Shingles Roofing in Chennai",
         img: "/Services/shingle/shingle_profile.avif",
         paragraphs: [
             "Inbuilt Infra is the best choice for Shingle Roofing in Chennai. We are specialised in providing durable and cost effective shingle roofing solutions.",
@@ -843,19 +843,19 @@ export const shinglesData = {
             
             para: "The shingle roofing by Inbuilt Infra for our restaurant is impressive. The shingles match our design requirements perfectly.",
             title: "Senthil - Restaurant Owner",
-            role: "4.5 star"
+            role: "4.5"
         },
         {
             
             para: "Our new shingle roof for the porch is fantastic. Their team was professional and delivered high-quality results on time.",
             title: "Siva - Shop Owner",
-            role: "5 star"
+            role: "5"
         },
         {
             
             para: "This team transformed our resort and delivered outstanding roofing services. The project was completed to the highest standard.",
             title: "Vignesh - Resort Owner",
-            role: "4.5 star"
+            role: "4.5"
         }
     ],
 
@@ -872,7 +872,7 @@ export const mangloreData = {
 
     //Profile
     profile: {
-        heading: "Mangalore Tile Roofing",
+        heading: "Mangalore Tile Roofing in Chennai",
         img: "/Services/manglore/manglore_profile.avif",
         paragraphs: [
             "Inbuilt Infra is the leading Mangalore tile roofing contractor in Chennai. These mangalore tiles are the traditional roofing option with the benefit of eco-friendly and low maintenance compared to other roofs.",
@@ -999,19 +999,19 @@ export const mangloreData = {
             
             para: "The Mangalore tile roofing for my farm house was built by Inbuilt Infra. Best quality and it adds charm to our farm house.",
             title: "Arun - Politician",
-            role: "4.5 star"
+            role: "4.5"
         },
         {
             
             para: "We contacted Inbuilt infra for our restaurant’s roof with Mangalore tiles. The quality of the tiles and roofing is very good.",
             title: "Balaji - Restaurant owner",
-            role: "4.5 star"
+            role: "4.5"
         },
         {
             
             para: "Mangalore tile roofing done for our hotel car parking. They finish the project on-time.",
             title: "Dinesh - Business owner",
-            role: "5 star"
+            role: "5"
         }
     ],
 
@@ -1169,19 +1169,19 @@ export const pebData = {
             
             para: "Impressive work was done by Inbuilt Infra. The team handled the pre engineered building project expertly and provided the best structure.",
             title: "Parthiban - Warehouse Owner",
-            role: "4.5 star"
+            role: "4.5"
         },
         {
             
             para: "We are satisfied with the pre-engineered building. The team’s approach and skilled work resulted in a design enhancing structure.",
             title: "Vimal - Business Owner",
-            role: "4.5 star"
+            role: "4.5"
         },
         {
             
             para: "The pre-engineered building for our manufacturing facility is outstanding. The team delivered a functional space for our needs.",
             title: "Sandeep - Manufacturer",
-            role: "5 star"
+            role: "5"
         }
     ],
 
@@ -1309,19 +1309,19 @@ export const facadeData = {
             
             para: "The facade designed and installed for our building is stunning. Inbuilt Infra improves the building structure's appearance.",
             title: "Karthikeyan - Building Owner",
-            role: "5 star"
+            role: "5"
         },
         {
             
             para: "We appreciate the team's professionalism and skill in executing our hotel's facade structure. The end result is impressive.",
             title: "Uday - Architect",
-            role: "4.5 star"
+            role: "4.5"
         },
         {
             
             para: "Inbuilt Infra's exceptional work on our building's facade has created a distinguished exterior that enhances its presence.",
             title: "Suresh - Builder",
-            role: "4.5 star"
+            role: "4.5"
         }
     ],
 

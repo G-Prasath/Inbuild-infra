@@ -10,7 +10,7 @@ const Funfact = () => {
           <div className="flex gap-2">
             <div className="font-mono font-bold">Our Employee</div>
           </div>
-          <div className="flex justify-center text-2xl">15</div>
+          <div className="flex justify-center text-2xl">100+</div>
         </div>
 
 
@@ -19,7 +19,7 @@ const Funfact = () => {
           <div className="flex gap-2">
             <div className="font-mono font-bold">Our Works</div>
           </div>
-          <div className="flex justify-center text-2xl">25</div>
+          <div className="flex justify-center text-2xl">2600+</div>
         </div>
 
 
@@ -28,7 +28,7 @@ const Funfact = () => {
           <div className="flex gap-2">
             <div className="font-mono font-bold">Our Vendors</div>
           </div>
-          <div className="flex justify-center text-2xl">5</div>
+          <div className="flex justify-center text-2xl">20+</div>
         </div>
 
 
@@ -37,7 +37,7 @@ const Funfact = () => {
           <div className="flex gap-2">
             <div className="font-mono font-bold">Developments</div>
           </div>
-          <div className="flex justify-center text-2xl">5</div>
+          <div className="flex justify-center text-2xl">100+</div>
         </div>
       </div>
     </div>

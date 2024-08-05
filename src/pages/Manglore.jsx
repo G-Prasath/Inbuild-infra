@@ -26,10 +26,10 @@ const Manglore = () => {
       </Helmet>
       <BannerBreadcrum bannerCnt={allDatas.banner.text} bannerImg={allDatas.banner.img} />
       <Profile profileImg={allDatas.profile.img} profileHeading={allDatas.profile.heading} profileText={allDatas.profile.paragraphs} />
-      <Applications appData={allDatas.apps} title="Mangalore Roofing" />
+      <Applications appData={allDatas.apps} title="Mangalore Tile Roofing" />
       <DesignProcess />
-      <Benifites benifitesData={allDatas.benefits} title="Mangalore Roofing" />
-      <WhyChoose datas={allDatas.whychoose} title="Mangalore Roofing" />
+      <Benifites benifitesData={allDatas.benefits} title="Mangalore Tile Roofing" />
+      <WhyChoose datas={allDatas.whychoose} title="Mangalore Tile" />
       <Faq faqData={allDatas.faq} />
       <Gallery galleryImg={allDatas.gallery} />
       <Testimonials testiData={allDatas.testimonials} />

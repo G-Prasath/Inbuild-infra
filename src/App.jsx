@@ -45,8 +45,10 @@ const NoNavbarLayout = () => (
 
 const SkeletonLoader = () => (
   <div>
-    <Skeleton height={40} width={300} style={{ marginBottom: 20 }} />
-    <Skeleton height={20} count={20} />
+    <Skeleton height={40} width={100} style={{ marginBottom: 20 }} />
+    <Skeleton width='100%' height='50vh' style={{ marginBottom: 20 }}  />
+    <Skeleton width='100%' height='50vh'  />
+
   </div>
 );
 

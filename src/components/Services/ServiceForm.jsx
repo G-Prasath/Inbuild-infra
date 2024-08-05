@@ -45,7 +45,7 @@ const ServiceForm = () => {
                   <div className="group w-full h-full">
                     <div className="relative h-full">
                       <img
-                        src="/contact_form.jpg"
+                        src="/contact_form.avif"
                         alt="ContactUs tailwind section"
                         className="w-full h-screen lg:rounded-l-sm rounded-2xl bg-blend-multiply bg-indigo-700"
                       />
