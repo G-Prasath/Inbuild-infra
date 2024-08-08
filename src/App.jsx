@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Route, Routes, Outlet } from "react-router-dom
 import { HelmetProvider } from "react-helmet-async";
 import Skeleton from 'react-loading-skeleton';
 import 'react-loading-skeleton/dist/skeleton.css';
+import TagManager from "react-gtm-module";
 
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
@@ -51,6 +52,12 @@ const SkeletonLoader = () => (
 
   </div>
 );
+
+const tagManagerArgs = {
+  gtmId: 'GTM-MV5X72P4',
+};
+
+TagManager.initialize(tagManagerArgs);
 
 const App = () => {
 

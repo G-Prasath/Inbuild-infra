@@ -1,4 +1,4 @@
-import React, { useContext, useState } from "react";
+import React, { useContext, useEffect, useState } from "react";
 import { Reveal } from "../../hooks/Reveal";
 import { Link } from "react-router-dom";
 import { ScrollContext } from "../../hooks/ScrollContext";
@@ -11,6 +11,24 @@ import { QueryForm } from "../../hooks/DataPass";
 const HomeForm = () => {
   const { formElement } = useContext(ScrollContext);
   const [loading, setLoading] = useState(false);
+
+  const [mapLoaded, setMapLoaded] = useState(false);
+
+  useEffect(() => {
+    // Load iframe when component is mounted
+    const handleScroll = () => {
+      const iframe = document.getElementById('map-iframe');
+      if (iframe && iframe.getBoundingClientRect().top < window.innerHeight) {
+        setMapLoaded(true);
+        window.removeEventListener('scroll', handleScroll);
+      }
+    };
+
+    window.addEventListener('scroll', handleScroll);
+    handleScroll(); // Check on mount
+
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
 
   return (
     <section className="text-gray-600 body-font relative" ref={formElement}>
@@ -25,18 +43,27 @@ const HomeForm = () => {
 
       <div className="container px-5 py-20 max-sm:py-5 mx-auto flex sm:flex-nowrap flex-wrap icon">
         <div className="lg:w-2/3 md:w-1/2 bg-gray-300 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
-          <iframe
-            width="100%"
-            height="100%"
-            className="absolute inset-0"
-            frameBorder="0"
-            title="map"
-            marginHeight="0"
-            marginWidth="0"
-            scrolling="no"
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.073152896412!2d80.21082387621404!3d13.031013480826513!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a52671c2be4d445%3A0x8ca67ca50b1e39a2!2s7th%20Ave%2C%20Mettuppalayam%2C%20Ashok%20Nagar%2C%20Chennai%2C%20Tamil%20Nadu%20600083!5e0!3m2!1sen!2sin!4v1721924295060!5m2!1sen!2sin"
-            style={{ filter: "grayscale(1) contrast(1.2) opacity(0.7)" }}
-          ></iframe>
+
+          {mapLoaded && (
+            <iframe
+              id="map-iframe"
+              width="100%"
+              height="100%"
+              className="absolute inset-0"
+              frameBorder="0"
+              title="map"
+              marginHeight="0"
+              marginWidth="0"
+              scrolling="no"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.073152896412!2d80.21082387621404!3d13.031013480826513!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a52671c2be4d445%3A0x8ca67ca50b1e39a2!2s7th%20Ave%2C%20Mettuppalayam%2C%20Ashok%20Nagar%2C%20Chennai%2C%20Tamil%20Nadu%20600083!5e0!3m2!1sen!2sin!4v1721924295060!5m2!1sen!2sin"
+              style={{ filter: "grayscale(1) contrast(1.2) opacity(0.7)" }}
+            />
+          )}
+          {!mapLoaded && (
+            <>
+            
+            </>
+          )}
 
           <div className="bg-white relative flex flex-wrap py-6 rounded shadow-md">
             <div className="lg:w-1/2 px-6">
@@ -84,15 +111,15 @@ const HomeForm = () => {
             select: "",
           }}
           validationSchema={validationSchema}
-          onSubmit={async (values, {resetForm}) => {
+          onSubmit={async (values, { resetForm }) => {
             setLoading(true);
             try {
-              const {data, error} = await QueryForm(values);
+              const { data, error } = await QueryForm(values);
               resetForm();
             } catch (error) {
               console.log(error);
-            }finally{
-            setLoading(false)
+            } finally {
+              setLoading(false)
             }
 
           }}
@@ -118,9 +145,8 @@ const HomeForm = () => {
                   id="name"
                   name="name"
                   autoComplete="off"
-                  className={`w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out ${
-                    touched.name && errors.name ? "form-input-error" : ""
-                  } `}
+                  className={`w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out ${touched.name && errors.name ? "form-input-error" : ""
+                    } `}
                 />
 
                 <ErrorMessage
@@ -169,9 +195,8 @@ const HomeForm = () => {
                   id="phone"
                   name="phone"
                   autoComplete="off"
-                  className={`w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out ${
-                    touched.phone && errors.phone ? "form-input-error" : ""
-                  }`}
+                  className={`w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out ${touched.phone && errors.phone ? "form-input-error" : ""
+                    }`}
                 />
                 <ErrorMessage
                   name="phone"
