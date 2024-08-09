@@ -22,6 +22,12 @@ const Home = () => {
         <meta name="description" content={metaTags.description} />
         <meta name="keywords" content={metaTags.keywords} />
         <link rel="canonical" href={metaTags.canonical} />
+
+        <link rel="preload" href="/Banners/homeBanner_1.avif" as="image" />
+        <link rel="preload" href="/Banners/homeBanner_2.avif" as="image" />
+        <link rel="preload" href="/Banners/homeBanner_3.avif" as="image" />
+        <link rel="preload" href="/Banners/homeBanner_4.avif" as="image" />
+
       </Helmet>
       <Suspense fallback={<div/>}>
         <Banner />
