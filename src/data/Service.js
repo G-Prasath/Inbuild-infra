@@ -36,7 +36,7 @@ export const tensileData = {
         {
             title: "Restaurants",
             para: "Tensile structures are a trendy and functional design element for restaurants. These structures add a contemporary and stylish touch to a restaurant's exterior, making it attractive to customers.",
-            img: "/Services/tensile/restaurants.jpg"
+            img: "/Services/tensile/restaurants.avif"
         },
         {
             title: "Sitout Area",
@@ -52,7 +52,7 @@ export const tensileData = {
         {
             title: "Shopping Malls",
             para: "Tensile structures are a popular design choice for shopping malls. Malls can use tensile structures to create temporary venues for events like concerts and markets attracting more visitors.",
-            img: "/Services/tensile/shopping_mall.jpg"
+            img: "/Services/tensile/shopping_mall.avif"
         },
         {
             title: "Walkways",
@@ -67,7 +67,50 @@ export const tensileData = {
         {
             title: "Gardens",
             para: "Tensile structures can provide much-needed shade in sunny areas of your garden. It allows you to create comfortable seating areas, play areas for children and for relaxation.",
-            img: "/Services/tensile/Gardens.jpg"
+            img: "/Services/tensile/Gardens.avif"
+        },
+
+
+
+        {
+            title: "Balconies",
+            para: "A tensile roof can be a great addition to your balcony, offering a stylish and functional solution. These tensile roofs can create a more intimate atmosphere on your balcony.",
+            img: "/Services/tensile/Balcony.avif"
+        },
+        {
+            title: "Resort",
+            para: "Many resorts globally utilize tensile structures as a key element in their architectural design to attract more visitors. Tensile structures can add a unique and modern touch to a resort.",
+            img: "/Services/tensile/Resort.avif"
+        },
+        {
+            title: "Entrances",
+            para: "Entrance structures can be fantastically designed using tensile structures. The clean lines and unique shapes achievable with tensile fabric create a modern look for your entrance.",
+            img: "/Services/tensile/Entrance-Canopy.avif"
+        },
+        {
+            title: "Food Court",
+            para: "A food court with a tensile structure can be a vibrant and inviting space for diners. Thoughtfully arranging the seating can maximize space for an enjoyable dining experience.",
+            img: "/Services/tensile/Food-Courd.avif"
+        },
+        {
+            title: "Gazebo",
+            para: "A gazebo with tensile structures is a modern take on the classic outdoor structure. This structure combines the familiar design of a gazebo with a roof made of tensile fabric stretched over a frame.",
+            img: "/Services/tensile/Gazebo.avif"
+        },
+        {
+            title: "Convention Centres",
+            para: "Tensile structures have redefined the convention centre landscape. These tensile structures can offer unparalleled flexibility, efficiency and aesthetic appeal for the convention centres.",
+            img: "/Services/tensile/Conventional-Hall.avif"
+        },
+        {
+            title: "Kids Play area",
+            para: "Tensile structures offer excellent protection from the sun, rain and wind. This allows children to enjoy outdoor play, regardless of the weather conditions and with enhanced safety and comfort.",
+            img: "/Services/tensile/Kidsplay-area.avif"
+        },
+        {
+            title: "Front Elevation",
+            para: "Tensile fabric is an innovative material that offers architects and designers unprecedented flexibility to create striking and distinctive front elevations that capture attention for buildings.",
+            img: "/Services/tensile/Front-Elevation.avif"
         }
 
     ],
