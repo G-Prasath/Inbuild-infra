@@ -15,20 +15,15 @@ const HomeForm = () => {
   const [mapLoaded, setMapLoaded] = useState(false);
 
   useEffect(() => {
-    // Load iframe when component is mounted
-    const handleScroll = () => {
-      const iframe = document.getElementById('map-iframe');
-      if (iframe && iframe.getBoundingClientRect().top < window.innerHeight) {
-        setMapLoaded(true);
-        window.removeEventListener('scroll', handleScroll);
-      }
-    };
+    const timer = setTimeout(() => {
+      setMapLoaded(true);
+    }, 8000);
 
-    window.addEventListener('scroll', handleScroll);
-    handleScroll(); // Check on mount
-
-    return () => window.removeEventListener('scroll', handleScroll);
+    // Clean up the timer when the component unmounts
+    return () => clearTimeout(timer);
   }, []);
+
+  
 
   return (
     <section className="text-gray-600 body-font relative" ref={formElement}>
@@ -61,7 +56,6 @@ const HomeForm = () => {
           )}
           {!mapLoaded && (
             <>
-            
             </>
           )}
 

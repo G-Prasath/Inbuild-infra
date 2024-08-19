@@ -33,7 +33,7 @@ const Glassroof = () => {
       <Faq faqData={allDatas.faq} />
       <Gallery galleryImg={allDatas.gallery} />
       <Testimonials testiData={allDatas.testimonials} />
-      <ServiceForm/>
+      <ServiceForm title="Glass Roofing"/>
     </div>
   )
 }

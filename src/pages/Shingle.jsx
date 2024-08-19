@@ -33,7 +33,7 @@ const Shingle = () => {
       <Faq faqData={allDatas.faq} />
       <Gallery galleryImg={allDatas.gallery} />
       <Testimonials testiData={allDatas.testimonials} />
-      <ServiceForm/>
+      <ServiceForm title="Shingles Roofing"/>
     </div>
   )
 }

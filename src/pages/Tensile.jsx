@@ -35,7 +35,7 @@ const Tensile = () => {
       <Faq faqData={allDatas.faq} />
       <Gallery galleryImg={allDatas.gallery} />
       <Testimonials testiData={allDatas.testimonials} />
-      <ServiceForm/>
+      <ServiceForm title="Tensile Roofings"/>
     </div>
   )
 }

@@ -9,7 +9,7 @@ import axios from "axios";
 import { QueryForm } from "../../hooks/DataPass";
 
 
-const ServiceForm = () => {
+const ServiceForm = ({title}) => {
   const {formElement} = useContext(ScrollContext);
   const [loading, setLoading] = useState(false);
 
@@ -20,7 +20,7 @@ const ServiceForm = () => {
         email: "",
         phone: "",
         message: "",
-        select: "",
+        select: title,
       }}
       validationSchema={validationSchema}
       onSubmit={async (values, {resetForm}) => {
@@ -185,31 +185,19 @@ const ServiceForm = () => {
                     component="div"
                     className="form-error"
                   />
+
+
                   <div className="relative mb-4">
                     <Field
-                      as="select"
+                      type="text"
                       id="select"
                       name="select"
-                      className={`w-full h-12 text-gray-600 placeholder-gray-400 bg-transparent text-lg shadow-sm font-normal leading-7 rounded-md border border-gray-200 focus:outline-none pl-4 mt-5  ${
-                        touched.select && errors.select
-                          ? "form-input-error"
-                          : ""
-                      }`}
-                    >
-                      <option value="">Please select an Service</option>
-
-                      {selectBtnDatas.map((item, index) => (
-                        <option value={item} key={index}>
-                          {item}
-                        </option>
-                      ))}
-                    </Field>
-                    <ErrorMessage
-                      name="select"
-                      component="div"
-                      className="form-error"
+                      readOnly
+                      className={`w-full h-12 text-gray-600 placeholder-gray-400 bg-transparent text-lg shadow-sm font-normal leading-7 rounded-md border border-gray-200 focus:outline-none pl-4 mt-5 `}
                     />
                   </div>
+
+
                   <Field
                     type="text"
                     id="message"

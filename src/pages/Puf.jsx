@@ -32,7 +32,7 @@ const Puf = () => {
       <Faq faqData={allDatas.faq} />
       <Gallery galleryImg={allDatas.gallery} />
       <Testimonials testiData={allDatas.testimonials} />
-      <ServiceForm/>
+      <ServiceForm title="PUFF Sheet Roofing"/>
     </div>
   )
 }
