@@ -9,8 +9,8 @@ import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import ScrolltoTop from "./components/common/ScrolltoTop";
 import { ScrollProvider } from "./hooks/ScrollContext";
-import { loadGTM } from "./hooks/loadGtm";
 import { loadChat } from "./hooks/loadChat";
+import { loadGTM } from "./hooks/loadGtm";
 
 // Lazy load page components
 const Home = lazy(() => import("./pages/Home"));
