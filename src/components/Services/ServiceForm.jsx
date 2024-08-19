@@ -221,7 +221,7 @@ const ServiceForm = ({title}) => {
                     disabled={loading}
                     className="w-full h-12 mt-5 text-white text-base font-semibold leading-6 rounded-full transition-all duration-700 hover:bg-indigo-800 bg-indigo-600 shadow-sm"
                   >
-                    {loading ? "Submiting..." : "Submit"}
+                    {loading ? "Submitting..." : "Submit"}
                   </button>
                 </div>
               </div>

@@ -29,7 +29,7 @@ const Manglore = () => {
       <Applications appData={allDatas.apps} title="Mangalore Tile Roofing" />
       <DesignProcess />
       <Benifites benifitesData={allDatas.benefits} title="Mangalore Tile Roofing" />
-      <WhyChoose datas={allDatas.whychoose} title="Mangalore Tile" />
+      <WhyChoose datas={allDatas.whychoose} title="Mangalore Tile Roofing" />
       <Faq faqData={allDatas.faq} />
       <Gallery galleryImg={allDatas.gallery} />
       <Testimonials testiData={allDatas.testimonials} />

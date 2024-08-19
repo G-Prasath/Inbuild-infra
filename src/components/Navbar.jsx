@@ -1,9 +1,10 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { NAV_LINKS } from "../data/Navbar";
 import { motion, AnimatePresence } from "framer-motion";
 import { RiMenu3Fill } from "react-icons/ri";
 import { IoClose } from "react-icons/io5";
-import { Link } from "react-router-dom";
+
+import { Link, useLocation } from "react-router-dom";
 import { IoMdArrowDropdown } from "react-icons/io";
 
 const NAV_LINK_CLASSES =
@@ -14,8 +15,15 @@ const DROPDOWN_ITEM_CLASSES =
 const Navbar = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [hoveredMenu, setHoveredMenu] = useState(null);
+  const location = useLocation();
 
   const toggleMobileMenu = () => setIsMobileMenuOpen(!isMobileMenuOpen);
+
+  // Close all menus on route change
+  useEffect(() => {
+    setIsMobileMenuOpen(false);
+    setHoveredMenu(null);
+  }, [location]);
 
   return (
     <nav className="bg-white dark:bg-zinc-1000 shadow-lg sticky top-0 z-[999]">
@@ -65,14 +73,14 @@ const Navbar = () => {
             initial={{ height: 0, opacity: 0 }}
             animate={{ height: "auto", opacity: 1 }}
             exit={{ height: 0, opacity: 0 }}
-            className="sm:hidden absolute z-[999999] bg-zinc-50 w-full border-b-4 border-zinc-800"
+            className="sm:hidden absolute z-[999999] bg-zinc-50 w-full border-b-2 border-zinc-800"
           >
             <div className="pt-2 pb-3 space-y-1">
               {NAV_LINKS.map((link, index) => (
                 <MobileNavItem
                   key={index}
                   link={link}
-                  toggleMobileMenu={toggleMobileMenu}
+                  closeMobileMenu={() => setIsMobileMenuOpen(false)}
                 />
               ))}
             </div>
@@ -84,6 +92,10 @@ const Navbar = () => {
 };
 
 const NavItem = ({ link, isMenuOpen, setHoveredMenu, clearHoveredMenu }) => {
+  const handleClick = () => {
+    setIsMobileMenuOpen(false) // Close dropdown on link click
+  };
+
   if (link.subMenu.length > 0) {
     return (
       <div
@@ -91,7 +103,9 @@ const NavItem = ({ link, isMenuOpen, setHoveredMenu, clearHoveredMenu }) => {
         onMouseEnter={setHoveredMenu}
         onMouseLeave={clearHoveredMenu}
       >
-        <button className={NAV_LINK_CLASSES + " flex items-center justify-between"}>
+        <button
+          className={NAV_LINK_CLASSES + " flex items-center justify-between"}
+        >
           {link.label}
           <IoMdArrowDropdown />
         </button>
@@ -108,6 +122,7 @@ const NavItem = ({ link, isMenuOpen, setHoveredMenu, clearHoveredMenu }) => {
                   key={index}
                   to={subLink.href}
                   className={DROPDOWN_ITEM_CLASSES}
+                  onClick={handleClick}
                 >
                   {subLink.label}
                 </Link>
@@ -120,19 +135,21 @@ const NavItem = ({ link, isMenuOpen, setHoveredMenu, clearHoveredMenu }) => {
   }
 
   return (
-    <Link to={link.href} className={NAV_LINK_CLASSES}>
+    <Link
+      to={link.href}
+      className={NAV_LINK_CLASSES}
+      onClick={clearHoveredMenu}
+    >
       {link.label}
     </Link>
   );
 };
 
-const MobileNavItem = ({ link, toggleMobileMenu }) => {
-  const [isMobileProductsMenuOpen, setIsMobileProductsMenuOpen] =
-    useState(false);
+const MobileNavItem = ({ link, closeMobileMenu }) => {
+  const [isMobileProductsMenuOpen, setIsMobileProductsMenuOpen] = useState(false);
 
   const handleItemClick = () => {
-    setIsMobileProductsMenuOpen(false);
-    toggleMobileMenu();
+    setIsMobileMenuOpen(false); // Close all menus on link click
   };
 
   if (link.subMenu.length > 0) {
@@ -174,10 +191,11 @@ const MobileNavItem = ({ link, toggleMobileMenu }) => {
     <Link
       to={link.href}
       className="block pl-3 pr-4 py-2 border-l-4 border-transparent text-base font-medium text-zinc-600 dark:text-zinc-300 hover:bg-zinc-50 dark:hover:bg-zinc-800 hover:border-zinc-300"
-      onClick={toggleMobileMenu}
+      onClick={handleItemClick}
     >
       {link.label}
     </Link>
   );
 };
+
 export default Navbar;

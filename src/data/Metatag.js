@@ -73,7 +73,7 @@ export const TensilePageData = {
   export const PebPageData = {
     title: "PEB contractors in Chennai - Inbuilt Infra",
     description: "Inbuilt Infra also provides PEB construction in Chennai with superior quality. Contact Inbuilt Infra for your pre-engineered building(PEB) construction.",
-    keywords: "",
+    keywords: "PEB manufacturer in Chennai, PEB contractor in Chennai, PEB company in Chennai, Pre-engineered building manufacturer in Chennai, Pre-engineered building contractor in Chennai, Pre-engineered building company in Chennai",
     canonical: `https://`+hostname+"/pre-engineered-building"
   };
 
