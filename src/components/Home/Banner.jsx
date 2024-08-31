@@ -41,7 +41,7 @@ const Banner = () => {
 
   return (
     <>
-      <div className="relative text-white overflow-hidden w-full aspect-video">
+      <div className="relative text-white overflow-hidden w-full md:aspect-video aspect-square">
         <div className="absolute inset-0">
           {imgList.map((image, index) => (
             <img
@@ -50,9 +50,8 @@ const Banner = () => {
               srcSet={image.srcSet}
               sizes="(max-width: 640px) 640px, (max-width: 1024px) 1024px, 1280px"
               alt={`Background ${index}`}
-              className={`absolute inset-0 object-cover object-center w-full h-full transition-opacity duration-1000 ease-in-out ${
-                index === currentImageIndex ? "opacity-100" : "opacity-0"
-              }`}
+              className={`absolute inset-0 object-cover object-center w-full h-full transition-opacity duration-1000 ease-in-out ${index === currentImageIndex ? "opacity-100" : "opacity-0"
+                }`}
               loading={index === 0 ? "eager" : "lazy"}
               decoding="async"
             />
@@ -60,16 +59,46 @@ const Banner = () => {
           <div className="absolute inset-0 bg-black opacity-40"></div>
         </div>
 
-        <div className="relative z-10 flex flex-col justify-center items-center h-full text-center">
-          <h2 className="text-5xl font-bold leading-tight mb-4 max-sm:text-2xl max-sm:mb-1">
-            Welcome to Inbuild Infra
-          </h2>
-          <h3 className="text-lg max-sm:text-sm text-gray-200 mb-8 max-sm:mb-4">
-            Roofing Contractor for Residentials & Commercials
-          </h3>
-          <div className="bg-white text-gray-900 hover:bg-yellow-300 py-2 px-6 max-sm:px-3 rounded-full text-lg max-sm:text-sm font-semibold transition duration-300 ease-in-out transform hover:scale-105 hover:shadow-lg cursor-default" onClick={handleScrollToFooter}>
-            Get Quote
+        <div className="relative w-full z-10 flex justify-center items-center h-full text-center">
+
+          <div className="md:w-1/2 max-sm:hidden w-full h-full flex justify-center items-center"></div>
+          <div className="md:w-1/2 w-full h-full md:p-10 p-3 bg-gradient-to-r md:from-black/70 from-black/60 md:to-black/70 to-black/60">
+
+            <div className="flex flex-col md:mt-[30%] mt-0 max-md:justify-center w-full h-full">
+
+
+              <h2 className="sm:text-4xl text-2xl font-bold uppercase mb-3 tracking-2 text-left">Welcome to <span className="bg-gradient-to-r from-[#e1a938] to-[#ffac03] text-transparent bg-clip-text">Inbuilt infra</span></h2>
+
+
+
+              <p className="md:w-[80%] text-justify mb-3 w-full text-[14px] md:text-[18px]">Start constructing your ideal residential and commercial roofing with Inbuilt Infra. We also provide all type of roofing services with unique designs.</p>
+              <p className="md:w-[80%] text-justify mb-4 w-full text-[14px] md:text-[18px]">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos doloribus iste dolores aspernatur, minus ex expedita dolorem libero illo eveniet.</p>
+
+              <div className="flex justify-start items-center md:gap-x-8 gap-x-4">
+
+                <div className="flex items-center justify-center gap-x-2">
+                  <img src="/Home/roof.webp" alt="Roofs" className="md:w-[80px] w-[60px]" />
+                  <p className="text-[14px]">4500+<br />Project</p>
+                </div>
+
+                <div className="flex items-center justify-center gap-x-2">
+                  <img src="/Home/high-quality.webp" alt="Roofs" className="md:w-[50px] w-[40px]" />
+                  <p className="text-[14px]">4500+<br />Project</p>
+                </div>
+
+                <div className="flex items-center justify-center gap-x-2">
+                  <img src="/Home/fast-delivery.webp" alt="Roofs" className="md:w-[60px] w-[40px]" />
+                  <p className="text-[14px]">4500+<br />Project</p>
+                </div>
+              </div>
+            </div>
+
+
           </div>
+
+
+
+
         </div>
       </div>
     </>
