@@ -1,5 +1,6 @@
 import React, { useContext, useEffect, useState } from "react";
 import { ScrollContext } from "../../hooks/ScrollContext";
+import BannerForm from "./BannerForm";
 
 const Banner = () => {
   const imgList = [
@@ -56,25 +57,24 @@ const Banner = () => {
               decoding="async"
             />
           ))}
-          <div className="absolute inset-0 bg-black opacity-40"></div>
+          <div className="absolute inset-0 bg-black opacity-60"></div>
         </div>
 
-        <div className="relative w-full z-10 flex justify-center items-center h-full text-center">
+        <div className="relative w-full z-10 flex justify-center  h-full">
 
-          <div className="md:w-1/2 max-sm:hidden w-full h-full flex justify-center items-center"></div>
-          <div className="md:w-1/2 w-full h-full md:p-10 p-3 bg-gradient-to-r md:from-black/70 from-black/60 md:to-black/70 to-black/60">
-
-            <div className="flex flex-col md:mt-[30%] mt-0 max-md:justify-center w-full h-full">
-
-
-              <h2 className="sm:text-4xl text-2xl font-bold uppercase mb-3 tracking-2 text-left">Welcome to <span className="bg-gradient-to-r from-[#e1a938] to-[#ffac03] text-transparent bg-clip-text">Inbuilt infra</span></h2>
+          {/* Left Side  */}
+          <div className="lg:w-1/2 w-full h-full md:p-10 p-3 ">
+            <div className="flex flex-col justify-center w-full h-full">
 
 
+              <h2 className="sm:text-4xl text-2xl font-bold uppercase mb-3 text-left ">Welcome to <span className="bg-gradient-to-r from-[#e1a938] to-[#ffac03] text-transparent bg-clip-text">Inbuilt infra</span></h2>
 
-              <p className="md:w-[80%] text-justify mb-3 w-full text-[14px] md:text-[18px]">Start constructing your ideal residential and commercial roofing with Inbuilt Infra. We also provide all type of roofing services with unique designs.</p>
-              <p className="md:w-[80%] text-justify mb-4 w-full text-[14px] md:text-[18px]">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos doloribus iste dolores aspernatur, minus ex expedita dolorem libero illo eveniet.</p>
 
-              <div className="flex justify-start items-center md:gap-x-8 gap-x-4">
+
+              <p className="md:w-[90%] text-justify mb-3 w-full text-[14px] md:text-[18px] lg:leading-[30px]">Start constructing your ideal residential and commercial roofing with Inbuilt Infra. We also provide all type of roofing services with unique designs.</p>
+              <p className="md:w-[90%] text-justify mb-4 w-full text-[14px] md:text-[18px] lg:leading-[30px]">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos doloribus iste dolores aspernatur, minus ex expedita dolorem libero illo eveniet.</p>
+
+              <div className="w-full flex justify-start items-center md:gap-x-8 gap-x-4 lg:mb-20">
 
                 <div className="flex items-center justify-center gap-x-2">
                   <img src="/Home/roof.webp" alt="Roofs" className="md:w-[80px] w-[60px]" />
@@ -92,11 +92,12 @@ const Banner = () => {
                 </div>
               </div>
             </div>
-
-
           </div>
 
-
+          {/* RIght Side */}
+          <div className="lg:w-1/2 lg:block hidden w-full p-10">
+            <BannerForm/>
+          </div>
 
 
         </div>

@@ -1,6 +1,7 @@
 import React, { Suspense, lazy } from "react";
 import { Helmet } from "react-helmet-async";
 import { HomePageData as metaTags } from '../data/Metatag';
+import BannerForm from "../components/Home/BannerForm";
 
 // Lazy load components
 const Banner = lazy(() => import("../components/Home/Banner"));
@@ -29,34 +30,39 @@ const Home = () => {
         <link rel="preload" href="/Banners/homeBanner_4.avif" as="image" />
 
       </Helmet>
-      <Suspense fallback={<div/>}>
+      <Suspense fallback={<div />}>
         <Banner />
       </Suspense>
-      <Suspense fallback={<div/>}>
+      <div className="lg:hidden block">
+        <Suspense fallback={<div />}>
+          <BannerForm/>
+        </Suspense>
+      </div>
+      <Suspense fallback={<div />}>
         <About />
       </Suspense>
-      <Suspense fallback={<div/>}>
+      <Suspense fallback={<div />}>
         <Brands />
       </Suspense>
-      <Suspense fallback={<div/>}>
+      <Suspense fallback={<div />}>
         <Whychoose />
       </Suspense>
-      <Suspense fallback={<div/>}>
+      <Suspense fallback={<div />}>
         <Services />
       </Suspense>
-      <Suspense fallback={<div/>}>
+      <Suspense fallback={<div />}>
         <Gallery />
       </Suspense>
-      <Suspense fallback={<div/>}>
+      <Suspense fallback={<div />}>
         <Blog />
       </Suspense>
-      <Suspense fallback={<div/>}>
+      <Suspense fallback={<div />}>
         <Faq />
       </Suspense>
-      <Suspense fallback={<div/>}>
+      <Suspense fallback={<div />}>
         <HomeForm />
       </Suspense>
-      <Suspense fallback={<div/>}>
+      <Suspense fallback={<div />}>
         <Cta />
       </Suspense>
     </div>
