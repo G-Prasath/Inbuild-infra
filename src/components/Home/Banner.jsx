@@ -68,27 +68,24 @@ const Banner = () => {
 
 
               <h2 className="sm:text-4xl text-2xl font-bold uppercase mb-3 text-left ">Welcome to <span className="bg-gradient-to-r from-[#e1a938] to-[#ffac03] text-transparent bg-clip-text">Inbuilt infra</span></h2>
-
-
-
-              <p className="md:w-[90%] text-justify mb-3 w-full text-[14px] md:text-[18px] lg:leading-[30px]">Start constructing your ideal residential and commercial roofing with Inbuilt Infra. We also provide all type of roofing services with unique designs.</p>
-              <p className="md:w-[90%] text-justify mb-4 w-full text-[14px] md:text-[18px] lg:leading-[30px]">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos doloribus iste dolores aspernatur, minus ex expedita dolorem libero illo eveniet.</p>
+              <p className="md:w-[90%] text-justify mb-3 w-full text-[14px] md:text-[18px] lg:leading-[30px]">Start constructing your ideal residential, commercial and industrial roofing with Inbuilt Infra. We also provide all types of roofing services with unique designs.</p>
+              <p className="md:w-[90%] text-justify mb-4 w-full text-[14px] md:text-[18px] lg:leading-[30px]">Choose Inbuilt Infra for innovative, durable and stylish roofing that lasts for years and enhances your property.</p>
 
               <div className="w-full flex justify-start items-center md:gap-x-8 gap-x-4 lg:mb-20">
 
                 <div className="flex items-center justify-center gap-x-2">
                   <img src="/Home/roof.webp" alt="Roofs" className="md:w-[80px] w-[60px]" />
-                  <p className="text-[14px]">4500+<br />Project</p>
+                  <p className="text-[14px]">2500+<br />Project</p>
                 </div>
 
                 <div className="flex items-center justify-center gap-x-2">
                   <img src="/Home/high-quality.webp" alt="Roofs" className="md:w-[50px] w-[40px]" />
-                  <p className="text-[14px]">4500+<br />Project</p>
+                  <p className="text-[14px]">400+<br />Clients</p>
                 </div>
 
                 <div className="flex items-center justify-center gap-x-2">
                   <img src="/Home/fast-delivery.webp" alt="Roofs" className="md:w-[60px] w-[40px]" />
-                  <p className="text-[14px]">4500+<br />Project</p>
+                  <p className="text-[14px]">100%<br />Delivery</p>
                 </div>
               </div>
             </div>

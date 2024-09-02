@@ -4,8 +4,9 @@ import { validationSchema } from "../Schema";
 import { selectBtnDatas } from "../../data/Navbar";
 import { QueryForm } from "../../hooks/DataPass";
 
-const BannerForm = () => {
+const ServiceBannerForm = ({serviceName}) => {
     const [loading, setLoading] = useState(false);
+    
     return (
         <div className="lg:p-10 p-5 w-full bg-white/30 backdrop-blur-xl border border-white/20 rounded-lg shadow-lg">
             <h5 className="text-center text-xl font-bold text-gray-800">Book Free Appointment</h5>
@@ -15,7 +16,7 @@ const BannerForm = () => {
                     email: "",
                     phone: "",
                     message: "",
-                    select: "",
+                    select: serviceName,
                 }}
                 validationSchema={validationSchema}
                 onSubmit={async (values, { resetForm }) => {
@@ -106,32 +107,27 @@ const BannerForm = () => {
                             </div>
                         </div>
                         {/* Select */}
+
                         <div className="sm:col-span-2">
                             <label
-                                htmlFor="select"
-                                className="leading-7 text-sm text-gray-800 font-bold"
+                                htmlFor="email"
+                                className="block text-sm font-bold text-gray-800 dark:text-slate-400"
                             >
-                                Services
+                                Service
                             </label>
-                            <Field
-                                as="select"
-                                id="select"
-                                name="select"
-                                className={`w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-800 py-3 px-3 leading-8 transition-colors duration-200 ease-in-out`}
-                            >
-                                <option value="">Please select an Service</option>
-                                {selectBtnDatas.map((item, index) => (
-                                    <option value={item} key={index}>
-                                        {item}
-                                    </option>
-                                ))}
-                            </Field>
-                            <ErrorMessage
-                                name="select"
-                                component="div"
-                                className="form-error"
-                            />
+                            <div className="mt-1">
+                                <Field
+                                    name="select"
+                                    id="select"
+                                    readOnly
+                                    type="text"
+                                    autoComplete="off"
+                                    className="border border-gray-300 block w-full rounded-md py-3 px-4 shadow-sm focus:border-sky-500 focus:ring-sky-500 dark:border-white/5 dark:bg-slate-700/50 dark:text-white"
+                                />
+                            </div>
                         </div>
+
+
                         <div className="sm:col-span-2 mb-2">
                             <label
                                 htmlFor="message"
@@ -171,4 +167,4 @@ const BannerForm = () => {
     )
 }
 
-export default BannerForm
+export default ServiceBannerForm

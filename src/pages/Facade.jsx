@@ -12,6 +12,8 @@ import WhyChoose from '../components/Services/WhyChoose'
 import { facadeData as allDatas } from '../data/Service';
 import { Helmet } from 'react-helmet-async'
 import { FacadePageData as metaTags } from '../data/Metatag';
+import ServiceBannerForm from '../components/Services/ServiceBannerForm'
+
 
 const Facade = () => {
   return (
@@ -22,7 +24,10 @@ const Facade = () => {
         <meta name="keywords" content={metaTags.keywords} />
         <link rel="canonical" href={metaTags.canonical} />
       </Helmet>
-      <BannerBreadcrum bannerCnt={allDatas.banner.text} bannerImg={allDatas.banner.img} />
+      <BannerBreadcrum bannerCnt={allDatas.banner.text} bannerImg={allDatas.banner.img} formService={allDatas.banner.text} />
+      <div className="lg:hidden block">
+          <ServiceBannerForm/>
+      </div>
       <Profile profileImg={allDatas.profile.img} profileHeading={allDatas.profile.heading} profileText={allDatas.profile.paragraphs} />
       <Applications appData={allDatas.apps} title="Facade" />
       <DesignProcess />

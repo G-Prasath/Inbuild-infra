@@ -13,6 +13,7 @@ import { tensileData as allDatas } from '../data/Service';
 import { Helmet } from 'react-helmet-async';
 import { TensilePageData as metaTags } from '../data/Metatag';
 import WhyChoose from '../components/Services/WhyChoose';
+import ServiceBannerForm from '../components/Services/ServiceBannerForm';
 
 
 const Tensile = () => {
@@ -26,7 +27,10 @@ const Tensile = () => {
         <link rel="canonical" href={metaTags.canonical} />
       </Helmet>
 
-      <BannerBreadcrum bannerCnt={allDatas.banner.text} bannerImg={allDatas.banner.img} />
+      <BannerBreadcrum bannerCnt={allDatas.banner.text} bannerImg={allDatas.banner.img} formService={allDatas.banner.text} />
+      <div className="lg:hidden block">
+          <ServiceBannerForm/>
+      </div>
       <Profile profileImg={allDatas.profile.img} profileHeading={allDatas.profile.heading} profileText={allDatas.profile.paragraphs} />
       <Applications appData={allDatas.apps} title="Tensile Roofing" />
       <DesignProcess />
