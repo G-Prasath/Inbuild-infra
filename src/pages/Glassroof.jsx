@@ -27,7 +27,7 @@ const Glassroof = () => {
       </Helmet>
       <BannerBreadcrum bannerCnt={allDatas.banner.text} bannerImg={allDatas.banner.img} formService={allDatas.banner.text} />
       <div className="lg:hidden block">
-          <ServiceBannerForm/>
+          <ServiceBannerForm serviceName={allDatas.banner.text}/>
       </div>
       <Profile profileImg={allDatas.profile.img} profileHeading={allDatas.profile.heading} profileText={allDatas.profile.paragraphs} />
       <Applications appData={allDatas.apps} title="Glass Roofing" />
