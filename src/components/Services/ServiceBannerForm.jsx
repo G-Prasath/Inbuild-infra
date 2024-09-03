@@ -9,7 +9,7 @@ const ServiceBannerForm = ({serviceName}) => {
     
     return (
         <div className="lg:p-10 p-5 w-full bg-white/30 backdrop-blur-xl border border-white/20 rounded-lg shadow-lg">
-            <h5 className="text-center text-xl font-bold text-gray-800">Book Free Appointment</h5>
+            <h5 className="text-center text-xl font-bold text-gray-800">Get Free Quote</h5>
             <Formik
                 initialValues={{
                     name: "",

@@ -8,7 +8,7 @@ const BannerForm = () => {
     const [loading, setLoading] = useState(false);
     return (
         <div className="lg:p-10 p-5 w-full bg-white/30 backdrop-blur-xl border border-white/20 rounded-lg shadow-lg">
-            <h5 className="text-center text-xl font-bold text-gray-800">Book Free Appointment</h5>
+            <h5 className="text-center text-xl font-bold text-gray-800">Get Free Quote</h5>
             <Formik
                 initialValues={{
                     name: "",
@@ -47,7 +47,7 @@ const BannerForm = () => {
                                     type="text"
                                     id="name"
                                     autoComplete="off"
-                                    className="border border-gray-300 block w-full rounded-md py-3 px-4 shadow-sm focus:border-sky-500 focus:ring-sky-500 dark:border-white/5 dark:bg-slate-700/50 dark:text-white"
+                                    className="border border-gray-300 block w-full rounded-md py-3 px-4 shadow-sm focus:border-sky-500 focus:ring-sky-500 dark:border-white/5 dark:bg-slate-700/50 text-slate-700"
                                 />
                                 <ErrorMessage
                                     name="name"
@@ -72,7 +72,7 @@ const BannerForm = () => {
                                     id="email"
                                     type="email"
                                     autoComplete="off"
-                                    className="border border-gray-300 block w-full rounded-md py-3 px-4 shadow-sm focus:border-sky-500 focus:ring-sky-500 dark:border-white/5 dark:bg-slate-700/50 dark:text-white"
+                                    className="border border-gray-300 block w-full rounded-md py-3 px-4 shadow-sm focus:border-sky-500 focus:ring-sky-500 dark:border-white/5 dark:bg-slate-700/50 text-slate-700"
                                 />
                                 <ErrorMessage
                                     name="email"
@@ -96,7 +96,7 @@ const BannerForm = () => {
                                     id="phone"
                                     type="text"
                                     autoComplete="off"
-                                    className="border border-gray-300 block w-full rounded-md py-3 px-4 shadow-sm focus:border-sky-500 focus:ring-sky-500 dark:border-white/5 dark:bg-slate-700/50 dark:text-white"
+                                    className="border border-gray-300 block w-full rounded-md py-3 px-4 shadow-sm focus:border-sky-500 focus:ring-sky-500 dark:border-white/5 dark:bg-slate-700/50 text-slate-700"
                                 />
                                 <ErrorMessage
                                     name="phone"
@@ -146,7 +146,7 @@ const BannerForm = () => {
                                     autoComplete="off"
                                     rows="2"
                                     as="textarea"
-                                    className="border border-gray-300 block w-full rounded-md py-3 px-4 shadow-sm focus:border-sky-500 focus:ring-sky-500 dark:border-white/5 dark:bg-slate-700/50 dark:text-white"
+                                    className="border border-gray-300 block w-full rounded-md py-3 px-4 shadow-sm focus:border-sky-500 focus:ring-sky-500 dark:border-white/5 dark:bg-slate-700/50 text-slate-700"
                                 ></Field>
                                 <ErrorMessage
                                     name="message"
