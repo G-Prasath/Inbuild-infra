@@ -21,19 +21,17 @@ const BannerForm = () => {
                 onSubmit={async (values, { resetForm }) => {
                     setLoading(true);
                     try {
+                        setLoading(false)
                         const { data, error } = await QueryForm(values);
                         resetForm()
                     } catch (error) {
                         console.log(error);
-                    } finally {
-                        setLoading(false)
-                    }
+                    } 
 
                 }}
             >
                 {({ touched, errors }) => (
                     <Form className="grid grid-cols-1 gap-y-2 sm:grid-cols-2 sm:gap-x-8">
-
                         <div className="sm:col-span-2">
                             <label
                                 htmlFor="name"
@@ -56,9 +54,6 @@ const BannerForm = () => {
                                 />
                             </div>
                         </div>
-
-
-
                         <div className="sm:col-span-2">
                             <label
                                 htmlFor="email"
@@ -81,8 +76,6 @@ const BannerForm = () => {
                                 />
                             </div>
                         </div>
-
-
                         <div className="sm:col-span-2">
                             <label
                                 htmlFor="email"

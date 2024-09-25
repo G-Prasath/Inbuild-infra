@@ -26,12 +26,11 @@ const ServiceForm = ({title}) => {
       onSubmit={async (values, {resetForm}) => {
         setLoading(true);
         try {
+          setLoading(false)
           const {data, error} = await QueryForm(values);
           resetForm();
         } catch (error) {
           console.log(error);
-        }finally{
-        setLoading(false)
         }
 
       }}
