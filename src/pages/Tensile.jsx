@@ -32,6 +32,7 @@ const Tensile = () => {
           <ServiceBannerForm serviceName={allDatas.banner.text}/>
       </div>
       <Profile profileImg={allDatas.profile.img} profileHeading={allDatas.profile.heading} profileText={allDatas.profile.paragraphs} />
+      <p className='text-zinc-600 my-2 text-justify sm:leading-[25px] mt-10 sm:px-10 px-5'>Tensile fabric structures need to be periodically inspected in order to find any visible signs of damage, dirt or wear. It is important to make sure they are more lasting and functional. Further, it will be necessary to check each of the components and make sure that all is tightly fixed and in good condition. These equipment hold the structure in shape to ensure it achieves the right inflation at the right time. Regular inspection and testing of this equipment are necessary. Professional cleaning on a regular basis will assist to keep the fabric looking neat and free from as well as structural degradation. Prompt repairs can be carried out onsite to prevent further damage in the case of any minor holes or tears. In cases of major jobs, the replacement sections can be built at our factory hence facilitating the repair process. These basic strategies of maintenance will not only increase the durability of tensile structure but also enhance the look and durability of tensile structure in the future.</p>
       <Applications appData={allDatas.apps} title="Tensile Roofing" />
       <DesignProcess />
       <Benifites benifitesData={allDatas.benefits} title="Tensile Roofing" />

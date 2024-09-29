@@ -9,8 +9,8 @@ import axios from "axios";
 import { QueryForm } from "../../hooks/DataPass";
 
 
-const ServiceForm = ({title}) => {
-  const {formElement} = useContext(ScrollContext);
+const ServiceForm = ({ title }) => {
+  const { formElement } = useContext(ScrollContext);
   const [loading, setLoading] = useState(false);
 
   return (
@@ -23,11 +23,14 @@ const ServiceForm = ({title}) => {
         select: title,
       }}
       validationSchema={validationSchema}
-      onSubmit={async (values, {resetForm}) => {
+      onSubmit={async (values, { resetForm }) => {
         setLoading(true);
         try {
-          setLoading(false)
-          const {data, error} = await QueryForm(values);
+          setTimeout(() => {
+            setLoading(false);
+            resetForm();
+          }, 1000);
+          const { data, error } = await QueryForm(values);
           resetForm();
         } catch (error) {
           console.log(error);
@@ -121,7 +124,7 @@ const ServiceForm = ({title}) => {
                             </svg>
                             <Reveal>
                               <h5 className="text-black text-base font-normal leading-6 ml-5">
-                              First Floor, ZUBII Manor bearion O No.27E/N 57E at 7th
+                                First Floor, ZUBII Manor bearion O No.27E/N 57E at 7th
                                 Avenue, Ashok Nagar,
                                 Chennai-600083.
                               </h5>
@@ -142,9 +145,8 @@ const ServiceForm = ({title}) => {
                     id="name"
                     name="name"
                     autoComplete="off"
-                    className={`w-full h-12 text-gray-600 placeholder-gray-400 shadow-sm bg-transparent text-lg font-normal leading-7 border border-gray-200 focus:outline-none pl-4 mb-0 rounded-md ${
-                      touched.name && errors.name ? "form-input-error" : ""
-                    }`}
+                    className={`w-full h-12 text-gray-600 placeholder-gray-400 shadow-sm bg-transparent text-lg font-normal leading-7 border border-gray-200 focus:outline-none pl-4 mb-0 rounded-md ${touched.name && errors.name ? "form-input-error" : ""
+                      }`}
                     placeholder="Name"
                   />
                   <ErrorMessage
@@ -158,9 +160,8 @@ const ServiceForm = ({title}) => {
                     id="email"
                     name="email"
                     autoComplete="off"
-                    className={`w-full h-12 text-gray-600 placeholder-gray-400 shadow-sm bg-transparent text-lg font-normal leading-7 rounded-md border border-gray-200 focus:outline-none pl-4 mt-5 ${
-                      touched.email && errors.email ? "form-input-error" : ""
-                    }`}
+                    className={`w-full h-12 text-gray-600 placeholder-gray-400 shadow-sm bg-transparent text-lg font-normal leading-7 rounded-md border border-gray-200 focus:outline-none pl-4 mt-5 ${touched.email && errors.email ? "form-input-error" : ""
+                      }`}
                     placeholder="Email"
                   />
                   <ErrorMessage
@@ -174,9 +175,8 @@ const ServiceForm = ({title}) => {
                     id="phone"
                     name="phone"
                     autoComplete="off"
-                    className={`w-full h-12 text-gray-600 placeholder-gray-400 shadow-sm bg-transparent text-lg font-normal leading-7 rounded-md border border-gray-200 focus:outline-none pl-4 mt-5 ${
-                      touched.phone && errors.phone ? "form-input-error" : ""
-                    }`}
+                    className={`w-full h-12 text-gray-600 placeholder-gray-400 shadow-sm bg-transparent text-lg font-normal leading-7 rounded-md border border-gray-200 focus:outline-none pl-4 mt-5 ${touched.phone && errors.phone ? "form-input-error" : ""
+                      }`}
                     placeholder="Phone"
                   />
                   <ErrorMessage
@@ -202,11 +202,10 @@ const ServiceForm = ({title}) => {
                     id="message"
                     name="message"
                     autoComplete="off"
-                    className={`w-full h-28 text-gray-600 placeholder-gray-400 bg-transparent text-lg shadow-sm font-normal leading-7 rounded-md border border-gray-200 focus:outline-none pl-4 mt-5 ${
-                      touched.message && errors.message
+                    className={`w-full h-28 text-gray-600 placeholder-gray-400 bg-transparent text-lg shadow-sm font-normal leading-7 rounded-md border border-gray-200 focus:outline-none pl-4 mt-5 ${touched.message && errors.message
                         ? "form-input-error"
                         : ""
-                    }`}
+                      }`}
                     placeholder="Message"
                   />
                   <ErrorMessage

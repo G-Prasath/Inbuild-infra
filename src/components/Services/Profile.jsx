@@ -27,6 +27,12 @@ const Profile = ({profileImg, profileText, profileHeading}) => {
                 {profileText[1]}
               </p>
               </Reveal>
+
+              <Reveal>
+              <p className="text-zinc-600 my-2 text-justify sm:leading-[25px] mb-10">
+                {profileText[2]}
+              </p>
+              </Reveal>
               
               <Link to="/">
                 <PrimaryBtn fText="Visit" sText="Our Project"/>

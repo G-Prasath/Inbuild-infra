@@ -33,7 +33,10 @@ const CareerForm = () => {
             onSubmit={async (values, {resetForm}) => {
               setLoading(true);
               try {
-                setLoading(false);
+                setTimeout(() => {
+                  setLoading(false);
+                  resetForm();
+              }, 1000);
                 const { data, error } = await CareerFormData(values);
                 resetForm();
               } catch (error) {

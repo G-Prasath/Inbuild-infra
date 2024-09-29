@@ -11,6 +11,7 @@ import ScrolltoTop from "./components/common/ScrolltoTop";
 import { ScrollProvider } from "./hooks/ScrollContext";
 import { loadChat } from "./hooks/loadChat";
 import { loadGTM } from "./hooks/loadGtm";
+import TensileCarParking from "./pages/TensileCarParking";
 
 // Lazy load page components
 const Home = lazy(() => import("./pages/Home"));
@@ -84,6 +85,12 @@ const App = () => {
                 <Route path="/mangalore-tile" element={<Manglore />} />
                 <Route path="/careers" element={<Careers />} />
                 <Route path="/contact-us" element={<Contact />} />
+
+
+                {/* Inner Pages */}
+                <Route path="/tensile-car-parking" element={<TensileCarParking/>} />
+
+
               </Route>
               <Route element={<NoNavbarLayout />}>
                 <Route path="*" element={<NotFound />} />

@@ -57,10 +57,14 @@ const Applications = ({ appData, title }) => {
                   {item.para}
                 </p>
               </Reveal>
+              {
+                item.url
+                  ? <PrimaryBtn fText="Read" sText="More" url={item.url} />
+                  : <div onClick={handleScrollToFooter}>
+                    <PrimaryBtn fText="Read" sText="More"/>
+                  </div>
+              }
 
-              <div onClick={handleScrollToFooter}>
-                <PrimaryBtn fText="Get In" sText="Quote" />
-              </div>
             </div>
           </div>
         ))}

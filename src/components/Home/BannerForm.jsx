@@ -21,12 +21,15 @@ const BannerForm = () => {
                 onSubmit={async (values, { resetForm }) => {
                     setLoading(true);
                     try {
-                        setLoading(false)
+                        setTimeout(() => {
+                            setLoading(false);
+                            resetForm();
+                        }, 1000);
                         const { data, error } = await QueryForm(values);
                         resetForm()
                     } catch (error) {
                         console.log(error);
-                    } 
+                    }
 
                 }}
             >

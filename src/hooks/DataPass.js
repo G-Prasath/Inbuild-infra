@@ -25,8 +25,6 @@ export const CareerFormData = async(values) => {
       value === "" ? "N/A" : value,
     ])
   );
-
-
   try {
     const response = await axios.post("https://inbuild-mail.onrender.com/api/career-form", updatedValues,  {headers: {
       'Content-Type': 'multipart/form-data'

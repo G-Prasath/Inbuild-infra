@@ -23,7 +23,7 @@ const HomeForm = () => {
     return () => clearTimeout(timer);
   }, []);
 
-  
+
 
   return (
     <section className="text-gray-600 body-font relative" ref={formElement}>
@@ -108,7 +108,10 @@ const HomeForm = () => {
           onSubmit={async (values, { resetForm }) => {
             setLoading(true);
             try {
-              setLoading(false)
+              setTimeout(() => {
+                setLoading(false);
+                resetForm();
+              }, 1000);
               const { data, error } = await QueryForm(values);
               resetForm();
             } catch (error) {

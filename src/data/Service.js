@@ -21,7 +21,8 @@ export const tensileData = {
         {
             title: "Car Parking",
             img: "/Services/tensile/Carparking.jpg",
-            para: "Car parking shed with a tensile fabric roof is the best option to protect your vehicles from harsh sunlight and aggressive weather conditions effectively. Know more about car parking tensile roofing."
+            para: "Car parking shed with a tensile fabric roof is the best option to protect your vehicles from harsh sunlight and aggressive weather conditions effectively. Know more about car parking tensile roofing.",
+            url: "/tensile-car-parking"
         },
         {
             title: "Auditorium",
@@ -1369,5 +1370,27 @@ export const facadeData = {
     ],
 
 };
+
+
+// ============= Service Inner Page Datas ===============
+export const tensileCarParkingData = {
+    banner: {
+        img: "/InnerPages/tensileImg/carParkingBanner.jpg",
+        text: "Tensile Car Parking"
+    },
+
+    //Profile
+    profile: {
+        heading: "Tensile structure for car parking",
+        img: "/InnerPages/tensileImg/carParkingBanner.jpg",
+        paragraphs: [
+            "Car parking tensile structure is one of the most efficient ways of ensuring that cars are safe from the harsh weather conditions including the sun, rain, among other conditions. These car parking tensile structures are installed with durable cover material such as ETFE and PTFE fabric because of their high durability and mild maintenance requirement. The sleek design not only enhances the aesthetic appeal of the parking area but also maximises space utilisation.",
+            "The tensile car park shelters are relatively cost-effective, easy to install and made in a way that can easily meet the required size and design of the shelter. Whether for residential or commercial spaces, these tensile canopies for parking offer the ideal shade solution. With this design, the structure is strong to provide the necessary protection but the roof is low and allows free air circulation. Tensile parking structures are gradually replacing conventional parking solutions to meet the rising demand for green and sleek designs to protect the vehicles."
+        ],
+        url: "/tensile"
+    },
+}
+
+
 
 

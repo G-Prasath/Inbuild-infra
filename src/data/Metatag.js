@@ -5,14 +5,14 @@ export const HomePageData = {
   description: "Are you searching for roofing contractors in Chennai? Inbuilt Infra is the leading roofing contractor in Chennai with 15+ years of experience.",
   keywords: "",
   canonical: `https://`+hostname+hostname
-}
+};
 
 export const AboutPageData = {
   title: "About - Inbuilt Infra",
   description: "Discover how Inbuilt Infra's innovative solutions and commitment to quality.",
   keywords: "",
   canonical: `https://`+hostname+"/about-us"
-}
+};
 
 export const TensilePageData = {
     title: "Tensile Roofing in Chennai - Inbuilt Infra",
@@ -91,3 +91,12 @@ export const TensilePageData = {
     keywords: "",
     canonical: `https://`+hostname+"/contact-us"
   };
+
+
+  // Tensile Inner Meta tags
+  export const TensileCarParkingData = {
+    title: "Tensile structure for car parking",
+    description: "Durable and sleek car parking tensile structures protect vehicles from sun and rain. Cost-effective and ideal for residential and commercial spaces.",
+    keywords: "",
+    canonical: `https://`+hostname+"/tensile-car-parking"
+  }
